@@ -1,0 +1,20 @@
+{
+  "sample_data": true,
+  "runs": [
+    {
+      "run_at": "2026-07-25T07:00:00Z",
+      "mode": "normal",
+      "register_version": "0.2",
+      "sources_checked": 20,
+      "sources_skipped": 7,
+      "sources_failed": 1,
+      "items_seen": 214,
+      "added": 3,
+      "changed": 1,
+      "absorbed": 0,
+      "discarded": 86,
+      "outcome": "3 new, 1 changed.",
+      "sources": []
+    }
+  ]
+}

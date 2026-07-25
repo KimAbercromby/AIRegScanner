@@ -1,0 +1,665 @@
+{
+  "register_version": "0.3",
+  "register_updated": "2026-07-25",
+  "review_cadence_days": 90,
+  "scope": {
+    "jurisdiction": "England",
+    "authority_type": "Single-tier authority (London borough). Discharges the full range of duties: adult social care, children's services, housing, public health, revenues and benefits.",
+    "note": "Devolved legislation types (asp, wsi, nisr) and the Welsh, Scottish and Northern Irish ombudsmen are deliberately OUT of scope. If the toolkit is generalised beyond the case study, that is the first thing to add."
+  },
+  "notes": [
+    "verification_status governs whether the scanner will call a source.",
+    "  verified      = endpoint confirmed live and returning parseable items.",
+    "  form-verified = URL pattern confirmed against publisher documentation, live call not yet made.",
+    "  unverified    = endpoint not confirmed. SKIPPED by the scanner until promoted.",
+    "Statute sources carry a `resolve` block. Run `npm run resolve` to have legislation.gov.uk's own identifier service confirm each chapter number and write the url. No chapter number is guessed into a live call."
+  ],
+  "sources": [
+    {
+      "id": "legislation-new",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "All newly published UK legislation",
+      "type": "atom",
+      "url": "https://www.legislation.gov.uk/new/data.feed?results-count=100",
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Everything newly published, filtered locally by the relevance gate.",
+      "filter": "keywords",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "URL form documented at legislation.github.io/data-documentation/api/search.html, 'New legislation listings'."
+    },
+    {
+      "id": "legislation-search-ai-title",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Legislation naming AI or automated decision-making",
+      "type": "atom",
+      "url": "https://www.legislation.gov.uk/search/data.feed?title=%22artificial%20intelligence%22%20OR%20%22automated%20decision%22&sort=published&results-count=50",
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Title search. Boolean OR must be upper case per the API docs.",
+      "filter": "none",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "Search feed form and boolean syntax documented at legislation.github.io/data-documentation/api/search.html."
+    },
+    {
+      "id": "statute-equality-2010",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Equality Act 2010. The public sector equality duty at s.149 is the likeliest route to a legal challenge against a council AI deployment.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Equality Act 2010",
+        "type": "ukpga",
+        "year": "2010"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Feeds the EIA and the bias mapping.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Data Protection Act 2018.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Data Protection Act 2018",
+        "type": "ukpga",
+        "year": "2018"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "The DUAA amendments land here as effects, carrying in-force dates.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-duaa-2025",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Data (Use and Access) Act 2025. Source of Articles 22A to 22D, cited across the playbook and DPIA template.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Data (Use and Access) Act 2025",
+        "type": "ukpga",
+        "year": "2025"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Commencement and amendment of the ADM safeguards regime.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-hra-1998",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Human Rights Act 1998.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Human Rights Act 1998",
+        "type": "ukpga",
+        "year": "1998"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Feeds the HRA artefact.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-care-2014",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Care Act 2014. Adult social care is where the highest-risk council AI tends to sit.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Care Act 2014",
+        "type": "ukpga",
+        "year": "2014"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Assessment and eligibility duties that AI triage tools touch directly.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-children-1989",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Children Act 1989.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Children Act 1989",
+        "type": "ukpga",
+        "year": "1989"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "s.17 and s.47 duties in children's social care.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-children-2004",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Children Act 2004.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Children Act 2004",
+        "type": "ukpga",
+        "year": "2004"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "s.11 safeguarding duty and multi-agency arrangements.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-lga-1999",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Local Government Act 1999. The best value duty is the framework an efficiency-justified AI deployment gets judged against.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Local Government Act 1999",
+        "type": "ukpga",
+        "year": "1999"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Best value duty.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-housing-1996",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Housing Act 1996. Part VII homelessness decisions are highly automatable and highly contestable.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Housing Act 1996",
+        "type": "ukpga",
+        "year": "1996"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Homelessness duties and the statutory review right.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-foia-2000",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Freedom of Information Act 2000.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Freedom of Information Act 2000",
+        "type": "ukpga",
+        "year": "2000"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Disclosure exposure for model documentation and register contents.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-procurement-2023",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Procurement Act 2023. Most council AI is bought, so this bites before any internal gate does.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Procurement Act 2023",
+        "type": "ukpga",
+        "year": "2023"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Feeds the Supplier DDQ and the procurement gate.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "statute-localism-2011",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Localism Act 2011. General power of competence, and part of the delegated authority picture.",
+      "type": "atom-changes",
+      "url": null,
+      "resolve": {
+        "title": "Localism Act 2011",
+        "type": "ukpga",
+        "year": "2011"
+      },
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Relevant to the delegated authority argument in the multi-board work.",
+      "filter": "none",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+    },
+    {
+      "id": "govuk-cabinet-office",
+      "publisher": "Cabinet Office (via GOV.UK Search API)",
+      "tier": 2,
+      "authority": "Holds AI strategy and public sector AI adoption from 21 July 2026",
+      "type": "govuk-search",
+      "url": "https://www.gov.uk/api/search.json",
+      "query": {
+        "q": "artificial intelligence",
+        "filter_organisations": [
+          "cabinet-office"
+        ],
+        "order": "-public_timestamp",
+        "count": "50"
+      },
+      "allowed_domains": [
+        "gov.uk",
+        "www.gov.uk"
+      ],
+      "scope": "AI policy, public sector adoption, AI Security Institute, procurement policy notes.",
+      "filter": "none",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "Endpoint and parameters documented at docs.publishing.service.gov.uk/repos/search-api/using-the-search-api.html."
+    },
+    {
+      "id": "govuk-gds",
+      "publisher": "Government Digital Service (via GOV.UK Search API)",
+      "tier": 2,
+      "authority": "Algorithmic Transparency Recording Standard",
+      "type": "govuk-search",
+      "url": "https://www.gov.uk/api/search.json",
+      "query": {
+        "q": "algorithmic transparency OR artificial intelligence",
+        "filter_organisations": [
+          "government-digital-service"
+        ],
+        "order": "-public_timestamp",
+        "count": "50"
+      },
+      "allowed_domains": [
+        "gov.uk",
+        "www.gov.uk"
+      ],
+      "scope": "ATRS is voluntary for local authorities. A change to that status is the highest-impact possible change to the toolkit.",
+      "filter": "none",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "Confirm the slug still resolves after the DSIT dissolution."
+    },
+    {
+      "id": "govuk-mhclg",
+      "publisher": "Ministry of Housing, Communities and Local Government (via GOV.UK Search API)",
+      "tier": 2,
+      "authority": "Sponsor department for local government",
+      "type": "govuk-search",
+      "url": "https://www.gov.uk/api/search.json",
+      "query": {
+        "q": "artificial intelligence OR automated decision OR digital",
+        "filter_organisations": [
+          "ministry-of-housing-communities-and-local-government"
+        ],
+        "order": "-public_timestamp",
+        "count": "50"
+      },
+      "allowed_domains": [
+        "gov.uk",
+        "www.gov.uk"
+      ],
+      "scope": "The most operationally binding central guidance on a council.",
+      "filter": "keywords",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "Confirm the slug via https://www.gov.uk/api/search.json?count=0&aggregate_organisations=1000."
+    },
+    {
+      "id": "govuk-ofsted",
+      "publisher": "Ofsted (via GOV.UK Search API)",
+      "tier": 2,
+      "authority": "Inspectorate for children's services",
+      "type": "govuk-search",
+      "url": "https://www.gov.uk/api/search.json",
+      "query": {
+        "q": "artificial intelligence OR automated OR algorithm",
+        "filter_organisations": [
+          "ofsted"
+        ],
+        "order": "-public_timestamp",
+        "count": "50"
+      },
+      "allowed_domains": [
+        "gov.uk",
+        "www.gov.uk"
+      ],
+      "scope": "Inspection expectations reach AI in children's social care long before AI policy does.",
+      "filter": "keywords",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "Confirm the slug via aggregate_organisations."
+    },
+    {
+      "id": "govuk-cqc",
+      "publisher": "Care Quality Commission (via GOV.UK Search API)",
+      "tier": 2,
+      "authority": "Regulator for adult social care",
+      "type": "govuk-search",
+      "url": "https://www.gov.uk/api/search.json",
+      "query": {
+        "q": "artificial intelligence OR automated OR algorithm",
+        "filter_organisations": [
+          "care-quality-commission"
+        ],
+        "order": "-public_timestamp",
+        "count": "50"
+      },
+      "allowed_domains": [
+        "gov.uk",
+        "www.gov.uk"
+      ],
+      "scope": "CQC publishes most substantive material on cqc.org.uk, so treat this as partial coverage until an html-diff fetcher exists.",
+      "filter": "keywords",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "Partial coverage by design. Confirm the slug via aggregate_organisations."
+    },
+    {
+      "id": "govuk-dsit-legacy",
+      "publisher": "Department for Science, Innovation and Technology (dissolved 21 July 2026)",
+      "tier": 2,
+      "authority": "Historic. Kept live so withdrawal or relocation of DSIT content is still detected.",
+      "type": "govuk-search",
+      "url": "https://www.gov.uk/api/search.json",
+      "query": {
+        "q": "artificial intelligence",
+        "filter_organisations": [
+          "department-for-science-innovation-and-technology"
+        ],
+        "order": "-public_timestamp",
+        "count": "50"
+      },
+      "allowed_domains": [
+        "gov.uk",
+        "www.gov.uk"
+      ],
+      "scope": "Expect this to go quiet or start emitting withdrawals. Both are worth catching.",
+      "filter": "none",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-24",
+      "verify_note": "Review at the next register review."
+    },
+    {
+      "id": "ehrc-guidance",
+      "publisher": "Equality and Human Rights Commission",
+      "tier": 2,
+      "authority": "PSED regulator. Publishes the technical guidance councils are assessed against.",
+      "type": "rss",
+      "url": null,
+      "allowed_domains": [
+        "equalityhumanrights.com",
+        "www.equalityhumanrights.com"
+      ],
+      "scope": "PSED guidance and enforcement. Pairs with statute-equality-2010.",
+      "filter": "keywords",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Check for a news feed or sitemap."
+    },
+    {
+      "id": "nao-reports",
+      "publisher": "National Audit Office",
+      "tier": 3,
+      "authority": "Value for money reporting on public sector AI",
+      "type": "rss",
+      "url": null,
+      "allowed_domains": [
+        "nao.org.uk",
+        "www.nao.org.uk"
+      ],
+      "scope": "Not binding, but shapes what auditors and scrutiny committees ask.",
+      "filter": "keywords",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Check nao.org.uk/reports for a feed."
+    },
+    {
+      "id": "lga-guidance",
+      "publisher": "Local Government Association",
+      "tier": 3,
+      "authority": "Sector body guidance and the AI hub for councils",
+      "type": "rss",
+      "url": null,
+      "allowed_domains": [
+        "local.gov.uk",
+        "www.local.gov.uk"
+      ],
+      "scope": "Practice guidance rather than obligation, but it is what peer councils follow.",
+      "filter": "keywords",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Check local.gov.uk for a publications feed."
+    },
+    {
+      "id": "bills-parliament",
+      "publisher": "UK Parliament",
+      "tier": 1,
+      "authority": "Bills in passage",
+      "type": "rss",
+      "url": null,
+      "allowed_domains": [
+        "bills.parliament.uk",
+        "parliament.uk",
+        "www.parliament.uk"
+      ],
+      "scope": "Bills mentioning AI or automated decision-making.",
+      "filter": "keywords",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Parliament publishes a Bills API. Confirm the endpoint and response shape, then add a fetcher."
+    },
+    {
+      "id": "find-case-law",
+      "publisher": "The National Archives, Find Case Law",
+      "tier": 1,
+      "authority": "Judgments and tribunal decisions",
+      "type": "atom",
+      "url": null,
+      "allowed_domains": [
+        "caselaw.nationalarchives.gov.uk"
+      ],
+      "scope": "Judicial review of council automated decisions, PSED challenges, Article 22 points.",
+      "filter": "keywords",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Find Case Law offers a public search with Atom output. Confirm the query parameter names before enabling."
+    },
+    {
+      "id": "lgsco-housing",
+      "publisher": "Local Government and Social Care Ombudsman",
+      "tier": 2,
+      "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court.",
+      "type": "html-list",
+      "url": "https://www.lgo.org.uk/decisions/housing",
+      "link_pattern": "/decisions/[a-z0-9\\-]+/[a-z0-9\\-]+/\\d",
+      "summary_from": "parent",
+      "allowed_domains": [
+        "lgo.org.uk",
+        "www.lgo.org.uk"
+      ],
+      "scope": "Housing (allocations, homelessness, tenancies)",
+      "filter": "keywords",
+      "verification_status": "verified",
+      "last_verified": "2026-07-25",
+      "verify_note": "Page structure inspected directly on 25 July 2026: category pages are server-rendered and each decision is an anchor to /decisions/{category}/{subcategory}/{reference}, with outcome, subcategory and date in the sibling text. summary_from:parent is required or the relevance gate has nothing to match on."
+    },
+    {
+      "id": "lgsco-adult-care",
+      "publisher": "Local Government and Social Care Ombudsman",
+      "tier": 2,
+      "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court.",
+      "type": "html-list",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services",
+      "link_pattern": "/decisions/[a-z0-9\\-]+/[a-z0-9\\-]+/\\d",
+      "summary_from": "parent",
+      "allowed_domains": [
+        "lgo.org.uk",
+        "www.lgo.org.uk"
+      ],
+      "scope": "Adult social care (assessment, charging, care planning)",
+      "filter": "keywords",
+      "verification_status": "verified",
+      "last_verified": "2026-07-25",
+      "verify_note": "Page structure inspected directly on 25 July 2026: category pages are server-rendered and each decision is an anchor to /decisions/{category}/{subcategory}/{reference}, with outcome, subcategory and date in the sibling text. summary_from:parent is required or the relevance gate has nothing to match on."
+    },
+    {
+      "id": "lgsco-childrens-care",
+      "publisher": "Local Government and Social Care Ombudsman",
+      "tier": 2,
+      "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court.",
+      "type": "html-list",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services",
+      "link_pattern": "/decisions/[a-z0-9\\-]+/[a-z0-9\\-]+/\\d",
+      "summary_from": "parent",
+      "allowed_domains": [
+        "lgo.org.uk",
+        "www.lgo.org.uk"
+      ],
+      "scope": "Children's social care",
+      "filter": "keywords",
+      "verification_status": "verified",
+      "last_verified": "2026-07-25",
+      "verify_note": "Page structure inspected directly on 25 July 2026: category pages are server-rendered and each decision is an anchor to /decisions/{category}/{subcategory}/{reference}, with outcome, subcategory and date in the sibling text. summary_from:parent is required or the relevance gate has nothing to match on."
+    },
+    {
+      "id": "lgsco-education",
+      "publisher": "Local Government and Social Care Ombudsman",
+      "tier": 2,
+      "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court.",
+      "type": "html-list",
+      "url": "https://www.lgo.org.uk/decisions/education",
+      "link_pattern": "/decisions/[a-z0-9\\-]+/[a-z0-9\\-]+/\\d",
+      "summary_from": "parent",
+      "allowed_domains": [
+        "lgo.org.uk",
+        "www.lgo.org.uk"
+      ],
+      "scope": "Education (SEN, admissions, exclusions, transport)",
+      "filter": "keywords",
+      "verification_status": "verified",
+      "last_verified": "2026-07-25",
+      "verify_note": "Page structure inspected directly on 25 July 2026: category pages are server-rendered and each decision is an anchor to /decisions/{category}/{subcategory}/{reference}, with outcome, subcategory and date in the sibling text. summary_from:parent is required or the relevance gate has nothing to match on."
+    },
+    {
+      "id": "lgsco-benefits",
+      "publisher": "Local Government and Social Care Ombudsman",
+      "tier": 2,
+      "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court.",
+      "type": "html-list",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax",
+      "link_pattern": "/decisions/[a-z0-9\\-]+/[a-z0-9\\-]+/\\d",
+      "summary_from": "parent",
+      "allowed_domains": [
+        "lgo.org.uk",
+        "www.lgo.org.uk"
+      ],
+      "scope": "Benefits and tax (council tax, support, welfare)",
+      "filter": "keywords",
+      "verification_status": "verified",
+      "last_verified": "2026-07-25",
+      "verify_note": "Page structure inspected directly on 25 July 2026: category pages are server-rendered and each decision is an anchor to /decisions/{category}/{subcategory}/{reference}, with outcome, subcategory and date in the sibling text. summary_from:parent is required or the relevance gate has nothing to match on."
+    },
+    {
+      "id": "ico-news",
+      "publisher": "Information Commissioner's Office",
+      "tier": 2,
+      "authority": "Data protection regulator. Highest-value single regulator for a council.",
+      "type": "html-list",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/",
+      "summary_from": "parent",
+      "allowed_domains": [
+        "ico.org.uk",
+        "www.ico.org.uk"
+      ],
+      "scope": "News, blogs and enforcement. NOTE: the ICO withdrew ALL its RSS feeds during a site redesign — news-and-blogs, decision-notices and enforcement feeds each return a notice saying the feed is unavailable and that they are 'considering adding a feed depending on demand'. Page scraping is therefore the only route, confirmed 25 July 2026.",
+      "filter": "keywords",
+      "verification_status": "form-verified",
+      "last_verified": "2026-07-25",
+      "verify_note": "Confirmed on 25 July 2026 that ico.org.uk/global/rss-feeds lists no working feed and all three sub-feeds are withdrawn. The site is fetchable and server-rendered. Run the Discover workflow on this URL to confirm the link_pattern before promoting to verified."
+    }
+  ]
+}

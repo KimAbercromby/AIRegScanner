@@ -1,0 +1,60 @@
+{
+  "sample_data": true,
+  "run_at": "2026-07-24T07:00:00.000Z",
+  "register_version": "0.1",
+  "sources": [
+    {
+      "id": "legislation-new",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 1
+    },
+    {
+      "id": "legislation-changes-dpa2018",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 42,
+      "items_kept": 1
+    },
+    {
+      "id": "govuk-gds",
+      "status": "ok-but-empty",
+      "http_status": 200,
+      "items_seen": 0,
+      "items_kept": 0,
+      "note": "Responded 200 but returned no items. Check the endpoint still points where you think it does."
+    },
+    {
+      "id": "statute-care-2014",
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number.",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "lgsco-decisions",
+      "status": "skipped-unverified",
+      "note": "Highest-value missing source. Needs a feed URL or the html-diff fetcher.",
+      "items_seen": 0,
+      "items_kept": 0
+    }
+  ],
+  "rejects": [
+    {
+      "source": "legislation-new",
+      "reason": "domain-not-allowed",
+      "url": "https://malicious-mirror.example.com/uksi/2026/410",
+      "title": "The Public Sector Algorithmic Transparency Regulations 2026"
+    }
+  ],
+  "register_review_due": "2026-10-22",
+  "register_review_overdue": false,
+  "mode": "normal",
+  "summary": {
+    "added": 5,
+    "changed": 1,
+    "absorbed": 0,
+    "unreviewed": 5
+  }
+}

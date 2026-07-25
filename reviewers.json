@@ -1,0 +1,14 @@
+{
+  "note": "Who may record a regulatory review decision, and in what capacity. A GitHub username alone is not an audit trail: a governance record needs to say who decided, in what role, and with what authority. Anyone not listed here can still close an issue, but the decision is recorded as unauthorised and flagged.",
+  "require_second_approver_for_flagged_changes": true,
+  "reviewers": [
+    {
+      "github": "KimAbercromby",
+      "name": "Kim Abercromby",
+      "role": "AI Governance Lead",
+      "can_approve": true,
+      "can_accept_residual_risk": false,
+      "note": "Replace or extend this list before anyone else is given repository access."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"
+      xmlns:leg="http://www.legislation.gov.uk/namespaces/legislation"
+      xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/">
+  <title>New Legislation</title>
+  <updated>2026-07-24T09:00:00Z</updated>
+  <entry>
+    <id>http://www.legislation.gov.uk/id/uksi/2026/412</id>
+    <title>The Automated Decision-Making (Public Authorities) Regulations 2026</title>
+    <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2026/412" />
+    <link href="http://www.legislation.gov.uk/uksi/2026/412" />
+    <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2026/412/data.xml" title="XML" />
+    <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2026/412/data.pdf" title="PDF" />
+    <author><name /></author>
+    <published>2026-07-22T11:00:00+01:00</published>
+    <updated>2026-07-22T11:00:00+01:00</updated>
+    <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument" />
+    <ukm:Year Value="2026" />
+    <ukm:Number Value="412" />
+    <ukm:CreationDate Date="2026-07-20" />
+    <summary>Regulations making provision about solely automated decision-making by public authorities.</summary>
+  </entry>
+  <entry>
+    <id>http://www.legislation.gov.uk/id/uksi/2026/411</id>
+    <title>The Harbour Dues (Miscellaneous Amendments) Order 2026</title>
+    <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2026/411" />
+    <link href="http://www.legislation.gov.uk/uksi/2026/411" />
+    <author><name /></author>
+    <published>2026-07-21T11:00:00+01:00</published>
+    <updated>2026-07-21T11:00:00+01:00</updated>
+    <summary>An Order amending harbour dues.</summary>
+  </entry>
+  <entry>
+    <id>http://www.legislation.gov.uk/id/uksi/2026/410</id>
+    <title>The Public Sector Algorithmic Transparency Regulations 2026</title>
+    <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2026/410" />
+    <link href="https://malicious-mirror.example.com/uksi/2026/410" />
+    <author><name /></author>
+    <published>2026-07-20T11:00:00+01:00</published>
+    <updated>2026-07-20T11:00:00+01:00</updated>
+    <summary>Regulations about algorithmic transparency records.</summary>
+  </entry>
+</feed>

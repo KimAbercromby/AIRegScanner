@@ -1,0 +1,413 @@
+{
+  "mappings_version": "0.2",
+  "target_playbook_version": "v19",
+  "note": "This is what turns the scanner into a continual improvement tool rather than a news feed. Each topic maps a regulatory subject onto the specific parts of the playbook and artefact set that would have to change. Matching is deterministic and case-insensitive. An item may match several topics.",
+  "relevance_gate": {
+    "note": "An item must match at least one of these before it is recorded at all. Applied to sources whose filter is set to 'keywords'.",
+    "any_of": [
+      "agentic",
+      "ai model",
+      "ai system",
+      "algorithm",
+      "algorithmic",
+      "artificial intelligence",
+      "automated decision",
+      "automated decision-making",
+      "autonomous agent",
+      "biometric",
+      "case management system",
+      "chatbot",
+      "decision support",
+      "facial recognition",
+      "foundation model",
+      "generative ai",
+      "large language model",
+      "machine learning",
+      "predictive",
+      "profiling",
+      "risk stratification",
+      "triage tool"
+    ]
+  },
+  "topics": [
+    {
+      "id": "adm-article-22",
+      "label": "Automated decision-making and Articles 22A to 22D",
+      "keywords": [
+        "automated decision",
+        "solely automated",
+        "article 22",
+        "profiling",
+        "human review",
+        "right to contest",
+        "data (use and access)",
+        "duaa"
+      ],
+      "affects_sections": [
+        "3.10.1",
+        "4.4.6"
+      ],
+      "affects_artefacts": [
+        "DPIA Template",
+        "RAIA",
+        "AI Register",
+        "Decision Record"
+      ],
+      "why": "The DUAA safeguards regime is the operative legal test for a council deploying ADM. Any change to it flows straight into the DPIA template and the risk-based approval thresholds.",
+      "reference_only": false
+    },
+    {
+      "id": "transparency-atrs",
+      "label": "Algorithmic transparency reporting",
+      "keywords": [
+        "algorithmic transparency",
+        "atrs",
+        "transparency record",
+        "transparency standard",
+        "public register"
+      ],
+      "affects_sections": [
+        "3.8",
+        "3.11"
+      ],
+      "affects_artefacts": [
+        "ATRS Record",
+        "AI Register",
+        "Reporting Templates"
+      ],
+      "why": "ATRS is mandatory for central government and voluntary for local authorities. A change to that voluntary status is the single highest-impact possible change to the toolkit.",
+      "reference_only": false
+    },
+    {
+      "id": "agentic",
+      "label": "Agentic AI and autonomous action",
+      "keywords": [
+        "agentic",
+        "autonomous agent",
+        "ai agent",
+        "tool use",
+        "action scope",
+        "human-in-the-loop",
+        "human in the loop"
+      ],
+      "affects_sections": [
+        "3.9.4",
+        "4.3.4",
+        "4.4.6",
+        "4.7.7",
+        "A.4"
+      ],
+      "affects_artefacts": [
+        "Model Card Template",
+        "Security Review Checklist",
+        "Risk Assessment Worksheet",
+        "Supplier DDQ"
+      ],
+      "why": "The agentic amendment set is the newest and least settled part of the playbook, and the Innovation Hub is already deploying agentic AI.",
+      "reference_only": false
+    },
+    {
+      "id": "equality-bias",
+      "label": "Equality, bias and discrimination",
+      "keywords": [
+        "equality act",
+        "public sector equality duty",
+        "psed",
+        "discrimination",
+        "bias",
+        "disparate impact",
+        "protected characteristic",
+        "equality impact"
+      ],
+      "affects_sections": [
+        "3.9.6"
+      ],
+      "affects_artefacts": [
+        "EIA",
+        "HRA",
+        "Risk Assessment Worksheet"
+      ],
+      "why": "PSED exposure is the most likely route to a legal challenge against a council AI deployment, and it is assessed through the EIA.",
+      "reference_only": false
+    },
+    {
+      "id": "security",
+      "label": "AI security and cyber threat",
+      "keywords": [
+        "cyber",
+        "prompt injection",
+        "instruction injection",
+        "model poisoning",
+        "adversarial",
+        "ncsc",
+        "security guidance",
+        "supply chain"
+      ],
+      "affects_sections": [
+        "4.3.4",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "Security Review Checklist",
+        "Supplier DDQ"
+      ],
+      "why": "Threat guidance changes faster than anything else in the set and the checklist is the artefact that goes stale first.",
+      "reference_only": false
+    },
+    {
+      "id": "procurement",
+      "label": "Procurement and third-party assurance",
+      "keywords": [
+        "procurement",
+        "supplier",
+        "contract",
+        "framework agreement",
+        "crown commercial",
+        "due diligence",
+        "third party"
+      ],
+      "affects_sections": [
+        "3.10.1"
+      ],
+      "affects_artefacts": [
+        "Supplier DDQ",
+        "Terms of Reference"
+      ],
+      "why": "Most council AI is bought rather than built, so procurement rules bite before any internal gate does.",
+      "reference_only": false
+    },
+    {
+      "id": "standards",
+      "label": "Management system and assurance standards",
+      "keywords": [
+        "iso/iec 42001",
+        "iso 42001",
+        "iso/iec 23894",
+        "iso 23894",
+        "42005",
+        "nist ai",
+        "ai risk management framework",
+        "bsi",
+        "certification",
+        "conformity assessment"
+      ],
+      "affects_sections": [
+        "3.10.1",
+        "3.11"
+      ],
+      "affects_artefacts": [
+        "Terms of Reference",
+        "Governance Checklist",
+        "Dashboard"
+      ],
+      "why": "The playbook claims alignment to ISO/IEC 42001. Revisions to that family are a direct claim-maintenance issue.",
+      "reference_only": false
+    },
+    {
+      "id": "shadow-ai",
+      "label": "Shadow AI and acceptable use",
+      "keywords": [
+        "shadow",
+        "unapproved",
+        "acceptable use",
+        "copilot",
+        "chatgpt",
+        "public tool",
+        "staff use",
+        "workplace monitoring"
+      ],
+      "affects_sections": [
+        "2.4",
+        "5.4"
+      ],
+      "affects_artefacts": [
+        "Intake Form",
+        "Governance Checklist"
+      ],
+      "why": "The AUP is the artefact most read by ordinary staff and the one most exposed to changes in guidance on general-purpose tools.",
+      "reference_only": false
+    },
+    {
+      "id": "eu-ai-act",
+      "label": "EU AI Act",
+      "keywords": [
+        "eu ai act",
+        "european commission",
+        "ai office",
+        "gpai",
+        "high-risk ai",
+        "harmonised standard",
+        "cen-cenelec"
+      ],
+      "affects_sections": [
+        "3.10.1"
+      ],
+      "affects_artefacts": [
+        "Playbook regulatory context"
+      ],
+      "why": "Reference point, not an obligation. A UK local authority is not straightforwardly in scope, so this records the item and tags the topic but deliberately flags NO sections or artefacts for change. Consistent with the scope caveat in the Current State Assessment.",
+      "reference_only": true
+    },
+    {
+      "id": "local-government",
+      "label": "Local government specific",
+      "keywords": [
+        "adult social care",
+        "cabinet member",
+        "children's services",
+        "council",
+        "housing",
+        "local authorities",
+        "local authority",
+        "local government",
+        "london borough",
+        "monitoring officer",
+        "revenues and benefits",
+        "scheme of delegation",
+        "scrutiny committee",
+        "section 151",
+        "statutory officer",
+        "unitary authority"
+      ],
+      "affects_sections": [
+        "3.8",
+        "3.10.1"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "Intake Form",
+        "Terms of Reference"
+      ],
+      "why": "Sector-specific guidance is more operationally binding on a council than general AI policy is.",
+      "reference_only": false
+    },
+    {
+      "id": "psed-best-value",
+      "label": "Best value and the duty to secure economy, efficiency and effectiveness",
+      "keywords": [
+        "best value",
+        "value for money",
+        "efficiency saving",
+        "local government act 1999",
+        "statutory guidance on best value",
+        "service reconfiguration"
+      ],
+      "affects_sections": [
+        "3.9.6",
+        "3.11"
+      ],
+      "affects_artefacts": [
+        "Governance Report Template",
+        "Dashboard",
+        "Rollout Plan"
+      ],
+      "reference_only": false,
+      "why": "AI deployments in councils are almost always justified on efficiency grounds, which puts them inside the best value duty. That is the framework a challenge or an auditor will use, and it is what the measurement families have to be able to answer."
+    },
+    {
+      "id": "maladministration",
+      "label": "Maladministration and Ombudsman findings",
+      "keywords": [
+        "ombudsman",
+        "maladministration",
+        "injustice",
+        "complaint handling",
+        "remedy",
+        "service failure",
+        "lgsco"
+      ],
+      "affects_sections": [
+        "3.10.1",
+        "4.4.6"
+      ],
+      "affects_artefacts": [
+        "Incident Report Form",
+        "Decision Record",
+        "AI Register"
+      ],
+      "reference_only": false,
+      "why": "The Ombudsman is where a resident harmed by an automated decision actually ends up, long before any court. A finding against any English council on automated decision-making is the single most useful precedent this scanner could catch."
+    },
+    {
+      "id": "safeguarding",
+      "label": "Safeguarding, children's services and adult social care",
+      "keywords": [
+        "safeguarding",
+        "children's social care",
+        "child protection",
+        "section 47",
+        "section 17",
+        "adult social care",
+        "care act",
+        "working together",
+        "vulnerable adult",
+        "looked after children",
+        "early help"
+      ],
+      "affects_sections": [
+        "3.9.6",
+        "3.10.1",
+        "4.4.6"
+      ],
+      "affects_artefacts": [
+        "RAIA",
+        "EIA",
+        "Risk Assessment Worksheet",
+        "Terms of Reference"
+      ],
+      "reference_only": false,
+      "why": "The highest-consequence council AI sits in these services, and statutory guidance here binds practice more tightly than any AI policy does. This is where the AGPI resident-impact weighting has to hold up."
+    },
+    {
+      "id": "procurement-regime",
+      "label": "Procurement Act 2023 regime",
+      "keywords": [
+        "procurement act",
+        "contracting authority",
+        "competitive flexible procedure",
+        "transparency notice",
+        "framework agreement",
+        "dynamic market",
+        "procurement policy note",
+        "ppn",
+        "contract award",
+        "below threshold"
+      ],
+      "affects_sections": [
+        "3.10.1"
+      ],
+      "affects_artefacts": [
+        "Supplier DDQ",
+        "Terms of Reference",
+        "Decision Record"
+      ],
+      "reference_only": false,
+      "why": "Most council AI is bought, so the procurement regime bites before any internal gate. It is also the reason an AI committee cannot absorb the Procurement Board's delegated authority."
+    },
+    {
+      "id": "information-rights",
+      "label": "Freedom of information and disclosure exposure",
+      "keywords": [
+        "freedom of information",
+        "foi request",
+        "section 43",
+        "commercial confidentiality",
+        "publication scheme",
+        "environmental information",
+        "disclosure log"
+      ],
+      "affects_sections": [
+        "3.8",
+        "3.11"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "Model Card Template",
+        "ATRS Record"
+      ],
+      "reference_only": false,
+      "why": "The register and model cards are disclosable. Knowing that changes what goes in them and how supplier confidentiality claims are handled at procurement."
+    }
+  ],
+  "scope": "England, single-tier authority. Topics are the frameworks a council is actually judged against, not UK AI policy in general."
+}

@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "title": "Guidance on artificial intelligence in the public sector",
+      "link": "/government/publications/ai-in-the-public-sector",
+      "public_timestamp": "2026-07-15T09:30:00.000+01:00",
+      "description": "Guidance for departments and local authorities deploying artificial intelligence and automated decision-making.",
+      "content_store_document_type": "guidance"
+    },
+    {
+      "title": "Algorithmic Transparency Recording Standard hub",
+      "link": "https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub",
+      "public_timestamp": "2026-06-02T11:00:00.000+01:00",
+      "description": "Published algorithmic transparency records and the standard itself.",
+      "content_store_document_type": "document_collection"
+    },
+    {
+      "title": "Departmental annual report and accounts",
+      "link": "/government/publications/annual-report-2026",
+      "public_timestamp": "2026-05-01T10:00:00.000+01:00",
+      "description": "Annual report covering expenditure and performance.",
+      "content_store_document_type": "corporate_report"
+    }
+  ],
+  "total": 3,
+  "start": 0
+}
