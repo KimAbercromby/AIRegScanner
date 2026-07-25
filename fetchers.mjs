@@ -203,10 +203,6 @@ export function buildGovukUrl(source) {
  * as items. Deliberately dumb: no DOM knowledge required beyond an optional CSS
  * selector and a regex on the href. Use `npm run discover <url>` to work out what
  * to put in the config.
- *
- * Titles come from the link text, which is usually the document title on a
- * listing page. Dates are rarely available, so date_published is left null and
- * the record shows "not recorded" rather than inventing one.
  */
 export function parseHtmlList(html, source, pageUrl) {
   const root = parseHtml(html);
@@ -329,3 +325,4 @@ async function fetchSourceOnce(source) {
   else throw new Error(`unknown source type: ${source.type}`);
 
   return { ok: true, status: res.status, items, url: source.url };
+}
