@@ -1,117 +1,108 @@
 {
-  "run_at": "2026-07-25T20:08:45.363Z",
+  "run_at": "2026-07-25T20:22:58.742Z",
   "register_version": "0.3",
   "mode": "normal",
   "sources": [
     {
       "id": "legislation-new",
-      "status": "error",
-      "error": "no <feed> element: not an Atom document. Server returned: \"\"",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 50,
+      "items_kept": 0,
+      "items_discarded": 50
     },
     {
       "id": "legislation-search-ai-title",
       "status": "ok",
       "http_status": 200,
       "items_seen": 2,
-      "items_kept": 2,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
       "id": "statute-equality-2010",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 48,
+      "items_discarded": 0
+    },
+    {
+      "id": "statute-dpa-2018",
       "status": "skipped-unverified",
       "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
       "items_seen": 0,
       "items_kept": 0
     },
     {
-      "id": "statute-dpa-2018",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 12,
-      "items_discarded": 0
-    },
-    {
       "id": "statute-duaa-2025",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 6,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-hra-1998",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 85,
-      "items_kept": 75,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-care-2014",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 65,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-children-1989",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 78,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-children-2004",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 70,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-lga-1999",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 81,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-housing-1996",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 72,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-foia-2000",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 82,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-procurement-2023",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 99,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-localism-2011",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 100,
-      "items_kept": 50,
-      "items_discarded": 0
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "govuk-cabinet-office",
@@ -281,11 +272,11 @@
   "register_review_due": "2026-10-23",
   "register_review_overdue": false,
   "summary": {
-    "added": 7,
-    "changed": 685,
+    "added": 1,
+    "changed": 47,
     "absorbed": 0,
-    "discarded": 138,
-    "unreviewed": 692
+    "discarded": 188,
+    "unreviewed": 740
   },
-  "issue_cap_warning": "692 records await an issue but only 25 are created per run. The queue will take 28 runs to clear."
+  "issue_cap_warning": "715 records await an issue but only 25 are created per run. The queue will take 29 runs to clear."
 }

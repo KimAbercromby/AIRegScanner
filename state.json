@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-25T20:08:45.363Z",
+  "last_run": "2026-07-25T20:22:58.742Z",
   "items": {
     "statute-dpa-2018::http://www.legislation.gov.uk/id/ukpga/2018/12": {
       "hash": "ea492e4cd28fadd5",
@@ -1142,6 +1142,12 @@
       "body": null,
       "first_seen": "2026-07-25T20:08:45.363Z",
       "last_changed": "2026-07-25T20:08:45.363Z"
+    },
+    "statute-equality-2010::http://www.legislation.gov.uk/id/ukpga/2010/15": {
+      "hash": "453ee8bca27cd5a3",
+      "body": null,
+      "first_seen": "2026-07-25T20:22:58.742Z",
+      "last_changed": "2026-07-25T20:22:58.742Z"
     }
   }
 }
