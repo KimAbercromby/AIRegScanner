@@ -14,9 +14,9 @@ name: Regulatory scanner
 #   discover - inspect a publisher page and print a source config (needs a URL)
 
 on:
-  schedule:
-    - cron: '0 7 * * *'
-    - cron: '30 6 * * 1'
+17  # schedule:
+18  #   - cron: '0 7 * * *'
+19  #   - cron: '30 6 * * 1'
   workflow_dispatch:
     inputs:
       task:
