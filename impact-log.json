@@ -1,0 +1,203 @@
+{
+  "log_version": "0.1",
+  "playbook_version": "v19",
+  "sample_data": true,
+  "records": [
+    {
+      "record_id": "REG-0001",
+      "event": "new",
+      "source_id": "legislation-new",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "The Automated Decision-Making (Public Authorities) Regulations 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2026/412",
+      "date_published": "2026-07-22T11:00:00+01:00",
+      "date_in_force": null,
+      "date_retrieved": "2026-07-24T07:00:12.000Z",
+      "content_hash": "a1b2c3d4e5f60718",
+      "topics": [
+        "adm-article-22"
+      ],
+      "reference_only": false,
+      "affects_sections": [
+        "3.10.1",
+        "4.4.6"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "DPIA Template",
+        "Decision Record",
+        "RAIA"
+      ],
+      "status": "unreviewed",
+      "issue_number": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "generated": null
+    },
+    {
+      "record_id": "REG-0002",
+      "event": "new",
+      "source_id": "legislation-changes-dpa2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "https://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-02-05T10:00:00Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-07-24T07:00:14.000Z",
+      "content_hash": "f00ba7de4dbeef01",
+      "topics": [
+        "adm-article-22"
+      ],
+      "reference_only": false,
+      "affects_sections": [
+        "3.10.1",
+        "4.4.6"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "DPIA Template",
+        "Decision Record",
+        "RAIA"
+      ],
+      "status": "reviewed",
+      "issue_number": 12,
+      "reviewed_by": "KA",
+      "reviewed_at": "2026-07-24T14:10:00Z",
+      "outcome": "no change needed: already reflected in DPIA template s.4",
+      "generated": null
+    },
+    {
+      "record_id": "REG-0003",
+      "event": "changed",
+      "source_id": "govuk-gds",
+      "publisher": "Government Digital Service (via GOV.UK Search API)",
+      "tier": 2,
+      "title": "Algorithmic Transparency Recording Standard hub",
+      "url": "https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub",
+      "date_published": "2026-07-23T09:15:00.000+01:00",
+      "date_in_force": null,
+      "date_retrieved": "2026-07-24T07:00:18.000Z",
+      "content_hash": "9c8d7e6f5a4b3c2d",
+      "topics": [
+        "transparency-atrs"
+      ],
+      "reference_only": false,
+      "affects_sections": [
+        "3.11",
+        "3.8"
+      ],
+      "affects_artefacts": [
+        "ATRS Record",
+        "AI Register",
+        "Reporting Templates"
+      ],
+      "status": "unreviewed",
+      "issue_number": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "generated": {
+        "model": "claude-sonnet-4-6",
+        "generated_at": "2026-07-24T07:02:00.000Z",
+        "ok": true,
+        "source_chars_used": 4120,
+        "relevant": true,
+        "relevance_reason": "The retrieved text describes the transparency recording standard and lists published records.",
+        "summary": "A collection page for the algorithmic transparency recording standard and the records published against it. The retrieved text does not state whether the scope has changed.",
+        "agreed_sections": [
+          "3.8"
+        ],
+        "note": "The page was updated but the retrieved text does not show what changed. Compare against the previous version before deciding.",
+        "disclaimer": "Generated content. Not part of the record. Never act on this without reading the source."
+      }
+    },
+    {
+      "record_id": "REG-0005",
+      "event": "new",
+      "source_id": "statute-housing-1996",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Homelessness (Review Procedure) Amendment Regulations 2026 effect on Housing Act 1996",
+      "url": "https://www.legislation.gov.uk/id/ukpga/1996/52",
+      "date_published": "2026-07-18T00:00:00Z",
+      "date_in_force": "2026-10-01",
+      "date_retrieved": "2026-07-24T07:00:22.000Z",
+      "content_hash": "aabbccddeeff0011",
+      "topics": [
+        "local-government",
+        "adm-article-22"
+      ],
+      "reference_only": false,
+      "affects_sections": [
+        "3.10.1",
+        "3.8",
+        "4.4.6"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "DPIA Template",
+        "Decision Record",
+        "Intake Form",
+        "RAIA",
+        "Terms of Reference"
+      ],
+      "status": "unreviewed",
+      "issue_number": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "generated": null
+    },
+    {
+      "record_id": "REG-0006",
+      "event": "new",
+      "source_id": "legislation-search-ai-title",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "EU AI Act harmonised standards: UK market implications",
+      "url": "https://www.legislation.gov.uk/uksi/2026/399",
+      "date_published": "2026-07-16T00:00:00Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-07-24T07:00:24.000Z",
+      "content_hash": "2233445566778899",
+      "topics": [
+        "eu-ai-act"
+      ],
+      "reference_only": true,
+      "affects_sections": [],
+      "affects_artefacts": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "generated": null
+    },
+    {
+      "record_id": "REG-0004",
+      "event": "new",
+      "source_id": "govuk-cabinet-office",
+      "publisher": "Cabinet Office (via GOV.UK Search API)",
+      "tier": 2,
+      "title": "Machinery of government changes: July 2026",
+      "url": "https://www.gov.uk/government/publications/machinery-of-government-changes-july-2026",
+      "date_published": "2026-07-21T13:00:00.000+01:00",
+      "date_in_force": null,
+      "date_retrieved": "2026-07-24T07:00:20.000Z",
+      "content_hash": "1122334455667788",
+      "topics": [],
+      "reference_only": false,
+      "affects_sections": [],
+      "affects_artefacts": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "generated": null
+    }
+  ]
+}

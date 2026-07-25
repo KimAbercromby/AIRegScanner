@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulatory horizon &middot; AI governance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16202B;
+    --ink-soft:#3A4754;
+    --paper:#F7F6F3;
+    --card:#FFFFFF;
+    --rule:#DCD8D0;
+    --verdigris:#3E7C71;
+    --oxblood:#8A2E2E;
+    --amber:#B8791C;
+    --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+    --body:'Inter Tight',system-ui,-apple-system,'Segoe UI',sans-serif;
+    --display:'Newsreader',Georgia,serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);color:var(--ink);font-family:var(--body);
+    font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  }
+  .skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:50}
+  .skip:focus{left:0}
+  a{color:var(--verdigris)}
+  :focus-visible{outline:2px solid var(--verdigris);outline-offset:2px}
+
+  .wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}
+
+  /* ---- masthead ---- */
+  header.top{background:var(--ink);color:var(--paper);padding:2.25rem 0 1.75rem}
+  .eyebrow{
+    font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 .5rem
+  }
+  h1{font-family:var(--display);font-weight:600;font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.08;margin:0 0 .4rem;letter-spacing:-.01em}
+  .standfirst{margin:0;max-width:44rem;color:#B9C2CB;font-size:1rem}
+  .runline{font-family:var(--mono);font-size:.75rem;color:#8A97A3;margin-top:1.1rem}
+
+  .counters{display:flex;flex-wrap:wrap;gap:0;margin-top:1.5rem;border-top:1px solid #2B3947}
+  .counter{padding:.9rem 1.4rem .9rem 0;margin-right:1.4rem;border-right:1px solid #2B3947}
+  .counter:last-child{border-right:0}
+  .counter b{display:block;font-family:var(--mono);font-size:1.5rem;font-weight:500;line-height:1}
+  .counter span{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#8A97A3}
+  .counter.flag b{color:var(--amber)}
+
+  /* ---- health ---- */
+  .coverage{border:1px solid var(--rule);border-left:3px solid var(--amber);background:#FFFDF8;padding:1rem 1.15rem;margin:1.75rem 0 0}
+  .coverage h2{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .5rem;font-family:var(--mono);color:var(--amber)}
+  .coverage p{margin:0 0 .5rem;font-size:.9rem}
+  .coverage ul{margin:.4rem 0 0;padding-left:1.1rem;font-size:.85rem}
+  .coverage li{margin:.15rem 0}
+  .coverage .since{font-family:var(--mono);font-size:.75rem;color:var(--ink-soft);margin-top:.6rem}
+
+  .diary{border:1px solid var(--rule);border-left:3px solid var(--verdigris);background:#F3F7F6;padding:1rem 1.15rem;margin:1.5rem 0 0}
+  .diary h2{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .6rem;font-family:var(--mono);color:var(--verdigris)}
+  .diary table{width:100%;border-collapse:collapse;font-size:.85rem}
+  .diary td{padding:.3rem .5rem .3rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
+  .diary tr:last-child td{border-bottom:0}
+  .diary .days{font-family:var(--mono);white-space:nowrap;color:var(--verdigris);font-weight:500}
+  .diary .soon{color:var(--oxblood)}
+  .diary a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+
+  .invalid{margin-top:.7rem;font-size:.85rem;padding:.5rem .7rem;background:#FBF3F1;border-left:2px solid var(--oxblood)}
+  .invalid span{display:block;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--oxblood);margin-bottom:.15rem}
+  .runline b{color:var(--paper);font-weight:500}
+
+  .health{border-left:3px solid var(--oxblood);background:#FBF3F1;padding:.9rem 1.1rem;margin:1.75rem 0 0;font-size:.875rem}
+  .health h2{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .5rem;font-family:var(--mono);color:var(--oxblood)}
+  .health ul{margin:0;padding-left:1.1rem}
+  .health li{margin:.2rem 0}
+  .health code{font-family:var(--mono);font-size:.8rem}
+
+  /* ---- filters ---- */
+  .controls{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:2rem 0 1rem}
+  .controls .lbl{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-right:.4rem}
+  button.chip{
+    font:inherit;font-size:.82rem;background:transparent;border:1px solid var(--rule);
+    border-radius:2px;padding:.32rem .7rem;cursor:pointer;color:var(--ink-soft)
+  }
+  button.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+  button.chip:hover{border-color:var(--ink-soft)}
+
+  /* ---- records ---- */
+  ol.records{list-style:none;margin:0;padding:0 0 4rem}
+  li.rec{background:var(--card);border:1px solid var(--rule);border-radius:2px;padding:1.15rem 1.25rem;margin-bottom:.85rem}
+  .rec-head{display:flex;flex-wrap:wrap;gap:.6rem;align-items:baseline;margin-bottom:.5rem}
+  .rid{font-family:var(--mono);font-size:.75rem;color:var(--ink-soft)}
+  .issue{font-family:var(--mono);font-size:.72rem;color:var(--verdigris);text-decoration:none;border-bottom:1px solid transparent}
+  .issue:hover{border-bottom-color:var(--verdigris)}
+  .outcome{margin-top:.7rem;font-size:.85rem;padding:.5rem .7rem;background:#F3F7F6;border-left:2px solid var(--verdigris)}
+  .outcome span{display:block;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.15rem}
+  .evt{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;padding:.12rem .45rem;border-radius:2px}
+  .evt.new{background:#E8F0EE;color:var(--verdigris)}
+  .evt.changed{background:#F6E9E7;color:var(--oxblood)}
+  .status{margin-left:auto;font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--amber)}
+  .status.done{color:var(--ink-soft)}
+  .rec h3{font-family:var(--display);font-weight:600;font-size:1.12rem;line-height:1.3;margin:0 0 .3rem}
+  .rec h3 a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+  .rec h3 a:hover{border-bottom-color:var(--verdigris)}
+  .pub{font-size:.82rem;color:var(--ink-soft);margin:0 0 .9rem}
+  .tier{font-family:var(--mono);font-size:.7rem;color:var(--verdigris)}
+
+  /* signature: the three-date rail. Published, in force and retrieved are
+     different dates and the middle one is the one that drives action. */
+  .dates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--rule);border-radius:2px;overflow:hidden}
+  .date{padding:.55rem .7rem;border-right:1px solid var(--rule)}
+  .date:last-child{border-right:0}
+  .date span{display:block;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.15rem}
+  .date b{font-family:var(--mono);font-weight:500;font-size:.92rem}
+  .date.force{background:#F3F7F6}
+  .date.force b{color:var(--verdigris)}
+  .date.empty b{color:#A9A49B;font-weight:400;font-size:.78rem}
+
+  .affects{margin-top:.85rem;display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
+  .affects .lead{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-right:.2rem}
+  .sec{font-family:var(--mono);font-size:.76rem;background:var(--ink);color:var(--paper);padding:.1rem .4rem;border-radius:2px}
+  .art{font-size:.76rem;border:1px solid var(--rule);padding:.1rem .45rem;border-radius:2px;color:var(--ink-soft)}
+  .nomap{font-size:.78rem;color:var(--ink-soft);font-style:italic}
+  .refonly{font-size:.76rem;color:var(--ink-soft);border:1px dashed var(--rule);padding:.1rem .45rem;border-radius:2px}
+  li.rec.reference{background:#FCFCFB}
+
+  details.gen{margin-top:.8rem;border-top:1px dashed var(--rule);padding-top:.6rem}
+  details.gen summary{font-size:.75rem;color:var(--ink-soft);cursor:pointer;font-family:var(--mono)}
+  details.gen .body{font-size:.85rem;margin-top:.5rem;padding:.6rem .75rem;background:#FAF9F7;border-left:2px solid var(--rule)}
+  details.gen .warn{font-size:.7rem;color:var(--oxblood);margin-top:.4rem;display:block}
+
+  .empty{text-align:center;padding:4rem 1rem;color:var(--ink-soft)}
+  .empty h2{font-family:var(--display);font-weight:600;font-size:1.4rem;color:var(--ink);margin:0 0 .5rem}
+  .empty p{margin:.3rem auto;max-width:32rem}
+
+  footer{border-top:1px solid var(--rule);padding:1.5rem 0 3rem;font-size:.78rem;color:var(--ink-soft)}
+  footer p{margin:.25rem 0}
+
+  @media (max-width:34rem){
+    .dates{grid-template-columns:1fr;}
+    .date{border-right:0;border-bottom:1px solid var(--rule)}
+    .date:last-child{border-bottom:0}
+    .status{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#records">Skip to records</a>
+
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">Regulatory horizon</p>
+    <h1>What changed, and what it touches</h1>
+    <p class="standfirst">A monitor, not an assurance. It covers the publishers listed below and nothing else. Every item is recorded as retrieved and stays unreviewed until a person decides what it means.</p>
+    <p class="runline" id="runline">Loading&hellip;</p>
+    <div class="counters" id="counters"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="coverage"></div>
+  <div id="diary"></div>
+  <div id="health"></div>
+
+  <div class="controls" id="controls" hidden>
+    <span class="lbl">Show</span>
+    <button class="chip" data-filter="all" aria-pressed="true">All</button>
+    <button class="chip" data-filter="unreviewed" aria-pressed="false">Unreviewed</button>
+    <button class="chip" data-filter="tier1" aria-pressed="false">Tier 1 only</button>
+    <button class="chip" data-filter="inforce" aria-pressed="false">Has in-force date</button>
+    <button class="chip" data-filter="changed" aria-pressed="false">Changed since last seen</button>
+    <button class="chip" data-filter="flagged" aria-pressed="false">Flags a change</button>
+  </div>
+
+  <ol class="records" id="records" aria-live="polite"></ol>
+</main>
+
+<footer class="wrap">
+  <p>Source register v<span id="regv">&mdash;</span>. Records are the retrieved fact only. Anything marked generated is advisory and is never the record.</p>
+  <p>Next source-register review due <span id="reviewdue">&mdash;</span>.</p>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var state = { records: [], filter: 'all', repo: null };
+
+  // On GitHub Pages the URL is owner.github.io/repo/, which is enough to
+  // build issue links without configuring anything.
+  (function detectRepo() {
+    var host = location.hostname, parts = location.pathname.split('/').filter(Boolean);
+    if (/\.github\.io$/.test(host) && parts.length) {
+      state.repo = host.replace(/\.github\.io$/, '') + '/' + parts[0];
+    }
+  })();
+
+  function fmtDate(s) {
+    if (!s) return null;
+    var d = new Date(s);
+    if (isNaN(d)) return s;
+    return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+  }
+
+  function el(tag, cls, txt) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (txt != null) n.textContent = txt;
+    return n;
+  }
+
+  function dateCell(label, value, opts) {
+    var c = el('div', 'date' + (opts && opts.force ? ' force' : '') + (value ? '' : ' empty'));
+    c.appendChild(el('span', null, label));
+    c.appendChild(el('b', null, value || (opts && opts.emptyText) || 'not recorded'));
+    return c;
+  }
+
+  function renderRecord(r) {
+    var li = el('li', 'rec');
+
+    var head = el('div', 'rec-head');
+    head.appendChild(el('span', 'rid', r.record_id));
+    head.appendChild(el('span', 'evt ' + (r.event === 'changed' ? 'changed' : 'new'), r.event));
+    if (r.issue_number && state.repo) {
+      var il = el('a', 'issue', '#' + r.issue_number);
+      il.href = 'https://github.com/' + state.repo + '/issues/' + r.issue_number;
+      il.rel = 'noopener'; il.target = '_blank';
+      head.appendChild(il);
+    } else if (r.issue_number) {
+      head.appendChild(el('span', 'issue', '#' + r.issue_number));
+    }
+    var st = el('span', 'status' + (r.status === 'unreviewed' ? '' : ' done'), r.status);
+    head.appendChild(st);
+    li.appendChild(head);
+
+    var h3 = el('h3');
+    var a = el('a', null, r.title || '(untitled)');
+    a.href = r.url; a.rel = 'noopener'; a.target = '_blank';
+    h3.appendChild(a);
+    li.appendChild(h3);
+
+    var pub = el('p', 'pub');
+    pub.appendChild(document.createTextNode(r.publisher + '  '));
+    pub.appendChild(el('span', 'tier', 'tier ' + r.tier));
+    li.appendChild(pub);
+
+    var dates = el('div', 'dates');
+    dates.appendChild(dateCell('Published', fmtDate(r.date_published)));
+    dates.appendChild(dateCell('In force', fmtDate(r.date_in_force), { force: true, emptyText: 'not stated in source' }));
+    dates.appendChild(dateCell('Retrieved', fmtDate(r.date_retrieved)));
+    li.appendChild(dates);
+
+    var aff = el('div', 'affects');
+    if (r.reference_only) {
+      li.className = 'rec reference';
+      aff.appendChild(el('span', 'lead', 'Reference'));
+      aff.appendChild(el('span', 'refonly', 'Recorded for awareness. No change flagged against the playbook.'));
+    } else if ((r.affects_sections || []).length || (r.affects_artefacts || []).length) {
+      aff.appendChild(el('span', 'lead', 'Affects'));
+      (r.affects_sections || []).forEach(function (s) { aff.appendChild(el('span', 'sec', '\u00A7' + s)); });
+      (r.affects_artefacts || []).forEach(function (x) { aff.appendChild(el('span', 'art', x)); });
+    } else {
+      aff.appendChild(el('span', 'nomap', 'No mapping matched. Read it and decide, or add a keyword to mappings.json.'));
+    }
+    li.appendChild(aff);
+
+    if (r.decision_valid === false) {
+      var iv = el('div', 'invalid');
+      iv.appendChild(el('span', null, 'Closed without a valid decision'));
+      iv.appendChild(document.createTextNode(r.outcome || 'No reasoning was recorded.'));
+      li.appendChild(iv);
+    } else if (r.outcome) {
+      var o = el('div', 'outcome');
+      o.appendChild(el('span', null, 'Recorded outcome' +
+        (r.decision ? ' \u00B7 ' + r.decision : '') +
+        (r.reviewed_by ? ' \u00B7 ' + r.reviewed_by : '') +
+        (r.reviewed_by_role ? ' (' + r.reviewed_by_role + ')' : '')));
+      o.appendChild(document.createTextNode(r.outcome));
+      li.appendChild(o);
+    }
+
+    if (r.generated) {
+      var d = el('details', 'gen');
+      d.appendChild(el('summary', null, 'Generated triage (' + (r.generated.model || 'model') + ')'));
+      var body = el('div', 'body');
+      if (r.generated.ok) {
+        if (r.generated.summary) body.appendChild(el('p', null, r.generated.summary));
+        if (r.generated.note) body.appendChild(el('p', null, 'Check manually: ' + r.generated.note));
+      } else {
+        body.appendChild(el('p', null, 'Triage did not run: ' + (r.generated.error || 'unknown')));
+      }
+      body.appendChild(el('span', 'warn', 'Not the record. Read the source before acting.'));
+      d.appendChild(body);
+      li.appendChild(d);
+    }
+
+    return li;
+  }
+
+  function matches(r) {
+    switch (state.filter) {
+      case 'unreviewed': return r.status === 'unreviewed';
+      case 'tier1': return r.tier === 1;
+      case 'inforce': return !!r.date_in_force;
+      case 'changed': return r.event === 'changed';
+      case 'flagged': return !r.reference_only && (r.affects_artefacts || []).length > 0;
+      default: return true;
+    }
+  }
+
+  function draw() {
+    var list = document.getElementById('records');
+    list.innerHTML = '';
+    var shown = state.records.filter(matches);
+
+    if (!state.records.length) {
+      var e = el('div', 'empty');
+      e.appendChild(el('h2', null, 'Nothing recorded yet'));
+      e.appendChild(el('p', null, 'The scan runs daily at 07:00 UTC. To run it now, open the Actions tab and start the workflow manually.'));
+      e.appendChild(el('p', null, 'If it has already run and this is still empty, check the source health panel above.'));
+      list.appendChild(e);
+      return;
+    }
+    if (!shown.length) {
+      var n = el('div', 'empty');
+      n.appendChild(el('h2', null, 'No records match this filter'));
+      n.appendChild(el('p', null, 'Choose All to see everything recorded so far.'));
+      list.appendChild(n);
+      return;
+    }
+    shown.forEach(function (r) { list.appendChild(renderRecord(r)); });
+  }
+
+  function counter(value, label, flag) {
+    var c = el('div', 'counter' + (flag ? ' flag' : ''));
+    c.appendChild(el('b', null, String(value)));
+    c.appendChild(el('span', null, label));
+    return c;
+  }
+
+  function renderCoverage(c) {
+    if (!c) return;
+    var box = document.getElementById('coverage');
+    var d = el('div', 'coverage');
+    d.appendChild(el('h2', null, 'What this does and does not cover'));
+    d.appendChild(el('p', null, c.statement));
+    if ((c.not_covered || []).length) {
+      var ul = el('ul');
+      c.not_covered.forEach(function (n) {
+        var li = el('li');
+        li.appendChild(el('strong', null, n.publisher));
+        li.appendChild(document.createTextNode(' — ' + n.reason));
+        ul.appendChild(li);
+      });
+      d.appendChild(ul);
+    }
+    if (c.monitoring_since) {
+      d.appendChild(el('p', 'since', 'Monitoring began ' + fmtDate(c.monitoring_since) +
+        '. Anything published before then was absorbed as the starting position and never reviewed.'));
+    }
+    box.appendChild(d);
+  }
+
+  function renderDiary(dj) {
+    if (!dj || !(dj.upcoming || []).length) return;
+    var box = document.getElementById('diary');
+    var d = el('div', 'diary');
+    d.appendChild(el('h2', null, 'Coming into force'));
+    var t = el('table');
+    dj.upcoming.slice(0, 12).forEach(function (r) {
+      var tr = el('tr');
+      var td1 = el('td', 'days' + (r.days_until <= 30 ? ' soon' : ''), r.days_until === 0 ? 'today' : r.days_until + 'd');
+      var td2 = el('td');
+      var a = el('a', null, r.title || r.record_id);
+      a.href = r.url; a.rel = 'noopener'; a.target = '_blank';
+      td2.appendChild(a);
+      var td3 = el('td', 'days', r.date_in_force);
+      tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
+      t.appendChild(tr);
+    });
+    d.appendChild(t);
+    box.appendChild(d);
+  }
+
+  function renderHealth(h) {
+    if (!h) return;
+    document.getElementById('regv').textContent = h.register_version || '—';
+    document.getElementById('reviewdue').textContent = h.register_review_due || '—';
+    document.getElementById('runline').textContent =
+      'Last run ' + (fmtDate(h.run_at) || 'unknown') + ' at ' +
+      new Date(h.run_at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+
+    var problems = (h.sources || []).filter(function (s) { return s.status !== 'ok'; });
+    var rejects = h.rejects || [];
+
+    var box = document.getElementById('health');
+    if (!problems.length && !rejects.length && !h.register_review_overdue) return;
+
+    var d = el('div', 'health');
+    d.appendChild(el('h2', null, 'Source health'));
+    var ul = el('ul');
+    problems.forEach(function (s) {
+      var li = el('li');
+      li.appendChild(el('code', null, s.id));
+      li.appendChild(document.createTextNode(' — ' + s.status + (s.http_status ? ' ' + s.http_status : '') + (s.note ? '. ' + s.note : '')));
+      ul.appendChild(li);
+    });
+    rejects.slice(0, 10).forEach(function (r) {
+      var li = el('li');
+      li.appendChild(el('code', null, r.source));
+      li.appendChild(document.createTextNode(' — rejected an item: ' + r.reason + (r.url ? ' (' + r.url + ')' : '')));
+      ul.appendChild(li);
+    });
+    if (h.register_review_overdue) {
+      ul.appendChild(el('li', null, 'The source register review is overdue. Publishers change; re-verify every entry.'));
+    }
+    d.appendChild(ul);
+    box.appendChild(d);
+  }
+
+  function wireControls() {
+    var bar = document.getElementById('controls');
+    bar.hidden = false;
+    bar.addEventListener('click', function (ev) {
+      var btn = ev.target.closest('button.chip');
+      if (!btn) return;
+      state.filter = btn.dataset.filter;
+      bar.querySelectorAll('button.chip').forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b === btn));
+      });
+      draw();
+    });
+  }
+
+  function load() {
+    var get = function (f, fallback) {
+      return fetch(f).then(function (r) { return r.ok ? r.json() : fallback; }).catch(function () { return fallback; });
+    };
+    Promise.all([
+      get('impact-log.json', { records: [] }),
+      get('health.json', null),
+      get('coverage.json', null),
+      get('diary.json', null),
+      get('run-log.json', { runs: [] })
+    ]).then(function (res) {
+      var log = res[0], health = res[1], coverage = res[2], diary = res[3], runlog = res[4];
+      state.records = (log.records || []).slice().reverse();
+
+      var unreviewed = state.records.filter(function (r) { return r.status === 'unreviewed'; }).length;
+      var flagged = state.records.filter(function (r) { return !r.reference_only && (r.affects_artefacts || []).length > 0; }).length;
+      var inforce = state.records.filter(function (r) { return r.date_in_force; }).length;
+
+      var c = document.getElementById('counters');
+      c.appendChild(counter(state.records.length, 'records'));
+      c.appendChild(counter(unreviewed, 'unreviewed', unreviewed > 0));
+      c.appendChild(counter(flagged, 'flag a change'));
+      c.appendChild(counter(inforce, 'with in-force date'));
+
+      renderCoverage(coverage);
+      renderDiary(diary);
+      renderHealth(health);
+
+      // Set last, because renderHealth also writes this line. The run log is
+      // the better source: it can say the monitor ran and found nothing, which
+      // is the assurance the health file cannot give.
+      if (!health) document.getElementById('runline').textContent = 'No run recorded yet.';
+      else if ((runlog.runs || []).length) {
+        var lastRun = runlog.runs[runlog.runs.length - 1];
+        document.getElementById('runline').textContent =
+          'Last run ' + fmtDate(lastRun.run_at) + '. ' + lastRun.outcome +
+          '  Monitored on ' + runlog.runs.length + ' occasion(s) since ' + fmtDate(runlog.runs[0].run_at) + '.';
+      }
+      wireControls();
+      draw();
+    });
+  }
+
+  load();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "sample_data": true,
+  "generated_at": "2026-07-25T07:00:00Z",
+  "within_30_days": 1,
+  "within_90_days": 2,
+  "upcoming": [
+    {
+      "record_id": "REG-0005",
+      "title": "Homelessness (Review Procedure) Amendment Regulations 2026",
+      "url": "https://www.legislation.gov.uk/id/ukpga/1996/52",
+      "publisher": "The National Archives",
+      "date_in_force": "2026-08-14",
+      "days_until": 20,
+      "affects_sections": [
+        "3.10.1"
+      ],
+      "affects_artefacts": [
+        "AI Register"
+      ],
+      "status": "reviewed",
+      "decision": "change-required"
+    },
+    {
+      "record_id": "REG-0001",
+      "title": "The Automated Decision-Making (Public Authorities) Regulations 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2026/412",
+      "publisher": "The National Archives",
+      "date_in_force": "2026-10-01",
+      "days_until": 68,
+      "affects_sections": [
+        "3.10.1"
+      ],
+      "affects_artefacts": [
+        "DPIA Template"
+      ],
+      "status": "unreviewed",
+      "decision": null
+    }
+  ]
+}
