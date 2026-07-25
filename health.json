@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-25T20:22:58.742Z",
+  "run_at": "2026-07-25T20:28:51.441Z",
   "register_version": "0.3",
   "mode": "normal",
   "sources": [
@@ -272,11 +272,11 @@
   "register_review_due": "2026-10-23",
   "register_review_overdue": false,
   "summary": {
-    "added": 1,
-    "changed": 47,
+    "added": 0,
+    "changed": 48,
     "absorbed": 0,
     "discarded": 188,
-    "unreviewed": 740
+    "unreviewed": 788
   },
-  "issue_cap_warning": "715 records await an issue but only 25 are created per run. The queue will take 29 runs to clear."
+  "issue_cap_warning": "738 records await an issue but only 25 are created per run. The queue will take 30 runs to clear."
 }
