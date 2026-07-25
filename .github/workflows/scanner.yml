@@ -1,0 +1,87 @@
+name: Regulatory scanner
+
+# Everything the scanner does lives in this one file, so there is only one
+# folder path to create by hand when setting the repository up.
+#
+# Automatic:
+#   - the scan runs daily at 07:00 UTC
+#   - the live-source smoke test runs Mondays at 06:30 UTC
+#
+# Manual, from the Actions tab (Run workflow, then pick a task):
+#   scan     - collect and review as normal
+#   resolve  - confirm the twelve statute chapter numbers. RUN THIS FIRST.
+#   smoke    - call the live publishers and fail loudly if unreachable
+#   discover - inspect a publisher page and print a source config (needs a URL)
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+    - cron: '30 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'What to run'
+        required: true
+        default: 'scan'
+        type: choice
+        options: [scan, resolve, smoke, discover]
+      url:
+        description: 'Page to inspect (discover only)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: regulatory-scanner
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Test
+        # If the parsers or the allowlist are broken, write nothing.
+        run: npm test
+
+      # ---------- resolve (manual) ----------
+      - name: Resolve statute identifiers
+        if: github.event_name == 'workflow_dispatch' && inputs.task == 'resolve'
+        run: npm run resolve
+
+      # ---------- discover (manual) ----------
+      - name: Discover a source
+        if: github.event_name == 'workflow_dispatch' && inputs.task == 'discover'
+        run: |
+          echo '### Source discovery' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          node discover.mjs "${{ inputs.url }}" 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      # ---------- smoke (Mondays, or manual) ----------
+      - name: Live source smoke test
+        if: (github.event_name == 'schedule' && github.event.schedule == '30 6 * * 1') || (github.event_name == 'workflow_dispatch' && inputs.task == 'smoke')
+        run: |
+          echo '### Live source check' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          npm run smoke 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      # ---------- scan (daily, or manual) ----------
+      - name: Scan
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 7 * * *') || (github.event_name == 'workflow_dispatch' && inputs.task == 'scan')
+        run: npm run scan
+
+      - name: Triage (optional)
+        if: ((github.event_name == 'schedule' && github.event.schedule == '0 7 * *
