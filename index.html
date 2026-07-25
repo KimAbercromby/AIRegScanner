@@ -8,479 +8,387 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --ink:#16202B;
-    --ink-soft:#3A4754;
-    --paper:#F7F6F3;
-    --card:#FFFFFF;
-    --rule:#DCD8D0;
-    --verdigris:#3E7C71;
-    --oxblood:#8A2E2E;
-    --amber:#B8791C;
-    --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
-    --body:'Inter Tight',system-ui,-apple-system,'Segoe UI',sans-serif;
-    --display:'Newsreader',Georgia,serif;
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{
-    background:var(--paper);color:var(--ink);font-family:var(--body);
-    font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;
-  }
-  .skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:50}
-  .skip:focus{left:0}
-  a{color:var(--verdigris)}
-  :focus-visible{outline:2px solid var(--verdigris);outline-offset:2px}
+  :root{--ink:#16202B;--soft:#3A4754;--paper:#F7F6F3;--card:#fff;--rule:#DCD8D0;
+    --verd:#3E7C71;--ox:#8A2E2E;--amber:#B8791C;
+    --mono:'JetBrains Mono',ui-monospace,monospace;--body:'Inter Tight',system-ui,sans-serif;--disp:'Newsreader',Georgia,serif}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--verd)}
+  :focus-visible{outline:2px solid var(--verd);outline-offset:2px}
+  .skip{position:absolute;left:-9999px}.skip:focus{left:0;top:0;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:60}
+  .wrap{max-width:64rem;margin:0 auto;padding:0 1.25rem}
 
-  .wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}
-
-  /* ---- masthead ---- */
-  header.top{background:var(--ink);color:var(--paper);padding:2.25rem 0 1.75rem}
-  .eyebrow{
-    font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--verdigris);margin:0 0 .5rem
-  }
-  h1{font-family:var(--display);font-weight:600;font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.08;margin:0 0 .4rem;letter-spacing:-.01em}
-  .standfirst{margin:0;max-width:44rem;color:#B9C2CB;font-size:1rem}
-  .runline{font-family:var(--mono);font-size:.75rem;color:#8A97A3;margin-top:1.1rem}
-
-  .counters{display:flex;flex-wrap:wrap;gap:0;margin-top:1.5rem;border-top:1px solid #2B3947}
-  .counter{padding:.9rem 1.4rem .9rem 0;margin-right:1.4rem;border-right:1px solid #2B3947}
+  header.top{background:var(--ink);color:var(--paper);padding:1.9rem 0 1.5rem}
+  .eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--verd);margin:0 0 .45rem}
+  h1{font-family:var(--disp);font-weight:600;font-size:clamp(1.7rem,4.5vw,2.4rem);line-height:1.1;margin:0 0 .35rem}
+  .stand{margin:0;max-width:46rem;color:#B9C2CB;font-size:.95rem}
+  .runline{font-family:var(--mono);font-size:.72rem;color:#8A97A3;margin-top:.9rem}
+  .counters{display:flex;flex-wrap:wrap;margin-top:1.1rem;border-top:1px solid #2B3947}
+  .counter{padding:.75rem 1.3rem .75rem 0;margin-right:1.3rem;border-right:1px solid #2B3947}
   .counter:last-child{border-right:0}
-  .counter b{display:block;font-family:var(--mono);font-size:1.5rem;font-weight:500;line-height:1}
-  .counter span{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#8A97A3}
+  .counter b{display:block;font-family:var(--mono);font-size:1.3rem;font-weight:500;line-height:1}
+  .counter span{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:#8A97A3}
   .counter.flag b{color:var(--amber)}
 
-  /* ---- health ---- */
-  .coverage{border:1px solid var(--rule);border-left:3px solid var(--amber);background:#FFFDF8;padding:1rem 1.15rem;margin:1.75rem 0 0}
-  .coverage h2{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .5rem;font-family:var(--mono);color:var(--amber)}
-  .coverage p{margin:0 0 .5rem;font-size:.9rem}
-  .coverage ul{margin:.4rem 0 0;padding-left:1.1rem;font-size:.85rem}
-  .coverage li{margin:.15rem 0}
-  .coverage .since{font-family:var(--mono);font-size:.75rem;color:var(--ink-soft);margin-top:.6rem}
+  details.panel{border:1px solid var(--rule);background:var(--card);margin-top:.85rem}
+  details.panel>summary{cursor:pointer;padding:.75rem 1rem;font-family:var(--mono);font-size:.72rem;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--soft);list-style:none;display:flex;align-items:center;gap:.5rem}
+  details.panel>summary::-webkit-details-marker{display:none}
+  details.panel>summary::before{content:'\25B8';display:inline-block;transition:transform .12s;color:var(--soft);font-size:.8rem}
+  details.panel[open]>summary::before{transform:rotate(90deg)}
+  details.panel>summary .n{margin-left:auto;font-size:.72rem;color:var(--soft)}
+  details.panel .inner{padding:0 1rem 1rem}
+  details.panel.warn{border-left:3px solid var(--amber);background:#FFFDF8}
+  details.panel.warn>summary{color:var(--amber)}
+  details.panel.bad{border-left:3px solid var(--ox);background:#FBF3F1}
+  details.panel.bad>summary{color:var(--ox)}
+  details.panel.good{border-left:3px solid var(--verd);background:#F3F7F6}
+  details.panel.good>summary{color:var(--verd)}
+  .panel p{margin:.3rem 0;font-size:.88rem}
+  .panel ul{margin:.3rem 0;padding-left:1.1rem;font-size:.85rem}
+  .panel li{margin:.15rem 0}
+  .panel code{font-family:var(--mono);font-size:.8rem}
 
-  .diary{border:1px solid var(--rule);border-left:3px solid var(--verdigris);background:#F3F7F6;padding:1rem 1.15rem;margin:1.5rem 0 0}
-  .diary h2{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .6rem;font-family:var(--mono);color:var(--verdigris)}
-  .diary table{width:100%;border-collapse:collapse;font-size:.85rem}
-  .diary td{padding:.3rem .5rem .3rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
-  .diary tr:last-child td{border-bottom:0}
-  .diary .days{font-family:var(--mono);white-space:nowrap;color:var(--verdigris);font-weight:500}
-  .diary .soon{color:var(--oxblood)}
-  .diary a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+  .controls{display:flex;flex-wrap:wrap;gap:.6rem;align-items:end;margin:1.5rem 0 .9rem;
+    padding:.9rem 1rem;border:1px solid var(--rule);background:var(--card)}
+  .ctl{display:flex;flex-direction:column;gap:.2rem}
+  .ctl label{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--soft)}
+  .ctl select,.ctl input{font:inherit;font-size:.86rem;padding:.34rem .5rem;border:1px solid var(--rule);
+    border-radius:2px;background:#fff;color:var(--ink);min-width:11rem}
+  .ctl input{min-width:14rem}
+  .ctl.grow{flex:1 1 14rem}
+  .ctl.grow input{width:100%}
+  .resultline{font-family:var(--mono);font-size:.75rem;color:var(--soft);margin:0 0 .6rem}
 
-  .invalid{margin-top:.7rem;font-size:.85rem;padding:.5rem .7rem;background:#FBF3F1;border-left:2px solid var(--oxblood)}
-  .invalid span{display:block;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--oxblood);margin-bottom:.15rem}
-  .runline b{color:var(--paper);font-weight:500}
+  .tree{margin:0 0 4rem}
+  details.group{border:1px solid var(--rule);background:var(--card);margin-bottom:.4rem}
+  details.group>summary{cursor:pointer;padding:.7rem .95rem;list-style:none;display:flex;align-items:baseline;gap:.6rem}
+  details.group>summary::-webkit-details-marker{display:none}
+  details.group>summary::before{content:'\25B8';color:var(--soft);font-size:.8rem;transition:transform .12s}
+  details.group[open]>summary::before{transform:rotate(90deg)}
+  details.group>summary .gname{font-family:var(--disp);font-weight:600;font-size:1.02rem}
+  details.group>summary .gmeta{font-family:var(--mono);font-size:.72rem;color:var(--soft)}
+  details.group>summary .gcount{margin-left:auto;font-family:var(--mono);font-size:.78rem;
+    background:var(--ink);color:var(--paper);padding:.05rem .45rem;border-radius:2px}
+  details.group>summary .gcount.amber{background:var(--amber)}
+  .kids{border-top:1px solid var(--rule)}
 
-  .health{border-left:3px solid var(--oxblood);background:#FBF3F1;padding:.9rem 1.1rem;margin:1.75rem 0 0;font-size:.875rem}
-  .health h2{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .5rem;font-family:var(--mono);color:var(--oxblood)}
-  .health ul{margin:0;padding-left:1.1rem}
-  .health li{margin:.2rem 0}
-  .health code{font-family:var(--mono);font-size:.8rem}
-
-  /* ---- filters ---- */
-  .controls{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:2rem 0 1rem}
-  .controls .lbl{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-right:.4rem}
-  button.chip{
-    font:inherit;font-size:.82rem;background:transparent;border:1px solid var(--rule);
-    border-radius:2px;padding:.32rem .7rem;cursor:pointer;color:var(--ink-soft)
-  }
-  button.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
-  button.chip:hover{border-color:var(--ink-soft)}
-
-  /* ---- records ---- */
-  ol.records{list-style:none;margin:0;padding:0 0 4rem}
-  li.rec{background:var(--card);border:1px solid var(--rule);border-radius:2px;padding:1.15rem 1.25rem;margin-bottom:.85rem}
-  .rec-head{display:flex;flex-wrap:wrap;gap:.6rem;align-items:baseline;margin-bottom:.5rem}
-  .rid{font-family:var(--mono);font-size:.75rem;color:var(--ink-soft)}
-  .issue{font-family:var(--mono);font-size:.72rem;color:var(--verdigris);text-decoration:none;border-bottom:1px solid transparent}
-  .issue:hover{border-bottom-color:var(--verdigris)}
-  .outcome{margin-top:.7rem;font-size:.85rem;padding:.5rem .7rem;background:#F3F7F6;border-left:2px solid var(--verdigris)}
-  .outcome span{display:block;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.15rem}
-  .evt{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;padding:.12rem .45rem;border-radius:2px}
-  .evt.new{background:#E8F0EE;color:var(--verdigris)}
-  .evt.changed{background:#F6E9E7;color:var(--oxblood)}
-  .status{margin-left:auto;font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--amber)}
-  .status.done{color:var(--ink-soft)}
-  .rec h3{font-family:var(--display);font-weight:600;font-size:1.12rem;line-height:1.3;margin:0 0 .3rem}
-  .rec h3 a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
-  .rec h3 a:hover{border-bottom-color:var(--verdigris)}
-  .pub{font-size:.82rem;color:var(--ink-soft);margin:0 0 .9rem}
-  .tier{font-family:var(--mono);font-size:.7rem;color:var(--verdigris)}
-
-  /* signature: the three-date rail. Published, in force and retrieved are
-     different dates and the middle one is the one that drives action. */
-  .dates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--rule);border-radius:2px;overflow:hidden}
-  .date{padding:.55rem .7rem;border-right:1px solid var(--rule)}
+  details.rec{border-bottom:1px solid var(--rule)}
+  details.rec:last-child{border-bottom:0}
+  details.rec>summary{cursor:pointer;padding:.5rem .95rem .5rem 2rem;list-style:none;
+    display:flex;flex-wrap:wrap;align-items:baseline;gap:.55rem;font-size:.88rem}
+  details.rec>summary::-webkit-details-marker{display:none}
+  details.rec>summary:hover{background:#FAF9F7}
+  details.rec .rid{font-family:var(--mono);font-size:.7rem;color:var(--soft)}
+  details.rec .rtitle{flex:1 1 18rem;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  details.rec .rdate{font-family:var(--mono);font-size:.72rem;color:var(--soft)}
+  .pill{font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;padding:.08rem .38rem;border-radius:2px}
+  .pill.unreviewed{background:#FFF6E8;color:var(--amber)}
+  .pill.reviewed{background:#E8F0EE;color:var(--verd)}
+  .pill.force{background:#EAF1F5;color:#2F6F8F}
+  .pill.changed{background:#F6E9E7;color:var(--ox)}
+  .detail{padding:.2rem .95rem 1rem 2rem;font-size:.87rem;background:#FCFCFB}
+  .dates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--rule);margin:.5rem 0}
+  .date{padding:.45rem .6rem;border-right:1px solid var(--rule)}
   .date:last-child{border-right:0}
-  .date span{display:block;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.15rem}
-  .date b{font-family:var(--mono);font-weight:500;font-size:.92rem}
-  .date.force{background:#F3F7F6}
-  .date.force b{color:var(--verdigris)}
-  .date.empty b{color:#A9A49B;font-weight:400;font-size:.78rem}
-
-  .affects{margin-top:.85rem;display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
-  .affects .lead{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-right:.2rem}
-  .sec{font-family:var(--mono);font-size:.76rem;background:var(--ink);color:var(--paper);padding:.1rem .4rem;border-radius:2px}
-  .art{font-size:.76rem;border:1px solid var(--rule);padding:.1rem .45rem;border-radius:2px;color:var(--ink-soft)}
-  .nomap{font-size:.78rem;color:var(--ink-soft);font-style:italic}
-  .refonly{font-size:.76rem;color:var(--ink-soft);border:1px dashed var(--rule);padding:.1rem .45rem;border-radius:2px}
-  li.rec.reference{background:#FCFCFB}
-
-  details.gen{margin-top:.8rem;border-top:1px dashed var(--rule);padding-top:.6rem}
-  details.gen summary{font-size:.75rem;color:var(--ink-soft);cursor:pointer;font-family:var(--mono)}
-  details.gen .body{font-size:.85rem;margin-top:.5rem;padding:.6rem .75rem;background:#FAF9F7;border-left:2px solid var(--rule)}
-  details.gen .warn{font-size:.7rem;color:var(--oxblood);margin-top:.4rem;display:block}
-
-  .empty{text-align:center;padding:4rem 1rem;color:var(--ink-soft)}
-  .empty h2{font-family:var(--display);font-weight:600;font-size:1.4rem;color:var(--ink);margin:0 0 .5rem}
-  .empty p{margin:.3rem auto;max-width:32rem}
-
-  footer{border-top:1px solid var(--rule);padding:1.5rem 0 3rem;font-size:.78rem;color:var(--ink-soft)}
-  footer p{margin:.25rem 0}
-
-  @media (max-width:34rem){
-    .dates{grid-template-columns:1fr;}
-    .date{border-right:0;border-bottom:1px solid var(--rule)}
-    .date:last-child{border-bottom:0}
-    .status{margin-left:0;width:100%}
-  }
-  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+  .date span{display:block;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--soft)}
+  .date b{font-family:var(--mono);font-weight:500;font-size:.86rem}
+  .date.f{background:#F3F7F6}.date.f b{color:var(--verd)}
+  .date.e b{color:#A9A49B;font-weight:400;font-size:.76rem}
+  .affects{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.5rem;align-items:center}
+  .affects .lead{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+  .sec{font-family:var(--mono);font-size:.74rem;background:var(--ink);color:var(--paper);padding:.05rem .38rem;border-radius:2px}
+  .art{font-size:.74rem;border:1px solid var(--rule);padding:.05rem .4rem;border-radius:2px;color:var(--soft)}
+  .nomap{font-size:.78rem;color:var(--soft);font-style:italic}
+  .outcome{margin-top:.55rem;padding:.45rem .6rem;background:#F3F7F6;border-left:2px solid var(--verd);font-size:.84rem}
+  .outcome span{display:block;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--soft)}
+  .more{padding:.6rem .95rem;font-size:.84rem}
+  .more button{font:inherit;font-size:.84rem;background:transparent;border:1px solid var(--rule);
+    padding:.3rem .7rem;border-radius:2px;cursor:pointer;color:var(--soft)}
+  .empty{text-align:center;padding:3rem 1rem;color:var(--soft)}
+  .empty h2{font-family:var(--disp);font-weight:600;color:var(--ink);margin:0 0 .4rem}
+  footer{border-top:1px solid var(--rule);padding:1.3rem 0 3rem;font-size:.76rem;color:var(--soft)}
+  @media (max-width:36rem){.dates{grid-template-columns:1fr}.date{border-right:0;border-bottom:1px solid var(--rule)}}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
 <a class="skip" href="#records">Skip to records</a>
+<header class="top"><div class="wrap">
+  <p class="eyebrow">Regulatory horizon</p>
+  <h1>What changed, and what it touches</h1>
+  <p class="stand">A monitor, not an assurance. It covers the publishers listed below and nothing else. Every item stays unreviewed until a person decides what it means.</p>
+  <p class="runline" id="runline">Loading&hellip;</p>
+  <div class="counters" id="counters"></div>
+</div></header>
 
-<header class="top">
-  <div class="wrap">
-    <p class="eyebrow">Regulatory horizon</p>
-    <h1>What changed, and what it touches</h1>
-    <p class="standfirst">A monitor, not an assurance. It covers the publishers listed below and nothing else. Every item is recorded as retrieved and stays unreviewed until a person decides what it means.</p>
-    <p class="runline" id="runline">Loading&hellip;</p>
-    <div class="counters" id="counters"></div>
+<main class="wrap" id="main">
+  <div id="panels"></div>
+
+  <div class="controls">
+    <div class="ctl"><label for="groupby">Group by</label>
+      <select id="groupby">
+        <option value="source">Source</option>
+        <option value="artefact">Artefact affected</option>
+        <option value="section">Playbook section</option>
+        <option value="status">Review status</option>
+        <option value="year">Year published</option>
+      </select></div>
+    <div class="ctl"><label for="status">Show</label>
+      <select id="status">
+        <option value="all">Everything</option>
+        <option value="unreviewed">Unreviewed only</option>
+        <option value="reviewed">Reviewed only</option>
+        <option value="flagged">Flags a change</option>
+        <option value="inforce">Has an in-force date</option>
+        <option value="issue">Has a GitHub issue</option>
+      </select></div>
+    <div class="ctl grow"><label for="q">Search titles</label>
+      <input id="q" type="search" placeholder="e.g. equality, homelessness, s. 149" autocomplete="off"></div>
   </div>
-</header>
 
-<main class="wrap">
-  <div id="coverage"></div>
-  <div id="diary"></div>
-  <div id="health"></div>
-
-  <div class="controls" id="controls" hidden>
-    <span class="lbl">Show</span>
-    <button class="chip" data-filter="all" aria-pressed="true">All</button>
-    <button class="chip" data-filter="unreviewed" aria-pressed="false">Unreviewed</button>
-    <button class="chip" data-filter="tier1" aria-pressed="false">Tier 1 only</button>
-    <button class="chip" data-filter="inforce" aria-pressed="false">Has in-force date</button>
-    <button class="chip" data-filter="changed" aria-pressed="false">Changed since last seen</button>
-    <button class="chip" data-filter="flagged" aria-pressed="false">Flags a change</button>
-  </div>
-
-  <ol class="records" id="records" aria-live="polite"></ol>
+  <p class="resultline" id="resultline"></p>
+  <div class="tree" id="records" aria-live="polite"></div>
 </main>
 
 <footer class="wrap">
-  <p>Source register v<span id="regv">&mdash;</span>. Records are the retrieved fact only. Anything marked generated is advisory and is never the record.</p>
-  <p>Next source-register review due <span id="reviewdue">&mdash;</span>.</p>
+  <p>Source register v<span id="regv">&mdash;</span>. Next review due <span id="reviewdue">&mdash;</span>.</p>
+  <p>Records are the retrieved fact only. Anything marked generated is advisory and is never the record.</p>
 </footer>
 
 <script>
-(function () {
+(function(){
   'use strict';
+  var PAGE = 40;
+  var S = { records:[], repo:null, group:'source', status:'all', q:'', labels:{} };
 
-  var state = { records: [], filter: 'all', repo: null };
+  (function(){ var h=location.hostname,p=location.pathname.split('/').filter(Boolean);
+    if(/\.github\.io$/.test(h)&&p.length) S.repo=h.replace(/\.github\.io$/,'')+'/'+p[0]; })();
 
-  // On GitHub Pages the URL is owner.github.io/repo/, which is enough to
-  // build issue links without configuring anything.
-  (function detectRepo() {
-    var host = location.hostname, parts = location.pathname.split('/').filter(Boolean);
-    if (/\.github\.io$/.test(host) && parts.length) {
-      state.repo = host.replace(/\.github\.io$/, '') + '/' + parts[0];
+  function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n;}
+  function fmt(s){if(!s)return null;var d=new Date(s);return isNaN(d)?String(s).slice(0,10):
+    d.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});}
+  function get(f,fb){return fetch(f).then(function(r){return r.ok?r.json():fb;}).catch(function(){return fb;});}
+
+  var GROUPERS = {
+    source:   function(r){ return [ S.labels[r.source_id] || r.source_id || 'unknown' ]; },
+    artefact: function(r){ return (r.affects_artefacts||[]).length ? r.affects_artefacts : ['(nothing flagged)']; },
+    section:  function(r){ return (r.affects_sections||[]).length ? r.affects_sections.map(function(s){return '\u00A7'+s;}) : ['(nothing flagged)']; },
+    status:   function(r){ return [r.status === 'reviewed' ? 'Reviewed' : 'Unreviewed']; },
+    year:     function(r){ return [ (r.date_published||'').slice(0,4) || '(no date)' ]; }
+  };
+
+  function matches(r){
+    if(S.q){ var hay=((r.title||'')+' '+(r.record_id||'')+' '+(r.publisher||'')).toLowerCase();
+      if(hay.indexOf(S.q)===-1) return false; }
+    switch(S.status){
+      case 'unreviewed': return r.status==='unreviewed';
+      case 'reviewed':   return r.status!=='unreviewed';
+      case 'flagged':    return !r.reference_only && (r.affects_artefacts||[]).length>0;
+      case 'inforce':    return !!r.date_in_force;
+      case 'issue':      return !!r.issue_number;
+      default:           return true;
     }
-  })();
-
-  function fmtDate(s) {
-    if (!s) return null;
-    var d = new Date(s);
-    if (isNaN(d)) return s;
-    return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
   }
 
-  function el(tag, cls, txt) {
-    var n = document.createElement(tag);
-    if (cls) n.className = cls;
-    if (txt != null) n.textContent = txt;
-    return n;
+  function build(){
+    var groups={}, total=0;
+    S.records.forEach(function(r){
+      if(!matches(r)) return;
+      total++;
+      GROUPERS[S.group](r).forEach(function(k){ (groups[k]=groups[k]||[]).push(r); });
+    });
+    var keys=Object.keys(groups).sort(function(a,b){
+      if(S.group==='year') return b.localeCompare(a);
+      return groups[b].length - groups[a].length || a.localeCompare(b);
+    });
+    return {groups:groups, keys:keys, total:total};
   }
 
-  function dateCell(label, value, opts) {
-    var c = el('div', 'date' + (opts && opts.force ? ' force' : '') + (value ? '' : ' empty'));
-    c.appendChild(el('span', null, label));
-    c.appendChild(el('b', null, value || (opts && opts.emptyText) || 'not recorded'));
-    return c;
-  }
+  function recordNode(r){
+    var d=el('details','rec');
+    var s=el('summary');
+    s.appendChild(el('span','rid',r.record_id));
+    s.appendChild(el('span','rtitle',r.title||'(untitled)'));
+    if(r.date_in_force) s.appendChild(el('span','pill force','in force'));
+    if(r.event==='changed'||r.event==='content-revised') s.appendChild(el('span','pill changed',r.event));
+    s.appendChild(el('span','pill '+(r.status==='reviewed'?'reviewed':'unreviewed'),r.status));
+    s.appendChild(el('span','rdate',fmt(r.date_published)||'\u2014'));
+    d.appendChild(s);
 
-  function renderRecord(r) {
-    var li = el('li', 'rec');
+    d.addEventListener('toggle',function(){
+      if(!d.open || d.dataset.built) return;
+      d.dataset.built='1';
+      var b=el('div','detail');
+      var p=el('p'); var a=el('a',null,r.url); a.href=r.url; a.target='_blank'; a.rel='noopener';
+      p.appendChild(a); b.appendChild(p);
+      b.appendChild(el('p',null,r.publisher+'  \u00B7  tier '+r.tier+'  \u00B7  '+r.source_id));
 
-    var head = el('div', 'rec-head');
-    head.appendChild(el('span', 'rid', r.record_id));
-    head.appendChild(el('span', 'evt ' + (r.event === 'changed' ? 'changed' : 'new'), r.event));
-    if (r.issue_number && state.repo) {
-      var il = el('a', 'issue', '#' + r.issue_number);
-      il.href = 'https://github.com/' + state.repo + '/issues/' + r.issue_number;
-      il.rel = 'noopener'; il.target = '_blank';
-      head.appendChild(il);
-    } else if (r.issue_number) {
-      head.appendChild(el('span', 'issue', '#' + r.issue_number));
-    }
-    var st = el('span', 'status' + (r.status === 'unreviewed' ? '' : ' done'), r.status);
-    head.appendChild(st);
-    li.appendChild(head);
+      var dates=el('div','dates');
+      [['Published',fmt(r.date_published),false],
+       ['In force',fmt(r.date_in_force),true],
+       ['Retrieved',fmt(r.date_retrieved),false]].forEach(function(x){
+        var c=el('div','date'+(x[2]?' f':'')+(x[1]?'':' e'));
+        c.appendChild(el('span',null,x[0]));
+        c.appendChild(el('b',null,x[1]||(x[2]?'not stated in source':'not recorded')));
+        dates.appendChild(c);
+      });
+      b.appendChild(dates);
 
-    var h3 = el('h3');
-    var a = el('a', null, r.title || '(untitled)');
-    a.href = r.url; a.rel = 'noopener'; a.target = '_blank';
-    h3.appendChild(a);
-    li.appendChild(h3);
+      var aff=el('div','affects');
+      if(r.reference_only){ aff.appendChild(el('span','lead','Reference'));
+        aff.appendChild(el('span','nomap','Recorded for awareness. Nothing flagged.')); }
+      else if((r.affects_sections||[]).length||(r.affects_artefacts||[]).length){
+        aff.appendChild(el('span','lead','Affects'));
+        (r.affects_sections||[]).forEach(function(x){aff.appendChild(el('span','sec','\u00A7'+x));});
+        (r.affects_artefacts||[]).forEach(function(x){aff.appendChild(el('span','art',x));});
+      } else aff.appendChild(el('span','nomap','No mapping matched.'));
+      b.appendChild(aff);
 
-    var pub = el('p', 'pub');
-    pub.appendChild(document.createTextNode(r.publisher + '  '));
-    pub.appendChild(el('span', 'tier', 'tier ' + r.tier));
-    li.appendChild(pub);
-
-    var dates = el('div', 'dates');
-    dates.appendChild(dateCell('Published', fmtDate(r.date_published)));
-    dates.appendChild(dateCell('In force', fmtDate(r.date_in_force), { force: true, emptyText: 'not stated in source' }));
-    dates.appendChild(dateCell('Retrieved', fmtDate(r.date_retrieved)));
-    li.appendChild(dates);
-
-    var aff = el('div', 'affects');
-    if (r.reference_only) {
-      li.className = 'rec reference';
-      aff.appendChild(el('span', 'lead', 'Reference'));
-      aff.appendChild(el('span', 'refonly', 'Recorded for awareness. No change flagged against the playbook.'));
-    } else if ((r.affects_sections || []).length || (r.affects_artefacts || []).length) {
-      aff.appendChild(el('span', 'lead', 'Affects'));
-      (r.affects_sections || []).forEach(function (s) { aff.appendChild(el('span', 'sec', '\u00A7' + s)); });
-      (r.affects_artefacts || []).forEach(function (x) { aff.appendChild(el('span', 'art', x)); });
-    } else {
-      aff.appendChild(el('span', 'nomap', 'No mapping matched. Read it and decide, or add a keyword to mappings.json.'));
-    }
-    li.appendChild(aff);
-
-    if (r.decision_valid === false) {
-      var iv = el('div', 'invalid');
-      iv.appendChild(el('span', null, 'Closed without a valid decision'));
-      iv.appendChild(document.createTextNode(r.outcome || 'No reasoning was recorded.'));
-      li.appendChild(iv);
-    } else if (r.outcome) {
-      var o = el('div', 'outcome');
-      o.appendChild(el('span', null, 'Recorded outcome' +
-        (r.decision ? ' \u00B7 ' + r.decision : '') +
-        (r.reviewed_by ? ' \u00B7 ' + r.reviewed_by : '') +
-        (r.reviewed_by_role ? ' (' + r.reviewed_by_role + ')' : '')));
-      o.appendChild(document.createTextNode(r.outcome));
-      li.appendChild(o);
-    }
-
-    if (r.generated) {
-      var d = el('details', 'gen');
-      d.appendChild(el('summary', null, 'Generated triage (' + (r.generated.model || 'model') + ')'));
-      var body = el('div', 'body');
-      if (r.generated.ok) {
-        if (r.generated.summary) body.appendChild(el('p', null, r.generated.summary));
-        if (r.generated.note) body.appendChild(el('p', null, 'Check manually: ' + r.generated.note));
-      } else {
-        body.appendChild(el('p', null, 'Triage did not run: ' + (r.generated.error || 'unknown')));
+      if(r.issue_number){
+        var ip=el('p');
+        if(S.repo){ var il=el('a',null,'Review issue #'+r.issue_number);
+          il.href='https://github.com/'+S.repo+'/issues/'+r.issue_number; il.target='_blank'; il.rel='noopener';
+          ip.appendChild(il); } else ip.textContent='Review issue #'+r.issue_number;
+        b.appendChild(ip);
       }
-      body.appendChild(el('span', 'warn', 'Not the record. Read the source before acting.'));
-      d.appendChild(body);
-      li.appendChild(d);
-    }
-
-    return li;
-  }
-
-  function matches(r) {
-    switch (state.filter) {
-      case 'unreviewed': return r.status === 'unreviewed';
-      case 'tier1': return r.tier === 1;
-      case 'inforce': return !!r.date_in_force;
-      case 'changed': return r.event === 'changed';
-      case 'flagged': return !r.reference_only && (r.affects_artefacts || []).length > 0;
-      default: return true;
-    }
-  }
-
-  function draw() {
-    var list = document.getElementById('records');
-    list.innerHTML = '';
-    var shown = state.records.filter(matches);
-
-    if (!state.records.length) {
-      var e = el('div', 'empty');
-      e.appendChild(el('h2', null, 'Nothing recorded yet'));
-      e.appendChild(el('p', null, 'The scan runs daily at 07:00 UTC. To run it now, open the Actions tab and start the workflow manually.'));
-      e.appendChild(el('p', null, 'If it has already run and this is still empty, check the source health panel above.'));
-      list.appendChild(e);
-      return;
-    }
-    if (!shown.length) {
-      var n = el('div', 'empty');
-      n.appendChild(el('h2', null, 'No records match this filter'));
-      n.appendChild(el('p', null, 'Choose All to see everything recorded so far.'));
-      list.appendChild(n);
-      return;
-    }
-    shown.forEach(function (r) { list.appendChild(renderRecord(r)); });
-  }
-
-  function counter(value, label, flag) {
-    var c = el('div', 'counter' + (flag ? ' flag' : ''));
-    c.appendChild(el('b', null, String(value)));
-    c.appendChild(el('span', null, label));
-    return c;
-  }
-
-  function renderCoverage(c) {
-    if (!c) return;
-    var box = document.getElementById('coverage');
-    var d = el('div', 'coverage');
-    d.appendChild(el('h2', null, 'What this does and does not cover'));
-    d.appendChild(el('p', null, c.statement));
-    if ((c.not_covered || []).length) {
-      var ul = el('ul');
-      c.not_covered.forEach(function (n) {
-        var li = el('li');
-        li.appendChild(el('strong', null, n.publisher));
-        li.appendChild(document.createTextNode(' — ' + n.reason));
-        ul.appendChild(li);
-      });
-      d.appendChild(ul);
-    }
-    if (c.monitoring_since) {
-      d.appendChild(el('p', 'since', 'Monitoring began ' + fmtDate(c.monitoring_since) +
-        '. Anything published before then was absorbed as the starting position and never reviewed.'));
-    }
-    box.appendChild(d);
-  }
-
-  function renderDiary(dj) {
-    if (!dj || !(dj.upcoming || []).length) return;
-    var box = document.getElementById('diary');
-    var d = el('div', 'diary');
-    d.appendChild(el('h2', null, 'Coming into force'));
-    var t = el('table');
-    dj.upcoming.slice(0, 12).forEach(function (r) {
-      var tr = el('tr');
-      var td1 = el('td', 'days' + (r.days_until <= 30 ? ' soon' : ''), r.days_until === 0 ? 'today' : r.days_until + 'd');
-      var td2 = el('td');
-      var a = el('a', null, r.title || r.record_id);
-      a.href = r.url; a.rel = 'noopener'; a.target = '_blank';
-      td2.appendChild(a);
-      var td3 = el('td', 'days', r.date_in_force);
-      tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
-      t.appendChild(tr);
+      if(r.outcome){
+        var o=el('div','outcome');
+        o.appendChild(el('span',null,'Recorded outcome'+(r.decision?' \u00B7 '+r.decision:'')+(r.reviewed_by?' \u00B7 '+r.reviewed_by:'')));
+        o.appendChild(document.createTextNode(r.outcome));
+        b.appendChild(o);
+      }
+      d.appendChild(b);
     });
-    d.appendChild(t);
-    box.appendChild(d);
+    return d;
   }
 
-  function renderHealth(h) {
-    if (!h) return;
-    document.getElementById('regv').textContent = h.register_version || '—';
-    document.getElementById('reviewdue').textContent = h.register_review_due || '—';
-    document.getElementById('runline').textContent =
-      'Last run ' + (fmtDate(h.run_at) || 'unknown') + ' at ' +
-      new Date(h.run_at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+  function groupNode(name,list){
+    var d=el('details','group');
+    var s=el('summary');
+    s.appendChild(el('span','gname',name));
+    var unrev=list.filter(function(r){return r.status==='unreviewed';}).length;
+    s.appendChild(el('span','gmeta',unrev+' unreviewed'));
+    s.appendChild(el('span','gcount'+(unrev?' amber':''),String(list.length)));
+    d.appendChild(s);
 
-    var problems = (h.sources || []).filter(function (s) { return s.status !== 'ok'; });
-    var rejects = h.rejects || [];
-
-    var box = document.getElementById('health');
-    if (!problems.length && !rejects.length && !h.register_review_overdue) return;
-
-    var d = el('div', 'health');
-    d.appendChild(el('h2', null, 'Source health'));
-    var ul = el('ul');
-    problems.forEach(function (s) {
-      var li = el('li');
-      li.appendChild(el('code', null, s.id));
-      li.appendChild(document.createTextNode(' — ' + s.status + (s.http_status ? ' ' + s.http_status : '') + (s.note ? '. ' + s.note : '')));
-      ul.appendChild(li);
-    });
-    rejects.slice(0, 10).forEach(function (r) {
-      var li = el('li');
-      li.appendChild(el('code', null, r.source));
-      li.appendChild(document.createTextNode(' — rejected an item: ' + r.reason + (r.url ? ' (' + r.url + ')' : '')));
-      ul.appendChild(li);
-    });
-    if (h.register_review_overdue) {
-      ul.appendChild(el('li', null, 'The source register review is overdue. Publishers change; re-verify every entry.'));
-    }
-    d.appendChild(ul);
-    box.appendChild(d);
-  }
-
-  function wireControls() {
-    var bar = document.getElementById('controls');
-    bar.hidden = false;
-    bar.addEventListener('click', function (ev) {
-      var btn = ev.target.closest('button.chip');
-      if (!btn) return;
-      state.filter = btn.dataset.filter;
-      bar.querySelectorAll('button.chip').forEach(function (b) {
-        b.setAttribute('aria-pressed', String(b === btn));
-      });
+    d.addEventListener('toggle',function(){
+      if(!d.open || d.dataset.built) return;
+      d.dataset.built='1';
+      var kids=el('div','kids'); d.appendChild(kids);
+      var n=0;
+      function draw(){
+        var slice=list.slice(n,n+PAGE);
+        slice.forEach(function(r){kids.appendChild(recordNode(r));});
+        n+=slice.length;
+        var old=d.querySelector('.more'); if(old) old.remove();
+        if(n<list.length){
+          var m=el('div','more');
+          var btn=el('button',null,'Show '+Math.min(PAGE,list.length-n)+' more of '+(list.length-n)+' remaining');
+          btn.addEventListener('click',draw); m.appendChild(btn); d.appendChild(m);
+        }
+      }
       draw();
     });
+    return d;
   }
 
-  function load() {
-    var get = function (f, fallback) {
-      return fetch(f).then(function (r) { return r.ok ? r.json() : fallback; }).catch(function () { return fallback; });
-    };
-    Promise.all([
-      get('impact-log.json', { records: [] }),
-      get('health.json', null),
-      get('coverage.json', null),
-      get('diary.json', null),
-      get('run-log.json', { runs: [] })
-    ]).then(function (res) {
-      var log = res[0], health = res[1], coverage = res[2], diary = res[3], runlog = res[4];
-      state.records = (log.records || []).slice().reverse();
+  function draw(){
+    var out=document.getElementById('records');
+    out.innerHTML='';
+    var b=build();
+    document.getElementById('resultline').textContent =
+      b.total+' record(s) in '+b.keys.length+' group(s). Everything is collapsed; open a group to read it.';
+    if(!b.total){
+      var e=el('div','empty');
+      e.appendChild(el('h2',null,'Nothing matches'));
+      e.appendChild(el('p',null,'Widen the filter or clear the search box.'));
+      out.appendChild(e); return;
+    }
+    b.keys.forEach(function(k){ out.appendChild(groupNode(k,b.groups[k])); });
+  }
 
-      var unreviewed = state.records.filter(function (r) { return r.status === 'unreviewed'; }).length;
-      var flagged = state.records.filter(function (r) { return !r.reference_only && (r.affects_artefacts || []).length > 0; }).length;
-      var inforce = state.records.filter(function (r) { return r.date_in_force; }).length;
+  function panel(cls,title,count,fill,open){
+    var d=el('details','panel '+cls); if(open) d.open=true;
+    var s=el('summary'); s.appendChild(document.createTextNode(title));
+    if(count!=null) s.appendChild(el('span','n',String(count)));
+    d.appendChild(s);
+    var inner=el('div','inner'); fill(inner); d.appendChild(inner);
+    return d;
+  }
 
-      var c = document.getElementById('counters');
-      c.appendChild(counter(state.records.length, 'records'));
-      c.appendChild(counter(unreviewed, 'unreviewed', unreviewed > 0));
-      c.appendChild(counter(flagged, 'flag a change'));
-      c.appendChild(counter(inforce, 'with in-force date'));
+  Promise.all([get('impact-log.json',{records:[]}),get('health.json',null),
+               get('coverage.json',null),get('diary.json',null),get('run-log.json',{runs:[]}),
+               get('sources.json',{sources:[]})])
+  .then(function(res){
+    var log=res[0],health=res[1],cov=res[2],diary=res[3],rl=res[4],reg=res[5];
 
-      renderCoverage(coverage);
-      renderDiary(diary);
-      renderHealth(health);
-
-      // Set last, because renderHealth also writes this line. The run log is
-      // the better source: it can say the monitor ran and found nothing, which
-      // is the assurance the health file cannot give.
-      if (!health) document.getElementById('runline').textContent = 'No run recorded yet.';
-      else if ((runlog.runs || []).length) {
-        var lastRun = runlog.runs[runlog.runs.length - 1];
-        document.getElementById('runline').textContent =
-          'Last run ' + fmtDate(lastRun.run_at) + '. ' + lastRun.outcome +
-          '  Monitored on ' + runlog.runs.length + ' occasion(s) since ' + fmtDate(runlog.runs[0].run_at) + '.';
-      }
-      wireControls();
-      draw();
+    (reg.sources||[]).forEach(function(src){
+      var a=(src.authority||'').split(/\.(?:\s|$)/)[0].trim();
+      S.labels[src.id]= a && a.length<70 ? a : (src.publisher||src.id);
     });
-  }
 
-  load();
+    S.records=(log.records||[]).slice().reverse();
+
+    var unrev=S.records.filter(function(r){return r.status==='unreviewed';}).length;
+    var flagged=S.records.filter(function(r){return !r.reference_only&&(r.affects_artefacts||[]).length>0;}).length;
+    var inforce=S.records.filter(function(r){return r.date_in_force;}).length;
+    var c=document.getElementById('counters');
+    [[S.records.length,'records',false],[unrev,'unreviewed',unrev>0],
+     [flagged,'flag a change',false],[inforce,'with in-force date',false]].forEach(function(x){
+      var d=el('div','counter'+(x[2]?' flag':''));
+      d.appendChild(el('b',null,String(x[0]))); d.appendChild(el('span',null,x[1])); c.appendChild(d);
+    });
+
+    var P=document.getElementById('panels');
+
+    if(cov) P.appendChild(panel('warn','What this does and does not cover',
+      cov.covered_count+' of '+(cov.covered_count+cov.not_covered_count),function(b){
+        b.appendChild(el('p',null,cov.statement));
+        if(cov.monitoring_since) b.appendChild(el('p',null,
+          'Monitoring began '+fmt(cov.monitoring_since)+'. Anything published before then was absorbed as the starting position and never reviewed.'));
+      },true));
+
+    if(diary&&(diary.upcoming||[]).length) P.appendChild(panel('good','Coming into force',
+      diary.upcoming.length,function(b){
+        diary.upcoming.slice(0,20).forEach(function(r){
+          var p=el('p');
+          p.appendChild(el('span','sec',(r.days_until===0?'today':r.days_until+'d')));
+          p.appendChild(document.createTextNode('  '+r.date_in_force+'  '));
+          var a=el('a',null,r.title||r.record_id); a.href=r.url; a.target='_blank'; a.rel='noopener';
+          p.appendChild(a); b.appendChild(p);
+        });
+      },true));
+
+    if(health){
+      document.getElementById('regv').textContent=health.register_version||'\u2014';
+      document.getElementById('reviewdue').textContent=health.register_review_due||'\u2014';
+      var probs=(health.sources||[]).filter(function(s){return s.status!=='ok';});
+      var rej=health.rejects||[];
+      if(probs.length||rej.length) P.appendChild(panel('bad','Source health',probs.length,function(b){
+        var ul=el('ul');
+        probs.forEach(function(s){var li=el('li');li.appendChild(el('code',null,s.id));
+          li.appendChild(document.createTextNode(' \u2014 '+s.status+(s.note?'. '+s.note:'')));ul.appendChild(li);});
+        if(rej.length){ul.appendChild(el('li',null,rej.length+' item(s) rejected by the domain allowlist, which is the allowlist working.'));}
+        b.appendChild(ul);
+      },false));
+    }
+
+    if((rl.runs||[]).length){
+      var last=rl.runs[rl.runs.length-1];
+      document.getElementById('runline').textContent='Last run '+fmt(last.run_at)+'. '+last.outcome+
+        '  Monitored on '+rl.runs.length+' occasion(s).';
+    } else document.getElementById('runline').textContent='No run recorded yet.';
+
+    document.getElementById('groupby').addEventListener('change',function(e){S.group=e.target.value;draw();});
+    document.getElementById('status').addEventListener('change',function(e){S.status=e.target.value;draw();});
+    var t;
+    document.getElementById('q').addEventListener('input',function(e){
+      clearTimeout(t); var v=e.target.value.toLowerCase().trim();
+      t=setTimeout(function(){S.q=v;draw();},180);
+    });
+    draw();
+  });
 })();
 </script>
 </body>
