@@ -42,6 +42,8 @@
   details.panel.warn>summary{color:var(--amber)}
   details.panel.bad{border-left:3px solid var(--ox);background:#FBF3F1}
   details.panel.bad>summary{color:var(--ox)}
+  details.panel.neutral{border-left:3px solid var(--rule);background:#FAF9F7}
+  details.panel.neutral>summary{color:var(--soft)}
   details.panel.good{border-left:3px solid var(--verd);background:#F3F7F6}
   details.panel.good>summary{color:var(--verd)}
   .panel p{margin:.3rem 0;font-size:.88rem}
@@ -363,13 +365,35 @@
     if(health){
       document.getElementById('regv').textContent=health.register_version||'\u2014';
       document.getElementById('reviewdue').textContent=health.register_review_due||'\u2014';
-      var probs=(health.sources||[]).filter(function(s){return s.status!=='ok';});
+
+      // Three different things used to share one red panel: sources not
+      // connected yet, sources genuinely broken, and the allowlist doing its
+      // job. Sixteen benign entries and one real fault should not look alike.
+      var all=health.sources||[];
+      var notConnected=all.filter(function(s){return s.status==='skipped-unverified';});
+      var broken=all.filter(function(s){return s.status!=='ok'&&s.status!=='skipped-unverified';});
       var rej=health.rejects||[];
-      if(probs.length||rej.length) P.appendChild(panel('bad','Source health',probs.length,function(b){
+
+      function listOf(items,line){
+        return function(b){ var ul=el('ul');
+          items.forEach(function(s){var li=el('li');li.appendChild(el('code',null,s.id));
+            li.appendChild(document.createTextNode(' \u2014 '+line(s)));ul.appendChild(li);});
+          b.appendChild(ul); };
+      }
+
+      if(broken.length) P.appendChild(panel('bad','Source problems',broken.length,
+        listOf(broken,function(s){return s.status+(s.http_status?' '+s.http_status:'')+(s.note?'. '+s.note:'');}),true));
+
+      if(notConnected.length) P.appendChild(panel('neutral','Not connected yet',notConnected.length,function(b){
+        b.appendChild(el('p',null,'Configured but never confirmed, so the scanner refuses to call them rather than guessing at a URL. These are the gaps the coverage statement declares, not faults.'));
+        listOf(notConnected,function(s){return s.note||'endpoint not confirmed';})(b);
+      },false));
+
+      if(rej.length) P.appendChild(panel('good','Allowlist rejections',rej.length,function(b){
+        b.appendChild(el('p',null,'Links found on a publisher page that do not live on that publisher\u2019s own domain, so they were refused. This is the allowlist working as designed, not a problem.'));
         var ul=el('ul');
-        probs.forEach(function(s){var li=el('li');li.appendChild(el('code',null,s.id));
-          li.appendChild(document.createTextNode(' \u2014 '+s.status+(s.note?'. '+s.note:'')));ul.appendChild(li);});
-        if(rej.length){ul.appendChild(el('li',null,rej.length+' item(s) rejected by the domain allowlist, which is the allowlist working.'));}
+        rej.slice(0,12).forEach(function(r){var li=el('li');li.appendChild(el('code',null,r.source));
+          li.appendChild(document.createTextNode(' \u2014 '+(r.url||r.reason)));ul.appendChild(li);});
         b.appendChild(ul);
       },false));
     }
