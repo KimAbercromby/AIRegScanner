@@ -1,60 +1,284 @@
 {
-  "sample_data": true,
-  "run_at": "2026-07-24T07:00:00.000Z",
-  "register_version": "0.1",
+  "run_at": "2026-07-25T19:30:03.293Z",
+  "register_version": "0.3",
+  "mode": "baseline",
   "sources": [
     {
       "id": "legislation-new",
+      "status": "error",
+      "error": "no <feed> element: not an Atom document",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "legislation-search-ai-title",
+      "status": "error",
+      "error": "no <feed> element: not an Atom document",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "statute-equality-2010",
+      "status": "skipped-unverified",
+      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "statute-dpa-2018",
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 1
+      "items_kept": 12,
+      "items_discarded": 0
     },
     {
-      "id": "legislation-changes-dpa2018",
+      "id": "statute-duaa-2025",
+      "status": "error",
+      "error": "no <feed> element: not an Atom document",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "statute-hra-1998",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 42,
-      "items_kept": 1
+      "items_seen": 85,
+      "items_kept": 75,
+      "items_discarded": 0
+    },
+    {
+      "id": "statute-care-2014",
+      "status": "error",
+      "error": "no <feed> element: not an Atom document",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "statute-children-1989",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 78,
+      "items_discarded": 0
+    },
+    {
+      "id": "statute-children-2004",
+      "status": "error",
+      "error": "no <feed> element: not an Atom document",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "statute-lga-1999",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 81,
+      "items_discarded": 0
+    },
+    {
+      "id": "statute-housing-1996",
+      "status": "error",
+      "error": "no <feed> element: not an Atom document",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "statute-foia-2000",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 82,
+      "items_discarded": 0
+    },
+    {
+      "id": "statute-procurement-2023",
+      "status": "error",
+      "error": "no <feed> element: not an Atom document",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "statute-localism-2011",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 51,
+      "items_discarded": 0
+    },
+    {
+      "id": "govuk-cabinet-office",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 50,
+      "items_kept": 50,
+      "items_discarded": 0
     },
     {
       "id": "govuk-gds",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 50,
+      "items_kept": 50,
+      "items_discarded": 0
+    },
+    {
+      "id": "govuk-mhclg",
       "status": "ok-but-empty",
       "http_status": 200,
       "items_seen": 0,
       "items_kept": 0,
+      "items_discarded": 0,
       "note": "Responded 200 but returned no items. Check the endpoint still points where you think it does."
     },
     {
-      "id": "statute-care-2014",
+      "id": "govuk-ofsted",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 50,
+      "items_kept": 2,
+      "items_discarded": 48
+    },
+    {
+      "id": "govuk-cqc",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 13,
+      "items_kept": 0,
+      "items_discarded": 13
+    },
+    {
+      "id": "govuk-dsit-legacy",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 50,
+      "items_kept": 50,
+      "items_discarded": 0
+    },
+    {
+      "id": "ehrc-guidance",
       "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number.",
+      "note": "Check for a news feed or sitemap.",
       "items_seen": 0,
       "items_kept": 0
     },
     {
-      "id": "lgsco-decisions",
+      "id": "nao-reports",
       "status": "skipped-unverified",
-      "note": "Highest-value missing source. Needs a feed URL or the html-diff fetcher.",
+      "note": "Check nao.org.uk/reports for a feed.",
       "items_seen": 0,
       "items_kept": 0
+    },
+    {
+      "id": "lga-guidance",
+      "status": "skipped-unverified",
+      "note": "Check local.gov.uk for a publications feed.",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "bills-parliament",
+      "status": "skipped-unverified",
+      "note": "Parliament publishes a Bills API. Confirm the endpoint and response shape, then add a fetcher.",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "find-case-law",
+      "status": "skipped-unverified",
+      "note": "Find Case Law offers a public search with Atom output. Confirm the query parameter names before enabling.",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "lgsco-housing",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 0,
+      "items_discarded": 10
+    },
+    {
+      "id": "lgsco-adult-care",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 0,
+      "items_discarded": 10
+    },
+    {
+      "id": "lgsco-childrens-care",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 0,
+      "items_discarded": 10
+    },
+    {
+      "id": "lgsco-education",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 0,
+      "items_discarded": 10
+    },
+    {
+      "id": "lgsco-benefits",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 0,
+      "items_discarded": 10
+    },
+    {
+      "id": "ico-news",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 32,
+      "items_kept": 0,
+      "items_discarded": 27
     }
   ],
   "rejects": [
     {
-      "source": "legislation-new",
+      "source": "ico-news",
       "reason": "domain-not-allowed",
-      "url": "https://malicious-mirror.example.com/uksi/2026/410",
-      "title": "The Public Sector Algorithmic Transparency Regulations 2026"
+      "url": "https://www.smartsurvey.co.uk/s/W2FNN3/",
+      "title": "Yes I'll take the survey"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "https://x.com/iconews",
+      "title": "X @ICONews"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "http://linkedin.com/company/information-commissioner's-office",
+      "title": "LinkedIn"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "http://facebook.com/ICOnews",
+      "title": "Facebook"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "title": "Open Government Licence v3.0"
     }
   ],
-  "register_review_due": "2026-10-22",
+  "register_review_due": "2026-10-23",
   "register_review_overdue": false,
-  "mode": "normal",
   "summary": {
-    "added": 5,
-    "changed": 1,
-    "absorbed": 0,
-    "unreviewed": 5
+    "added": 0,
+    "changed": 0,
+    "absorbed": 531,
+    "discarded": 138,
+    "unreviewed": 0
   }
 }
