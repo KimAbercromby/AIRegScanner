@@ -1,21 +1,22 @@
 {
-  "run_at": "2026-07-25T19:30:03.293Z",
+  "run_at": "2026-07-25T20:08:45.363Z",
   "register_version": "0.3",
-  "mode": "baseline",
+  "mode": "normal",
   "sources": [
     {
       "id": "legislation-new",
       "status": "error",
-      "error": "no <feed> element: not an Atom document",
+      "error": "no <feed> element: not an Atom document. Server returned: \"\"",
       "items_seen": 0,
       "items_kept": 0
     },
     {
       "id": "legislation-search-ai-title",
-      "status": "error",
-      "error": "no <feed> element: not an Atom document",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 2,
+      "items_kept": 2,
+      "items_discarded": 0
     },
     {
       "id": "statute-equality-2010",
@@ -34,10 +35,11 @@
     },
     {
       "id": "statute-duaa-2025",
-      "status": "error",
-      "error": "no <feed> element: not an Atom document",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 6,
+      "items_discarded": 0
     },
     {
       "id": "statute-hra-1998",
@@ -49,10 +51,11 @@
     },
     {
       "id": "statute-care-2014",
-      "status": "error",
-      "error": "no <feed> element: not an Atom document",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 65,
+      "items_discarded": 0
     },
     {
       "id": "statute-children-1989",
@@ -64,10 +67,11 @@
     },
     {
       "id": "statute-children-2004",
-      "status": "error",
-      "error": "no <feed> element: not an Atom document",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 70,
+      "items_discarded": 0
     },
     {
       "id": "statute-lga-1999",
@@ -79,10 +83,11 @@
     },
     {
       "id": "statute-housing-1996",
-      "status": "error",
-      "error": "no <feed> element: not an Atom document",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 72,
+      "items_discarded": 0
     },
     {
       "id": "statute-foia-2000",
@@ -94,17 +99,18 @@
     },
     {
       "id": "statute-procurement-2023",
-      "status": "error",
-      "error": "no <feed> element: not an Atom document",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 99,
+      "items_discarded": 0
     },
     {
       "id": "statute-localism-2011",
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 51,
+      "items_kept": 50,
       "items_discarded": 0
     },
     {
@@ -112,7 +118,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 50,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -120,7 +126,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 50,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -137,7 +143,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 2,
+      "items_kept": 0,
       "items_discarded": 48
     },
     {
@@ -153,7 +159,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 50,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -275,10 +281,11 @@
   "register_review_due": "2026-10-23",
   "register_review_overdue": false,
   "summary": {
-    "added": 0,
-    "changed": 0,
-    "absorbed": 531,
+    "added": 7,
+    "changed": 685,
+    "absorbed": 0,
     "discarded": 138,
-    "unreviewed": 0
-  }
+    "unreviewed": 692
+  },
+  "issue_cap_warning": "692 records await an issue but only 25 are created per run. The queue will take 28 runs to clear."
 }

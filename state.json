@@ -1,47 +1,41 @@
 {
-  "last_run": "2026-07-25T19:30:03.293Z",
+  "last_run": "2026-07-25T20:08:45.363Z",
   "items": {
     "statute-dpa-2018::http://www.legislation.gov.uk/id/ukpga/2018/12": {
       "hash": "ea492e4cd28fadd5",
       "body": null,
       "first_seen": "2026-07-25T19:30:03.293Z",
-      "last_changed": "2026-07-25T19:30:03.293Z",
-      "baselined": true
+      "last_changed": "2026-07-25T20:08:45.363Z"
     },
     "statute-hra-1998::http://www.legislation.gov.uk/id/ukpga/1998/42": {
       "hash": "288c35ff0df39760",
       "body": null,
       "first_seen": "2026-07-25T19:30:03.293Z",
-      "last_changed": "2026-07-25T19:30:03.293Z",
-      "baselined": true
+      "last_changed": "2026-07-25T20:08:45.363Z"
     },
     "statute-children-1989::http://www.legislation.gov.uk/id/ukpga/1989/41": {
       "hash": "3ac3c6c5624f833f",
       "body": null,
       "first_seen": "2026-07-25T19:30:03.293Z",
-      "last_changed": "2026-07-25T19:30:03.293Z",
-      "baselined": true
+      "last_changed": "2026-07-25T20:08:45.363Z"
     },
     "statute-lga-1999::http://www.legislation.gov.uk/id/ukpga/1999/27": {
       "hash": "06b1a10808d5156c",
       "body": null,
       "first_seen": "2026-07-25T19:30:03.293Z",
-      "last_changed": "2026-07-25T19:30:03.293Z",
-      "baselined": true
+      "last_changed": "2026-07-25T20:08:45.363Z"
     },
     "statute-foia-2000::http://www.legislation.gov.uk/id/ukpga/2000/36": {
       "hash": "999855e42a6b04b9",
       "body": null,
       "first_seen": "2026-07-25T19:30:03.293Z",
-      "last_changed": "2026-07-25T19:30:03.293Z",
-      "baselined": true
+      "last_changed": "2026-07-25T20:08:45.363Z"
     },
     "statute-localism-2011::http://www.legislation.gov.uk/id/ukpga/2011/20": {
       "hash": "f7ac8d344396af33",
       "body": null,
       "first_seen": "2026-07-25T19:30:03.293Z",
-      "last_changed": "2026-07-25T19:30:03.293Z",
-      "baselined": true
+      "last_changed": "2026-07-25T20:08:45.363Z"
     },
     "govuk-cabinet-office::https://www.gov.uk/government/news/ai-to-power-change-at-the-heart-of-government-as-lord-vallance-appointed-chair-of-new-pm-ai-taskforce": {
       "hash": "7f7ffc4c67253712",
@@ -1106,6 +1100,48 @@
       "first_seen": "2026-07-25T19:30:03.293Z",
       "last_changed": "2026-07-25T19:30:03.293Z",
       "baselined": true
+    },
+    "legislation-search-ai-title::http://www.legislation.gov.uk/uksi/2026/425/made": {
+      "hash": "8e83108743a5a263",
+      "body": null,
+      "first_seen": "2026-07-25T20:08:45.363Z",
+      "last_changed": "2026-07-25T20:08:45.363Z"
+    },
+    "legislation-search-ai-title::http://www.legislation.gov.uk/eudn/1985/519/adopted": {
+      "hash": "4c3121a38451e661",
+      "body": null,
+      "first_seen": "2026-07-25T20:08:45.363Z",
+      "last_changed": "2026-07-25T20:08:45.363Z"
+    },
+    "statute-duaa-2025::http://www.legislation.gov.uk/id/ukpga/2025/18": {
+      "hash": "8284aecd6689df85",
+      "body": null,
+      "first_seen": "2026-07-25T20:08:45.363Z",
+      "last_changed": "2026-07-25T20:08:45.363Z"
+    },
+    "statute-care-2014::http://www.legislation.gov.uk/id/ukpga/2014/23": {
+      "hash": "146512984a4e12c7",
+      "body": null,
+      "first_seen": "2026-07-25T20:08:45.363Z",
+      "last_changed": "2026-07-25T20:08:45.363Z"
+    },
+    "statute-children-2004::http://www.legislation.gov.uk/id/ukpga/2004/31": {
+      "hash": "00fbd3bdf3f5e690",
+      "body": null,
+      "first_seen": "2026-07-25T20:08:45.363Z",
+      "last_changed": "2026-07-25T20:08:45.363Z"
+    },
+    "statute-housing-1996::http://www.legislation.gov.uk/id/ukpga/1996/52": {
+      "hash": "d62b25044483395f",
+      "body": null,
+      "first_seen": "2026-07-25T20:08:45.363Z",
+      "last_changed": "2026-07-25T20:08:45.363Z"
+    },
+    "statute-procurement-2023::http://www.legislation.gov.uk/id/ukpga/2023/54": {
+      "hash": "b7e01780c856a55a",
+      "body": null,
+      "first_seen": "2026-07-25T20:08:45.363Z",
+      "last_changed": "2026-07-25T20:08:45.363Z"
     }
   }
 }

@@ -1,7 +1,65 @@
 {
-  "generated_at": "2026-07-25T19:30:16.750Z",
+  "generated_at": "2026-07-25T20:09:38.772Z",
   "note": "Measures with a future commencement date. This is the \"what bites next quarter\" view.",
   "within_30_days": 0,
-  "within_90_days": 0,
-  "upcoming": []
+  "within_90_days": 3,
+  "upcoming": [
+    {
+      "record_id": "REG-0391",
+      "title": "Children’s Wellbeing and Schools Act 2026 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "date_in_force": "2026-09-30",
+      "days_until": 67,
+      "affects_sections": [
+        "3.10.1",
+        "3.8"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "Intake Form",
+        "Terms of Reference"
+      ],
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "record_id": "REG-0392",
+      "title": "Children’s Wellbeing and Schools Act 2026 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "date_in_force": "2026-09-30",
+      "days_until": 67,
+      "affects_sections": [
+        "3.10.1",
+        "3.8"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "Intake Form",
+        "Terms of Reference"
+      ],
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "record_id": "REG-0393",
+      "title": "Children’s Wellbeing and Schools Act 2026 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "date_in_force": "2026-09-30",
+      "days_until": 67,
+      "affects_sections": [
+        "3.10.1",
+        "3.8"
+      ],
+      "affects_artefacts": [
+        "AI Register",
+        "Intake Form",
+        "Terms of Reference"
+      ],
+      "status": "unreviewed",
+      "decision": null
+    }
+  ]
 }
