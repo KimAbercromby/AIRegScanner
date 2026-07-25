@@ -41,6 +41,12 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+
+    env:
+      # One place decides what this run is doing. Manual runs use the dropdown;
+      # the Monday cron is the smoke test; anything else scheduled is a scan.
+      TASK: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.task || (github.event.schedule == '30 6 * * 1' && 'smoke' || 'scan') }}
+
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -55,33 +61,94 @@ jobs:
         # If the parsers or the allowlist are broken, write nothing.
         run: npm test
 
-      # ---------- resolve (manual) ----------
+      # ---------- resolve ----------
       - name: Resolve statute identifiers
-        if: github.event_name == 'workflow_dispatch' && inputs.task == 'resolve'
+        if: env.TASK == 'resolve'
         run: npm run resolve
 
-      # ---------- discover (manual) ----------
+      # ---------- discover ----------
       - name: Discover a source
-        if: github.event_name == 'workflow_dispatch' && inputs.task == 'discover'
+        if: env.TASK == 'discover'
         run: |
           echo '### Source discovery' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          node discover.mjs "${{ inputs.url }}" 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+          node discover.mjs "${{ github.event.inputs.url }}" 2>&1 | tee -a $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
-      # ---------- smoke (Mondays, or manual) ----------
+      # ---------- smoke ----------
       - name: Live source smoke test
-        if: (github.event_name == 'schedule' && github.event.schedule == '30 6 * * 1') || (github.event_name == 'workflow_dispatch' && inputs.task == 'smoke')
+        if: env.TASK == 'smoke'
         run: |
           echo '### Live source check' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           npm run smoke 2>&1 | tee -a $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
-      # ---------- scan (daily, or manual) ----------
+      # ---------- scan ----------
       - name: Scan
-        if: (github.event_name == 'schedule' && github.event.schedule == '0 7 * * *') || (github.event_name == 'workflow_dispatch' && inputs.task == 'scan')
+        if: env.TASK == 'scan'
         run: npm run scan
 
       - name: Triage (optional)
-        if: ((github.event_name == 'schedule' && github.event.schedule == '0 7 * *
+        # No secret check here: `secrets` is not a context GitHub allows in an
+        # `if`. The script exits quietly when the key is absent, so it is safe
+        # to always call.
+        if: env.TASK == 'scan'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run triage
+
+      - name: Review issues
+        if: env.TASK == 'scan'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run issues
+
+      - name: Commencement diary
+        if: env.TASK == 'scan'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run diary
+
+      # ---------- commit ----------
+      - name: Commit
+        if: env.TASK == 'scan' || env.TASK == 'resolve'
+        run: |
+          git config user.name  "regulatory-scanner"
+          git config user.email "actions@github.com"
+          git add -A -- '*.json' ':!package-lock.json'
+          if git diff --staged --quiet; then
+            # A scan ALWAYS changes the run log, so an empty commit means the
+            # run did not do what it should. Resolve legitimately changes
+            # nothing when everything is already resolved.
+            if [ "$TASK" = "scan" ]; then
+              echo "A scan produced no change to the run log. That should not happen."
+              exit 1
+            fi
+            echo "Nothing changed."
+          else
+            git commit -m "$TASK: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Summary
+        if: env.TASK == 'scan'
+        run: |
+          node -e "
+            const log = require('./impact-log.json');
+            const runs = require('./run-log.json').runs;
+            const cov = require('./coverage.json');
+            const last = runs[runs.length - 1];
+            const u = log.records.filter(r => r.status === 'unreviewed');
+            console.log('### Regulatory scan');
+            console.log('');
+            console.log('**' + last.outcome + '**');
+            console.log('');
+            console.log('- ' + last.sources_checked + ' sources checked, ' + last.sources_skipped + ' skipped, ' + last.sources_failed + ' with problems');
+            console.log('- ' + u.length + ' record(s) unreviewed');
+            console.log('');
+            console.log('> ' + cov.statement);
+          " >> $GITHUB_STEP_SUMMARY
