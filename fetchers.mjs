@@ -4,6 +4,47 @@ import { parse as parseHtml } from 'node-html-parser';
 const UA = 'ai-reg-scanner/0.1 (governance horizon scanning; contact repo owner)';
 const TIMEOUT_MS = 30000;
 
+// legislation.gov.uk throttles a burst of back-to-back requests by returning an
+// HTML holding page with a 200 status, so it does not even look like an error.
+// Pace ourselves per host instead of hammering, and retry once if a response
+// comes back unparseable.
+const HOST_DELAY_MS = Number(process.env.HOST_DELAY_MS ?? 1500);
+const RETRY_DELAY_MS = Number(process.env.RETRY_DELAY_MS ?? 5000);
+const lastCallAt = new Map();
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function pace(url) {
+  let host;
+  try { host = new URL(url).hostname; } catch { return; }
+  const wait = HOST_DELAY_MS - (Date.now() - (lastCallAt.get(host) ?? 0));
+  if (wait > 0) await sleep(wait);
+  lastCallAt.set(host, Date.now());
+}
+
+/** Retries once. Used where a 200 can still carry the wrong thing. */
+export async function withRetry(fn, attempts = 2, delayMs = RETRY_DELAY_MS) {
+  let last;
+  for (let i = 0; i < attempts; i += 1) {
+    try { return await fn(); } catch (e) {
+      last = e;
+      if (i < attempts - 1) await sleep(delayMs);
+    }
+  }
+  throw last;
+}
+
+/** First readable text in a response, so an error says what actually came back. */
+export function bodySnippet(body, n = 180) {
+  return String(body)
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, n);
+}
+
 const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: '@',
@@ -50,6 +91,7 @@ function pickLink(entry) {
 }
 
 export async function httpGet(url, { accept } = {}) {
+  await pace(url);
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {
@@ -69,7 +111,7 @@ export async function httpGet(url, { accept } = {}) {
 export function parseAtom(xml) {
   const doc = parser.parse(xml);
   const feed = doc.feed;
-  if (!feed) throw new Error('no <feed> element: not an Atom document');
+  if (!feed) throw new Error(`no <feed> element: not an Atom document. Server returned: "${bodySnippet(xml)}"`);
   return toArray(feed.entry).map((e) => ({
     raw_id: text(e.id),
     title: text(e.title),
@@ -89,7 +131,7 @@ export function parseAtom(xml) {
 export function parseAtomChanges(xml) {
   const doc = parser.parse(xml);
   const feed = doc.feed;
-  if (!feed) throw new Error('no <feed> element: not an Atom document');
+  if (!feed) throw new Error(`no <feed> element: not an Atom document. Server returned: "${bodySnippet(xml)}"`);
   return toArray(feed.entry).map((e) => {
     const effect = e.content?.['ukm:Effect'] ?? e['ukm:Effect'] ?? null;
     let inForce = null;
@@ -116,7 +158,7 @@ export function parseAtomChanges(xml) {
 export function parseRss(xml) {
   const doc = parser.parse(xml);
   const channel = doc.rss?.channel;
-  if (!channel) throw new Error('no <rss><channel>: not an RSS document');
+  if (!channel) throw new Error(`no <rss><channel>: not an RSS document. Server returned: "${bodySnippet(xml)}"`);
   return toArray(channel.item).map((i) => ({
     raw_id: text(i.guid) || text(i.link),
     title: text(i.title),
@@ -260,6 +302,10 @@ export function findFeedLinks(html, pageUrl) {
 }
 
 export async function fetchSource(source) {
+  return withRetry(() => fetchSourceOnce(source));
+}
+
+async function fetchSourceOnce(source) {
   if (source.type === 'govuk-search') {
     const url = buildGovukUrl(source);
     const res = await httpGet(url, { accept: 'application/json' });
@@ -283,4 +329,3 @@ export async function fetchSource(source) {
   else throw new Error(`unknown source type: ${source.type}`);
 
   return { ok: true, status: res.status, items, url: source.url };
-}
