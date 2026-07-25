@@ -2,1070 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Area SEND inspections and outcomes in England as at 31 December 2025",
-      "url": "https://www.gov.uk/government/statistics/area-send-inspections-and-outcomes-in-england-as-at-31-december-2025",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Thematic inspection of regional adoption agencies: phase 2",
-      "url": "https://www.gov.uk/government/publications/thematic-inspection-of-regional-adoption-agencies-phase-2",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Improving the way Ofsted inspects children’s social care",
-      "url": "https://www.gov.uk/government/consultations/improving-the-way-ofsted-inspects-childrens-social-care",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Understanding children’s social care sufficiency in England",
-      "url": "https://www.gov.uk/government/publications/understanding-childrens-social-care-sufficiency-in-england",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted Audit and Risk Assurance Committee minutes",
-      "url": "https://www.gov.uk/government/publications/ofsted-audit-committee-minutes",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Independent school inspection: toolkit, operating guide and information",
-      "url": "https://www.gov.uk/government/publications/independent-school-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Initial teacher education (ITE) inspection: toolkit, operating guide and framework",
-      "url": "https://www.gov.uk/government/publications/initial-teacher-education-ite-inspection-toolkit-operating-guide-and-framework",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Further education and skills inspection: toolkit, operating guides and information",
-      "url": "https://www.gov.uk/government/publications/further-education-and-skills-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Early years inspection: toolkit, operating guide and information",
-      "url": "https://www.gov.uk/government/publications/early-years-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "School inspection: toolkit, operating guides and information",
-      "url": "https://www.gov.uk/government/publications/school-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted's ethical research policy",
-      "url": "https://www.gov.uk/government/publications/ofsteds-ethical-research-policy",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted: areas of research interest",
-      "url": "https://www.gov.uk/government/publications/ofsted-areas-of-research-interest",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Big Listen action monitoring reports",
-      "url": "https://www.gov.uk/government/publications/big-listen-action-monitoring-reports",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): voluntary adoption agencies",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-voluntary-adoption-agencies",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): residential family centres",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-residential-family-centres",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): children’s homes",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): residential provision of further education colleges",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-residential-provision-of-further-education-colleges",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): independent fostering agencies",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-independent-fostering-agencies",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): secure children’s homes",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-secure-childrens-homes",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): supported accommodation",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): residential holiday schemes for disabled children",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-residential-holiday-schemes-for-disabled-children",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): boarding schools and residential special schools",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-boarding-schools-and-residential-special-schools",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Inspecting secure training centres: framework",
-      "url": "https://www.gov.uk/government/publications/inspecting-secure-training-centres-framework",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): adoption support agencies",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-adoption-support-agencies",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Inspecting local authority children's services",
-      "url": "https://www.gov.uk/government/publications/inspecting-local-authority-childrens-services",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted announces changes to inspections of local authority children's services",
-      "url": "https://www.gov.uk/government/news/ofsted-announces-changes-to-inspections-of-local-authorities-childrens-services",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted Board meetings 2025: minutes",
-      "url": "https://www.gov.uk/government/publications/ofsted-board-meetings-2025-minutes",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "The multi-agency response to children who are victims of domestic abuse",
-      "url": "https://www.gov.uk/government/publications/the-multi-agency-response-to-children-who-are-victims-of-domestic-abuse",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "The experiences of children with SEND who are not in school: a thematic review",
-      "url": "https://www.gov.uk/government/publications/the-experiences-of-children-with-send-who-are-not-in-school-a-thematic-review",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted annual report 2024/25: education, children’s services and skills",
-      "url": "https://www.gov.uk/government/publications/ofsted-annual-report-202425-education-childrens-services-and-skills",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Risk assessment methodology: initial teacher education",
-      "url": "https://www.gov.uk/government/publications/risk-assessment-methodology-initial-teacher-education",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Welfare and duty of care in Armed Forces initial training",
-      "url": "https://www.gov.uk/government/publications/welfare-and-duty-of-care-in-armed-forces-initial-training",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Inspecting Cafcass: framework",
-      "url": "https://www.gov.uk/government/publications/inspecting-cafcass-framework",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Education inspection framework (EIF)",
-      "url": "https://www.gov.uk/government/publications/education-inspection-framework-eif",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Improving the way Ofsted inspects education: methods statement",
-      "url": "https://www.gov.uk/government/publications/improving-the-way-ofsted-inspects-education-methods-statement",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Area SEND review: what we heard and how we are improving",
-      "url": "https://www.gov.uk/government/publications/area-send-review-what-we-heard-and-how-we-are-improving",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Area SEND: framework and handbook",
-      "url": "https://www.gov.uk/government/publications/area-send-framework-and-handbook",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Martyn Oliver's speech at the Festival of Education",
-      "url": "https://www.gov.uk/government/speeches/martyn-olivers-speech-at-the-festival-of-education",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted schools research",
-      "url": "https://www.gov.uk/government/collections/ofsted-schools-research",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "AI in schools and further education: findings from early adopters",
-      "url": "https://www.gov.uk/government/publications/ai-in-schools-and-further-education-findings-from-early-adopters",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted’s equality objectives 2023 to 2027",
-      "url": "https://www.gov.uk/government/publications/ofsteds-equality-objectives-2023-to-2027",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "How childcare could be optimised across local areas",
-      "url": "https://www.gov.uk/government/publications/how-childcare-could-be-optimised-across-local-areas",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted Board meetings 2024: minutes",
-      "url": "https://www.gov.uk/government/publications/ofsted-board-meetings-2024-minutes",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Joint targeted area inspection of the multi-agency response to identification of initial need and risk",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-identification-of-initial-need-and-risk--2",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Sir Martyn Oliver's speech at the Guildhall",
-      "url": "https://www.gov.uk/government/speeches/sir-martyn-olivers-speech-at-the-guildhall",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted corporate annual report and accounts 2022 to 2023",
-      "url": "https://www.gov.uk/government/publications/ofsted-corporate-annual-report-and-accounts-2022-to-2023",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Childcare protocols between Ofsted and other organisations",
-      "url": "https://www.gov.uk/government/publications/protocols-between-ofsted-and-other-organisations-in-relation-to-childcare",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-ofsted",
-      "title": "Joint inspections of the response to children who are victims of domestic abuse",
-      "url": "https://www.gov.uk/government/publications/joint-inspections-of-the-response-to-children-living-with-domestic-abuse",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Inspecting secure training centres: framework",
-      "url": "https://www.gov.uk/government/publications/inspecting-secure-training-centres-framework",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "The multi-agency response to children who are victims of domestic abuse",
-      "url": "https://www.gov.uk/government/publications/the-multi-agency-response-to-children-who-are-victims-of-domestic-abuse",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "The experiences of children with SEND who are not in school: a thematic review",
-      "url": "https://www.gov.uk/government/publications/the-experiences-of-children-with-send-who-are-not-in-school-a-thematic-review",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Area SEND review: what we heard and how we are improving",
-      "url": "https://www.gov.uk/government/publications/area-send-review-what-we-heard-and-how-we-are-improving",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Area SEND: framework and handbook",
-      "url": "https://www.gov.uk/government/publications/area-send-framework-and-handbook",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Joint targeted area inspection of the multi-agency response to identification of initial need and risk",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-identification-of-initial-need-and-risk--2",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Joint inspections of the response to children who are victims of domestic abuse",
-      "url": "https://www.gov.uk/government/publications/joint-inspections-of-the-response-to-children-living-with-domestic-abuse",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Preparation for adulthood arrangements in local areas: a thematic review",
-      "url": "https://www.gov.uk/government/publications/preparation-for-adulthood-arrangements-in-local-areas-a-thematic-review",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Multi-agency responses to serious youth violence: working together to support and protect children",
-      "url": "https://www.gov.uk/government/publications/multi-agency-responses-to-serious-youth-violence-working-together-to-support-and-protect-children",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Alternative provision in local areas in England: a thematic review",
-      "url": "https://www.gov.uk/government/publications/alternative-provision-in-local-areas-in-england-a-thematic-review",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Joint targeted area inspection of the multi-agency response to the criminal exploitation of children",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-the-criminal-exploitation-of-children",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Solihull JTAI: the multi-agency response to identification of initial need and risk",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-the-multi-agency-response-to-identification-of-initial-need-and-risk",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "govuk-cqc",
-      "title": "Criminal exploitation and ‘county lines’: learn from past mistakes, report finds",
-      "url": "https://www.gov.uk/government/news/criminal-exploitation-and-county-lines-learn-from-past-mistakes-report-finds",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "New Forest District Council (25 029 330)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-029-330",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "Royal Borough of Kensington & Chelsea (25 031 894)",
-      "url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/25-031-894",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Croydon (25 006 534)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-006-534",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Ealing (25 013 910)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-013-910",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Islington (25 015 645)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-015-645",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Harrow (25 015 863)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-015-863",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Lambeth (25 016 737)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-016-737",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "Eastleigh Borough Council (25 022 025)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-022-025",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Waltham Forest (25 022 073)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-022-073",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-housing",
-      "title": "Coventry City Council (25 023 567)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-023-567",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Birmingham City Council (25 028 283)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/25-028-283",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Cumberland Council (25 030 266)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Macc Care (Stafford) Limited (25 006 402)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-006-402",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Derbyshire County Council (25 007 760)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-007-760",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Suffolk County Council (25 009 169)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-009-169",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Merton (25 009 890)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-009-890",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Kent County Council (25 022 106)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-022-106",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "East Sussex County Council (25 021 238)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transition-from-childrens-services/25-021-238",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Bracknell Forest Council (25 028 222)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-028-222",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Cheshire East Council (25 029 394)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-029-394",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "London Borough of Havering (25 010 766)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-010-766",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Oxfordshire County Council (25 016 430)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/disabled-children/25-016-430",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "London Borough of Redbridge (25 022 843)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-022-843",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Hampshire County Council (25 021 707)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-021-707",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Liverpool City Council (25 021 876)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/disabled-children/25-021-876",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Royal Borough of Windsor and Maidenhead Council (25 022 061)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-022-061",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Sheffield City Council (25 021 129)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-021-129",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "North Somerset Council (26 004 533)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-004-533",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Cheshire East Council (25 006 370)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-006-370",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Wakefield Metropolitan District Council (25 022 764)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-022-764",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "Shropshire Council (25 006 308)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-006-308",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "Essex County Council (25 013 424)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-013-424",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "North Yorkshire Council (25 014 027)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-014-027",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "London Borough of Haringey (25 021 973)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-973",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "Essex County Council (25 022 164)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-022-164",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "Surrey County Council (25 021 097)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-097",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "Surrey County Council (25 021 295)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-295",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "Essex County Council (25 021 495)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-495",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "North Yorkshire Council (25 021 591)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-021-591",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-education",
-      "title": "Birmingham City Council (25 020 082)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-020-082",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "Mole Valley District Council (26 005 581)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-005-581",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Havering (26 007 005)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-007-005",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "Leicester City Council (25 026 679)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-026-679",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "Hartlepool Borough Council (25 015 593)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-015-593",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Islington (26 007 050)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-007-050",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Croydon (25 001 487)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-001-487",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "Newcastle-under-Lyme Borough Council (25 023 265)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-023-265",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "Liverpool City Council (25 024 378)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-024-378",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "Medway Council (25 025 004)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-025-004",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "lgsco-benefits",
-      "title": "Nottingham City Council (25 025 442)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-025-442",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Skip to main content",
-      "url": "https://ico.org.uk/about-the-ico/media-centre/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "For the public",
-      "url": "https://ico.org.uk/for-the-public/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "For organisations",
-      "url": "https://ico.org.uk/for-organisations/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Make a complaint",
-      "url": "https://ico.org.uk/make-a-complaint/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Action we've taken",
-      "url": "https://ico.org.uk/action-weve-taken/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "About the ICO",
-      "url": "https://ico.org.uk/about-the-ico/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "[email protected]",
-      "url": "https://ico.org.uk/cdn-cgi/l/email-protection",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "contact us",
-      "url": "https://ico.org.uk/global/contact-us/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Official information",
-      "url": "https://ico.org.uk/for-the-public/official-information/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Nuisance calls",
-      "url": "https://ico.org.uk/for-the-public/nuisance-calls/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "UK GDPR guidance and resources",
-      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Freedom of information",
-      "url": "https://ico.org.uk/for-organisations/foi/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "EIR and access to information",
-      "url": "https://ico.org.uk/for-organisations/eir-and-access-to-information/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Direct marketing",
-      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Advice and services",
-      "url": "https://ico.org.uk/for-organisations/advice-and-services/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Enforcement action",
-      "url": "https://ico.org.uk/action-weve-taken/enforcement/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Decision notices",
-      "url": "https://ico.org.uk/action-weve-taken/decision-notices/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Audits and overview reports",
-      "url": "https://ico.org.uk/action-weve-taken/audits-and-overview-reports/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Download registration certificate",
-      "url": "https://ico.org.uk/about-the-ico/what-we-do/register-of-fee-payers/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Who we are",
-      "url": "https://ico.org.uk/about-the-ico/who-we-are/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "What we do",
-      "url": "https://ico.org.uk/about-the-ico/what-we-do/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Modern slavery statement",
-      "url": "https://ico.org.uk/about-the-ico/modern-slavery-statement/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Subscribe to our e-newsletter",
-      "url": "https://ico.org.uk/about-the-ico/media-centre/e-newsletter/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Privacy notice",
-      "url": "https://ico.org.uk/global/privacy-notice/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Accessibility",
-      "url": "https://ico.org.uk/global/accessibility/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "Disclaimer",
-      "url": "https://ico.org.uk/global/disclaimer/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T19:30:03.293Z",
-      "source_id": "ico-news",
-      "title": "© Copyright",
-      "url": "https://ico.org.uk/global/copyright-and-re-use-of-materials/",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Area SEND inspections and outcomes in England as at 31 December 2025",
-      "url": "https://www.gov.uk/government/statistics/area-send-inspections-and-outcomes-in-england-as-at-31-december-2025",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Thematic inspection of regional adoption agencies: phase 2",
-      "url": "https://www.gov.uk/government/publications/thematic-inspection-of-regional-adoption-agencies-phase-2",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Improving the way Ofsted inspects children’s social care",
-      "url": "https://www.gov.uk/government/consultations/improving-the-way-ofsted-inspects-childrens-social-care",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Understanding children’s social care sufficiency in England",
-      "url": "https://www.gov.uk/government/publications/understanding-childrens-social-care-sufficiency-in-england",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted Audit and Risk Assurance Committee minutes",
-      "url": "https://www.gov.uk/government/publications/ofsted-audit-committee-minutes",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Independent school inspection: toolkit, operating guide and information",
-      "url": "https://www.gov.uk/government/publications/independent-school-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Initial teacher education (ITE) inspection: toolkit, operating guide and framework",
-      "url": "https://www.gov.uk/government/publications/initial-teacher-education-ite-inspection-toolkit-operating-guide-and-framework",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Further education and skills inspection: toolkit, operating guides and information",
-      "url": "https://www.gov.uk/government/publications/further-education-and-skills-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Early years inspection: toolkit, operating guide and information",
-      "url": "https://www.gov.uk/government/publications/early-years-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "School inspection: toolkit, operating guides and information",
-      "url": "https://www.gov.uk/government/publications/school-inspection-toolkit-operating-guide-and-information",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted's ethical research policy",
-      "url": "https://www.gov.uk/government/publications/ofsteds-ethical-research-policy",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Ofsted: areas of research interest",
-      "url": "https://www.gov.uk/government/publications/ofsted-areas-of-research-interest",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Big Listen action monitoring reports",
-      "url": "https://www.gov.uk/government/publications/big-listen-action-monitoring-reports",
-      "reason": "relevance-gate"
-    },
-    {
-      "run_at": "2026-07-25T20:08:45.363Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): voluntary adoption agencies",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-voluntary-adoption-agencies",
-      "reason": "relevance-gate"
-    },
-    {
       "run_at": "2026-07-25T20:08:45.363Z",
       "source_id": "govuk-ofsted",
       "title": "Social care common inspection framework (SCCIF): residential family centres",
@@ -3244,6 +2180,1322 @@
     },
     {
       "run_at": "2026-07-25T20:22:58.742Z",
+      "source_id": "ico-news",
+      "title": "© Copyright",
+      "url": "https://ico.org.uk/global/copyright-and-re-use-of-materials/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Infected Blood Compensation Scheme (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/872/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Liverpool) (Emergency) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/871/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 6) (Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/870/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Colchester, Essex) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/868/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Supply of Machinery (Safety) (Amendment etc.) and the EU Machinery Regulation (Enforcement etc. in Northern Ireland) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/867/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (National Eisteddfod, Wales) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/865/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Royal Edinburgh Military Tattoo) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/862/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Wales Airshow) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/863/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 6) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/860/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Lifelong Learning (Student Support) (Amendment of Fees and Awards etc.) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/858/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Education (Student Loans) (Repayment) (Amendments for Lifelong Learning) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/857/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Industrial Training Levy (Engineering Construction Industry Training Board) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/859/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Rotherham, South Yorkshire) (Emergency) (Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/866/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Haytor, Devon) (Emergency) (Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/864/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Children’s Wellbeing and Schools Act 2026 (Establishment of Schools) (Consequential Amendments) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/855/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/654/pdfs/uksics_20260654_en_001.pdf",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Legal Aid, Sentencing and Punishment of Offenders Act 2012 (Legal Aid: Anti-social Behaviour and Prevention and Investigation Measures) (Miscellaneous Amendments) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/861/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Health and Social Care Act 2012 (Commencement No. 12) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/852/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Town and Country Planning (Discharge of Local Planning Authority Functions) (England) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/854/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Energy Act 2023 (Commencement No. 5, Saving Provisions) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/846/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/672/pdfs/uksics_20260672_en_001.pdf",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/621/pdfs/uksics_20260621_en_001.pdf",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Offshore (Oil and Gas) Installation and Pipeline Abandonment Charges (Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/853/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Bus Services Act 2025 (Commencement No. 2 and Transitional Provisions) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/834/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Nuclear Safeguards (EU Exit and Fees) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/835/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The A78 and A8 Trunk Roads (Bullring Roundabout) (Temporary Prohibition on Use of Road and Specified Turns) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/225/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The A76 Trunk Road (Sanquhar) (Temporary Prohibition on Waiting, Loading and Unloading) (No. 2) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/224/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The A85 Trunk Road (Lochearnhead) (Temporary Prohibition on Use of Road) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/223/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Trade (Mobile Roaming) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/837/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/591/pdfs/uksics_20260591_en_001.pdf",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/435/pdfs/uksics_20260435_en_001.pdf",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/323/pdfs/uksics_20260323_en_001.pdf",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/114/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Plugs and Sockets etc. (Safety) Regulations 1994 and Electricity Safety, Quality and Continuity Regulations 2002 (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/848/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Electricity Capacity (Amendment and Transitional Provision) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/850/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The REACH (Amendment) (No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/849/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The National Security Act 2023 (Designated Bodies) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/847/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/113/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Cambridge) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/661/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Nursing and Midwifery Council (Fees) (Practice Committee) (Fitness to Practise) (Amendment) Rules Order of Council 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/822/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (South Cerney) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/776/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/ssi/2026/145/pdfs/ssics_20260145_en_001.pdf",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Warboys, Somersham and Pidley Internal Drainage Board (Reconstitution) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/845/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Oxford Street Development Corporation (Functions) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/831/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Contracts for Difference (Definition of Eligible Generator) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/844/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The March and Euximoor Water Management Board Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/843/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The M25 Junction 10/A3 Wisley Interchange Development Consent (Amendment) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/842/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Access to the Countryside (Coastal Margin) (Silecroft to Silverdale) (No. 2) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/841/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Access to the Countryside (Coastal Margin) (Harwich to Shotley Gate) (No. 1) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/840/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "legislation-new",
+      "title": "The Justification Decision (Generation of Power by the RR SMR) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/839/made",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Area SEND inspections and outcomes in England as at 31 December 2025",
+      "url": "https://www.gov.uk/government/statistics/area-send-inspections-and-outcomes-in-england-as-at-31-december-2025",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Thematic inspection of regional adoption agencies: phase 2",
+      "url": "https://www.gov.uk/government/publications/thematic-inspection-of-regional-adoption-agencies-phase-2",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Improving the way Ofsted inspects children’s social care",
+      "url": "https://www.gov.uk/government/consultations/improving-the-way-ofsted-inspects-childrens-social-care",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Understanding children’s social care sufficiency in England",
+      "url": "https://www.gov.uk/government/publications/understanding-childrens-social-care-sufficiency-in-england",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted Audit and Risk Assurance Committee minutes",
+      "url": "https://www.gov.uk/government/publications/ofsted-audit-committee-minutes",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Independent school inspection: toolkit, operating guide and information",
+      "url": "https://www.gov.uk/government/publications/independent-school-inspection-toolkit-operating-guide-and-information",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Initial teacher education (ITE) inspection: toolkit, operating guide and framework",
+      "url": "https://www.gov.uk/government/publications/initial-teacher-education-ite-inspection-toolkit-operating-guide-and-framework",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Further education and skills inspection: toolkit, operating guides and information",
+      "url": "https://www.gov.uk/government/publications/further-education-and-skills-inspection-toolkit-operating-guide-and-information",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Early years inspection: toolkit, operating guide and information",
+      "url": "https://www.gov.uk/government/publications/early-years-inspection-toolkit-operating-guide-and-information",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "School inspection: toolkit, operating guides and information",
+      "url": "https://www.gov.uk/government/publications/school-inspection-toolkit-operating-guide-and-information",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted's ethical research policy",
+      "url": "https://www.gov.uk/government/publications/ofsteds-ethical-research-policy",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted: areas of research interest",
+      "url": "https://www.gov.uk/government/publications/ofsted-areas-of-research-interest",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Big Listen action monitoring reports",
+      "url": "https://www.gov.uk/government/publications/big-listen-action-monitoring-reports",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): voluntary adoption agencies",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-voluntary-adoption-agencies",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): residential family centres",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-residential-family-centres",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): children’s homes",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): residential provision of further education colleges",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-residential-provision-of-further-education-colleges",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): independent fostering agencies",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-independent-fostering-agencies",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): secure children’s homes",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-secure-childrens-homes",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): supported accommodation",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): residential holiday schemes for disabled children",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-residential-holiday-schemes-for-disabled-children",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): boarding schools and residential special schools",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-boarding-schools-and-residential-special-schools",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Inspecting secure training centres: framework",
+      "url": "https://www.gov.uk/government/publications/inspecting-secure-training-centres-framework",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): adoption support agencies",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-adoption-support-agencies",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Inspecting local authority children's services",
+      "url": "https://www.gov.uk/government/publications/inspecting-local-authority-childrens-services",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted announces changes to inspections of local authority children's services",
+      "url": "https://www.gov.uk/government/news/ofsted-announces-changes-to-inspections-of-local-authorities-childrens-services",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted Board meetings 2025: minutes",
+      "url": "https://www.gov.uk/government/publications/ofsted-board-meetings-2025-minutes",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "The multi-agency response to children who are victims of domestic abuse",
+      "url": "https://www.gov.uk/government/publications/the-multi-agency-response-to-children-who-are-victims-of-domestic-abuse",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "The experiences of children with SEND who are not in school: a thematic review",
+      "url": "https://www.gov.uk/government/publications/the-experiences-of-children-with-send-who-are-not-in-school-a-thematic-review",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted annual report 2024/25: education, children’s services and skills",
+      "url": "https://www.gov.uk/government/publications/ofsted-annual-report-202425-education-childrens-services-and-skills",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Risk assessment methodology: initial teacher education",
+      "url": "https://www.gov.uk/government/publications/risk-assessment-methodology-initial-teacher-education",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Welfare and duty of care in Armed Forces initial training",
+      "url": "https://www.gov.uk/government/publications/welfare-and-duty-of-care-in-armed-forces-initial-training",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Inspecting Cafcass: framework",
+      "url": "https://www.gov.uk/government/publications/inspecting-cafcass-framework",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Education inspection framework (EIF)",
+      "url": "https://www.gov.uk/government/publications/education-inspection-framework-eif",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Improving the way Ofsted inspects education: methods statement",
+      "url": "https://www.gov.uk/government/publications/improving-the-way-ofsted-inspects-education-methods-statement",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Area SEND review: what we heard and how we are improving",
+      "url": "https://www.gov.uk/government/publications/area-send-review-what-we-heard-and-how-we-are-improving",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Area SEND: framework and handbook",
+      "url": "https://www.gov.uk/government/publications/area-send-framework-and-handbook",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Martyn Oliver's speech at the Festival of Education",
+      "url": "https://www.gov.uk/government/speeches/martyn-olivers-speech-at-the-festival-of-education",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted schools research",
+      "url": "https://www.gov.uk/government/collections/ofsted-schools-research",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "AI in schools and further education: findings from early adopters",
+      "url": "https://www.gov.uk/government/publications/ai-in-schools-and-further-education-findings-from-early-adopters",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted’s equality objectives 2023 to 2027",
+      "url": "https://www.gov.uk/government/publications/ofsteds-equality-objectives-2023-to-2027",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "How childcare could be optimised across local areas",
+      "url": "https://www.gov.uk/government/publications/how-childcare-could-be-optimised-across-local-areas",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted Board meetings 2024: minutes",
+      "url": "https://www.gov.uk/government/publications/ofsted-board-meetings-2024-minutes",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Joint targeted area inspection of the multi-agency response to identification of initial need and risk",
+      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-identification-of-initial-need-and-risk--2",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Sir Martyn Oliver's speech at the Guildhall",
+      "url": "https://www.gov.uk/government/speeches/sir-martyn-olivers-speech-at-the-guildhall",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Ofsted corporate annual report and accounts 2022 to 2023",
+      "url": "https://www.gov.uk/government/publications/ofsted-corporate-annual-report-and-accounts-2022-to-2023",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Childcare protocols between Ofsted and other organisations",
+      "url": "https://www.gov.uk/government/publications/protocols-between-ofsted-and-other-organisations-in-relation-to-childcare",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-ofsted",
+      "title": "Joint inspections of the response to children who are victims of domestic abuse",
+      "url": "https://www.gov.uk/government/publications/joint-inspections-of-the-response-to-children-living-with-domestic-abuse",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Inspecting secure training centres: framework",
+      "url": "https://www.gov.uk/government/publications/inspecting-secure-training-centres-framework",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "The multi-agency response to children who are victims of domestic abuse",
+      "url": "https://www.gov.uk/government/publications/the-multi-agency-response-to-children-who-are-victims-of-domestic-abuse",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "The experiences of children with SEND who are not in school: a thematic review",
+      "url": "https://www.gov.uk/government/publications/the-experiences-of-children-with-send-who-are-not-in-school-a-thematic-review",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Area SEND review: what we heard and how we are improving",
+      "url": "https://www.gov.uk/government/publications/area-send-review-what-we-heard-and-how-we-are-improving",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Area SEND: framework and handbook",
+      "url": "https://www.gov.uk/government/publications/area-send-framework-and-handbook",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Joint targeted area inspection of the multi-agency response to identification of initial need and risk",
+      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-identification-of-initial-need-and-risk--2",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Joint inspections of the response to children who are victims of domestic abuse",
+      "url": "https://www.gov.uk/government/publications/joint-inspections-of-the-response-to-children-living-with-domestic-abuse",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Preparation for adulthood arrangements in local areas: a thematic review",
+      "url": "https://www.gov.uk/government/publications/preparation-for-adulthood-arrangements-in-local-areas-a-thematic-review",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Multi-agency responses to serious youth violence: working together to support and protect children",
+      "url": "https://www.gov.uk/government/publications/multi-agency-responses-to-serious-youth-violence-working-together-to-support-and-protect-children",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Alternative provision in local areas in England: a thematic review",
+      "url": "https://www.gov.uk/government/publications/alternative-provision-in-local-areas-in-england-a-thematic-review",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Joint targeted area inspection of the multi-agency response to the criminal exploitation of children",
+      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-the-criminal-exploitation-of-children",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Solihull JTAI: the multi-agency response to identification of initial need and risk",
+      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-the-multi-agency-response-to-identification-of-initial-need-and-risk",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "govuk-cqc",
+      "title": "Criminal exploitation and ‘county lines’: learn from past mistakes, report finds",
+      "url": "https://www.gov.uk/government/news/criminal-exploitation-and-county-lines-learn-from-past-mistakes-report-finds",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "New Forest District Council (25 029 330)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-029-330",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "Royal Borough of Kensington & Chelsea (25 031 894)",
+      "url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/25-031-894",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Croydon (25 006 534)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-006-534",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Ealing (25 013 910)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-013-910",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Islington (25 015 645)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-015-645",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Harrow (25 015 863)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-015-863",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Lambeth (25 016 737)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-016-737",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "Eastleigh Borough Council (25 022 025)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-022-025",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Waltham Forest (25 022 073)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-022-073",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-housing",
+      "title": "Coventry City Council (25 023 567)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-023-567",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Birmingham City Council (25 028 283)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/25-028-283",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Cumberland Council (25 030 266)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-030-266",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Macc Care (Stafford) Limited (25 006 402)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-006-402",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Derbyshire County Council (25 007 760)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-007-760",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Suffolk County Council (25 009 169)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-009-169",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "London Borough of Merton (25 009 890)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-009-890",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Kent County Council (25 022 106)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-022-106",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "East Sussex County Council (25 021 238)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transition-from-childrens-services/25-021-238",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Bracknell Forest Council (25 028 222)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-028-222",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Cheshire East Council (25 029 394)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-029-394",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Havering (25 010 766)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-010-766",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Oxfordshire County Council (25 016 430)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/disabled-children/25-016-430",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Redbridge (25 022 843)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-022-843",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Hampshire County Council (25 021 707)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-021-707",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Liverpool City Council (25 021 876)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/disabled-children/25-021-876",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Royal Borough of Windsor and Maidenhead Council (25 022 061)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-022-061",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Sheffield City Council (25 021 129)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-021-129",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "North Somerset Council (26 004 533)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-004-533",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Cheshire East Council (25 006 370)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-006-370",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Wakefield Metropolitan District Council (25 022 764)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-022-764",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "Shropshire Council (25 006 308)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-006-308",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "Essex County Council (25 013 424)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-013-424",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "North Yorkshire Council (25 014 027)",
+      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-014-027",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "London Borough of Haringey (25 021 973)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-973",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "Essex County Council (25 022 164)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-022-164",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "Surrey County Council (25 021 097)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-097",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "Surrey County Council (25 021 295)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-295",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "Essex County Council (25 021 495)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-021-495",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "North Yorkshire Council (25 021 591)",
+      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-021-591",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-education",
+      "title": "Birmingham City Council (25 020 082)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-020-082",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "Mole Valley District Council (26 005 581)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-005-581",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Havering (26 007 005)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-007-005",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "Leicester City Council (25 026 679)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-026-679",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "Hartlepool Borough Council (25 015 593)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-015-593",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Islington (26 007 050)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-007-050",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Croydon (25 001 487)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-001-487",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "Newcastle-under-Lyme Borough Council (25 023 265)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-023-265",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "Liverpool City Council (25 024 378)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-024-378",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "Medway Council (25 025 004)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-025-004",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "lgsco-benefits",
+      "title": "Nottingham City Council (25 025 442)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-025-442",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Skip to main content",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "For the public",
+      "url": "https://ico.org.uk/for-the-public/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "For organisations",
+      "url": "https://ico.org.uk/for-organisations/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Make a complaint",
+      "url": "https://ico.org.uk/make-a-complaint/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Action we've taken",
+      "url": "https://ico.org.uk/action-weve-taken/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "About the ICO",
+      "url": "https://ico.org.uk/about-the-ico/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "[email protected]",
+      "url": "https://ico.org.uk/cdn-cgi/l/email-protection",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "contact us",
+      "url": "https://ico.org.uk/global/contact-us/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Official information",
+      "url": "https://ico.org.uk/for-the-public/official-information/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Nuisance calls",
+      "url": "https://ico.org.uk/for-the-public/nuisance-calls/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "UK GDPR guidance and resources",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Freedom of information",
+      "url": "https://ico.org.uk/for-organisations/foi/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "EIR and access to information",
+      "url": "https://ico.org.uk/for-organisations/eir-and-access-to-information/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Direct marketing",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Advice and services",
+      "url": "https://ico.org.uk/for-organisations/advice-and-services/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Enforcement action",
+      "url": "https://ico.org.uk/action-weve-taken/enforcement/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Decision notices",
+      "url": "https://ico.org.uk/action-weve-taken/decision-notices/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Audits and overview reports",
+      "url": "https://ico.org.uk/action-weve-taken/audits-and-overview-reports/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Download registration certificate",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/register-of-fee-payers/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Who we are",
+      "url": "https://ico.org.uk/about-the-ico/who-we-are/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "What we do",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Modern slavery statement",
+      "url": "https://ico.org.uk/about-the-ico/modern-slavery-statement/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Subscribe to our e-newsletter",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/e-newsletter/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Privacy notice",
+      "url": "https://ico.org.uk/global/privacy-notice/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Accessibility",
+      "url": "https://ico.org.uk/global/accessibility/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
+      "source_id": "ico-news",
+      "title": "Disclaimer",
+      "url": "https://ico.org.uk/global/disclaimer/",
+      "reason": "relevance-gate"
+    },
+    {
+      "run_at": "2026-07-25T20:28:51.441Z",
       "source_id": "ico-news",
       "title": "© Copyright",
       "url": "https://ico.org.uk/global/copyright-and-re-use-of-materials/",
