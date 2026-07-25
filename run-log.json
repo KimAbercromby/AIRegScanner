@@ -341,6 +341,177 @@
           "items_seen": 32
         }
       ]
+    },
+    {
+      "run_at": "2026-07-25T20:22:58.742Z",
+      "mode": "normal",
+      "register_version": "0.3",
+      "sources_checked": 15,
+      "sources_skipped": 16,
+      "sources_failed": 1,
+      "items_seen": 447,
+      "added": 1,
+      "changed": 47,
+      "absorbed": 0,
+      "discarded": 188,
+      "outcome": "1 new, 47 changed.",
+      "sources": [
+        {
+          "id": "legislation-new",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "legislation-search-ai-title",
+          "status": "ok",
+          "items_seen": 2
+        },
+        {
+          "id": "statute-equality-2010",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-dpa-2018",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-duaa-2025",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-hra-1998",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-care-2014",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-children-1989",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-children-2004",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-lga-1999",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-housing-1996",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-foia-2000",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-procurement-2023",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-localism-2011",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "govuk-cabinet-office",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "govuk-gds",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "govuk-mhclg",
+          "status": "ok-but-empty",
+          "items_seen": 0
+        },
+        {
+          "id": "govuk-ofsted",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "govuk-cqc",
+          "status": "ok",
+          "items_seen": 13
+        },
+        {
+          "id": "govuk-dsit-legacy",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "ehrc-guidance",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "nao-reports",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "lga-guidance",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "bills-parliament",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "find-case-law",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "lgsco-housing",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-adult-care",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-childrens-care",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-education",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-benefits",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "ico-news",
+          "status": "ok",
+          "items_seen": 32
+        }
+      ]
     }
   ]
 }
