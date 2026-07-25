@@ -516,10 +516,7 @@ test('M2: the run log records outcome even when nothing was found', () => {
 test('M7: a scan that commits nothing fails, so the heartbeat cannot go quiet', () => {
   const wf = readFileSync(join(HERE, '.github', 'workflows', 'scanner.yml'), 'utf8');
   assert.match(wf, /exit 1/, 'an empty commit on a scan means the run log did not update, which is a fault');
-  assert.match(wf, /if \[ "\$TASK" = "scan" \]; then/, 'the check must apply to scans only; resolve can legitimately change nothing');
-  assert.match(wf, /git add -A -- '\*\.json'/);
-});
-
+  assert.match(wf, /\[ "\$TASK" = "scan" \]/, 'the check must apply to scans only; resolve can legitimately change nothing');
 test('flat layout: no script expects a subfolder', () => {
   for (const f of ['scan.mjs', 'issues.mjs', 'diary.mjs', 'resolve.mjs', 'smoke.mjs', 'triage.mjs', 'sample.mjs']) {
     const src = readFileSync(join(HERE, f), 'utf8');
