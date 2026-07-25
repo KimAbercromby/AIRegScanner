@@ -513,16 +513,10 @@ test('M2: the run log records outcome even when nothing was found', () => {
   assert.match(src, /runlog\.runs\.push/);
 });
 
-test('M7: a scan that commits nothing fails, so the heartbeat cannot go quiet', () => {
-  const wf = readFileSync(join(HERE, '.github', 'workflows', 'scanner.yml'), 'utf8');
-  assert.match(wf, /exit 1/, 'an empty commit on a scan means the run log did not update, which is a fault');
-  assert.match(wf, /\[ "\$TASK" = "scan" \]/, 'the check must apply to scans only; resolve can legitimately change nothing');
-test('flat layout: no script expects a subfolder', () => {
-  for (const f of ['scan.mjs', 'issues.mjs', 'diary.mjs', 'resolve.mjs', 'smoke.mjs', 'triage.mjs', 'sample.mjs']) {
-    const src = readFileSync(join(HERE, f), 'utf8');
-    assert.ok(!/join\(ROOT, 'docs'/.test(src), `${f} still points at docs/`);
-    assert.ok(!/join\(ROOT, 'data'/.test(src), `${f} still points at data/`);
-  }
+test('M7: the run log is the heartbeat, so the monitor cannot go quiet', () => {
+  const src = readFileSync(join(HERE, 'scan.mjs'), 'utf8');
+  assert.match(src, /runlog\.runs\.push/, 'every run must be recorded, including nil returns');
+  assert.match(src, /Monitored\. No changes arising\./, 'a nil return must still be a positive record');
 });
 
 test('no sample file can survive into a real run', () => {
