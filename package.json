@@ -1,6 +1,6 @@
 {
   "name": "ai-reg-scanner",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Regulatory horizon scanner for an English single-tier local authority. Flat layout: every file at the repository root so it can be uploaded without folders.",
   "type": "module",
   "private": true,
@@ -18,7 +18,8 @@
     "triage": "node triage.mjs",
     "discover": "node discover.mjs",
     "sample": "node sample.mjs",
-    "sample:clear": "node sample.mjs --clear"
+    "sample:clear": "node sample.mjs --clear",
+    "reset:phase1": "node reset-phase1.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "5.10.1",

@@ -33,6 +33,7 @@ const RUNNABLE = new Set(['verified', 'form-verified']);
 const DEEP_MAX = Number(process.env.DEEP_MAX ?? 40);   // body fetches per run
 const DISCARD_KEEP = 500;                              // discard entries retained
 const RUNLOG_KEEP = 400;                               // runs retained
+const STATE_IDENTITY_VERSION = 2;                    // v2 keys legislation by EffectId
 
 const readJSON = (p, fallback) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : fallback);
 const writeJSON = (p, obj) => { mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, JSON.stringify(obj, null, 2) + '\n'); };
@@ -89,6 +90,34 @@ export function metaHash(item) {
 
 export function bodyHash(text) {
   return sha(String(text).replace(/\s+/g, ' ').trim().toLowerCase());
+}
+
+/** Stable identity: legislation effects use EffectId, not the affected Act URL. */
+export function itemIdentityKey(source, item) {
+  const stable = source.type === 'atom-changes'
+    ? (item.effect_id || item.raw_id)
+    : (item.raw_id || item.url);
+  return `${source.id}::${stable || item.url}`;
+}
+
+/** Refuse to run old legislative state through the new identity algorithm. */
+export function assertStateIdentityVersion(state, sourcesFile) {
+  const keys = Object.keys(state.items || {});
+  if (keys.length === 0) { state.identity_version = STATE_IDENTITY_VERSION; return; }
+  if (state.identity_version === STATE_IDENTITY_VERSION) return;
+
+  const legislativeIds = (sourcesFile.sources || [])
+    .filter((s) => s.type === 'atom-changes')
+    .map((s) => `${s.id}::`);
+  const hasLegacyLegislativeState = keys.some((k) => legislativeIds.some((p) => k.startsWith(p)));
+  if (hasLegacyLegislativeState) {
+    throw new Error(
+      'STATE IDENTITY SAFETY STOP: this repository contains pre-EffectId legislative state. ' +
+      'Run npm run reset:phase1 to archive the old state and create a clean v2 baseline. ' +
+      'Impact records and GitHub Issues are preserved.'
+    );
+  }
+  state.identity_version = STATE_IDENTITY_VERSION;
 }
 
 export function stripToText(html) {
@@ -162,6 +191,8 @@ async function main() {
   const discards = readJSON(P.discards, { note: 'Items considered and rejected by the relevance gate. Retained so the gate can be audited.', entries: [] });
   const log = readJSON(P.log, { log_version: '0.5', playbook_version: mappings.target_playbook_version, next_record_id: 1, records: [] });
 
+  assertStateIdentityVersion(state, sourcesFile);
+
   // Demo records are marked. Clear them rather than relying on anyone
   // remembering, because forgetting means issues about invented items.
   // Demo data ships marked. Clear ALL of it, not just the impact log: a sample
@@ -233,7 +264,7 @@ async function main() {
         continue;
       }
 
-      const key = `${source.id}::${item.url}`;
+      const key = itemIdentityKey(source, item);
       const meta = metaHash(item);
       const prior = state.items[key];
 
@@ -327,6 +358,7 @@ async function main() {
   const pendingIssues = log.records.filter((r) => r.status === 'unreviewed' && !r.issue_number).length;
   if (pendingIssues > 25) { capHit = true; health.issue_cap_warning = `${pendingIssues} records await an issue but only 25 are created per run. The queue will take ${Math.ceil(pendingIssues / 25)} runs to clear.`; }
 
+  state.identity_version = STATE_IDENTITY_VERSION;
   state.last_run = runAt;
 
   if (dryRun) {

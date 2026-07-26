@@ -586,3 +586,35 @@ test('the ICO entry records that the publisher withdrew its feeds', () => {
   assert.match(ico.scope + ico.verify_note, /RSS/i, 'why scraping is necessary must be on the record');
   assert.equal(ico.type, 'html-list');
 });
+
+
+// ---- v0.7: stable legislative EffectId identity ----
+
+test('legislation changes use EffectId as the stable item identity', async () => {
+  const { parseAtomChanges } = await import('./fetchers.mjs');
+  const { itemIdentityKey } = await import('./scan.mjs');
+  const xml = `<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"><entry><id>https://www.legislation.gov.uk/changes/affected/ukpga/2010/15/1</id><title>Effect one</title><content><ukm:Effect Id="effect-123" Type="amendment" AffectedURI="https://www.legislation.gov.uk/ukpga/2010/15/section/149" /></content></entry></feed>`;
+  const [item] = parseAtomChanges(xml);
+  assert.equal(item.effect_id, 'effect-123');
+  assert.equal(item.raw_id, 'effect-123');
+  assert.equal(itemIdentityKey({ id: 'statute-equality-2010', type: 'atom-changes' }, item), 'statute-equality-2010::effect-123');
+});
+
+test('two effects against the same provision remain separate records', async () => {
+  const { itemIdentityKey } = await import('./scan.mjs');
+  const source = { id: 'statute-equality-2010', type: 'atom-changes' };
+  const url = 'https://www.legislation.gov.uk/ukpga/2010/15/section/149';
+  assert.notEqual(
+    itemIdentityKey(source, { effect_id: 'effect-A', raw_id: 'effect-A', url }),
+    itemIdentityKey(source, { effect_id: 'effect-B', raw_id: 'effect-B', url })
+  );
+});
+
+test('legacy legislative state triggers the Phase 1 safety stop', async () => {
+  const { assertStateIdentityVersion } = await import('./scan.mjs');
+  const state = { items: { 'statute-equality-2010::https://www.legislation.gov.uk/ukpga/2010/15/section/149': { hash: 'x' } } };
+  assert.throws(
+    () => assertStateIdentityVersion(state, { sources: [{ id: 'statute-equality-2010', type: 'atom-changes' }] }),
+    /STATE IDENTITY SAFETY STOP/
+  );
+});
