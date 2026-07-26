@@ -1,0 +1,197 @@
+name: Apply Phase 1 final repair
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/phase1-final.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Apply Phase 1 final changes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          def replace_once(path, old, new):
+              p = Path(path)
+              text = p.read_text()
+              if new in text:
+                  return
+              if old not in text:
+                  raise SystemExit(f'Expected text not found in {path}: {old[:100]!r}')
+              p.write_text(text.replace(old, new, 1))
+
+          # 1. Extract the legislation.gov.uk Effect Id and use it as raw_id.
+          replace_once(
+              'fetchers.mjs',
+              "    let inForce = null;\n    let effectType = null;\n    if (effect) {\n      effectType = effect['@Type'] ?? null;",
+              "    let inForce = null;\n    let effectType = null;\n    let effectId = null;\n    if (effect) {\n      effectType = effect['@Type'] ?? null;\n      effectId = effect['@Id'] ?? effect['@ID'] ?? effect['@EffectId'] ?? null;"
+          )
+          replace_once(
+              'fetchers.mjs',
+              "      raw_id: text(e.id),\n      title: text(e.title),\n      url: effect?.['@AffectedURI'] ?? text(e.id),",
+              "      raw_id: effectId || text(e.id),\n      effect_id: effectId,\n      title: text(e.title),\n      url: effect?.['@AffectedURI'] ?? text(e.id),"
+          )
+
+          # 2. Add versioned identity functions and a safety stop for legacy state.
+          replace_once(
+              'scan.mjs',
+              "const RUNLOG_KEEP = 400;                               // runs retained\n",
+              "const RUNLOG_KEEP = 400;                               // runs retained\nconst STATE_IDENTITY_VERSION = 2;                    // v2 keys legislation by EffectId\n"
+          )
+          replace_once(
+              'scan.mjs',
+              "export function bodyHash(text) {\n  return sha(String(text).replace(/\\s+/g, ' ').trim().toLowerCase());\n}\n",
+              "export function bodyHash(text) {\n  return sha(String(text).replace(/\\s+/g, ' ').trim().toLowerCase());\n}\n\n/** Stable identity: legislation effects use EffectId, not the affected Act URL. */\nexport function itemIdentityKey(source, item) {\n  const stable = source.type === 'atom-changes'\n    ? (item.effect_id || item.raw_id)\n    : (item.raw_id || item.url);\n  return `${source.id}::${stable || item.url}`;\n}\n\n/** Refuse to run old legislative state through the new identity algorithm. */\nexport function assertStateIdentityVersion(state, sourcesFile) {\n  const keys = Object.keys(state.items || {});\n  if (keys.length === 0) { state.identity_version = STATE_IDENTITY_VERSION; return; }\n  if (state.identity_version === STATE_IDENTITY_VERSION) return;\n\n  const legislativeIds = (sourcesFile.sources || [])\n    .filter((s) => s.type === 'atom-changes')\n    .map((s) => `${s.id}::`);\n  const hasLegacyLegislativeState = keys.some((k) => legislativeIds.some((p) => k.startsWith(p)));\n  if (hasLegacyLegislativeState) {\n    throw new Error(\n      'STATE IDENTITY SAFETY STOP: this repository contains pre-EffectId legislative state. ' +\n      'Run npm run reset:phase1 to archive the old state and create a clean v2 baseline. ' +\n      'Impact records and GitHub Issues are preserved.'\n    );\n  }\n  state.identity_version = STATE_IDENTITY_VERSION;\n}\n"
+          )
+          replace_once(
+              'scan.mjs',
+              "  const log = readJSON(P.log, { log_version: '0.5', playbook_version: mappings.target_playbook_version, next_record_id: 1, records: [] });\n",
+              "  const log = readJSON(P.log, { log_version: '0.5', playbook_version: mappings.target_playbook_version, next_record_id: 1, records: [] });\n\n  assertStateIdentityVersion(state, sourcesFile);\n"
+          )
+          replace_once(
+              'scan.mjs',
+              "      const key = `${source.id}::${item.url}`;",
+              "      const key = itemIdentityKey(source, item);"
+          )
+          replace_once(
+              'scan.mjs',
+              "  state.last_run = runAt;",
+              "  state.identity_version = STATE_IDENTITY_VERSION;\n  state.last_run = runAt;"
+          )
+
+          # 3. Correct the MHCLG organisation slug and bump the source register.
+          replace_once(
+              'sources.json',
+              'ministry-of-housing-communities-and-local-government',
+              'ministry-of-housing-communities-local-government'
+          )
+          data = json.loads(Path('sources.json').read_text())
+          data['register_version'] = '0.4'
+          data['register_updated'] = '2026-07-26'
+          for src in data['sources']:
+              if src.get('id') == 'govuk-mhclg':
+                  src['last_verified'] = '2026-07-26'
+                  src['verify_note'] = 'Organisation slug corrected and confirmed as ministry-of-housing-communities-local-government.'
+          Path('sources.json').write_text(json.dumps(data, indent=2) + '\n')
+
+          # 4. Controlled, non-destructive state reset utility.
+          Path('reset-phase1.mjs').write_text(r'''#!/usr/bin/env node
+          import { copyFileSync, existsSync, readFileSync, writeFileSync } from 'node:fs';
+
+          const statePath = new URL('./state.json', import.meta.url);
+          const backupPath = new URL('./state-pre-effectid-v1.json', import.meta.url);
+
+          if (!existsSync(statePath)) {
+            console.error('state.json was not found. Nothing changed.');
+            process.exit(1);
+          }
+          if (existsSync(backupPath)) {
+            console.error('state-pre-effectid-v1.json already exists. Refusing to overwrite the audit backup.');
+            process.exit(1);
+          }
+
+          const current = JSON.parse(readFileSync(statePath, 'utf8'));
+          copyFileSync(statePath, backupPath);
+          writeFileSync(statePath, JSON.stringify({
+            identity_version: 2,
+            last_run: null,
+            reset_from: 'pre-effectid-v1',
+            reset_at: new Date().toISOString(),
+            archived_item_count: Object.keys(current.items || {}).length,
+            items: {}
+          }, null, 2) + '\n');
+
+          console.log('Archived old state as state-pre-effectid-v1.json.');
+          console.log('Created an empty identity v2 state. Run npm run scan to establish a new baseline.');
+          console.log('impact-log.json and GitHub Issues were not changed.');
+          ''')
+
+          pkg = json.loads(Path('package.json').read_text())
+          pkg['version'] = '0.7.0'
+          pkg['scripts']['reset:phase1'] = 'node reset-phase1.mjs'
+          Path('package.json').write_text(json.dumps(pkg, indent=2) + '\n')
+
+          # 5. Regression tests for stable repeated amendment identity and safety stop.
+          tests = Path('scan.test.mjs')
+          text = tests.read_text()
+          marker = "// ---- v0.7: stable legislative EffectId identity ----"
+          if marker not in text:
+              text += r'''
+
+          // ---- v0.7: stable legislative EffectId identity ----
+
+          test('legislation changes use EffectId as the stable item identity', async () => {
+            const { parseAtomChanges } = await import('./fetchers.mjs');
+            const { itemIdentityKey } = await import('./scan.mjs');
+            const xml = `<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"><entry><id>https://www.legislation.gov.uk/changes/affected/ukpga/2010/15/1</id><title>Effect one</title><content><ukm:Effect Id="effect-123" Type="amendment" AffectedURI="https://www.legislation.gov.uk/ukpga/2010/15/section/149" /></content></entry></feed>`;
+            const [item] = parseAtomChanges(xml);
+            assert.equal(item.effect_id, 'effect-123');
+            assert.equal(item.raw_id, 'effect-123');
+            assert.equal(itemIdentityKey({ id: 'statute-equality-2010', type: 'atom-changes' }, item), 'statute-equality-2010::effect-123');
+          });
+
+          test('two effects against the same provision remain separate records', async () => {
+            const { itemIdentityKey } = await import('./scan.mjs');
+            const source = { id: 'statute-equality-2010', type: 'atom-changes' };
+            const url = 'https://www.legislation.gov.uk/ukpga/2010/15/section/149';
+            assert.notEqual(
+              itemIdentityKey(source, { effect_id: 'effect-A', raw_id: 'effect-A', url }),
+              itemIdentityKey(source, { effect_id: 'effect-B', raw_id: 'effect-B', url })
+            );
+          });
+
+          test('legacy legislative state triggers the Phase 1 safety stop', async () => {
+            const { assertStateIdentityVersion } = await import('./scan.mjs');
+            const state = { items: { 'statute-equality-2010::https://www.legislation.gov.uk/ukpga/2010/15/section/149': { hash: 'x' } } };
+            assert.throws(
+              () => assertStateIdentityVersion(state, { sources: [{ id: 'statute-equality-2010', type: 'atom-changes' }] }),
+              /STATE IDENTITY SAFETY STOP/
+            );
+          });
+          '''
+              tests.write_text(text)
+
+          Path('PHASE1_RESET_PLAN.md').write_text('''# Phase 1 controlled state reset
+
+          The stable legislative identity repair changes state keys for `atom-changes` sources from the affected page URL to the publisher supplied `EffectId`. Reusing the old state would make existing effects appear new, so the scanner now stops safely instead.
+
+          ## Procedure
+
+          1. Keep `impact-log.json` and all GitHub Issues unchanged. They are the audit history.
+          2. Run `npm run reset:phase1` once.
+          3. Confirm `state-pre-effectid-v1.json` exists. This is the immutable backup of the old scanner state.
+          4. Run `npm run scan`. The first run establishes a clean v2 baseline and creates no review records.
+          5. Run the scanner again only when a genuine later change is expected, or allow the normal schedule to do so.
+
+          The reset utility refuses to overwrite an existing backup.
+          ''')
+          PY
+
+      - name: Run regression suite
+        run: npm test
+
+      - name: Commit repaired Phase 1 files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fetchers.mjs scan.mjs scan.test.mjs sources.json package.json reset-phase1.mjs PHASE1_RESET_PLAN.md
+          git commit -m "Phase 1: stabilise legislative EffectId tracking"
+          git push
