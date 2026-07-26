@@ -136,14 +136,17 @@ export function parseAtomChanges(xml) {
     const effect = e.content?.['ukm:Effect'] ?? e['ukm:Effect'] ?? null;
     let inForce = null;
     let effectType = null;
+    let effectId = null;
     if (effect) {
       effectType = effect['@Type'] ?? null;
+      effectId = effect['@Id'] ?? effect['@ID'] ?? effect['@EffectId'] ?? null;
       const inForceNodes = toArray(effect['ukm:InForceDates']?.['ukm:InForce']);
       const dates = inForceNodes.map((n) => n['@Date']).filter(Boolean).sort();
       inForce = dates.length ? dates[0] : null;
     }
     return {
-      raw_id: text(e.id),
+      raw_id: effectId || text(e.id),
+      effect_id: effectId,
       title: text(e.title),
       url: effect?.['@AffectedURI'] ?? text(e.id),
       date_published: text(e.published) || text(e.updated) || null,
