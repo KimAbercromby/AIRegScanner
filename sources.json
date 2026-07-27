@@ -72,7 +72,7 @@
       "tier": 1,
       "authority": "Data Protection Act 2018.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2018/12/data.feed?results-count=100",
       "resolve": {
         "title": "Data Protection Act 2018",
         "type": "ukpga",
@@ -84,9 +84,9 @@
       ],
       "scope": "The DUAA amendments land here as effects, carrying in-force dates.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2018 c.12 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-duaa-2025",
@@ -94,7 +94,7 @@
       "tier": 1,
       "authority": "Data (Use and Access) Act 2025. Source of Articles 22A to 22D, cited across the playbook and DPIA template.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2025/18/data.feed?results-count=100",
       "resolve": {
         "title": "Data (Use and Access) Act 2025",
         "type": "ukpga",
@@ -106,9 +106,9 @@
       ],
       "scope": "Commencement and amendment of the ADM safeguards regime.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2025 c.18 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-hra-1998",
@@ -116,7 +116,7 @@
       "tier": 1,
       "authority": "Human Rights Act 1998.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/1998/42/data.feed?results-count=100",
       "resolve": {
         "title": "Human Rights Act 1998",
         "type": "ukpga",
@@ -128,9 +128,9 @@
       ],
       "scope": "Feeds the HRA artefact.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 1998 c.42 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-care-2014",
@@ -138,7 +138,7 @@
       "tier": 1,
       "authority": "Care Act 2014. Adult social care is where the highest-risk council AI tends to sit.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2014/23/data.feed?results-count=100",
       "resolve": {
         "title": "Care Act 2014",
         "type": "ukpga",
@@ -150,9 +150,9 @@
       ],
       "scope": "Assessment and eligibility duties that AI triage tools touch directly.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2014 c.23 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-children-1989",
@@ -160,7 +160,7 @@
       "tier": 1,
       "authority": "Children Act 1989.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/1989/41/data.feed?results-count=100",
       "resolve": {
         "title": "Children Act 1989",
         "type": "ukpga",
@@ -172,9 +172,9 @@
       ],
       "scope": "s.17 and s.47 duties in children's social care.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 1989 c.41 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-children-2004",
@@ -182,7 +182,7 @@
       "tier": 1,
       "authority": "Children Act 2004.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2004/31/data.feed?results-count=100",
       "resolve": {
         "title": "Children Act 2004",
         "type": "ukpga",
@@ -194,9 +194,9 @@
       ],
       "scope": "s.11 safeguarding duty and multi-agency arrangements.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2004 c.31 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-housing-1996",
@@ -204,7 +204,7 @@
       "tier": 1,
       "authority": "Housing Act 1996. Part VII homelessness decisions are highly automatable and highly contestable.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/1996/52/data.feed?results-count=100",
       "resolve": {
         "title": "Housing Act 1996",
         "type": "ukpga",
@@ -216,9 +216,9 @@
       ],
       "scope": "Homelessness duties and the statutory review right.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 1996 c.52 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-foia-2000",
@@ -226,7 +226,7 @@
       "tier": 1,
       "authority": "Freedom of Information Act 2000.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2000/36/data.feed?results-count=100",
       "resolve": {
         "title": "Freedom of Information Act 2000",
         "type": "ukpga",
@@ -238,9 +238,9 @@
       ],
       "scope": "Disclosure exposure for model documentation and register contents.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2000 c.36 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-procurement-2023",
@@ -248,7 +248,7 @@
       "tier": 1,
       "authority": "Procurement Act 2023. Most council AI is bought, so this bites before any internal gate does.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2023/54/data.feed?results-count=100",
       "resolve": {
         "title": "Procurement Act 2023",
         "type": "ukpga",
@@ -260,9 +260,9 @@
       ],
       "scope": "Feeds the Supplier DDQ and the procurement gate.",
       "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2023 c.54 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "govuk-cabinet-office",
