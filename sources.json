@@ -1,6 +1,6 @@
 {
   "register_version": "0.4",
-  "register_updated": "2026-07-26",
+  "register_updated": "2026-07-27",
   "review_cadence_days": 90,
   "scope": {
     "jurisdiction": "England",
@@ -199,28 +199,6 @@
       "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
     },
     {
-      "id": "statute-lga-1999",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Local Government Act 1999. The best value duty is the framework an efficiency-justified AI deployment gets judged against.",
-      "type": "atom-changes",
-      "url": null,
-      "resolve": {
-        "title": "Local Government Act 1999",
-        "type": "ukpga",
-        "year": "1999"
-      },
-      "allowed_domains": [
-        "legislation.gov.uk",
-        "www.legislation.gov.uk"
-      ],
-      "scope": "Best value duty.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
-    },
-    {
       "id": "statute-housing-1996",
       "publisher": "The National Archives (legislation.gov.uk)",
       "tier": 1,
@@ -281,28 +259,6 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Feeds the Supplier DDQ and the procurement gate.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
-    },
-    {
-      "id": "statute-localism-2011",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Localism Act 2011. General power of competence, and part of the delegated authority picture.",
-      "type": "atom-changes",
-      "url": null,
-      "resolve": {
-        "title": "Localism Act 2011",
-        "type": "ukpga",
-        "year": "2011"
-      },
-      "allowed_domains": [
-        "legislation.gov.uk",
-        "www.legislation.gov.uk"
-      ],
-      "scope": "Relevant to the delegated authority argument in the multi-board work.",
       "filter": "none",
       "verification_status": "unverified",
       "last_verified": null,

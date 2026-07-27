@@ -41,10 +41,23 @@ test('ISO/IEC 42001 and NIST are present and recorded as gaps', () => {
   }
 });
 
-test('the two outstanding decisions are carried in the map', () => {
-  const ids = new Set(map.decisions_required.map((d) => d.id));
-  assert.ok(ids.has('best-value'), 'best-value decision present');
-  assert.ok(ids.has('operational-layer'), 'operational-layer decision present');
+// Localism 2011 and the Local Government Act 1999 (best value) were removed from
+// the scanner on 27 July, since the playbook names neither. Guard that they do
+// not creep back into the map without the source list being updated too.
+test('the trimmed-out statutes are not referenced anywhere in the map', () => {
+  const referenced = new Set();
+  for (const section of [map.playbook_landscape, map.operational_layer]) {
+    for (const it of section) for (const id of it.watched_by ?? []) referenced.add(id);
+  }
+  assert.ok(!referenced.has('statute-lga-1999'), 'Local Government Act 1999 (best value) removed');
+  assert.ok(!referenced.has('statute-localism-2011'), 'Localism Act 2011 removed');
+});
+
+test('the four kept service statutes remain in the operational layer', () => {
+  const items = new Set(map.operational_layer.map((x) => x.item));
+  for (const name of ['Care Act 2014', 'Children Act 1989', 'Children Act 2004', 'Housing Act 1996']) {
+    assert.ok(items.has(name), `${name} kept`);
+  }
 });
 
 // reconcile must compute live/dark/gap from the source list, not echo the map,
