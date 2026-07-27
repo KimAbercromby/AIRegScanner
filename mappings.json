@@ -282,29 +282,6 @@
       "reference_only": false
     },
     {
-      "id": "psed-best-value",
-      "label": "Best value and the duty to secure economy, efficiency and effectiveness",
-      "keywords": [
-        "best value",
-        "value for money",
-        "efficiency saving",
-        "local government act 1999",
-        "statutory guidance on best value",
-        "service reconfiguration"
-      ],
-      "affects_sections": [
-        "3.9.6",
-        "3.11"
-      ],
-      "affects_artefacts": [
-        "Governance Report Template",
-        "Dashboard",
-        "Rollout Plan"
-      ],
-      "reference_only": false,
-      "why": "AI deployments in councils are almost always justified on efficiency grounds, which puts them inside the best value duty. That is the framework a challenge or an auditor will use, and it is what the measurement families have to be able to answer."
-    },
-    {
       "id": "maladministration",
       "label": "Maladministration and Ombudsman findings",
       "keywords": [

@@ -146,7 +146,6 @@ test('a mixed item is not treated as reference-only', () => {
 test('council duty topics map to the right artefacts', () => {
   const cases = [
     ['Ombudsman finds maladministration in housing allocation', 'maladministration', 'Incident Report Form'],
-    ['Statutory guidance on best value', 'psed-best-value', 'Dashboard'],
     ['Working together to safeguard children: update', 'safeguarding', 'RAIA'],
     ['Procurement Policy Note: contracting authority duties', 'procurement-regime', 'Supplier DDQ'],
     ['Freedom of Information: publication scheme guidance', 'information-rights', 'Model Card Template']
