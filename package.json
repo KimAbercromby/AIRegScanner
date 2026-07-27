@@ -1,6 +1,6 @@
 {
   "name": "ai-reg-scanner",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Regulatory horizon scanner for an English single-tier local authority. Flat layout: every file at the repository root so it can be uploaded without folders.",
   "type": "module",
   "private": true,

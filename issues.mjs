@@ -16,10 +16,13 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { TEMPLATE, decisionFromComments, authorityFor } from './decision.mjs';
+import { recordIsFocused } from './scan.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const LOG = join(ROOT, 'impact-log.json');
 const REVIEWERS = join(ROOT, 'reviewers.json');
+const SOURCES = join(ROOT, 'sources.json');
+const MAPPINGS = join(ROOT, 'mappings.json');
 
 const API = 'https://api.github.com';
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -147,6 +150,8 @@ async function main() {
     return;
   }
   const reviewers = existsSync(REVIEWERS) ? JSON.parse(readFileSync(REVIEWERS, 'utf8')) : { reviewers: [] };
+  const sources = JSON.parse(readFileSync(SOURCES, 'utf8'));
+  const mappings = JSON.parse(readFileSync(MAPPINGS, 'utf8'));
 
   let opened = 0, closed = 0, synced = 0, rejected = 0;
 
@@ -230,7 +235,11 @@ async function main() {
   }
 
   // 3. Open issues for anything unreviewed without one.
-  const queue = log.records.filter((r) => r.status === 'unreviewed' && !r.issue_number);
+  const queue = log.records.filter((r) =>
+    r.status === 'unreviewed' &&
+    !r.issue_number &&
+    recordIsFocused(r, sources, mappings)
+  );
   const pending = queue.slice(0, MAX_NEW);
 
   if (pending.length && !dryRun) {
@@ -260,8 +269,11 @@ async function main() {
 
   if (!dryRun) writeFileSync(LOG, JSON.stringify(log, null, 2) + '\n');
   console.log(`\n${opened} opened, ${closed} closed, ${synced} reviewed, ${rejected} closed without a valid decision.`);
-  const remaining = log.records.filter((r) => r.status === 'unreviewed').length;
-  if (remaining) console.log(`${remaining} record(s) still unreviewed.`);
+  const remaining = log.records.filter((r) =>
+    r.status === 'unreviewed' &&
+    recordIsFocused(r, sources, mappings)
+  ).length;
+  if (remaining) console.log(`${remaining} focused record(s) still unreviewed.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

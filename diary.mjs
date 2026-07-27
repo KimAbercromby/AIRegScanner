@@ -17,10 +17,13 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { recordIsFocused } from './scan.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const LOG = join(ROOT, 'impact-log.json');
 const DIARY = join(ROOT, 'diary.json');
+const SOURCES = join(ROOT, 'sources.json');
+const MAPPINGS = join(ROOT, 'mappings.json');
 
 const API = 'https://api.github.com';
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -50,9 +53,9 @@ export function dueMilestone(rec, now = new Date()) {
 }
 
 /** Everything with a future commencement, soonest first. Drives the viewer. */
-export function upcoming(records, now = new Date()) {
+export function upcoming(records, now = new Date(), include = () => true) {
   return records
-    .filter((r) => r.date_in_force && daysUntil(r.date_in_force, now) !== null && daysUntil(r.date_in_force, now) >= 0)
+    .filter((r) => include(r) && r.date_in_force && daysUntil(r.date_in_force, now) !== null && daysUntil(r.date_in_force, now) >= 0)
     .map((r) => ({
       record_id: r.record_id,
       title: r.title,
@@ -115,9 +118,12 @@ async function main() {
 
   const log = JSON.parse(readFileSync(LOG, 'utf8'));
   if (log.sample_data) { console.log('Sample data present. Refusing to raise diary issues.'); return; }
+  const sources = JSON.parse(readFileSync(SOURCES, 'utf8'));
+  const mappings = JSON.parse(readFileSync(MAPPINGS, 'utf8'));
+  const focused = (rec) => recordIsFocused(rec, sources, mappings);
 
   const now = new Date();
-  const list = upcoming(log.records, now);
+  const list = upcoming(log.records, now, focused);
 
   writeFileSync(DIARY, JSON.stringify({
     generated_at: now.toISOString(),
@@ -134,6 +140,7 @@ async function main() {
 
   let raised = 0;
   for (const rec of log.records) {
+    if (!focused(rec)) continue;
     const milestone = dueMilestone(rec, now);
     if (milestone === null) continue;
 

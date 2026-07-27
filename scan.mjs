@@ -5,7 +5,7 @@
  * Design rules, in priority order:
  *   1. Sources are an allowlist. Nothing is discovered, only checked.
  *   2. The record is what was retrieved. Nothing generated is ever the record.
- *   3. Every item lands as "unreviewed". The tool never decides what matters.
+ *   3. Every focused candidate lands as "unreviewed". A person decides what it means.
  *   4. A source that fails is reported loudly, never skipped silently.
  *   5. The tool must be able to prove it looked, not only what it found.
  */
@@ -76,6 +76,85 @@ export function classify(item, mappings) {
 export function passesRelevanceGate(item, mappings) {
   const hay = `${item.title ?? ''} ${item.summary ?? ''}`.toLowerCase();
   return mappings.relevance_gate.any_of.some((k) => hay.includes(k.toLowerCase()));
+}
+
+const matchingTerms = (hay, terms = []) => terms.filter((term) => hay.includes(term.toLowerCase()));
+
+/**
+ * High-signal relevance decision. Ordinary watched-statute changes are assessed
+ * against the amending instrument (the text before "effect on"), not the name
+ * of the affected Act. Otherwise every amendment to the Equality Act, Housing
+ * Act or another watched statute looks relevant merely because the target Act
+ * appears in the generated title.
+ */
+export function sourceRelevanceDecision(source, item, mappings) {
+  if (source.filter === 'none' || !source.filter) {
+    return { keep: true, reason: 'source-unfiltered', priority: [], ai: [], governance: [] };
+  }
+
+  if (source.filter === 'keywords') {
+    const keep = passesRelevanceGate(item, mappings);
+    return {
+      keep,
+      reason: keep ? 'ai-keyword' : 'no-ai-keyword',
+      priority: [],
+      ai: keep ? matchingTerms(`${item.title ?? ''} ${item.summary ?? ''}`.toLowerCase(), mappings.relevance_gate.any_of) : [],
+      governance: []
+    };
+  }
+
+  if (source.filter !== 'ai-governance') {
+    return { keep: false, reason: `unknown-filter:${source.filter}`, priority: [], ai: [], governance: [] };
+  }
+
+  const gate = mappings.focus_gate;
+  if (!gate) {
+    return { keep: false, reason: 'focus-gate-not-configured', priority: [], ai: [], governance: [] };
+  }
+
+  const fullTitle = String(item.title ?? '').toLowerCase();
+  const instrumentTitle = source.type === 'atom-changes'
+    ? fullTitle.split(/\s+effect on\s+/i)[0]
+    : fullTitle;
+  const hay = `${instrumentTitle} ${item.summary ?? ''}`.toLowerCase();
+  const priority = matchingTerms(hay, gate.priority_phrases);
+  const ai = matchingTerms(hay, gate.ai_signals);
+  const governance = matchingTerms(hay, gate.governance_signals);
+
+  const isLegislationGovUk = (source.allowed_domains ?? [])
+    .some((d) => d === 'legislation.gov.uk' || d.endsWith('.legislation.gov.uk'));
+  if (isLegislationGovUk && source.type !== 'atom-changes') {
+    let type = null;
+    try { type = new URL(item.url).pathname.split('/').filter(Boolean)[0] ?? null; } catch { /* rejected below */ }
+    if (!gate.allowed_uk_legislation_types.includes(type)) {
+      return { keep: false, reason: 'outside-uk-legislation-scope', priority, ai, governance };
+    }
+  }
+
+  // A changes feed is already legal material, so a direct AI signal or named
+  // priority framework is sufficient. General feeds must also show a legal,
+  // assurance, public-sector or governance consequence.
+  const keep = source.type === 'atom-changes'
+    ? priority.length > 0 || ai.length > 0
+    : priority.length > 0 || (ai.length > 0 && governance.length > 0);
+
+  return {
+    keep,
+    reason: keep
+      ? (priority.length ? 'priority-framework' : (source.type === 'atom-changes' ? 'ai-related-statutory-change' : 'ai-and-governance'))
+      : (ai.length ? 'ai-without-governance-impact' : 'no-ai-governance-signal'),
+    priority,
+    ai,
+    governance
+  };
+}
+
+/** Apply the current focus policy to both new and pre-v0.8 audit records. */
+export function recordIsFocused(record, sourcesFile, mappings) {
+  if (record.relevance?.level === 'focused') return true;
+  if (record.relevance?.level === 'excluded') return false;
+  const source = (sourcesFile.sources ?? []).find((s) => s.id === record.source_id);
+  return source ? sourceRelevanceDecision(source, record, mappings).keep : false;
 }
 
 /**
@@ -256,17 +335,44 @@ async function main() {
         continue;
       }
 
-      // Accuracy control 2: relevance gate. QA M1 — discards are now logged, so
-      // "considered and rejected" is a category the record actually has.
-      if (source.filter === 'keywords' && !passesRelevanceGate(item, mappings)) {
-        sourceDiscards += 1; discardedCount += 1;
-        discards.entries.push({ run_at: runAt, source_id: source.id, title: item.title, url: item.url, reason: 'relevance-gate' });
-        continue;
-      }
-
       const key = itemIdentityKey(source, item);
       const meta = metaHash(item);
       const prior = state.items[key];
+
+      // Accuracy control 2: source-aware relevance gate. Rejected identities
+      // are kept in state, so an unchanged low-value item is not written to the
+      // discard audit on every run. If its content changes, it is reconsidered
+      // and the fresh rejection is recorded.
+      const relevance = sourceRelevanceDecision(source, item, mappings);
+      if (!relevance.keep) {
+        sourceDiscards += 1;
+        if (!prior || prior.hash !== meta || !prior.discarded) {
+          discardedCount += 1;
+          discards.entries.push({
+            run_at: runAt,
+            source_id: source.id,
+            title: item.title,
+            url: item.url,
+            reason: relevance.reason,
+            signals: {
+              priority: relevance.priority,
+              ai: relevance.ai,
+              governance: relevance.governance
+            }
+          });
+        }
+        if (!dryRun) {
+          state.items[key] = {
+            hash: meta,
+            body: prior?.body ?? null,
+            first_seen: prior?.first_seen ?? runAt,
+            last_changed: prior?.hash === meta ? prior?.last_changed ?? runAt : runAt,
+            discarded: true,
+            discard_reason: relevance.reason
+          };
+        }
+        continue;
+      }
 
       // QA C3. Deep sources have their body text hashed too, so a rewrite with
       // unchanged metadata is caught. Capped, because it is one fetch per item.
@@ -282,7 +388,7 @@ async function main() {
       }
 
       let event = null;
-      if (!prior) event = 'new';
+      if (!prior || prior.discarded) event = 'new';
       else if (prior.hash !== meta) event = 'changed';
       else if (source.deep && body && prior.body && body !== prior.body) event = 'content-revised';
       else continue;
@@ -324,7 +430,16 @@ async function main() {
         reviewed_at: null,
         outcome: null,
         commencement_alerts: [],
-        generated: null
+        generated: null,
+        relevance: {
+          level: 'focused',
+          reason: relevance.reason,
+          signals: {
+            priority: relevance.priority,
+            ai: relevance.ai,
+            governance: relevance.governance
+          }
+        }
       });
 
       if (!dryRun) state.items[key] = { hash: meta, body, first_seen: prior?.first_seen ?? runAt, last_changed: runAt };
@@ -355,7 +470,11 @@ async function main() {
   health.register_review_overdue = new Date() > reviewDue;
   health.summary = { added, changed, absorbed, discarded: discardedCount, unreviewed: log.records.filter((r) => r.status === 'unreviewed').length };
 
-  const pendingIssues = log.records.filter((r) => r.status === 'unreviewed' && !r.issue_number).length;
+  const pendingIssues = log.records.filter((r) =>
+    r.status === 'unreviewed' &&
+    !r.issue_number &&
+    recordIsFocused(r, sourcesFile, mappings)
+  ).length;
   if (pendingIssues > 25) { capHit = true; health.issue_cap_warning = `${pendingIssues} records await an issue but only 25 are created per run. The queue will take ${Math.ceil(pendingIssues / 25)} runs to clear.`; }
 
   state.identity_version = STATE_IDENTITY_VERSION;

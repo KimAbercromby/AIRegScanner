@@ -5,7 +5,13 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { parseAtom, parseAtomChanges, parseGovukSearch, buildGovukUrl } from './fetchers.mjs';
-import { domainAllowed, classify, passesRelevanceGate } from './scan.mjs';
+import {
+  domainAllowed,
+  classify,
+  passesRelevanceGate,
+  sourceRelevanceDecision,
+  recordIsFocused
+} from './scan.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const fx = (n) => readFileSync(join(HERE, n), 'utf8');
@@ -78,6 +84,112 @@ test('relevance gate keeps AI items and drops unrelated ones', () => {
   assert.equal(passesRelevanceGate(items[1], mappings), false);
 });
 
+test('focused gate keeps direct UK AI legislation', () => {
+  const source = {
+    id: 'legislation-new',
+    type: 'atom',
+    filter: 'ai-governance',
+    allowed_domains: ['legislation.gov.uk']
+  };
+  const item = {
+    title: 'The Automated Decision-Making (Public Authorities) Regulations 2026',
+    summary: 'Statutory safeguards and human review requirements.',
+    url: 'https://www.legislation.gov.uk/uksi/2026/412'
+  };
+  const decision = sourceRelevanceDecision(source, item, mappings);
+  assert.equal(decision.keep, true);
+  assert.equal(decision.reason, 'ai-and-governance');
+});
+
+test('focused gate rejects historic EU material from the UK legislation search feed', () => {
+  const source = {
+    id: 'legislation-search-ai-title',
+    type: 'atom',
+    filter: 'ai-governance',
+    allowed_domains: ['legislation.gov.uk']
+  };
+  const item = {
+    title: '85/519/EEC: Council Decision on a project in the field of artificial intelligence',
+    summary: '',
+    url: 'https://www.legislation.gov.uk/eudn/1985/519/adopted'
+  };
+  const decision = sourceRelevanceDecision(source, item, mappings);
+  assert.equal(decision.keep, false);
+  assert.equal(decision.reason, 'outside-uk-legislation-scope');
+});
+
+test('focused gate tests a statute change against the amending instrument', () => {
+  const source = {
+    id: 'statute-equality-2010',
+    type: 'atom-changes',
+    filter: 'ai-governance',
+    allowed_domains: ['legislation.gov.uk']
+  };
+  const item = {
+    title: 'Armed Forces Commissioner Act 2025 effect on Equality Act 2010',
+    summary: 'Effect type: words substituted',
+    url: 'https://www.legislation.gov.uk/id/ukpga/2010/15'
+  };
+  const decision = sourceRelevanceDecision(source, item, mappings);
+  assert.equal(decision.keep, false, 'the affected Act name must not make an unrelated amendment relevant');
+  assert.equal(decision.reason, 'no-ai-governance-signal');
+});
+
+test('focused gate keeps DUAA changes to the Data Protection Act', () => {
+  const source = {
+    id: 'statute-dpa-2018',
+    type: 'atom-changes',
+    filter: 'ai-governance',
+    allowed_domains: ['legislation.gov.uk']
+  };
+  const item = {
+    title: 'The Data (Use and Access) Act 2025 Regulations 2026 effect on Data Protection Act 2018',
+    summary: 'Effect type: words substituted',
+    url: 'https://www.legislation.gov.uk/id/ukpga/2018/12'
+  };
+  const decision = sourceRelevanceDecision(source, item, mappings);
+  assert.equal(decision.keep, true);
+  assert.equal(decision.reason, 'priority-framework');
+});
+
+test('focused gate rejects general AI promotion without a governance consequence', () => {
+  const source = {
+    id: 'govuk-cabinet-office',
+    type: 'govuk-search',
+    filter: 'ai-governance',
+    allowed_domains: ['gov.uk']
+  };
+  const decision = sourceRelevanceDecision(source, {
+    title: 'New artificial intelligence investment supports UK growth',
+    summary: 'Businesses announce a new technology partnership.',
+    url: 'https://www.gov.uk/government/news/example'
+  }, mappings);
+  assert.equal(decision.keep, false);
+  assert.equal(decision.reason, 'ai-without-governance-impact');
+});
+
+test('current focus policy can classify legacy records without rewriting the audit log', () => {
+  const sources = JSON.parse(readFileSync(join(HERE, 'sources.json'), 'utf8'));
+  assert.equal(recordIsFocused({
+    source_id: 'statute-equality-2010',
+    title: 'Football Governance Act 2025 effect on Equality Act 2010',
+    url: 'https://www.legislation.gov.uk/id/ukpga/2010/15'
+  }, sources, mappings), false);
+  assert.equal(recordIsFocused({
+    source_id: 'statute-dpa-2018',
+    title: 'Data (Use and Access) Act 2025 effect on Data Protection Act 2018',
+    url: 'https://www.legislation.gov.uk/id/ukpga/2018/12'
+  }, sources, mappings), true);
+});
+
+test('issue and commencement workflows apply the same focus policy', () => {
+  const issues = readFileSync(join(HERE, 'issues.mjs'), 'utf8');
+  const diary = readFileSync(join(HERE, 'diary.mjs'), 'utf8');
+  assert.match(issues, /recordIsFocused\(r, sources, mappings\)/);
+  assert.match(diary, /if \(!focused\(rec\)\) continue/);
+  assert.match(diary, /upcoming\(log\.records, now, focused\)/);
+});
+
 test('classify maps an ADM instrument onto the DPIA and approval framework', () => {
   const [adm] = parseAtom(fx('legislation-new.atom.xml'));
   const c = classify(adm, mappings);
@@ -123,6 +235,17 @@ test('source register is internally consistent', () => {
       assert.ok(s.last_verified, `${s.id} is runnable but has no last_verified date`);
       assert.ok(s.url, `${s.id} is runnable but has no url`);
     }
+  }
+});
+
+test('all live legislation and central-government feeds use the focused gate', () => {
+  const reg = JSON.parse(readFileSync(join(HERE, 'sources.json'), 'utf8'));
+  const focused = reg.sources.filter((s) =>
+    s.verification_status !== 'unverified' &&
+    (s.allowed_domains.includes('legislation.gov.uk') || s.type === 'govuk-search'));
+  assert.ok(focused.length > 10);
+  for (const source of focused) {
+    assert.equal(source.filter, 'ai-governance', `${source.id} is not using the focused gate`);
   }
 });
 
