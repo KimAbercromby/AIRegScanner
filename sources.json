@@ -1,5 +1,5 @@
 {
-  "register_version": "0.4",
+  "register_version": "0.5",
   "register_updated": "2026-07-27",
   "review_cadence_days": 90,
   "scope": {
@@ -27,7 +27,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Everything newly published, filtered locally by the relevance gate.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "URL form documented at legislation.github.io/data-documentation/api/search.html, 'New legislation listings'. results-count reduced from 100 to 50 on 25 July 2026: the sibling search feed at 50 succeeded while this one at 100 kept returning an HTML page."
@@ -44,7 +44,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Title search. Boolean OR must be upper case per the API docs.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Search feed form and boolean syntax documented at legislation.github.io/data-documentation/api/search.html."
@@ -61,7 +61,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Feeds the EIA and the bias mapping.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-25",
       "verify_note": "Chapter number 2010 c.15 confirmed directly on 25 July 2026. The automatic resolve could not confirm it because a title search for 'Equality Act 2010' also matches its commencement orders, so the identifier service returned multiple choices and the tool correctly refused to guess."
@@ -83,7 +83,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "The DUAA amendments land here as effects, carrying in-force dates.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 2018 c.12 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -105,7 +105,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Commencement and amendment of the ADM safeguards regime.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 2025 c.18 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -127,7 +127,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Feeds the HRA artefact.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 1998 c.42 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -149,7 +149,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Assessment and eligibility duties that AI triage tools touch directly.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 2014 c.23 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -171,7 +171,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "s.17 and s.47 duties in children's social care.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 1989 c.41 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -193,7 +193,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "s.11 safeguarding duty and multi-agency arrangements.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 2004 c.31 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -215,7 +215,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Homelessness duties and the statutory review right.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 1996 c.52 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -237,7 +237,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Disclosure exposure for model documentation and register contents.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 2000 c.36 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -259,7 +259,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Feeds the Supplier DDQ and the procurement gate.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-27",
       "verify_note": "Chapter number 2023 c.54 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
@@ -284,7 +284,7 @@
         "www.gov.uk"
       ],
       "scope": "AI policy, public sector adoption, AI Security Institute, procurement policy notes.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Endpoint and parameters documented at docs.publishing.service.gov.uk/repos/search-api/using-the-search-api.html."
@@ -309,7 +309,7 @@
         "www.gov.uk"
       ],
       "scope": "ATRS is voluntary for local authorities. A change to that status is the highest-impact possible change to the toolkit.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Confirm the slug still resolves after the DSIT dissolution."
@@ -334,7 +334,7 @@
         "www.gov.uk"
       ],
       "scope": "The most operationally binding central guidance on a council.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-26",
       "verify_note": "Organisation slug corrected and confirmed as ministry-of-housing-communities-local-government."
@@ -359,7 +359,7 @@
         "www.gov.uk"
       ],
       "scope": "Inspection expectations reach AI in children's social care long before AI policy does.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Confirm the slug via aggregate_organisations."
@@ -384,7 +384,7 @@
         "www.gov.uk"
       ],
       "scope": "CQC publishes most substantive material on cqc.org.uk, so treat this as partial coverage until an html-diff fetcher exists.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Partial coverage by design. Confirm the slug via aggregate_organisations."
@@ -409,7 +409,7 @@
         "www.gov.uk"
       ],
       "scope": "Expect this to go quiet or start emitting withdrawals. Both are worth catching.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Review at the next register review."

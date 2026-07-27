@@ -6,9 +6,11 @@
 > cover, and any report drawn from it must carry that statement.
 
 Checks a fixed list of authoritative publishers on a schedule, detects what changed,
-and maps each change onto the playbook sections and artefacts it would affect.
+applies a deterministic AI-governance focus gate, and maps each retained change onto
+the playbook sections and artefacts it would affect.
 
-It does not crawl, discover, or summarise the law. That is deliberate.
+It does not crawl, discover, or summarise the law. That is deliberate. Items excluded
+by the focus gate remain in `discards.json`, so filtering is auditable.
 
 ## Scope
 
@@ -27,13 +29,15 @@ the scope caveat already in the Current State Assessment.
 
 ## The four rules it is built around
 
-1. **Sources are an allowlist.** Nothing is discovered, only checked. Accuracy is
-   solved upstream by choosing publishers, not downstream by filtering noise.
+1. **Sources are an allowlist.** Nothing is discovered, only checked. A transparent,
+   deterministic focus gate then separates AI-governance changes from ordinary
+   amendments and general AI news.
 2. **The record is what was retrieved.** Publisher, title as published, canonical
    URL, dates, content hash. Anything a model produces lands in a separate
    `generated` block and is never the record.
-3. **Everything lands unreviewed.** The tool never decides that something does or
-   does not matter. It surfaces; you decide.
+3. **Every focused candidate lands unreviewed.** The gate decides only whether an
+   item contains the configured AI-governance signals. A person still decides what
+   the retained item means and whether anything must change.
 4. **Failure is loud.** A source that 404s, returns nothing, or is not yet verified
    appears in the health panel. A silent gap is the failure mode that matters,
    because you cannot see what you did not get told about.
@@ -42,8 +46,8 @@ the scope caveat already in the Current State Assessment.
 
 ```bash
 npm ci
-npm test          # 57 tests, all offline against fixtures
-npm run resolve   # confirm the 12 statute chapter numbers (run once, first)
+npm test          # all tests run offline against fixtures
+npm run resolve   # confirm the statute chapter numbers (run once, first)
 npm run verify    # dry run: calls every runnable source, writes nothing
 npm run scan      # real run: writes state, impact log and health
 npm run issues    # open review issues, sync closed ones back
@@ -55,7 +59,7 @@ npm run discover -- <url>   # work out how to monitor a publisher with no feed
 **You do not need Node installed.** Everything above also runs from the Actions
 tab. See "Setting it up on GitHub" below.
 
-For GitHub Pages: **Settings > Pages > Deploy from a branch > main > /docs**.
+For GitHub Pages: **Settings > Pages > Deploy from a branch > main > /(root)**.
 The workflow commits to `main`, so the site updates itself.
 
 Optional triage pass: add an `ANTHROPIC_API_KEY` repository secret. Without it the
@@ -96,12 +100,11 @@ instructions in their `verify_note` for how to promote them.
 
 ### Statutes: resolved, never typed from memory
 
-Twelve statute sources ship with a `resolve` block and no URL:
+Ten statute sources ship with a `resolve` block and no URL:
 
 Equality Act 2010 · Data Protection Act 2018 · Data (Use and Access) Act 2025 ·
 Human Rights Act 1998 · Care Act 2014 · Children Act 1989 · Children Act 2004 ·
-Local Government Act 1999 · Housing Act 1996 · Freedom of Information Act 2000 ·
-Procurement Act 2023 · Localism Act 2011
+Housing Act 1996 · Freedom of Information Act 2000 · Procurement Act 2023
 
 `npm run resolve` asks legislation.gov.uk's own identifier service for each one:
 
@@ -167,6 +170,30 @@ keyword rather than pretending the item is irrelevant.
 
 Update `target_playbook_version` when you bump the playbook.
 
+### The focused AI-governance gate
+
+`mappings.json` also holds the focus rule used by legislation.gov.uk and GOV.UK
+sources. General items need both:
+
+- an AI signal, such as artificial intelligence, automated decision-making,
+  algorithmic systems, profiling or machine learning; and
+- a governance consequence, such as legislation, regulation, statutory guidance,
+  rights, assurance, transparency, safety, procurement or public-sector use.
+
+Named priority frameworks such as the Data (Use and Access) Act 2025, ATRS,
+ISO/IEC 42001 and the NIST AI RMF are retained directly.
+
+For a changes feed, only the name of the **amending instrument** is tested. The
+affected Act name is removed before matching. This is the key noise control: an
+unrelated amendment does not become an AI-governance item merely because it affects
+the Equality Act, Housing Act or another watched statute.
+
+The web viewer opens in **AI governance focus** mode and groups multiple effects
+from the same legislative instrument into one feed entry. **Full audit history**
+remains available from the Feed selector; no historical records are deleted. The
+GitHub review-issue queue and commencement diary apply the same focus rule, so
+hidden historical noise cannot reappear through a different workflow.
+
 ## The three dates
 
 Every record carries `date_published`, `date_in_force` and `date_retrieved`, and the
@@ -181,19 +208,20 @@ extracted properly. Most other sources do not, so expect to fill it in by hand.
 ## Setting it up on GitHub
 
 1. Create a repo and upload the **contents of this folder**, keeping the folder
-   structure. `scripts/`, `tests/`, `docs/` and `.github/` all have to be there.
-2. **Settings > Pages > Deploy from a branch > main > `/docs`.** Note `/docs`, not
-   root.
+   structure. The application files are deliberately kept at the repository root;
+   `.github/workflows/` is the only required subfolder.
+2. **Settings > Pages > Deploy from a branch > main > `/(root)`.**
 3. **Settings > Actions > General > Workflow permissions > Read and write.**
    Without this the scan runs but cannot commit, so the site never updates. This is
    the step people miss.
-4. **Actions > Resolve statute identifiers > Run workflow.** Once. It confirms the
-   twelve chapter numbers and writes them back, and prints a table of what it
+4. **Actions > Regulatory scanner > Run workflow > resolve.** Once. It confirms the
+   statute chapter numbers and writes them back, and prints a table of what it
    resolved in the run summary.
-5. **Actions > Regulatory scan > Run workflow.** After this it runs itself daily at
-   07:00 UTC.
+5. **Actions > Regulatory scanner > Run workflow > scan.** The current workflow is
+   manual while its schedule lines are commented out. Re-enable the cron only after
+   a clean baseline scan.
 
-The demo records that ship in `docs/impact-log.json` are cleared automatically on the
+The demo records that ship in `impact-log.json` are cleared automatically on the
 first real scan, and the issues step refuses to run while they are present. You do not
 need to remember to delete them.
 
@@ -347,30 +375,29 @@ Carried from the QA review and not yet closed:
 ```
 sources.json          the allowlist
 mappings.json         topics -> playbook sections and artefacts
-scripts/fetchers.mjs  per-format adapters and parsers
-scripts/scan.mjs      allowlist enforcement, change detection, record writing
-scripts/triage.mjs    optional, constrained, never writes the record
-scripts/resolve.mjs   confirms statute chapter numbers with the publisher
-scripts/issues.mjs    opens review issues, syncs closed ones back to the log
-scripts/discover.mjs  inspects a publisher page and prints a source config
-scripts/decision.mjs  parses and validates a review decision block
-scripts/diary.mjs     commencement diary
-scripts/smoke.mjs     calls the live publishers, fails loudly
+fetchers.mjs          per-format adapters and parsers
+scan.mjs              allowlist enforcement, change detection, record writing
+triage.mjs            optional, constrained, never writes the record
+resolve.mjs           confirms statute chapter numbers with the publisher
+issues.mjs            opens review issues, syncs closed ones back to the log
+discover.mjs          inspects a publisher page and prints a source config
+decision.mjs          parses and validates a review decision block
+diary.mjs             commencement diary
+smoke.mjs             calls the live publishers, fails loudly
 reviewers.json        who may decide, in what role, with what authority
-scripts/sample.mjs    demo data for the viewer
-data/state.json       what has been seen (internal)
-docs/index.html       viewer, single self-contained file
-docs/impact-log.json  the record
-docs/health.json      last run health
-docs/run-log.json     one entry per run, including nil returns
-docs/coverage.json    what is and is not covered
-docs/diary.json       coming into force
-docs/discards.json    considered and rejected
-docs/baseline.json    what was absorbed when monitoring began
-.github/workflows/    scan.yml (daily), smoke.yml (weekly), resolve.yml and
-                      discover.yml (manual)
-tests/                fixtures and 57 tests
+sample.mjs            demo data for the viewer
+state.json            what has been seen (internal)
+index.html            viewer, single self-contained file
+impact-log.json       the record
+health.json           last run health
+run-log.json          one entry per run, including nil returns
+coverage.json         what is and is not covered
+diary.json            coming into force
+discards.json         considered and rejected
+baseline.json         what was absorbed when monitoring began
+.github/workflows/    scanner.yml (scheduled and manual tasks)
+*.test.mjs            offline regression tests
 ```
 
-`docs/index.html` is deliberately one self-contained file with no external
+`index.html` is deliberately one self-contained file with no external
 references, matching the pattern of the other tools, so it cannot half-deploy.

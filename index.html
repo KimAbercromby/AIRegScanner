@@ -89,6 +89,8 @@
   .pill.reviewed{background:#E8F0EE;color:var(--verd)}
   .pill.force{background:#EAF1F5;color:#2F6F8F}
   .pill.changed{background:#F6E9E7;color:var(--ox)}
+  .pill.focus{background:#E8F0EE;color:var(--verd)}
+  .pill.effects{background:#EEF0F3;color:var(--soft)}
   .detail{padding:.2rem .95rem 1rem 2rem;font-size:.87rem;background:#FCFCFB}
   .dates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--rule);margin:.5rem 0}
   .date{padding:.45rem .6rem;border-right:1px solid var(--rule)}
@@ -118,8 +120,8 @@
 <a class="skip" href="#records">Skip to records</a>
 <header class="top"><div class="wrap">
   <p class="eyebrow">Regulatory horizon</p>
-  <h1>What changed, and what it touches</h1>
-  <p class="stand">A monitor, not an assurance. It covers the publishers listed below and nothing else. Every item stays unreviewed until a person decides what it means.</p>
+  <h1>Focused AI governance changes</h1>
+  <p class="stand">A high-signal monitor for AI law, regulation, standards and public-sector governance. Unrelated amendments remain in the audit history but are hidden from the focused feed.</p>
   <p class="runline" id="runline">Loading&hellip;</p>
   <div class="counters" id="counters"></div>
 </div></header>
@@ -128,6 +130,11 @@
   <div id="panels"></div>
 
   <div class="controls">
+    <div class="ctl"><label for="focus">Feed</label>
+      <select id="focus">
+        <option value="focused">AI governance focus</option>
+        <option value="all">Full audit history</option>
+      </select></div>
     <div class="ctl"><label for="groupby">Group by</label>
       <select id="groupby">
         <option value="source">Source</option>
@@ -162,7 +169,7 @@
 (function(){
   'use strict';
   var PAGE = 40;
-  var S = { records:[], repo:null, group:'source', status:'all', q:'', labels:{} };
+  var S = { records:[], repo:null, focus:'focused', group:'source', status:'all', q:'', labels:{} };
 
   (function(){ var h=location.hostname,p=location.pathname.split('/').filter(Boolean);
     if(/\.github\.io$/.test(h)&&p.length) S.repo=h.replace(/\.github\.io$/,'')+'/'+p[0]; })();
@@ -180,7 +187,54 @@
     year:     function(r){ return [ (r.date_published||'').slice(0,4) || '(no date)' ]; }
   };
 
+  var FOCUS = {
+    priority:[
+      'algorithmic transparency recording standard','artificial intelligence act',
+      'data (use and access) act','digital information and smart data bill',
+      'eu ai act','iso/iec 42001','iso 42001','nist ai risk management framework','article 22'
+    ],
+    ai:[
+      'agentic','ai agent','ai model','ai system','algorithm','algorithmic',
+      'artificial intelligence','automated decision','automated decision-making',
+      'autonomous agent','biometric','chatbot','decision support','facial recognition',
+      'foundation model','generative ai','large language model','machine learning',
+      'predictive','profiling','risk stratification'
+    ],
+    governance:[
+      'accountability','act 20','assurance','bill','code of practice','compliance',
+      'data protection','enforcement','equality','governance','guidance','law','legal',
+      'legislation','local authorities','local authority','local government','ombudsman',
+      'oversight','procurement','public authorities','public authority','public sector',
+      'regulation','rights','risk','safeguard','safety','security','standard','statutory',
+      'transparency'
+    ]
+  };
+
+  function hasAny(hay,terms){return terms.some(function(term){return hay.indexOf(term)!==-1;});}
+
+  // New records carry the scanner's auditable relevance decision. The fallback
+  // applies the same rule to the pre-v0.8 history without rewriting or deleting it.
+  function isFocused(r){
+    if(r.relevance&&r.relevance.level==='focused') return true;
+    if(r.relevance&&r.relevance.level==='excluded') return false;
+
+    var title=(r.title||'').toLowerCase();
+    var statute=(r.source_id||'').indexOf('statute-')===0;
+    var hay=statute ? title.split(/\s+effect on\s+/i)[0] : title;
+    var priority=hasAny(hay,FOCUS.priority);
+    var ai=hasAny(hay,FOCUS.ai);
+    var governance=hasAny(hay,FOCUS.governance);
+
+    if(r.source_id==='legislation-new'||r.source_id==='legislation-search-ai-title'){
+      var path='';
+      try{path=new URL(r.url).pathname;}catch(e){return false;}
+      if(!/^\/(ukpga|uksi|ukdsi|ukla|ukcm|ukmd|uksro)\//.test(path)) return false;
+    }
+    return statute ? (priority||ai) : (priority||(ai&&governance));
+  }
+
   function matches(r){
+    if(S.focus==='focused'&&!isFocused(r)) return false;
     if(S.q){ var hay=((r.title||'')+' '+(r.record_id||'')+' '+(r.publisher||'')).toLowerCase();
       if(hay.indexOf(S.q)===-1) return false; }
     switch(S.status){
@@ -193,18 +247,41 @@
     }
   }
 
+  function collapseForFeed(records){
+    if(S.focus!=='focused') return records;
+    var groups={},out=[];
+    records.forEach(function(r){
+      var isEffect=(r.source_id||'').indexOf('statute-')===0;
+      var key=isEffect
+        ? [r.source_id,r.title,r.date_published||'',r.date_in_force||''].join('|')
+        : r.record_id;
+      if(!groups[key]){
+        var copy=Object.assign({},r,{_related:[r]});
+        groups[key]=copy; out.push(copy);
+      }else{
+        var x=groups[key]; x._related.push(r);
+        x.topics=Array.from(new Set((x.topics||[]).concat(r.topics||[])));
+        x.affects_sections=Array.from(new Set((x.affects_sections||[]).concat(r.affects_sections||[]))).sort();
+        x.affects_artefacts=Array.from(new Set((x.affects_artefacts||[]).concat(r.affects_artefacts||[]))).sort();
+        if(r.status==='unreviewed') x.status='unreviewed';
+      }
+    });
+    return out;
+  }
+
   function build(){
-    var groups={}, total=0;
-    S.records.forEach(function(r){
-      if(!matches(r)) return;
+    var groups={}, total=0, effects=0;
+    var visible=collapseForFeed(S.records.filter(matches));
+    visible.forEach(function(r){
       total++;
+      effects+=(r._related||[r]).length;
       GROUPERS[S.group](r).forEach(function(k){ (groups[k]=groups[k]||[]).push(r); });
     });
     var keys=Object.keys(groups).sort(function(a,b){
       if(S.group==='year') return b.localeCompare(a);
       return groups[b].length - groups[a].length || a.localeCompare(b);
     });
-    return {groups:groups, keys:keys, total:total};
+    return {groups:groups, keys:keys, total:total, effects:effects};
   }
 
   function recordNode(r){
@@ -214,6 +291,8 @@
     s.appendChild(el('span','rtitle',r.title||'(untitled)'));
     if(r.date_in_force) s.appendChild(el('span','pill force','in force'));
     if(r.event==='changed'||r.event==='content-revised') s.appendChild(el('span','pill changed',r.event));
+    if(isFocused(r)) s.appendChild(el('span','pill focus','AI governance'));
+    if((r._related||[]).length>1) s.appendChild(el('span','pill effects',(r._related.length)+' effects'));
     s.appendChild(el('span','pill '+(r.status==='reviewed'?'reviewed':'unreviewed'),r.status));
     s.appendChild(el('span','rdate',fmt(r.date_published)||'\u2014'));
     d.appendChild(s);
@@ -225,6 +304,9 @@
       var p=el('p'); var a=el('a',null,r.url); a.href=r.url; a.target='_blank'; a.rel='noopener';
       p.appendChild(a); b.appendChild(p);
       b.appendChild(el('p',null,r.publisher+'  \u00B7  tier '+r.tier+'  \u00B7  '+r.source_id));
+      if((r._related||[]).length>1){
+        b.appendChild(el('p',null,r._related.length+' separate legislative effects are grouped into this one focused-feed entry. Select Full audit history to inspect every effect and its individual review issue.'));
+      }
 
       var dates=el('div','dates');
       [['Published',fmt(r.date_published),false],
@@ -300,7 +382,10 @@
     out.innerHTML='';
     var b=build();
     document.getElementById('resultline').textContent =
-      b.total+' record(s) in '+b.keys.length+' group(s). Everything is collapsed; open a group to read it.';
+      (S.focus==='focused'
+        ? b.total+' focused instrument(s), representing '+b.effects+' tracked legislative effect(s)'
+        : b.total+' audit record(s)')+
+      ' in '+b.keys.length+' group(s). Everything is collapsed; open a group to read it.';
     if(!b.total){
       var e=el('div','empty');
       e.appendChild(el('h2',null,'Nothing matches'));
@@ -332,17 +417,22 @@
 
     S.records=(log.records||[]).slice().reverse();
 
-    var unrev=S.records.filter(function(r){return r.status==='unreviewed';}).length;
-    var flagged=S.records.filter(function(r){return !r.reference_only&&(r.affects_artefacts||[]).length>0;}).length;
-    var inforce=S.records.filter(function(r){return r.date_in_force;}).length;
+    var focused=S.records.filter(isFocused);
+    var instruments=(function(){var old=S.focus;S.focus='focused';var x=collapseForFeed(focused).length;S.focus=old;return x;})();
+    var unrev=focused.filter(function(r){return r.status==='unreviewed';}).length;
+    var hidden=S.records.length-focused.length;
     var c=document.getElementById('counters');
-    [[S.records.length,'records',false],[unrev,'unreviewed',unrev>0],
-     [flagged,'flag a change',false],[inforce,'with in-force date',false]].forEach(function(x){
+    [[instruments,'focused instruments',false],[focused.length,'tracked effects',false],
+     [unrev,'focused unreviewed',unrev>0],[hidden,'historical items hidden',false]].forEach(function(x){
       var d=el('div','counter'+(x[2]?' flag':''));
       d.appendChild(el('b',null,String(x[0]))); d.appendChild(el('span',null,x[1])); c.appendChild(d);
     });
 
     var P=document.getElementById('panels');
+    P.appendChild(panel('good','Focused relevance gate',focused.length,function(b){
+      b.appendChild(el('p',null,'The default feed keeps direct AI and automated-decision law, named priority frameworks, and AI developments with a clear governance, assurance, legal or public-sector consequence.'));
+      b.appendChild(el('p',null,hidden+' older or low-signal records remain available under Full audit history. Nothing has been deleted.'));
+    },false));
 
     if(cov) P.appendChild(panel('warn','What this does and does not cover',
       cov.covered_count+' of '+(cov.covered_count+cov.not_covered_count),function(b){
@@ -404,6 +494,7 @@
         '  Monitored on '+rl.runs.length+' occasion(s).';
     } else document.getElementById('runline').textContent='No run recorded yet.';
 
+    document.getElementById('focus').addEventListener('change',function(e){S.focus=e.target.value;draw();});
     document.getElementById('groupby').addEventListener('change',function(e){S.group=e.target.value;draw();});
     document.getElementById('status').addEventListener('change',function(e){S.status=e.target.value;draw();});
     var t;
