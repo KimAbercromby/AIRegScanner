@@ -171,12 +171,21 @@ export function bodyHash(text) {
   return sha(String(text).replace(/\s+/g, ' ').trim().toLowerCase());
 }
 
-/** Stable identity: legislation effects use EffectId, not the affected Act URL. */
+/**
+ * Stable identity: legislation effects use EffectId, not the affected Act URL.
+ * The publisher's raw EffectId is hashed before it is persisted in state.json.
+ * Some valid EffectIds begin with "key-" and GitHub can mistake them for API
+ * credentials, blocking the workflow commit even though they are public legal
+ * identifiers.
+ */
 export function itemIdentityKey(source, item) {
   const stable = source.type === 'atom-changes'
     ? (item.effect_id || item.raw_id)
     : (item.raw_id || item.url);
-  return `${source.id}::${stable || item.url}`;
+  const persisted = source.type === 'atom-changes'
+    ? `effect-${sha(stable || item.url)}`
+    : (stable || item.url);
+  return `${source.id}::${persisted}`;
 }
 
 /** Refuse to run old legislative state through the new identity algorithm. */

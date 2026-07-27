@@ -48,6 +48,35 @@ export function labelsFor(rec) {
   return [...new Set(labels)];
 }
 
+/** Recover the record id embedded in scanner issue titles. */
+export function recordIdFromIssue(issue) {
+  return String(issue?.title ?? '').match(/^\[(REG-\d+)\]\s/)?.[1] ?? null;
+}
+
+/**
+ * Reconnect records to issues that already exist. This makes issue creation
+ * idempotent when a workflow creates issues but a later repository commit is
+ * rejected: the next run adopts those issues instead of opening duplicates.
+ */
+export function reconnectExistingIssues(records, issues) {
+  const byRecord = new Map();
+  for (const issue of issues) {
+    const recordId = recordIdFromIssue(issue);
+    if (recordId && Number.isInteger(issue?.number) && !byRecord.has(recordId)) {
+      byRecord.set(recordId, issue.number);
+    }
+  }
+
+  let reconnected = 0;
+  for (const rec of records) {
+    if (!rec.issue_number && byRecord.has(rec.record_id)) {
+      rec.issue_number = byRecord.get(rec.record_id);
+      reconnected += 1;
+    }
+  }
+  return reconnected;
+}
+
 function fmt(d) {
   if (!d) return null;
   const x = new Date(d);
@@ -132,6 +161,19 @@ async function ensureLabels(names) {
   }
 }
 
+async function listExistingReviewIssues() {
+  const issues = [];
+  for (let page = 1; ; page += 1) {
+    const r = await gh(`/repos/${REPO}/issues?state=all&labels=reg-scan&per_page=100&page=${page}`);
+    if (!r.ok || !Array.isArray(r.json)) {
+      throw new Error(`Could not check existing review issues before creating new ones (${r.status}).`);
+    }
+    issues.push(...r.json);
+    if (r.json.length < 100) break;
+  }
+  return issues;
+}
+
 // ---------- main ----------
 
 async function main() {
@@ -153,7 +195,14 @@ async function main() {
   const sources = JSON.parse(readFileSync(SOURCES, 'utf8'));
   const mappings = JSON.parse(readFileSync(MAPPINGS, 'utf8'));
 
-  let opened = 0, closed = 0, synced = 0, rejected = 0;
+  let opened = 0, closed = 0, synced = 0, rejected = 0, reconnected = 0;
+
+  // A failed final git push can leave newly-created GitHub issues absent from
+  // impact-log.json. Reconcile first so a retry cannot create duplicates.
+  if (!dryRun) {
+    reconnected = reconnectExistingIssues(log.records, await listExistingReviewIssues());
+    if (reconnected) console.log(`  link  reconnected ${reconnected} existing issue(s) to their records`);
+  }
 
   // 1. Pull state back from GitHub. A closed issue is only a review if it
   //    carries a decision.
@@ -268,7 +317,7 @@ async function main() {
   }
 
   if (!dryRun) writeFileSync(LOG, JSON.stringify(log, null, 2) + '\n');
-  console.log(`\n${opened} opened, ${closed} closed, ${synced} reviewed, ${rejected} closed without a valid decision.`);
+  console.log(`\n${opened} opened, ${reconnected} reconnected, ${closed} closed, ${synced} reviewed, ${rejected} closed without a valid decision.`);
   const remaining = log.records.filter((r) =>
     r.status === 'unreviewed' &&
     recordIsFocused(r, sources, mappings)
