@@ -1,0 +1,140 @@
+{
+  "framework_map_version": "0.1",
+  "target_playbook_version": "v19",
+  "playbook_anchor": "Playbook \u00a72.5 'Regulatory Expectations and Public Trust' enumerates the framework's own regulatory landscape; \u00a76.6.5 commits the Council to horizon scanning against it. This file is the explicit reconciliation of that landscape onto the scanner's sources, so 'does the scanner map onto the playbook' is a checkable property rather than a thing to remember.",
+  "note": "expectation governs what the checker requires. must-watch = the playbook relies on this, so a LIVE source is expected (a source is live when its verification_status is verified or form-verified; unverified sources are skipped by the scanner and count as dark). reference = recorded for context only, no live source required. The checker computes live/dark/gap from sources.json every run, so a status here cannot silently rot.",
+  "playbook_landscape": [
+    {
+      "ref": "\u00a72.5",
+      "item": "UK GDPR",
+      "kind": "retained-regulation",
+      "expectation": "must-watch",
+      "watched_by": ["statute-dpa-2018", "statute-duaa-2025"],
+      "note": "No dedicated UK GDPR (retained EU 2016/679, type 'eur') changes feed. The DPA 2018 and DUAA feeds carry the amendments, but the instrument the playbook names first and most often is not watched directly. Decide: add a eur changes feed for UK GDPR, or record DPA-plus-DUAA as the accepted proxy."
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "Data Protection Act 2018",
+      "kind": "statute",
+      "expectation": "must-watch",
+      "watched_by": ["statute-dpa-2018"]
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "Equality Act 2010 and the Public Sector Equality Duty",
+      "kind": "statute-and-duty",
+      "expectation": "must-watch",
+      "watched_by": ["statute-equality-2010", "ehrc-guidance"],
+      "note": "The Act itself is verified. The EHRC feed, which is the PSED regulator and the technical-guidance publisher, is still unverified and dark. Connect EHRC via Discover."
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "Human Rights Act 1998",
+      "kind": "statute",
+      "expectation": "must-watch",
+      "watched_by": ["statute-hra-1998"]
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "Freedom of Information obligations",
+      "kind": "statute",
+      "expectation": "must-watch",
+      "watched_by": ["statute-foia-2000"]
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "Procurement regulations",
+      "kind": "statute",
+      "expectation": "must-watch",
+      "watched_by": ["statute-procurement-2023"]
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "Algorithmic Transparency Recording Standard",
+      "kind": "standard-policy",
+      "expectation": "must-watch",
+      "watched_by": ["govuk-gds"],
+      "note": "ATRS is voluntary for local authorities. A change to that voluntary status is the single highest-impact change the scanner could catch."
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "UK AI Regulation White Paper and AI Opportunities Action Plan",
+      "kind": "policy",
+      "expectation": "must-watch",
+      "watched_by": ["govuk-cabinet-office", "govuk-gds", "govuk-mhclg"]
+    },
+    {
+      "ref": "\u00a72.5",
+      "item": "EU AI Act (supplier due diligence only)",
+      "kind": "reference",
+      "expectation": "reference",
+      "watched_by": ["legislation-search-ai-title"],
+      "note": "Reference-only by design. The scanner's eu-ai-act topic records and tags but flags no sections or artefacts, matching the playbook's 'not directly subject' framing at \u00a72.5."
+    },
+    {
+      "ref": "\u00a71.4 / \u00a75.2.3 / Appendix A",
+      "item": "ISO/IEC 42001",
+      "kind": "standard",
+      "expectation": "must-watch",
+      "watched_by": [],
+      "note": "GAP. The playbook claims alignment to 42001 in the executive summary, Chapter 5 and Appendix A, but no source watches ISO or IEC. A revision would silently stale the alignment claim. No clean change feed exists, so the remedy is an html-diff watch on the ISO 42001 catalogue page plus a manual review cadence. Highest-priority gap."
+    },
+    {
+      "ref": "\u00a71.4 / \u00a75.2.3",
+      "item": "NIST AI Risk Management Framework",
+      "kind": "standard",
+      "expectation": "must-watch",
+      "watched_by": [],
+      "note": "GAP. Alignment claimed alongside 42001. No source. Same remedy: an html-diff watch on the NIST AI RMF page plus a manual review cadence."
+    },
+    {
+      "ref": "\u00a73 (Article 22A safeguards), DPIA template",
+      "item": "Data (Use and Access) Act 2025",
+      "kind": "statute",
+      "expectation": "must-watch",
+      "watched_by": ["statute-duaa-2025"],
+      "note": "Source of the automated-decision safeguards regime. Named only once in the playbook text although it is central to the ADM controls; the scanner correctly treats it as central."
+    }
+  ],
+  "operational_layer": [
+    {
+      "item": "Care Act 2014",
+      "watched_by": ["statute-care-2014"],
+      "playbook_touchpoint": "adult social care and safeguarding, relied on but not named"
+    },
+    {
+      "item": "Children Act 1989",
+      "watched_by": ["statute-children-1989"],
+      "playbook_touchpoint": "safeguarding, relied on but not named"
+    },
+    {
+      "item": "Children Act 2004",
+      "watched_by": ["statute-children-2004"],
+      "playbook_touchpoint": "safeguarding, relied on but not named"
+    },
+    {
+      "item": "Housing Act 1996",
+      "watched_by": ["statute-housing-1996"],
+      "playbook_touchpoint": "homelessness, relied on but not named"
+    },
+    {
+      "item": "Localism Act 2011",
+      "watched_by": ["statute-localism-2011"],
+      "playbook_touchpoint": "delegated-authority argument in the multi-board work, not named in the playbook"
+    }
+  ],
+  "decisions_required": [
+    {
+      "id": "best-value",
+      "item": "Local Government Act 1999, best value duty",
+      "watched_by": ["statute-lga-1999"],
+      "mapping_topic": "psed-best-value",
+      "question": "The scanner watches this Act and carries a best-value topic, but 'best value' appears nowhere in the playbook. Add best value to playbook \u00a72.5, or descope the scanner. Recommendation: add to the playbook, since an efficiency-justified deployment is judged against the best value duty."
+    },
+    {
+      "id": "operational-layer",
+      "item": "Care Act 2014, Children Acts 1989 and 2004, Housing Act 1996, Localism Act 2011",
+      "question": "Keep these as a documented deliberate operational layer beyond the playbook's named landscape (recommended), or trim the scanner to only what \u00a72.5 names."
+    }
+  ]
+}
