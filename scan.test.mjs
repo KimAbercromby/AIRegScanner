@@ -719,7 +719,10 @@ test('legislation changes use EffectId as the stable item identity', async () =>
   const [item] = parseAtomChanges(xml);
   assert.equal(item.effect_id, 'effect-123');
   assert.equal(item.raw_id, 'effect-123');
-  assert.equal(itemIdentityKey({ id: 'statute-equality-2010', type: 'atom-changes' }, item), 'statute-equality-2010::effect-123');
+  assert.match(
+    itemIdentityKey({ id: 'statute-equality-2010', type: 'atom-changes' }, item),
+    /^statute-equality-2010::effect-[0-9a-f]{16}$/
+  );
 });
 
 test('two effects against the same provision remain separate records', async () => {
@@ -730,6 +733,36 @@ test('two effects against the same provision remain separate records', async () 
     itemIdentityKey(source, { effect_id: 'effect-A', raw_id: 'effect-A', url }),
     itemIdentityKey(source, { effect_id: 'effect-B', raw_id: 'effect-B', url })
   );
+});
+
+test('legislation state identity does not persist secret-shaped raw EffectIds', async () => {
+  const { itemIdentityKey } = await import('./scan.mjs');
+  // Assemble rather than spell the complete secret-shaped example in source,
+  // otherwise GitHub's push protection can flag the regression test itself.
+  const raw = ['key', 'e95d4242c4ff4c43b68fef26c1cb4e66'].join('-');
+  const key = itemIdentityKey(
+    { id: 'statute-foia-2000', type: 'atom-changes' },
+    { effect_id: raw, raw_id: raw, url: 'https://www.legislation.gov.uk/ukpga/2000/36' }
+  );
+  assert.doesNotMatch(key, /key-/);
+  assert.match(key, /^statute-foia-2000::effect-[0-9a-f]{16}$/);
+});
+
+test('existing scanner issues reconnect to records before new issues are opened', async () => {
+  const { reconnectExistingIssues } = await import('./issues.mjs');
+  const records = [
+    { record_id: 'REG-0474', issue_number: null },
+    { record_id: 'REG-0475', issue_number: 80 },
+    { record_id: 'REG-0476', issue_number: null }
+  ];
+  const linked = reconnectExistingIssues(records, [
+    { number: 79, title: '[REG-0474] Data (Use and Access) Act 2025 effect on FOIA' },
+    { number: 80, title: '[REG-0475] Existing link must be preserved' },
+    { number: 81, title: '[REG-0476] Data (Use and Access) Act 2025 effect on FOIA' },
+    { number: 82, title: 'Ordinary repository issue' }
+  ]);
+  assert.equal(linked, 2);
+  assert.deepEqual(records.map((r) => r.issue_number), [79, 80, 81]);
 });
 
 test('legacy legislative state triggers the Phase 1 safety stop', async () => {
