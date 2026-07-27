@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "test": "node --test scan.test.mjs",
+    "test": "node --test scan.test.mjs framework-check.test.mjs",
     "scan": "node scan.mjs",
     "verify": "node scan.mjs --dry-run",
     "resolve": "node resolve.mjs",
@@ -17,6 +17,7 @@
     "smoke": "node smoke.mjs",
     "triage": "node triage.mjs",
     "discover": "node discover.mjs",
+    "framework": "node framework-check.mjs",
     "sample": "node sample.mjs",
     "sample:clear": "node sample.mjs --clear",
     "reset:phase1": "node reset-phase1.mjs"
