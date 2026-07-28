@@ -26,10 +26,12 @@ const P = {
   runlog:   join(ROOT, 'run-log.json'),
   coverage: join(ROOT, 'coverage.json'),
   discards: join(ROOT, 'discards.json'),
-  baseline: join(ROOT, 'baseline.json')
+  baseline: join(ROOT, 'baseline.json'),
+  rebaselines: join(ROOT, 'rebaselines.json')
 };
 
 const RUNNABLE = new Set(['verified', 'form-verified']);
+const LOG_VERSION = '0.5';                           // schema the scanner writes
 const DEEP_MAX = Number(process.env.DEEP_MAX ?? 40);   // body fetches per run
 const DISCARD_KEEP = 500;                              // discard entries retained
 const RUNLOG_KEEP = 400;                               // runs retained
@@ -155,6 +157,30 @@ export function recordIsFocused(record, sourcesFile, mappings) {
   if (record.relevance?.level === 'excluded') return false;
   const source = (sourcesFile.sources ?? []).find((s) => s.id === record.source_id);
   return source ? sourceRelevanceDecision(source, record, mappings).keep : false;
+}
+
+/**
+ * Retire records whose source has left the register. When a source is trimmed
+ * out of sources.json its historical records remain in the log as permanent
+ * "unreviewed" items that can never be focused or issued, so they silently
+ * inflate the review queue. Retire them (never delete — the audit history is
+ * kept) so the queue reflects real outstanding work. A record with an open
+ * issue is left alone, so the issue can be closed properly rather than orphaned.
+ * QA C2 cleanup.
+ */
+export function retireOrphanedRecords(records, registerIds, at) {
+  let retired = 0;
+  for (const rec of records) {
+    if (rec.status === 'unreviewed' && !rec.issue_number && !registerIds.has(rec.source_id)) {
+      rec.status = 'retired';
+      rec.outcome = 'Source removed from the register. Retired from the review queue and kept for audit.';
+      rec.reviewed_by = 'scanner';
+      rec.reviewed_by_role = 'automated retirement';
+      rec.reviewed_at = at;
+      retired += 1;
+    }
+  }
+  return retired;
 }
 
 /**
@@ -295,6 +321,7 @@ async function main() {
   if (runlog.sample_data) { runlog.runs = []; delete runlog.sample_data; }
   if (discards.sample_data) { discards.entries = []; delete discards.sample_data; }
   if (log.next_record_id === undefined) log.next_record_id = log.records.length + 1;
+  log.log_version = LOG_VERSION; // stamp the maintaining schema; older records stay as written
 
   const runAt = new Date().toISOString();
 
@@ -303,8 +330,17 @@ async function main() {
   const isFirstRun = Object.keys(state.items).length === 0;
   const baseline = !dryRun && !args.includes('--force-records') && (args.includes('--baseline') || isFirstRun);
 
+  // A baseline is meant to happen once, at setup. If one has already been taken
+  // and we are baselining again, the state was lost or reset: this run absorbs
+  // the current position and reviews nothing. That must be recorded and made
+  // loud, never left to look like an ordinary quiet run. QA C1.
+  const firstBaseline = readJSON(P.baseline, null);
+  const isRebaseline = baseline && !!firstBaseline;
+
   if (baseline) {
-    console.log('BASELINE RUN: absorbing what is already published. No records, no issues.');
+    console.log(isRebaseline
+      ? 'RE-BASELINE: state was empty though a baseline already exists. Absorbing the current position and reviewing nothing.'
+      : 'BASELINE RUN: absorbing what is already published. No records, no issues.');
     console.log('The next run reports genuine changes only. Use --force-records to override.\n');
   }
 
@@ -477,7 +513,23 @@ async function main() {
   reviewDue.setDate(reviewDue.getDate() + sourcesFile.review_cadence_days);
   health.register_review_due = reviewDue.toISOString().slice(0, 10);
   health.register_review_overdue = new Date() > reviewDue;
-  health.summary = { added, changed, absorbed, discarded: discardedCount, unreviewed: log.records.filter((r) => r.status === 'unreviewed').length };
+  // Retire records whose source has left the register before counting the queue,
+  // so "unreviewed" reflects real outstanding work rather than trimmed-source noise.
+  const registerIds = new Set(sourcesFile.sources.map((s) => s.id));
+  const retired = dryRun
+    ? log.records.filter((r) => r.status === 'unreviewed' && !r.issue_number && !registerIds.has(r.source_id)).length
+    : retireOrphanedRecords(log.records, registerIds, runAt);
+
+  health.summary = { added, changed, absorbed, discarded: discardedCount, retired, unreviewed: log.records.filter((r) => r.status === 'unreviewed').length };
+
+  if (isRebaseline) {
+    health.rebaseline = {
+      first_baseline_at: firstBaseline.taken_at,
+      absorbed,
+      recorded_in: 'rebaselines.json',
+      note: 'State was empty, so this run re-baselined: it absorbed the current position and reviewed nothing. Treat the absorbed window as an unreviewed gap.'
+    };
+  }
 
   const pendingIssues = log.records.filter((r) =>
     r.status === 'unreviewed' &&
@@ -506,16 +558,36 @@ async function main() {
     sources_skipped: health.sources.filter((s) => s.status === 'skipped-unverified').length,
     sources_failed: health.sources.filter((s) => ['error', 'http-error', 'ok-but-empty', 'ok-but-reduced'].includes(s.status)).length,
     items_seen: health.sources.reduce((n, s) => n + (s.items_seen || 0), 0),
-    added, changed, absorbed, discarded: discardedCount,
-    outcome: added + changed === 0 ? 'Monitored. No changes arising.' : `${added} new, ${changed} changed.`,
+    added, changed, absorbed, discarded: discardedCount, retired,
+    rebaseline: isRebaseline,
+    outcome: baseline
+      ? (isRebaseline
+          ? `RE-BASELINE: ${absorbed} item(s) absorbed as a fresh starting position and never reviewed. Recorded in rebaselines.json.`
+          : `Baseline: ${absorbed} item(s) absorbed as the starting position, not reviewed.`)
+      : (added + changed === 0 ? 'Monitored. No changes arising.' : `${added} new, ${changed} changed.`),
     sources: health.sources.map((s) => ({ id: s.id, status: s.status, items_seen: s.items_seen }))
   });
   if (runlog.runs.length > RUNLOG_KEEP) runlog.runs = runlog.runs.slice(-RUNLOG_KEEP);
 
   if (discards.entries.length > DISCARD_KEEP) discards.entries = discards.entries.slice(-DISCARD_KEEP);
 
-  const firstBaseline = readJSON(P.baseline, null);
-  if (baseline && !firstBaseline) writeJSON(P.baseline, baselineManifest);
+  if (baseline) {
+    baselineManifest.absorbed = absorbed;
+    if (!firstBaseline) {
+      // The first baseline is the canonical "monitoring began" record.
+      writeJSON(P.baseline, baselineManifest);
+    } else {
+      // A later baseline. The first one stays the monitoring-since marker, but
+      // what this run absorbed must still be on the record, or the blind spot
+      // is invisible. QA C1.
+      const rebaselines = readJSON(P.rebaselines, {
+        note: 'Every baseline after the first. Each absorbed the then-current position as a fresh start and reviewed nothing. Recorded so no re-baseline is silent.',
+        events: []
+      });
+      rebaselines.events.push(baselineManifest);
+      writeJSON(P.rebaselines, rebaselines);
+    }
+  }
 
   writeJSON(P.state, state);
   writeJSON(P.log, log);
@@ -524,8 +596,8 @@ async function main() {
   writeJSON(P.discards, discards);
   writeJSON(P.coverage, buildCoverage(sourcesFile, (firstBaseline ?? (baseline ? baselineManifest : null))?.taken_at ?? null));
 
-  if (baseline) console.log(`${absorbed} item(s) absorbed as the starting position. Nothing to review yet.`);
-  else console.log(`${added} new, ${changed} changed, ${discardedCount} discarded, ${health.summary.unreviewed} unreviewed in total.`);
+  if (baseline) console.log(`${absorbed} item(s) absorbed as the starting position.${isRebaseline ? ' RE-BASELINE: not the first baseline; this window was absorbed unreviewed and is recorded in rebaselines.json.' : ' Nothing to review yet.'}`);
+  else console.log(`${added} new, ${changed} changed, ${discardedCount} discarded${retired ? `, ${retired} retired (source left the register)` : ''}, ${health.summary.unreviewed} unreviewed in total.`);
   for (const s of health.sources) {
     if (s.status !== 'ok') console.log(`  ! ${s.id}: ${s.status}${s.http_status ? ' ' + s.http_status : ''}${s.note ? ' — ' + s.note : ''}`);
   }
