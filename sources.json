@@ -1,5 +1,5 @@
 {
-  "register_version": "0.4",
+  "register_version": "0.5",
   "register_updated": "2026-07-27",
   "review_cadence_days": 90,
   "scope": {
@@ -27,7 +27,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Everything newly published, filtered locally by the relevance gate.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "URL form documented at legislation.github.io/data-documentation/api/search.html, 'New legislation listings'. results-count reduced from 100 to 50 on 25 July 2026: the sibling search feed at 50 succeeded while this one at 100 kept returning an HTML page."
@@ -44,7 +44,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Title search. Boolean OR must be upper case per the API docs.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Search feed form and boolean syntax documented at legislation.github.io/data-documentation/api/search.html."
@@ -61,7 +61,7 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Feeds the EIA and the bias mapping.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "verified",
       "last_verified": "2026-07-25",
       "verify_note": "Chapter number 2010 c.15 confirmed directly on 25 July 2026. The automatic resolve could not confirm it because a title search for 'Equality Act 2010' also matches its commencement orders, so the identifier service returned multiple choices and the tool correctly refused to guess."
@@ -72,7 +72,7 @@
       "tier": 1,
       "authority": "Data Protection Act 2018.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2018/12/data.feed?results-count=100",
       "resolve": {
         "title": "Data Protection Act 2018",
         "type": "ukpga",
@@ -83,10 +83,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "The DUAA amendments land here as effects, carrying in-force dates.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2018 c.12 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-duaa-2025",
@@ -94,7 +94,7 @@
       "tier": 1,
       "authority": "Data (Use and Access) Act 2025. Source of Articles 22A to 22D, cited across the playbook and DPIA template.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2025/18/data.feed?results-count=100",
       "resolve": {
         "title": "Data (Use and Access) Act 2025",
         "type": "ukpga",
@@ -105,10 +105,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Commencement and amendment of the ADM safeguards regime.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2025 c.18 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-hra-1998",
@@ -116,7 +116,7 @@
       "tier": 1,
       "authority": "Human Rights Act 1998.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/1998/42/data.feed?results-count=100",
       "resolve": {
         "title": "Human Rights Act 1998",
         "type": "ukpga",
@@ -127,10 +127,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Feeds the HRA artefact.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 1998 c.42 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-care-2014",
@@ -138,7 +138,7 @@
       "tier": 1,
       "authority": "Care Act 2014. Adult social care is where the highest-risk council AI tends to sit.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2014/23/data.feed?results-count=100",
       "resolve": {
         "title": "Care Act 2014",
         "type": "ukpga",
@@ -149,10 +149,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Assessment and eligibility duties that AI triage tools touch directly.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2014 c.23 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-children-1989",
@@ -160,7 +160,7 @@
       "tier": 1,
       "authority": "Children Act 1989.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/1989/41/data.feed?results-count=100",
       "resolve": {
         "title": "Children Act 1989",
         "type": "ukpga",
@@ -171,10 +171,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "s.17 and s.47 duties in children's social care.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 1989 c.41 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-children-2004",
@@ -182,7 +182,7 @@
       "tier": 1,
       "authority": "Children Act 2004.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2004/31/data.feed?results-count=100",
       "resolve": {
         "title": "Children Act 2004",
         "type": "ukpga",
@@ -193,10 +193,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "s.11 safeguarding duty and multi-agency arrangements.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2004 c.31 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-housing-1996",
@@ -204,7 +204,7 @@
       "tier": 1,
       "authority": "Housing Act 1996. Part VII homelessness decisions are highly automatable and highly contestable.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/1996/52/data.feed?results-count=100",
       "resolve": {
         "title": "Housing Act 1996",
         "type": "ukpga",
@@ -215,10 +215,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Homelessness duties and the statutory review right.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 1996 c.52 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-foia-2000",
@@ -226,7 +226,7 @@
       "tier": 1,
       "authority": "Freedom of Information Act 2000.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2000/36/data.feed?results-count=100",
       "resolve": {
         "title": "Freedom of Information Act 2000",
         "type": "ukpga",
@@ -237,10 +237,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Disclosure exposure for model documentation and register contents.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2000 c.36 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "statute-procurement-2023",
@@ -248,7 +248,7 @@
       "tier": 1,
       "authority": "Procurement Act 2023. Most council AI is bought, so this bites before any internal gate does.",
       "type": "atom-changes",
-      "url": null,
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2023/54/data.feed?results-count=100",
       "resolve": {
         "title": "Procurement Act 2023",
         "type": "ukpga",
@@ -259,10 +259,10 @@
         "www.legislation.gov.uk"
       ],
       "scope": "Feeds the Supplier DDQ and the procurement gate.",
-      "filter": "none",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url."
+      "filter": "ai-governance",
+      "verification_status": "verified",
+      "last_verified": "2026-07-27",
+      "verify_note": "Chapter number 2023 c.54 confirmed on 2026-07-27 by legislation.gov.uk identifier lookup, not typed from memory."
     },
     {
       "id": "govuk-cabinet-office",
@@ -284,7 +284,7 @@
         "www.gov.uk"
       ],
       "scope": "AI policy, public sector adoption, AI Security Institute, procurement policy notes.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Endpoint and parameters documented at docs.publishing.service.gov.uk/repos/search-api/using-the-search-api.html."
@@ -309,7 +309,7 @@
         "www.gov.uk"
       ],
       "scope": "ATRS is voluntary for local authorities. A change to that status is the highest-impact possible change to the toolkit.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Confirm the slug still resolves after the DSIT dissolution."
@@ -334,7 +334,7 @@
         "www.gov.uk"
       ],
       "scope": "The most operationally binding central guidance on a council.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-26",
       "verify_note": "Organisation slug corrected and confirmed as ministry-of-housing-communities-local-government."
@@ -359,7 +359,7 @@
         "www.gov.uk"
       ],
       "scope": "Inspection expectations reach AI in children's social care long before AI policy does.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Confirm the slug via aggregate_organisations."
@@ -384,7 +384,7 @@
         "www.gov.uk"
       ],
       "scope": "CQC publishes most substantive material on cqc.org.uk, so treat this as partial coverage until an html-diff fetcher exists.",
-      "filter": "keywords",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Partial coverage by design. Confirm the slug via aggregate_organisations."
@@ -409,7 +409,7 @@
         "www.gov.uk"
       ],
       "scope": "Expect this to go quiet or start emitting withdrawals. Both are worth catching.",
-      "filter": "none",
+      "filter": "ai-governance",
       "verification_status": "form-verified",
       "last_verified": "2026-07-24",
       "verify_note": "Review at the next register review."
@@ -601,6 +601,7 @@
       "authority": "Data protection regulator. Highest-value single regulator for a council.",
       "type": "html-list",
       "url": "https://ico.org.uk/about-the-ico/media-centre/",
+      "deep": true,
       "summary_from": "parent",
       "allowed_domains": [
         "ico.org.uk",
@@ -611,6 +612,44 @@
       "verification_status": "form-verified",
       "last_verified": "2026-07-25",
       "verify_note": "Confirmed on 25 July 2026 that ico.org.uk/global/rss-feeds lists no working feed and all three sub-feeds are withdrawn. The site is fetchable and server-rendered. Run the Discover workflow on this URL to confirm the link_pattern before promoting to verified."
+    },
+    {
+      "id": "nist-ai-rmf",
+      "publisher": "NIST (National Institute of Standards and Technology)",
+      "tier": 3,
+      "authority": "US AI risk-management framework the playbook aligns to. A revision or new profile would silently stale that alignment claim.",
+      "type": "page-watch",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "watch_title": "NIST AI Risk Management Framework",
+      "watch_summary": "NIST AI Risk Management Framework (AI RMF) status page. Watched for a new edition, revision or profile affecting AI risk management, governance and assurance.",
+      "deep": true,
+      "filter": "ai-governance",
+      "allowed_domains": [
+        "nist.gov",
+        "www.nist.gov"
+      ],
+      "verification_status": "verified",
+      "last_verified": "2026-07-28",
+      "verify_note": "Public NIST page, watched by html-diff (deep body hash). The page currently states the AI RMF 1.0 is being revised."
+    },
+    {
+      "id": "iso-42001",
+      "publisher": "ISO/IEC",
+      "tier": 3,
+      "authority": "The AI management system standard the playbook aligns to. A new edition or revision changes the alignment baseline.",
+      "type": "page-watch",
+      "url": "https://www.iso.org/standard/42001",
+      "watch_title": "ISO/IEC 42001 (AI management system standard)",
+      "watch_summary": "ISO/IEC 42001 artificial intelligence management system standard catalogue page. Watched for lifecycle changes: a new edition, revision, amendment or corrigendum.",
+      "deep": true,
+      "filter": "ai-governance",
+      "allowed_domains": [
+        "iso.org",
+        "www.iso.org"
+      ],
+      "verification_status": "verified",
+      "last_verified": "2026-07-28",
+      "verify_note": "Public ISO catalogue page, watched by html-diff (deep body hash) for status/lifecycle changes. The standard text is paywalled, so a manual review cadence still applies to content."
     }
   ]
 }

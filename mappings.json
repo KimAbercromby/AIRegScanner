@@ -1,5 +1,5 @@
 {
-  "mappings_version": "0.2",
+  "mappings_version": "0.3",
   "target_playbook_version": "v19",
   "note": "This is what turns the scanner into a continual improvement tool rather than a news feed. Each topic maps a regulatory subject onto the specific parts of the playbook and artefact set that would have to change. Matching is deterministic and case-insensitive. An item may match several topics.",
   "relevance_gate": {
@@ -27,6 +27,88 @@
       "profiling",
       "risk stratification",
       "triage tool"
+    ]
+  },
+  "focus_gate": {
+    "note": "High-signal AI-governance gate. A general item needs both an AI signal and a governance, legal, assurance or public-sector signal. A change to a watched statute is tested against the amending instrument, not the name of the affected Act. This prevents every ordinary amendment to the Equality Act, Housing Act or another watched statute entering the feed. Direct priority frameworks are always retained. Rejections remain in discards.json.",
+    "allowed_uk_legislation_types": [
+      "ukpga",
+      "uksi",
+      "ukdsi",
+      "ukla",
+      "ukcm",
+      "ukmd",
+      "uksro"
+    ],
+    "priority_phrases": [
+      "algorithmic transparency recording standard",
+      "artificial intelligence act",
+      "data (use and access) act",
+      "digital information and smart data bill",
+      "eu ai act",
+      "iso/iec 42001",
+      "iso 42001",
+      "nist ai risk management framework",
+      "article 22"
+    ],
+    "ai_signals": [
+      "agentic",
+      "ai agent",
+      "ai model",
+      "ai system",
+      "algorithm",
+      "algorithmic",
+      "artificial intelligence",
+      "automated decision",
+      "automated decision-making",
+      "autonomous agent",
+      "biometric",
+      "chatbot",
+      "decision support",
+      "facial recognition",
+      "foundation model",
+      "generative ai",
+      "human-in-the-loop",
+      "human in the loop",
+      "large language model",
+      "machine learning",
+      "predictive",
+      "profiling",
+      "risk stratification"
+    ],
+    "governance_signals": [
+      "accountability",
+      "act 20",
+      "assurance",
+      "bill",
+      "code of practice",
+      "compliance",
+      "data protection",
+      "enforcement",
+      "equality",
+      "governance",
+      "guidance",
+      "law",
+      "legal",
+      "legislation",
+      "local authorities",
+      "local authority",
+      "local government",
+      "ombudsman",
+      "oversight",
+      "procurement",
+      "public authorities",
+      "public authority",
+      "public sector",
+      "regulation",
+      "rights",
+      "risk",
+      "safeguard",
+      "safety",
+      "security",
+      "standard",
+      "statutory",
+      "transparency"
     ]
   },
   "topics": [
@@ -189,7 +271,10 @@
         "ai risk management framework",
         "bsi",
         "certification",
-        "conformity assessment"
+        "conformity assessment",
+        "nist ai risk management framework",
+        "nist ai rmf",
+        "ai rmf"
       ],
       "affects_sections": [
         "3.10.1",

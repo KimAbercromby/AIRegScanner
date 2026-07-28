@@ -98,16 +98,20 @@
       "item": "ISO/IEC 42001",
       "kind": "standard",
       "expectation": "must-watch",
-      "watched_by": [],
-      "note": "GAP. The playbook claims alignment to 42001 in the executive summary, Chapter 5 and Appendix A, but no source watches ISO or IEC. A revision would silently stale the alignment claim. No clean change feed exists, so the remedy is an html-diff watch on the ISO 42001 catalogue page plus a manual review cadence. Highest-priority gap."
+      "watched_by": [
+        "iso-42001"
+      ],
+      "note": "Now watched by an html-diff (deep body-hash) page-watch on the catalogue/status page. Content is not diffed (standards text is paywalled / the RMF is a large doc set), so a manual review cadence still applies when the watch fires."
     },
     {
       "ref": "§1.4 / §5.2.3",
       "item": "NIST AI Risk Management Framework",
       "kind": "standard",
       "expectation": "must-watch",
-      "watched_by": [],
-      "note": "GAP. Alignment claimed alongside 42001. No source. Same remedy: an html-diff watch on the NIST AI RMF page plus a manual review cadence."
+      "watched_by": [
+        "nist-ai-rmf"
+      ],
+      "note": "Now watched by an html-diff (deep body-hash) page-watch on the catalogue/status page. Content is not diffed (standards text is paywalled / the RMF is a large doc set), so a manual review cadence still applies when the watch fires."
     },
     {
       "ref": "§3 (Article 22A safeguards), DPIA template",

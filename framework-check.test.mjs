@@ -29,15 +29,23 @@ test('no playbook landscape item is missing its required fields', () => {
   }
 });
 
-// The known standards gaps are deliberate. Assert they are present and still
-// unmapped, so that if someone wires a source later they are nudged to update
-// the map, and so the gaps cannot silently vanish from the record.
-test('ISO/IEC 42001 and NIST are present and recorded as gaps', () => {
+// The two standards gaps (ISO/IEC 42001, NIST AI RMF) were closed on 28 July by
+// adding page-watch sources. Assert they are present and now WATCHED by a live
+// source, so the closure cannot silently regress back to an unwatched claim.
+test('ISO/IEC 42001 and NIST are present and now watched by a live source', () => {
   const byItem = new Map(map.playbook_landscape.map((i) => [i.item, i]));
+  const byId = new Map(sources.sources.map((s) => [s.id, s]));
+  const live = new Set(['verified', 'form-verified']);
   for (const name of ['ISO/IEC 42001', 'NIST AI Risk Management Framework']) {
     const it = byItem.get(name);
     assert.ok(it, `${name} present in the landscape`);
-    assert.equal(it.watched_by.length, 0, `${name} recorded as having no source`);
+    assert.ok(it.watched_by.length >= 1, `${name} now has a watching source`);
+    for (const id of it.watched_by) {
+      const src = byId.get(id);
+      assert.ok(src, `${name} watched_by ${id} exists in the register`);
+      assert.ok(live.has(src.verification_status), `${name} watch source ${id} is live`);
+      assert.equal(src.type, 'page-watch', `${name} is watched by a page-watch source`);
+    }
   }
 });
 
