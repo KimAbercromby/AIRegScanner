@@ -48,8 +48,8 @@ jobs:
       TASK: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.task || (github.event.schedule == '30 6 * * 1' && 'smoke' || 'scan') }}
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: '20'
           cache: 'npm'
