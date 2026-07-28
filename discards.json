@@ -4,106 +4,6 @@
     {
       "run_at": "2026-07-28T06:51:04.633Z",
       "source_id": "statute-foia-2000",
-      "title": "Data Protection Act 2018 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-07-28T06:51:04.633Z",
-      "source_id": "statute-foia-2000",
-      "title": "The National Health Service Reform and Health Care Professions Act 2002 (Supplementary, Consequential etc. Provisions) Regulations 2002 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-07-28T06:51:04.633Z",
-      "source_id": "statute-foia-2000",
-      "title": "Elections and Elected Bodies (Wales) Act 2024 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-07-28T06:51:04.633Z",
-      "source_id": "statute-foia-2000",
-      "title": "Levelling-up and Regeneration Act 2023 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-07-28T06:51:04.633Z",
-      "source_id": "statute-foia-2000",
-      "title": "Criminal Justice and Police Act 2001 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-07-28T06:51:04.633Z",
-      "source_id": "statute-foia-2000",
-      "title": "Criminal Justice and Police Act 2001 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-07-28T06:51:04.633Z",
-      "source_id": "statute-foia-2000",
-      "title": "Criminal Justice and Police Act 2001 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-07-28T06:51:04.633Z",
-      "source_id": "statute-foia-2000",
       "title": "Digital Economy Act 2017 effect on Freedom of Information Act 2000",
       "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
       "reason": "no-ai-governance-signal",
@@ -6786,6 +6686,94 @@
       "title": "© Copyright",
       "url": "https://ico.org.uk/global/copyright-and-re-use-of-materials/",
       "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-07-28T20:50:00.275Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Chelmsford) (Emergency) (No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/888/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-07-28T20:50:00.275Z",
+      "source_id": "legislation-new",
+      "title": "The South West Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 7) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/232/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-07-28T20:50:00.275Z",
+      "source_id": "legislation-new",
+      "title": "The South East Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 7) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/231/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-07-28T20:50:00.275Z",
+      "source_id": "govuk-gds",
+      "title": "Register a birth",
+      "url": "https://www.gov.uk/service-standard-reports/register-a-birth",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-07-28T20:50:00.275Z",
+      "source_id": "govuk-mhclg",
+      "title": "Planning applications: called-in decisions and recovered appeals",
+      "url": "https://www.gov.uk/government/collections/planning-applications-called-in-decisions-and-recovered-appeals",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-07-28T20:50:00.275Z",
+      "source_id": "govuk-mhclg",
+      "title": "Recovered appeal: Snarlton Farm, Melksham, Wiltshire (ref: 3373278 - 28 July 2026)",
+      "url": "https://www.gov.uk/government/publications/recovered-appeal-snarlton-farm-melksham-wiltshire-ref-3373278-28-july-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-07-28T20:50:00.275Z",
+      "source_id": "govuk-mhclg",
+      "title": "Compulsory purchase orders: Register of decisions",
+      "url": "https://www.gov.uk/government/publications/compulsory-purchase-orders-register-of-decisions",
+      "reason": "no-ai-governance-signal",
       "signals": {
         "priority": [],
         "ai": [],

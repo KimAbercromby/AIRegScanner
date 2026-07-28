@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T06:51:36.530Z",
+  "generated_at": "2026-07-28T20:50:36.567Z",
   "jurisdiction": "England",
   "authority_type": "Single-tier authority (London borough). Discharges the full range of duties: adult social care, children's services, housing, public health, revenues and benefits.",
   "monitoring_since": "2026-07-25T19:30:03.293Z",
-  "covered_count": 24,
+  "covered_count": 26,
   "not_covered_count": 5,
   "covered": [
     {
@@ -173,6 +173,20 @@
       "name": "Information Commissioner's Office",
       "tier": 2,
       "authority": "Data protection regulator. Highest-value single regulator for a council."
+    },
+    {
+      "id": "nist-ai-rmf",
+      "publisher": "NIST (National Institute of Standards and Technology)",
+      "name": "NIST (National Institute of Standards and Technology)",
+      "tier": 3,
+      "authority": "US AI risk-management framework the playbook aligns to. A revision or new profile would silently stale that alignment claim."
+    },
+    {
+      "id": "iso-42001",
+      "publisher": "ISO/IEC",
+      "name": "ISO/IEC",
+      "tier": 3,
+      "authority": "The AI management system standard the playbook aligns to. A new edition or revision changes the alignment baseline."
     }
   ],
   "not_covered": [
@@ -217,5 +231,5 @@
       "reason": "Find Case Law offers a public search with Atom output. Confirm the query parameter names before enabling."
     }
   ],
-  "statement": "This monitor covers 24 of 29 configured sources. It does NOT currently cover: Equality and Human Rights Commission; National Audit Office; Local Government Association; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
+  "statement": "This monitor covers 26 of 31 configured sources. It does NOT currently cover: Equality and Human Rights Commission; National Audit Office; Local Government Association; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
 }

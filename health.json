@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-07-28T06:51:04.633Z",
+  "run_at": "2026-07-28T20:50:00.275Z",
   "register_version": "0.5",
-  "mode": "baseline",
+  "mode": "normal",
   "sources": [
     {
       "id": "legislation-new",
@@ -16,7 +16,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 2,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 1
     },
     {
@@ -32,7 +32,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 99,
+      "items_kept": 0,
       "items_discarded": 1
     },
     {
@@ -40,7 +40,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 100,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -88,7 +88,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 4,
+      "items_kept": 0,
       "items_discarded": 96
     },
     {
@@ -112,7 +112,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 4,
+      "items_kept": 0,
       "items_discarded": 46
     },
     {
@@ -128,7 +128,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 49
     },
     {
@@ -144,7 +144,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 2,
+      "items_kept": 0,
       "items_discarded": 48
     },
     {
@@ -229,6 +229,21 @@
       "items_seen": 31,
       "items_kept": 0,
       "items_discarded": 27
+    },
+    {
+      "id": "nist-ai-rmf",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 1,
+      "items_kept": 1,
+      "items_discarded": 0
+    },
+    {
+      "id": "iso-42001",
+      "status": "http-error",
+      "http_status": 403,
+      "items_seen": 0,
+      "items_kept": 0
     }
   ],
   "rejects": [
@@ -260,10 +275,11 @@
   "register_review_due": "2026-10-25",
   "register_review_overdue": false,
   "summary": {
-    "added": 0,
+    "added": 1,
     "changed": 0,
-    "absorbed": 211,
-    "discarded": 1166,
-    "unreviewed": 788
+    "absorbed": 0,
+    "discarded": 7,
+    "retired": 131,
+    "unreviewed": 658
   }
 }
