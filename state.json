@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-07-28T06:51:04.633Z",
+  "last_run": "2026-07-28T20:50:00.275Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -10809,6 +10809,68 @@
       "last_changed": "2026-07-28T06:51:04.633Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/888": {
+      "hash": "dd710d5f33c024b0",
+      "body": null,
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/232": {
+      "hash": "dc897143d0f0a6ff",
+      "body": null,
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/231": {
+      "hash": "8fcc0ab9aa8d9e16",
+      "body": null,
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "govuk-gds::/service-standard-reports/register-a-birth": {
+      "hash": "25826f26fd6b8fb8",
+      "body": null,
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/planning-applications-called-in-decisions-and-recovered-appeals": {
+      "hash": "fb5a59e5a42a250a",
+      "body": null,
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/recovered-appeal-snarlton-farm-melksham-wiltshire-ref-3373278-28-july-2026": {
+      "hash": "5b1667713c17fa5f",
+      "body": null,
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/compulsory-purchase-orders-register-of-decisions": {
+      "hash": "ed8169ffa35dffd1",
+      "body": null,
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "nist-ai-rmf::https://www.nist.gov/itl/ai-risk-management-framework": {
+      "hash": "4418db8cea99d1b6",
+      "body": "e8431894cc179dc9",
+      "first_seen": "2026-07-28T20:50:00.275Z",
+      "last_changed": "2026-07-28T20:50:00.275Z"
     }
   }
 }
