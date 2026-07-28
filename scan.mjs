@@ -27,11 +27,13 @@ const P = {
   coverage: join(ROOT, 'coverage.json'),
   discards: join(ROOT, 'discards.json'),
   baseline: join(ROOT, 'baseline.json'),
-  rebaselines: join(ROOT, 'rebaselines.json')
+  rebaselines: join(ROOT, 'rebaselines.json'),
+  archive: join(ROOT, 'impact-log-archive.json')
 };
 
 const RUNNABLE = new Set(['verified', 'form-verified']);
 const LOG_VERSION = '0.5';                           // schema the scanner writes
+const LOG_KEEP = Number(process.env.LOG_KEEP ?? 3000); // live impact-log cap; older terminal records roll to archive
 const DEEP_MAX = Number(process.env.DEEP_MAX ?? 40);   // body fetches per run
 const DISCARD_KEEP = 500;                              // discard entries retained
 const RUNLOG_KEEP = 400;                               // runs retained
@@ -181,6 +183,24 @@ export function retireOrphanedRecords(records, registerIds, at) {
     }
   }
   return retired;
+}
+
+/**
+ * Keep the live impact log bounded so the viewer stays fast, without ever
+ * losing an audit record or dropping outstanding work. Only terminal records
+ * (reviewed or retired), oldest first, are moved out; unreviewed records always
+ * stay in the live log however old. The overflow is archived, never deleted.
+ */
+export function partitionForArchive(records, keep) {
+  if (records.length <= keep) return { kept: records, archived: [] };
+  const terminal = (r) => r.status && r.status !== 'unreviewed';
+  let toArchive = records.length - keep;
+  const kept = [], archived = [];
+  for (const rec of records) {           // oldest first
+    if (toArchive > 0 && terminal(rec)) { archived.push(rec); toArchive -= 1; }
+    else kept.push(rec);
+  }
+  return { kept, archived };
 }
 
 /**
@@ -587,6 +607,17 @@ async function main() {
       rebaselines.events.push(baselineManifest);
       writeJSON(P.rebaselines, rebaselines);
     }
+  }
+
+  // Keep the live impact log bounded (viewer loads it whole). Roll the oldest
+  // terminal records into an archive; unreviewed work is never moved. QA L2.
+  const { kept, archived } = partitionForArchive(log.records, LOG_KEEP);
+  if (archived.length) {
+    const archive = readJSON(P.archive, { note: 'Older reviewed or retired records rolled out of the live log to keep it fast. Nothing is deleted; this is the archive.', records: [] });
+    archive.records.push(...archived);
+    writeJSON(P.archive, archive);
+    log.records = kept;
+    console.log(`  archived ${archived.length} terminal record(s) to impact-log-archive.json (live log capped at ${LOG_KEEP}).`);
   }
 
   writeJSON(P.state, state);

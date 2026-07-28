@@ -300,6 +300,30 @@ export function findFeedLinks(html, pageUrl) {
   return out;
 }
 
+/**
+ * Single-page watch. The page itself is the item, so this returns exactly one
+ * entry. Change detection is left to the deep body-hash (mark the source
+ * `deep: true`), so the title and summary are stable configured descriptors
+ * that do NOT move with the page content — a content change then surfaces as a
+ * content-revision rather than a metadata change. For standards and guidance
+ * pages that publish no feed (ISO/IEC 42001, the NIST AI RMF). The descriptor
+ * must carry the source's own keywords so the relevance gate still recognises
+ * it; the page <title> is only a fallback.
+ */
+export function parsePageWatch(html, source) {
+  let pageTitle = '';
+  try { pageTitle = (parseHtml(html).querySelector('title')?.text || '').replace(/\s+/g, ' ').trim(); } catch { /* ignore */ }
+  return [{
+    raw_id: source.url,
+    title: source.watch_title || pageTitle || source.url,
+    url: source.url,
+    date_published: null,
+    date_updated: null,
+    date_in_force: null,
+    summary: source.watch_summary || pageTitle || ''
+  }];
+}
+
 export async function fetchSource(source) {
   return withRetry(() => fetchSourceOnce(source));
 }
@@ -316,6 +340,12 @@ async function fetchSourceOnce(source) {
     const res = await httpGet(source.url, { accept: 'text/html' });
     if (!res.ok) return { ok: false, status: res.status, items: [], url: source.url };
     return { ok: true, status: res.status, items: parseHtmlList(res.body, source, res.finalUrl || source.url), url: source.url };
+  }
+
+  if (source.type === 'page-watch') {
+    const res = await httpGet(source.url, { accept: 'text/html' });
+    if (!res.ok) return { ok: false, status: res.status, items: [], url: source.url };
+    return { ok: true, status: res.status, items: parsePageWatch(res.body, source), url: source.url };
   }
 
   const res = await httpGet(source.url, { accept: 'application/atom+xml, application/rss+xml, application/xml' });

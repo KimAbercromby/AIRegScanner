@@ -177,7 +177,7 @@
   function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n;}
   function fmt(s){if(!s)return null;var d=new Date(s);return isNaN(d)?String(s).slice(0,10):
     d.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});}
-  function get(f,fb){return fetch(f).then(function(r){return r.ok?r.json():fb;}).catch(function(){return fb;});}
+  function get(f,fb){return fetch(f+(f.indexOf('?')<0?'?':'&')+'v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():fb;}).catch(function(){return fb;});}
 
   var GROUPERS = {
     source:   function(r){ return [ S.labels[r.source_id] || r.source_id || 'unknown' ]; },
@@ -429,6 +429,27 @@
     });
 
     var P=document.getElementById('panels');
+
+    // Loud re-baseline notice. A baseline run absorbs the current position and
+    // reviews nothing, so if the latest run re-baselined the reader must see it.
+    // Prefer the explicit health flag; fall back to inferring it from the run
+    // log for data written before the flag existed (a baseline run that is not
+    // the first run in the log).
+    var lastRun=(rl.runs||[]).length?rl.runs[rl.runs.length-1]:null;
+    var rebaselined = health&&health.rebaseline ? health.rebaseline : null;
+    if(!rebaselined && lastRun && (lastRun.rebaseline || (lastRun.mode==='baseline' && (rl.runs||[]).length>1))){
+      rebaselined = { absorbed: (lastRun.absorbed!=null?lastRun.absorbed:null), first_baseline_at: null };
+    }
+    if(rebaselined){
+      P.appendChild(panel('bad','Latest run re-baselined and reviewed nothing',
+        rebaselined.absorbed!=null?rebaselined.absorbed:'',function(b){
+          b.appendChild(el('p',null,(rebaselined.absorbed!=null?rebaselined.absorbed+' item(s) were ':'Items were ')+
+            'absorbed as a fresh starting position and never reviewed. Treat that window as an unreviewed gap. The absorbed items are recorded in rebaselines.json.'));
+          if(rebaselined.first_baseline_at) b.appendChild(el('p',null,
+            'Monitoring originally began '+fmt(rebaselined.first_baseline_at)+'; this run reset the starting position.'));
+        },true));
+    }
+
     P.appendChild(panel('good','Focused relevance gate',focused.length,function(b){
       b.appendChild(el('p',null,'The default feed keeps direct AI and automated-decision law, named priority frameworks, and AI developments with a clear governance, assurance, legal or public-sector consequence.'));
       b.appendChild(el('p',null,hidden+' older or low-signal records remain available under Full audit history. Nothing has been deleted.'));
@@ -490,8 +511,8 @@
 
     if((rl.runs||[]).length){
       var last=rl.runs[rl.runs.length-1];
-      document.getElementById('runline').textContent='Last run '+fmt(last.run_at)+'. '+last.outcome+
-        '  Monitored on '+rl.runs.length+' occasion(s).';
+      document.getElementById('runline').textContent='Data as of '+fmt(last.run_at)+' \u00B7 '+last.outcome+
+        ' \u00B7 monitored on '+rl.runs.length+' occasion(s).';
     } else document.getElementById('runline').textContent='No run recorded yet.';
 
     document.getElementById('focus').addEventListener('change',function(e){S.focus=e.target.value;draw();});
