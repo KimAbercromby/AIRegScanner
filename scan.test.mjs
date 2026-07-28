@@ -483,9 +483,13 @@ test('C1: coverage statement names what is not covered', async () => {
   assert.ok(c.not_covered.length > 0, 'fixture register has unverified sources');
   assert.match(c.statement, /does NOT currently cover/);
   for (const n of c.not_covered) {
-    assert.ok(c.statement.includes(n.publisher), `${n.publisher} must appear in the statement`);
-    assert.ok(n.reason && n.reason.length > 5, `${n.publisher} must carry a reason`);
+    assert.ok(c.statement.includes(n.name), `${n.name} must appear in the statement`);
+    assert.ok(n.reason && n.reason.length > 5, `${n.name} must carry a reason`);
   }
+  // C1 regression: sources sharing one publisher (the legislation.gov.uk statutes)
+  // must each be named distinctly, not collapsed into the same publisher string repeated.
+  const names = c.not_covered.map((n) => n.name);
+  assert.equal(new Set(names).size, names.length, 'each uncovered source must appear under a distinct name');
   assert.equal(c.monitoring_since, '2026-07-24T07:00:00Z');
 });
 

@@ -232,7 +232,7 @@ export function nextRecordId(log) {
 export function buildCoverage(sourcesFile, baselineDate) {
   const covered = [], notCovered = [];
   for (const s of sourcesFile.sources) {
-    const entry = { id: s.id, publisher: s.publisher, tier: s.tier, authority: s.authority };
+    const entry = { id: s.id, publisher: s.publisher, name: (s.resolve && s.resolve.title) || s.publisher, tier: s.tier, authority: s.authority };
     if (RUNNABLE.has(s.verification_status)) covered.push(entry);
     else notCovered.push({ ...entry, reason: s.resolve ? 'Statute identifier not yet resolved. Run the Resolve workflow.' : (s.verify_note || 'Endpoint not confirmed.') });
   }
@@ -246,7 +246,7 @@ export function buildCoverage(sourcesFile, baselineDate) {
     covered,
     not_covered: notCovered,
     statement: notCovered.length
-      ? `This monitor covers ${covered.length} of ${covered.length + notCovered.length} configured publishers. It does NOT currently cover: ${notCovered.map((n) => n.publisher).join('; ')}. Any assurance drawn from it must be read subject to those gaps.`
+      ? `This monitor covers ${covered.length} of ${covered.length + notCovered.length} configured sources. It does NOT currently cover: ${notCovered.map((n) => n.name).join('; ')}. Any assurance drawn from it must be read subject to those gaps.`
       : `This monitor covers all ${covered.length} configured publishers.`
   };
 }
