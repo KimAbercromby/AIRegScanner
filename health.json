@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-07-25T20:28:51.441Z",
-  "register_version": "0.3",
-  "mode": "normal",
+  "run_at": "2026-07-28T06:51:04.633Z",
+  "register_version": "0.5",
+  "mode": "baseline",
   "sources": [
     {
       "id": "legislation-new",
@@ -16,93 +16,88 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 2,
-      "items_kept": 0,
-      "items_discarded": 0
+      "items_kept": 1,
+      "items_discarded": 1
     },
     {
       "id": "statute-equality-2010",
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 48,
-      "items_discarded": 0
+      "items_kept": 0,
+      "items_discarded": 100
     },
     {
       "id": "statute-dpa-2018",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 99,
+      "items_discarded": 1
     },
     {
       "id": "statute-duaa-2025",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 100,
+      "items_discarded": 0
     },
     {
       "id": "statute-hra-1998",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 85,
+      "items_kept": 0,
+      "items_discarded": 85
     },
     {
       "id": "statute-care-2014",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
     },
     {
       "id": "statute-children-1989",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
     },
     {
       "id": "statute-children-2004",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
-    },
-    {
-      "id": "statute-lga-1999",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
     },
     {
       "id": "statute-housing-1996",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
     },
     {
       "id": "statute-foia-2000",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 4,
+      "items_discarded": 96
     },
     {
       "id": "statute-procurement-2023",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
-    },
-    {
-      "id": "statute-localism-2011",
-      "status": "skipped-unverified",
-      "note": "Run `npm run resolve` to have legislation.gov.uk confirm the chapter number and populate url.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
     },
     {
       "id": "govuk-cabinet-office",
@@ -110,32 +105,31 @@
       "http_status": 200,
       "items_seen": 50,
       "items_kept": 0,
-      "items_discarded": 0
+      "items_discarded": 50
     },
     {
       "id": "govuk-gds",
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 0
+      "items_kept": 4,
+      "items_discarded": 46
     },
     {
       "id": "govuk-mhclg",
-      "status": "ok-but-empty",
+      "status": "ok",
       "http_status": 200,
-      "items_seen": 0,
+      "items_seen": 50,
       "items_kept": 0,
-      "items_discarded": 0,
-      "note": "Responded 200 but returned no items. Check the endpoint still points where you think it does."
+      "items_discarded": 50
     },
     {
       "id": "govuk-ofsted",
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 48
+      "items_kept": 1,
+      "items_discarded": 49
     },
     {
       "id": "govuk-cqc",
@@ -150,8 +144,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 0
+      "items_kept": 2,
+      "items_discarded": 48
     },
     {
       "id": "ehrc-guidance",
@@ -232,18 +226,12 @@
       "id": "ico-news",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 32,
+      "items_seen": 31,
       "items_kept": 0,
       "items_discarded": 27
     }
   ],
   "rejects": [
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
-      "url": "https://www.smartsurvey.co.uk/s/W2FNN3/",
-      "title": "Yes I'll take the survey"
-    },
     {
       "source": "ico-news",
       "reason": "domain-not-allowed",
@@ -269,14 +257,13 @@
       "title": "Open Government Licence v3.0"
     }
   ],
-  "register_review_due": "2026-10-23",
+  "register_review_due": "2026-10-25",
   "register_review_overdue": false,
   "summary": {
     "added": 0,
-    "changed": 48,
-    "absorbed": 0,
-    "discarded": 188,
+    "changed": 0,
+    "absorbed": 211,
+    "discarded": 1166,
     "unreviewed": 788
-  },
-  "issue_cap_warning": "738 records await an issue but only 25 are created per run. The queue will take 30 runs to clear."
+  }
 }

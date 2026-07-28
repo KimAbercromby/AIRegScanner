@@ -1,183 +1,185 @@
 {
-  "generated_at": "2026-07-25T20:29:14.377Z",
+  "generated_at": "2026-07-28T06:51:36.530Z",
   "jurisdiction": "England",
   "authority_type": "Single-tier authority (London borough). Discharges the full range of duties: adult social care, children's services, housing, public health, revenues and benefits.",
   "monitoring_since": "2026-07-25T19:30:03.293Z",
-  "covered_count": 15,
-  "not_covered_count": 16,
+  "covered_count": 24,
+  "not_covered_count": 5,
   "covered": [
     {
       "id": "legislation-new",
       "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The National Archives (legislation.gov.uk)",
       "tier": 1,
       "authority": "All newly published UK legislation"
     },
     {
       "id": "legislation-search-ai-title",
       "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The National Archives (legislation.gov.uk)",
       "tier": 1,
       "authority": "Legislation naming AI or automated decision-making"
     },
     {
       "id": "statute-equality-2010",
       "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The National Archives (legislation.gov.uk)",
       "tier": 1,
       "authority": "Equality Act 2010. The public sector equality duty at s.149 is the likeliest route to a legal challenge against a council AI deployment."
     },
     {
+      "id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Data Protection Act 2018",
+      "tier": 1,
+      "authority": "Data Protection Act 2018."
+    },
+    {
+      "id": "statute-duaa-2025",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Data (Use and Access) Act 2025",
+      "tier": 1,
+      "authority": "Data (Use and Access) Act 2025. Source of Articles 22A to 22D, cited across the playbook and DPIA template."
+    },
+    {
+      "id": "statute-hra-1998",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Human Rights Act 1998",
+      "tier": 1,
+      "authority": "Human Rights Act 1998."
+    },
+    {
+      "id": "statute-care-2014",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Care Act 2014",
+      "tier": 1,
+      "authority": "Care Act 2014. Adult social care is where the highest-risk council AI tends to sit."
+    },
+    {
+      "id": "statute-children-1989",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Children Act 1989",
+      "tier": 1,
+      "authority": "Children Act 1989."
+    },
+    {
+      "id": "statute-children-2004",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Children Act 2004",
+      "tier": 1,
+      "authority": "Children Act 2004."
+    },
+    {
+      "id": "statute-housing-1996",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Housing Act 1996",
+      "tier": 1,
+      "authority": "Housing Act 1996. Part VII homelessness decisions are highly automatable and highly contestable."
+    },
+    {
+      "id": "statute-foia-2000",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Freedom of Information Act 2000",
+      "tier": 1,
+      "authority": "Freedom of Information Act 2000."
+    },
+    {
+      "id": "statute-procurement-2023",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Procurement Act 2023",
+      "tier": 1,
+      "authority": "Procurement Act 2023. Most council AI is bought, so this bites before any internal gate does."
+    },
+    {
       "id": "govuk-cabinet-office",
       "publisher": "Cabinet Office (via GOV.UK Search API)",
+      "name": "Cabinet Office (via GOV.UK Search API)",
       "tier": 2,
       "authority": "Holds AI strategy and public sector AI adoption from 21 July 2026"
     },
     {
       "id": "govuk-gds",
       "publisher": "Government Digital Service (via GOV.UK Search API)",
+      "name": "Government Digital Service (via GOV.UK Search API)",
       "tier": 2,
       "authority": "Algorithmic Transparency Recording Standard"
     },
     {
       "id": "govuk-mhclg",
       "publisher": "Ministry of Housing, Communities and Local Government (via GOV.UK Search API)",
+      "name": "Ministry of Housing, Communities and Local Government (via GOV.UK Search API)",
       "tier": 2,
       "authority": "Sponsor department for local government"
     },
     {
       "id": "govuk-ofsted",
       "publisher": "Ofsted (via GOV.UK Search API)",
+      "name": "Ofsted (via GOV.UK Search API)",
       "tier": 2,
       "authority": "Inspectorate for children's services"
     },
     {
       "id": "govuk-cqc",
       "publisher": "Care Quality Commission (via GOV.UK Search API)",
+      "name": "Care Quality Commission (via GOV.UK Search API)",
       "tier": 2,
       "authority": "Regulator for adult social care"
     },
     {
       "id": "govuk-dsit-legacy",
       "publisher": "Department for Science, Innovation and Technology (dissolved 21 July 2026)",
+      "name": "Department for Science, Innovation and Technology (dissolved 21 July 2026)",
       "tier": 2,
       "authority": "Historic. Kept live so withdrawal or relocation of DSIT content is still detected."
     },
     {
       "id": "lgsco-housing",
       "publisher": "Local Government and Social Care Ombudsman",
+      "name": "Local Government and Social Care Ombudsman",
       "tier": 2,
       "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court."
     },
     {
       "id": "lgsco-adult-care",
       "publisher": "Local Government and Social Care Ombudsman",
+      "name": "Local Government and Social Care Ombudsman",
       "tier": 2,
       "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court."
     },
     {
       "id": "lgsco-childrens-care",
       "publisher": "Local Government and Social Care Ombudsman",
+      "name": "Local Government and Social Care Ombudsman",
       "tier": 2,
       "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court."
     },
     {
       "id": "lgsco-education",
       "publisher": "Local Government and Social Care Ombudsman",
+      "name": "Local Government and Social Care Ombudsman",
       "tier": 2,
       "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court."
     },
     {
       "id": "lgsco-benefits",
       "publisher": "Local Government and Social Care Ombudsman",
+      "name": "Local Government and Social Care Ombudsman",
       "tier": 2,
       "authority": "Maladministration findings against English councils. Where a resident harmed by an automated decision actually ends up, long before any court."
     },
     {
       "id": "ico-news",
       "publisher": "Information Commissioner's Office",
+      "name": "Information Commissioner's Office",
       "tier": 2,
       "authority": "Data protection regulator. Highest-value single regulator for a council."
     }
   ],
   "not_covered": [
     {
-      "id": "statute-dpa-2018",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Data Protection Act 2018.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-duaa-2025",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Data (Use and Access) Act 2025. Source of Articles 22A to 22D, cited across the playbook and DPIA template.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-hra-1998",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Human Rights Act 1998.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-care-2014",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Care Act 2014. Adult social care is where the highest-risk council AI tends to sit.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-children-1989",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Children Act 1989.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-children-2004",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Children Act 2004.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-lga-1999",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Local Government Act 1999. The best value duty is the framework an efficiency-justified AI deployment gets judged against.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-housing-1996",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Housing Act 1996. Part VII homelessness decisions are highly automatable and highly contestable.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-foia-2000",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Freedom of Information Act 2000.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-procurement-2023",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Procurement Act 2023. Most council AI is bought, so this bites before any internal gate does.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
-      "id": "statute-localism-2011",
-      "publisher": "The National Archives (legislation.gov.uk)",
-      "tier": 1,
-      "authority": "Localism Act 2011. General power of competence, and part of the delegated authority picture.",
-      "reason": "Statute identifier not yet resolved. Run the Resolve workflow."
-    },
-    {
       "id": "ehrc-guidance",
       "publisher": "Equality and Human Rights Commission",
+      "name": "Equality and Human Rights Commission",
       "tier": 2,
       "authority": "PSED regulator. Publishes the technical guidance councils are assessed against.",
       "reason": "Check for a news feed or sitemap."
@@ -185,6 +187,7 @@
     {
       "id": "nao-reports",
       "publisher": "National Audit Office",
+      "name": "National Audit Office",
       "tier": 3,
       "authority": "Value for money reporting on public sector AI",
       "reason": "Check nao.org.uk/reports for a feed."
@@ -192,6 +195,7 @@
     {
       "id": "lga-guidance",
       "publisher": "Local Government Association",
+      "name": "Local Government Association",
       "tier": 3,
       "authority": "Sector body guidance and the AI hub for councils",
       "reason": "Check local.gov.uk for a publications feed."
@@ -199,6 +203,7 @@
     {
       "id": "bills-parliament",
       "publisher": "UK Parliament",
+      "name": "UK Parliament",
       "tier": 1,
       "authority": "Bills in passage",
       "reason": "Parliament publishes a Bills API. Confirm the endpoint and response shape, then add a fetcher."
@@ -206,10 +211,11 @@
     {
       "id": "find-case-law",
       "publisher": "The National Archives, Find Case Law",
+      "name": "The National Archives, Find Case Law",
       "tier": 1,
       "authority": "Judgments and tribunal decisions",
       "reason": "Find Case Law offers a public search with Atom output. Confirm the query parameter names before enabling."
     }
   ],
-  "statement": "This monitor covers 15 of 31 configured publishers. It does NOT currently cover: The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); The National Archives (legislation.gov.uk); Equality and Human Rights Commission; National Audit Office; Local Government Association; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
+  "statement": "This monitor covers 24 of 29 configured sources. It does NOT currently cover: Equality and Human Rights Commission; National Audit Office; Local Government Association; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
 }
