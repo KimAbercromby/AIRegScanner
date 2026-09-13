@@ -1,6 +1,6 @@
 {
-  "register_version": "0.5",
-  "register_updated": "2026-07-27",
+  "register_version": "1.0",
+  "register_updated": "2026-09-13",
   "review_cadence_days": 90,
   "scope": {
     "jurisdiction": "England",
@@ -650,6 +650,468 @@
       "verification_status": "verified",
       "last_verified": "2026-07-28",
       "verify_note": "Public ISO catalogue page, watched by html-diff (deep body hash) for status/lifecycle changes. The standard text is paywalled, so a manual review cadence still applies to content."
+    },
+    {
+      "id": "statute-pecr-2003",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (Conditional). Governs electronic communications, direct marketing and cookies/similar technologies where AI touches them.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "DPIA and RAIA.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003",
+        "type": "uksi",
+        "year": "2003"
+      }
+    },
+    {
+      "id": "statute-accessibility-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "The Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (Conditional). Applies where an AI-enabled public website or mobile application is in scope.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "DPIA, RAIA and rollout.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018",
+        "type": "uksi",
+        "year": "2018"
+      }
+    },
+    {
+      "id": "statute-eir-2004",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "The Environmental Information Regulations 2004 (Conditional). Access-to-information duty where AI information is environmental (planning, transport, environment).",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Register and reporting.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Environmental Information Regulations 2004",
+        "type": "uksi",
+        "year": "2004"
+      }
+    },
+    {
+      "id": "statute-lga-1972",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Local Government Act 1972 (Applicable). Constitutional governance: functions, meetings, delegations, access to information and records.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Terms of Reference, Gate Log, Gate Map.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Local Government Act 1972",
+        "type": "ukpga",
+        "year": "1972"
+      }
+    },
+    {
+      "id": "statute-lga-1999",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Local Government Act 1999 (Applicable). Best Value Duty: continuous improvement having regard to economy, efficiency and effectiveness; automation savings are not sufficient assurance.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Risk, reporting, dashboard, rollout, objectives.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Local Government Act 1999",
+        "type": "ukpga",
+        "year": "1999"
+      }
+    },
+    {
+      "id": "statute-procurement-regs-2024",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "The Procurement Regulations 2024 (Applicable). Detailed rules under the Procurement Act 2023 regime for in-scope AI procurement.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Supplier DDQ, decision record, rollout.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Procurement Regulations 2024",
+        "type": "uksi",
+        "year": "2024"
+      }
+    },
+    {
+      "id": "statute-pcr-2015",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "The Public Contracts Regulations 2015 (Legacy/Conditional). May continue to govern procurements commenced under the previous regime (transitional).",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Supplier DDQ.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Public Contracts Regulations 2015",
+        "type": "uksi",
+        "year": "2015"
+      }
+    },
+    {
+      "id": "statute-social-value-2012",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Public Services (Social Value) Act 2012 (Conditional). Pre-procurement social-value consideration for relevant public-services procurements.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Supplier DDQ, rollout.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Public Services (Social Value) Act 2012",
+        "type": "ukpga",
+        "year": "2012"
+      }
+    },
+    {
+      "id": "statute-dea-2017",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Digital Economy Act 2017 (Conditional). Data-sharing powers and codes where an AI data-sharing arrangement relies on them.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "DPIA, RAIA.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Digital Economy Act 2017",
+        "type": "ukpga",
+        "year": "2017"
+      }
+    },
+    {
+      "id": "statute-psi-reuse-2015",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "The Re-use of Public Sector Information Regulations 2015 (Conditional). Where Council information/AI datasets are requested or licensed for re-use.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Register, reporting.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Re-use of Public Sector Information Regulations 2015",
+        "type": "uksi",
+        "year": "2015"
+      }
+    },
+    {
+      "id": "statute-cdpa-1988",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Copyright, Designs and Patents Act 1988 (Conditional). AI training, prompts, outputs, code, datasets and supplier models may use or generate protected material.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Supplier DDQ, model card.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Copyright, Designs and Patents Act 1988",
+        "type": "ukpga",
+        "year": "1988"
+      }
+    },
+    {
+      "id": "statute-db-regs-1997",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "The Copyright and Rights in Databases Regulations 1997 (Conditional). Where AI datasets or extraction/re-use engage database copyright or database right.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Supplier DDQ.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Copyright and Rights in Databases Regulations 1997",
+        "type": "uksi",
+        "year": "1997"
+      }
+    },
+    {
+      "id": "statute-cma-1990",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Computer Misuse Act 1990 (Applicable). AI development, testing, agents and security exercises must not involve unauthorised access or modification.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Security review, risk, incident.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Computer Misuse Act 1990",
+        "type": "ukpga",
+        "year": "1990"
+      }
+    },
+    {
+      "id": "statute-nis-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "The Network and Information Systems Regulations 2018 (Conditional). Applies if the Council/system is within a regulated operator/digital-service scope.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Security review, risk.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "The Network and Information Systems Regulations 2018",
+        "type": "uksi",
+        "year": "2018"
+      }
+    },
+    {
+      "id": "statute-ripa-2000",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Regulation of Investigatory Powers Act 2000 (Conditional). Surveillance and investigatory-powers duties where AI enables covert monitoring.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "RAIA, HRA, security review.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Regulation of Investigatory Powers Act 2000",
+        "type": "ukpga",
+        "year": "2000"
+      }
+    },
+    {
+      "id": "statute-ipa-2016",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Investigatory Powers Act 2016 (Conditional). Investigatory-powers duties where AI enables interception or acquisition.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "RAIA, HRA.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Investigatory Powers Act 2016",
+        "type": "ukpga",
+        "year": "2016"
+      }
+    },
+    {
+      "id": "statute-pofa-2012",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Protection of Freedoms Act 2012 (Conditional). Surveillance-camera and biometric obligations where AI processes such data.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "RAIA, HRA, security review.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Protection of Freedoms Act 2012",
+        "type": "ukpga",
+        "year": "2012"
+      }
+    },
+    {
+      "id": "statute-hswa-1974",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Health and Safety at Work etc. Act 1974 (Applicable). AI may change work design, workload, safety-critical tasks, monitoring or psychosocial risk.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Risk, incident, RAIA.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Health and Safety at Work etc. Act 1974",
+        "type": "ukpga",
+        "year": "1974"
+      }
+    },
+    {
+      "id": "statute-pida-1998",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "authority": "Public Interest Disclosure Act 1998 (Applicable). Staff may raise AI safety, legality, data, procurement or public-interest concerns.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "Incident, RAIA.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Public Interest Disclosure Act 1998",
+        "type": "ukpga",
+        "year": "1998"
+      }
+    },
+    {
+      "id": "statute-mca-2005",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Mental Capacity Act 2005 (Conditional). Where AI supports adult social care, needs assessment, safeguarding or capacity decisions.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "RAIA, risk, EIA, HRA.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Mental Capacity Act 2005",
+        "type": "ukpga",
+        "year": "2005"
+      }
+    },
+    {
+      "id": "statute-dmcc-2024",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "authority": "Digital Markets, Competition and Consumers Act 2024 (Conditional). May apply where the Council or a delivery arrangement acts as a trader.",
+      "type": "atom-changes",
+      "url": null,
+      "allowed_domains": [
+        "legislation.gov.uk",
+        "www.legislation.gov.uk"
+      ],
+      "scope": "RAIA, reporting.",
+      "filter": "ai-governance",
+      "verification_status": "unverified",
+      "last_verified": null,
+      "verify_note": "Pending resolve: chapter/SI number to be confirmed by legislation.gov.uk identifier lookup (npm run resolve), not typed from memory.",
+      "resolve": {
+        "title": "Digital Markets, Competition and Consumers Act 2024",
+        "type": "ukpga",
+        "year": "2024"
+      }
     }
   ]
 }

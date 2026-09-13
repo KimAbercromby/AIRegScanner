@@ -45,6 +45,7 @@ export function reconcile(map, sourcesFile) {
 
   const sections = [
     ['playbook', map.playbook_landscape ?? []],
+    ['register', map.register_landscape ?? []],
     ['operational', map.operational_layer ?? []],
   ];
 
