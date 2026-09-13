@@ -1112,6 +1112,42 @@
         "type": "ukpga",
         "year": "2024"
       }
+    },
+    {
+      "id": "news-gds-ai",
+      "publisher": "Government Digital Service (GDS)",
+      "tier": 3,
+      "authority": "The government's public-sector AI adoption team (stewards ATRS and the AI Playbook). Current-awareness, not an instrument change.",
+      "type": "rss",
+      "url": "https://gds.blog.gov.uk/category/ai/feed/",
+      "allowed_domains": [
+        "gds.blog.gov.uk",
+        "blog.gov.uk"
+      ],
+      "scope": "AI governance news and practice from central government. Recorded as current awareness; never flags a section or artefact change.",
+      "filter": "keywords",
+      "current_awareness": true,
+      "verification_status": "form-verified",
+      "last_verified": "2026-09-13",
+      "verify_note": "blog.gov.uk runs WordPress; category feeds follow the /category/{slug}/feed/ convention (confirmed against technology.blog.gov.uk/feed). Runtime reachability confirmed by the smoke test and first scan; run Discover on gds.blog.gov.uk/category/ai/ if the feed path changes."
+    },
+    {
+      "id": "news-rtau",
+      "publisher": "Responsible Technology Adoption Unit (RTAU)",
+      "tier": 3,
+      "authority": "The government's responsible-AI / data-ethics unit (formerly CDEI). Current-awareness, not an instrument change.",
+      "type": "rss",
+      "url": "https://rtau.blog.gov.uk/feed/",
+      "allowed_domains": [
+        "rtau.blog.gov.uk",
+        "blog.gov.uk"
+      ],
+      "scope": "Responsible AI, assurance and data-ethics developments. Recorded as current awareness; never flags a section or artefact change.",
+      "filter": "keywords",
+      "current_awareness": true,
+      "verification_status": "form-verified",
+      "last_verified": "2026-09-13",
+      "verify_note": "blog.gov.uk WordPress site feed at /feed/ (confirmed convention). Runtime reachability confirmed by the smoke test and first scan; run Discover on rtau.blog.gov.uk if the feed path changes."
     }
   ]
 }
