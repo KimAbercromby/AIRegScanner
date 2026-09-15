@@ -1,6 +1,6 @@
 {
   "mappings_version": "0.3",
-  "target_playbook_version": "v19",
+  "target_playbook_version": "v19.3",
   "note": "This is what turns the scanner into a continual improvement tool rather than a news feed. Each topic maps a regulatory subject onto the specific parts of the playbook and artefact set that would have to change. Matching is deterministic and case-insensitive. An item may match several topics.",
   "relevance_gate": {
     "note": "An item must match at least one of these before it is recorded at all. Applied to sources whose filter is set to 'keywords'.",
