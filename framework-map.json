@@ -1,6 +1,6 @@
 {
   "framework_map_version": "0.1",
-  "target_playbook_version": "v19",
+  "target_playbook_version": "v19.3",
   "playbook_anchor": "Playbook \u00a72.5 'Regulatory Expectations and Public Trust' enumerates the framework's own regulatory landscape; \u00a76.6.5 commits the Council to horizon scanning against it. This file is the explicit reconciliation of that landscape onto the scanner's sources, so 'does the scanner map onto the playbook' is a checkable property rather than a thing to remember.",
   "note": "expectation governs what the checker requires. must-watch = the playbook relies on this, so a LIVE source is expected (a source is live when its verification_status is verified or form-verified; unverified sources are skipped by the scanner and count as dark). reference = recorded for context only, no live source required. The checker computes live/dark/gap from sources.json every run, so a status here cannot silently rot.",
   "playbook_landscape": [

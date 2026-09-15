@@ -10,11 +10,11 @@ import { fileURLToPath } from 'node:url';
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const clear = process.argv.includes('--clear');
 
-const empty = { log_version: '0.1', playbook_version: 'v19', records: [] };
+const empty = { log_version: '0.1', playbook_version: 'v19.3', records: [] };
 
 const sample = {
   log_version: '0.1',
-  playbook_version: 'v19',
+  playbook_version: 'v19.3',
   sample_data: true,
   records: [
     {
