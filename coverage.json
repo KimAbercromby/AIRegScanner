@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T20:50:36.567Z",
+  "generated_at": "2026-09-24T08:45:27.750Z",
   "jurisdiction": "England",
   "authority_type": "Single-tier authority (London borough). Discharges the full range of duties: adult social care, children's services, housing, public health, revenues and benefits.",
   "monitoring_since": "2026-07-25T19:30:03.293Z",
-  "covered_count": 26,
+  "covered_count": 49,
   "not_covered_count": 5,
   "covered": [
     {
@@ -187,6 +187,167 @@
       "name": "ISO/IEC",
       "tier": 3,
       "authority": "The AI management system standard the playbook aligns to. A new edition or revision changes the alignment baseline."
+    },
+    {
+      "id": "statute-pecr-2003",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Privacy and Electronic Communications (EC Directive) Regulations 2003",
+      "tier": 2,
+      "authority": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (Conditional). Governs electronic communications, direct marketing and cookies/similar technologies where AI touches them."
+    },
+    {
+      "id": "statute-accessibility-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018",
+      "tier": 2,
+      "authority": "The Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (Conditional). Applies where an AI-enabled public website or mobile application is in scope."
+    },
+    {
+      "id": "statute-eir-2004",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Environmental Information Regulations 2004",
+      "tier": 2,
+      "authority": "The Environmental Information Regulations 2004 (Conditional). Access-to-information duty where AI information is environmental (planning, transport, environment)."
+    },
+    {
+      "id": "statute-lga-1972",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Local Government Act 1972",
+      "tier": 1,
+      "authority": "Local Government Act 1972 (Applicable). Constitutional governance: functions, meetings, delegations, access to information and records."
+    },
+    {
+      "id": "statute-lga-1999",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Local Government Act 1999",
+      "tier": 1,
+      "authority": "Local Government Act 1999 (Applicable). Best Value Duty: continuous improvement having regard to economy, efficiency and effectiveness; automation savings are not sufficient assurance."
+    },
+    {
+      "id": "statute-procurement-regs-2024",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Procurement Regulations 2024",
+      "tier": 1,
+      "authority": "The Procurement Regulations 2024 (Applicable). Detailed rules under the Procurement Act 2023 regime for in-scope AI procurement."
+    },
+    {
+      "id": "statute-pcr-2015",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Public Contracts Regulations 2015",
+      "tier": 2,
+      "authority": "The Public Contracts Regulations 2015 (Legacy/Conditional). May continue to govern procurements commenced under the previous regime (transitional)."
+    },
+    {
+      "id": "statute-social-value-2012",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Public Services (Social Value) Act 2012",
+      "tier": 2,
+      "authority": "Public Services (Social Value) Act 2012 (Conditional). Pre-procurement social-value consideration for relevant public-services procurements."
+    },
+    {
+      "id": "statute-dea-2017",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Digital Economy Act 2017",
+      "tier": 2,
+      "authority": "Digital Economy Act 2017 (Conditional). Data-sharing powers and codes where an AI data-sharing arrangement relies on them."
+    },
+    {
+      "id": "statute-psi-reuse-2015",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Re-use of Public Sector Information Regulations 2015",
+      "tier": 2,
+      "authority": "The Re-use of Public Sector Information Regulations 2015 (Conditional). Where Council information/AI datasets are requested or licensed for re-use."
+    },
+    {
+      "id": "statute-cdpa-1988",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Copyright, Designs and Patents Act 1988",
+      "tier": 2,
+      "authority": "Copyright, Designs and Patents Act 1988 (Conditional). AI training, prompts, outputs, code, datasets and supplier models may use or generate protected material."
+    },
+    {
+      "id": "statute-db-regs-1997",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Copyright and Rights in Databases Regulations 1997",
+      "tier": 2,
+      "authority": "The Copyright and Rights in Databases Regulations 1997 (Conditional). Where AI datasets or extraction/re-use engage database copyright or database right."
+    },
+    {
+      "id": "statute-cma-1990",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Computer Misuse Act 1990",
+      "tier": 1,
+      "authority": "Computer Misuse Act 1990 (Applicable). AI development, testing, agents and security exercises must not involve unauthorised access or modification."
+    },
+    {
+      "id": "statute-nis-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "The Network and Information Systems Regulations 2018",
+      "tier": 2,
+      "authority": "The Network and Information Systems Regulations 2018 (Conditional). Applies if the Council/system is within a regulated operator/digital-service scope."
+    },
+    {
+      "id": "statute-ripa-2000",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Regulation of Investigatory Powers Act 2000",
+      "tier": 2,
+      "authority": "Regulation of Investigatory Powers Act 2000 (Conditional). Surveillance and investigatory-powers duties where AI enables covert monitoring."
+    },
+    {
+      "id": "statute-ipa-2016",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Investigatory Powers Act 2016",
+      "tier": 2,
+      "authority": "Investigatory Powers Act 2016 (Conditional). Investigatory-powers duties where AI enables interception or acquisition."
+    },
+    {
+      "id": "statute-pofa-2012",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Protection of Freedoms Act 2012",
+      "tier": 2,
+      "authority": "Protection of Freedoms Act 2012 (Conditional). Surveillance-camera and biometric obligations where AI processes such data."
+    },
+    {
+      "id": "statute-hswa-1974",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Health and Safety at Work etc. Act 1974",
+      "tier": 1,
+      "authority": "Health and Safety at Work etc. Act 1974 (Applicable). AI may change work design, workload, safety-critical tasks, monitoring or psychosocial risk."
+    },
+    {
+      "id": "statute-pida-1998",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Public Interest Disclosure Act 1998",
+      "tier": 1,
+      "authority": "Public Interest Disclosure Act 1998 (Applicable). Staff may raise AI safety, legality, data, procurement or public-interest concerns."
+    },
+    {
+      "id": "statute-mca-2005",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Mental Capacity Act 2005",
+      "tier": 2,
+      "authority": "Mental Capacity Act 2005 (Conditional). Where AI supports adult social care, needs assessment, safeguarding or capacity decisions."
+    },
+    {
+      "id": "statute-dmcc-2024",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "name": "Digital Markets, Competition and Consumers Act 2024",
+      "tier": 2,
+      "authority": "Digital Markets, Competition and Consumers Act 2024 (Conditional). May apply where the Council or a delivery arrangement acts as a trader."
+    },
+    {
+      "id": "news-gds-ai",
+      "publisher": "Government Digital Service (GDS)",
+      "name": "Government Digital Service (GDS)",
+      "tier": 3,
+      "authority": "The government's public-sector AI adoption team (stewards ATRS and the AI Playbook). Current-awareness, not an instrument change."
+    },
+    {
+      "id": "news-rtau",
+      "publisher": "Responsible Technology Adoption Unit (RTAU)",
+      "name": "Responsible Technology Adoption Unit (RTAU)",
+      "tier": 3,
+      "authority": "The government's responsible-AI / data-ethics unit (formerly CDEI). Current-awareness, not an instrument change."
     }
   ],
   "not_covered": [
@@ -231,5 +392,5 @@
       "reason": "Find Case Law offers a public search with Atom output. Confirm the query parameter names before enabling."
     }
   ],
-  "statement": "This monitor covers 26 of 31 configured sources. It does NOT currently cover: Equality and Human Rights Commission; National Audit Office; Local Government Association; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
+  "statement": "This monitor covers 49 of 54 configured sources. It does NOT currently cover: Equality and Human Rights Commission; National Audit Office; Local Government Association; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
 }

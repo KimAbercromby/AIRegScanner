@@ -1,6 +1,6 @@
 {
-  "run_at": "2026-07-28T20:50:00.275Z",
-  "register_version": "0.5",
+  "run_at": "2026-09-24T08:44:12.869Z",
+  "register_version": "1.0",
   "mode": "normal",
   "sources": [
     {
@@ -32,8 +32,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 1
+      "items_kept": 100,
+      "items_discarded": 0
     },
     {
       "id": "statute-duaa-2025",
@@ -47,9 +47,9 @@
       "id": "statute-hra-1998",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 85,
+      "items_seen": 86,
       "items_kept": 0,
-      "items_discarded": 85
+      "items_discarded": 86
     },
     {
       "id": "statute-care-2014",
@@ -88,8 +88,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 96
+      "items_kept": 8,
+      "items_discarded": 92
     },
     {
       "id": "statute-procurement-2023",
@@ -112,8 +112,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 46
+      "items_kept": 2,
+      "items_discarded": 47
     },
     {
       "id": "govuk-mhclg",
@@ -135,16 +135,16 @@
       "id": "govuk-cqc",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 13,
+      "items_seen": 14,
       "items_kept": 0,
-      "items_discarded": 13
+      "items_discarded": 14
     },
     {
       "id": "govuk-dsit-legacy",
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
+      "items_kept": 2,
       "items_discarded": 48
     },
     {
@@ -244,6 +244,188 @@
       "http_status": 403,
       "items_seen": 0,
       "items_kept": 0
+    },
+    {
+      "id": "statute-pecr-2003",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 31,
+      "items_discarded": 69
+    },
+    {
+      "id": "statute-accessibility-2018",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 40,
+      "items_kept": 0,
+      "items_discarded": 40
+    },
+    {
+      "id": "statute-eir-2004",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 41,
+      "items_kept": 11,
+      "items_discarded": 30
+    },
+    {
+      "id": "statute-lga-1972",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-lga-1999",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-procurement-regs-2024",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 98,
+      "items_kept": 0,
+      "items_discarded": 98
+    },
+    {
+      "id": "statute-pcr-2015",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-social-value-2012",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 35,
+      "items_kept": 0,
+      "items_discarded": 35
+    },
+    {
+      "id": "statute-dea-2017",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 17,
+      "items_discarded": 83
+    },
+    {
+      "id": "statute-psi-reuse-2015",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 7,
+      "items_kept": 6,
+      "items_discarded": 1
+    },
+    {
+      "id": "statute-cdpa-1988",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-db-regs-1997",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 89,
+      "items_kept": 0,
+      "items_discarded": 89
+    },
+    {
+      "id": "statute-cma-1990",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-nis-2018",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-ripa-2000",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-ipa-2016",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 4,
+      "items_discarded": 96
+    },
+    {
+      "id": "statute-pofa-2012",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 1,
+      "items_discarded": 99
+    },
+    {
+      "id": "statute-hswa-1974",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-pida-1998",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 0,
+      "items_discarded": 10
+    },
+    {
+      "id": "statute-mca-2005",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "statute-dmcc-2024",
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 100,
+      "items_kept": 0,
+      "items_discarded": 100
+    },
+    {
+      "id": "news-gds-ai",
+      "status": "error",
+      "error": "no <rss><channel>: not an RSS document. Server returned: \"AI &#8211; Government Digital Service We are the digital centre of government. We serve the public, central government departments and the wider public sector. 2026-06-18T12:43:29Z\"",
+      "items_seen": 0,
+      "items_kept": 0
+    },
+    {
+      "id": "news-rtau",
+      "status": "error",
+      "error": "no <rss><channel>: not an RSS document. Server returned: \"Responsible Technology Adoption Unit Blog Ideas, updates and news about the RTAU 2025-01-22T12:40:39Z https://rtau.blog.gov.uk/feed/ Responsible Technology Adoption Unit https://rt\"",
+      "items_seen": 0,
+      "items_kept": 0
     }
   ],
   "rejects": [
@@ -272,14 +454,15 @@
       "title": "Open Government Licence v3.0"
     }
   ],
-  "register_review_due": "2026-10-25",
+  "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 1,
-    "changed": 0,
+    "added": 174,
+    "changed": 9,
     "absorbed": 0,
-    "discarded": 7,
-    "retired": 131,
-    "unreviewed": 658
-  }
+    "discarded": 2145,
+    "retired": 0,
+    "unreviewed": 841
+  },
+  "issue_cap_warning": "183 records await an issue but only 25 are created per run. The queue will take 8 runs to clear."
 }
