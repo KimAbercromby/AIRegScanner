@@ -115,21 +115,116 @@
   @media (max-width:36rem){.dates{grid-template-columns:1fr}.date{border-right:0;border-bottom:1px solid var(--rule)}}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
+<style id="walkthrough-visual-alignment">
+
+  html{scroll-padding-top:32px}
+  .brand-row{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.15)}
+  .brand-identity{display:flex;align-items:center;gap:14px}
+  .brand-mark{display:grid;width:50px;height:50px;flex:0 0 50px;place-items:center;border:1.5px solid #d4ad50;border-radius:12px;color:#edca74;font-size:15px;font-weight:800;letter-spacing:.08em}
+  .brand-identity strong,.brand-identity small{display:block}
+  .brand-identity strong{font-size:17px;line-height:1.25;color:#fff}
+  .brand-identity small{margin-top:3px;color:#b9c7d5;font-size:12px}
+  .hero-grid{display:grid;grid-template-columns:minmax(0,1.07fr) minmax(350px,.93fr);gap:clamp(24px,5vw,68px);align-items:center;padding:64px 0 57px}
+  .eyebrow{display:flex;align-items:center;gap:15px;margin:0;color:#edca74;font-size:12px;font-weight:800;letter-spacing:.17em;text-transform:uppercase}
+  .eyebrow::after{content:"";width:55px;height:1px;background:rgba(212,173,80,.75)}
+  .hero-copy h1{max-width:730px;margin:22px 0;color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:clamp(42px,4.5vw,68px);font-weight:700;line-height:1.06;letter-spacing:-.035em}
+  .hero-copy h1 span{color:#edca74}
+  .hero-preview{min-width:0;border:1px solid rgba(255,255,255,.18);border-radius:19px;background:rgba(255,255,255,.09);padding:27px;box-shadow:0 34px 85px rgba(0,0,0,.18)}
+  .preview-top{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#c8d4df;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+  .preview-chip{border:1px solid rgba(122,215,162,.42);border-radius:999px;padding:4px 10px;color:#a6e6be;font-size:11px;letter-spacing:0;white-space:nowrap}
+  .preview-identity{display:flex;align-items:center;gap:15px;margin:29px 0 31px}
+  .preview-id-icon{display:grid;width:58px;height:58px;place-items:center;flex:0 0 58px;border:1px solid rgba(212,173,80,.52);border-radius:50%;background:rgba(212,173,80,.09);color:#f0cc73;font-size:13px;font-weight:800}
+  .preview-identity small,.preview-identity strong{display:block}
+  .preview-identity small{color:#b7c7d6;font-size:13px}
+  .preview-identity strong{color:#fff;font-family:Georgia,serif;font-size:clamp(20px,2.3vw,25px)}
+  .preview-flow{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;text-align:center}
+  .preview-flow::before{content:"";position:absolute;top:20px;left:11%;right:11%;height:1px;background:rgba(212,173,80,.65)}
+  .preview-flow>div{z-index:1;display:grid;justify-items:center;gap:7px}
+  .preview-flow span{display:grid;width:42px;height:42px;place-items:center;border:1px solid rgba(212,173,80,.58);border-radius:50%;background:#0b2c50;color:#f0cc73;font-size:13px;font-weight:800}
+  .preview-flow small{color:#c5d2e0;font-size:12px}
+  .preview-note{display:flex;gap:11px;margin:27px 0 0;padding:14px 16px;border-left:2px solid #d4ad50;background:rgba(6,26,48,.45);color:#dce5ee;font-size:13px;line-height:1.55}
+  .preview-note>span{color:#e1be64;font-size:19px}
+  .hero-proof{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.19)}
+  .hero-proof>div{display:flex;align-items:center;gap:13px;min-height:72px;padding:15px 18px;border-right:1px solid rgba(255,255,255,.12)}
+  .hero-proof>div:last-child{border-right:0}
+  .hero-proof span{color:#edca74;font-size:11px;font-weight:800}
+  .hero-proof strong{color:#f1f4f8;font-size:13px;font-weight:650}
+  @media(max-width:850px){.hero-grid{grid-template-columns:1fr;gap:32px;padding:52px 0 45px}.hero-preview{max-width:640px}.hero-proof{grid-template-columns:repeat(2,1fr)}.hero-proof>div:nth-child(2){border-right:0}.hero-proof>div:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.12)}}
+  @media(max-width:520px){.brand-identity small,.brand-shortcut{display:none!important}.hero-copy h1{font-size:clamp(37px,9vw,52px)}.hero-grid{padding:40px 0 34px}.hero-preview{padding:18px}.preview-top{font-size:11px}.preview-flow span{width:36px;height:36px}.preview-flow::before{top:18px}.hero-proof>div{min-height:63px;padding:12px 8px}.hero-proof strong{font-size:11px}}
+  @media print{.hero-preview,.hero-proof,.hero-actions,.brand-shortcut{display:none!important}.hero-grid{display:block;padding:10px 0}.hero-copy h1,.hero-copy h1 span,.brand-identity strong{color:#111!important}}
+
+  :root{--ink:#172131;--soft:#536274;--paper:#f2f4f7;--card:#fff;--rule:#dce2e9;--gold:#d4ad50}
+  body{font-family:"Segoe UI",Arial,sans-serif;line-height:1.6}
+  a{color:#15577c} :focus-visible{outline:3px solid #d4ad50;outline-offset:3px}
+  .wrap{max-width:1180px;padding-inline:20px}
+  header.top{overflow:hidden;padding:0;color:#fff;background:radial-gradient(circle at 75% 45%,rgba(212,173,80,.11),transparent 33%),linear-gradient(135deg,#061a30,#092542 52%,#0a2d53)}
+  .brand-shortcut{color:#e5ebf2;text-decoration:none;font-size:14px;font-weight:650}
+  .brand-shortcut:hover{color:#edca74}
+  .hero-copy .stand{color:#d0dae5;max-width:630px;font-size:18px;line-height:1.68}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:29px}
+  .hero-actions a{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:52px;padding:12px 22px;border:1px solid rgba(255,255,255,.28);border-radius:11px;font-size:15px;font-weight:700;text-decoration:none}
+  .hero-primary{background:#d4ad50;border-color:#d4ad50!important;color:#092542}
+  .hero-primary:hover{background:#e8c96f}
+  .hero-secondary{color:#fff;background:rgba(255,255,255,.05)}
+  .hero-secondary:hover{background:rgba(255,255,255,.13)}
+  .preview-note>div{min-width:0;flex:1}
+  .runline{margin:0;color:#dce5ee;font:500 12px/1.5 "Segoe UI",Arial,sans-serif}
+  .counters{margin-top:10px;border-color:rgba(255,255,255,.15)}
+  .counter{margin-right:12px;padding:10px 12px 5px 0;border-color:rgba(255,255,255,.15)}
+  .counter b{color:#fff;font-size:20px}.counter span{color:#c7d2dd;font-size:11px}.counter.flag b{color:#edca74}
+  main.wrap{padding-top:38px}
+  details.panel,details.group{border-radius:13px;overflow:hidden;box-shadow:0 9px 24px rgba(7,32,61,.045)}
+  details.panel>summary{padding:14px 18px;font-family:inherit;font-weight:750;font-size:13px;letter-spacing:.09em}
+  details.panel .inner{padding:0 18px 18px}.panel p,.panel ul{font-size:14px}
+  .controls{gap:14px;margin:25px 0 16px;padding:20px;border-radius:15px;box-shadow:0 10px 26px rgba(7,32,61,.045)}
+  .ctl{gap:5px}.ctl label{font-family:inherit;font-size:12px;font-weight:750;letter-spacing:.06em}
+  .ctl select,.ctl input{min-height:43px;padding:9px 11px;border-radius:8px;font-size:14px}
+  .ctl select:focus,.ctl input:focus{border-color:#d4ad50}
+  .resultline{font-family:inherit;font-size:13px}
+  details.group{margin-bottom:10px}details.group>summary{padding:15px 18px;align-items:center}
+  details.group>summary .gname{font-family:Georgia,serif;font-size:19px}
+  details.rec>summary{padding:11px 18px 11px 26px;font-size:14px}
+  details.rec>summary:hover{background:#f4f7fa}
+  details.rec .rtitle{white-space:normal;overflow:visible}
+  .detail{padding:12px 20px 20px 26px;background:#fbfcfe;font-size:14px}
+  .pill{padding:3px 7px;border-radius:5px;font-size:11px}
+  .dates{border-radius:8px;overflow:hidden}.date span{font-size:11px}
+  .sec,.art{padding:4px 7px;border-radius:5px;font-size:12px}
+  .outcome{border-radius:4px;font-size:14px}.outcome span{font-size:11px}
+  .more button{border-radius:8px;padding:8px 12px;cursor:pointer}
+  footer{font-size:13px}
+  @media(max-width:520px){.wrap{padding-inline:15px}.controls{padding:15px}.ctl,.ctl select,.ctl input{width:100%;min-width:0}.date{overflow-wrap:anywhere}}
+  @media print{header.top{color:#111!important;background:#fff!important}.hero-copy .stand,.preview-note{color:#111!important}}
+</style>
 </head>
 <body>
 <a class="skip" href="#records">Skip to records</a>
 <header class="top"><div class="wrap">
-  <p class="eyebrow">Regulatory horizon</p>
-  <h1>Focused AI governance changes</h1>
-  <p class="stand">A high-signal monitor for AI law, regulation, standards and public-sector governance. Unrelated amendments remain in the audit history but are hidden from the focused feed.</p>
-  <p class="runline" id="runline">Loading&hellip;</p>
-  <div class="counters" id="counters"></div>
+  <div class="brand-row">
+    <div class="brand-identity"><span class="brand-mark" aria-hidden="true">AI</span><div><strong>AI Governance Toolkit</strong><small>Practical governance for complex organisations</small></div></div>
+    <a class="brand-shortcut" href="#records">View changes <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">REGULATORY HORIZON SCANNER</p>
+      <h1>See what changed.<br><span>Know what it touches.</span></h1>
+      <p class="stand">A high-signal monitor for AI law, regulation, standards and public-sector governance. Unrelated amendments remain in the audit history but are hidden from the focused feed.</p>
+      <div class="hero-actions"><a class="hero-primary" href="#records">Review changes <span aria-hidden="true">→</span></a><a class="hero-secondary" href="#controls">Filter records</a></div>
+    </div>
+    <div class="hero-preview" aria-label="Regulatory horizon workflow">
+      <div class="preview-top">Governance signal <span class="preview-chip">Review feed</span></div>
+      <div class="preview-identity"><span class="preview-id-icon" aria-hidden="true">AI</span><div><small>Regulatory horizon</small><strong>Changes in context</strong></div></div>
+      <div class="preview-flow"><div><span>1</span><small>Sources</small></div><div><span>2</span><small>Changes</small></div><div><span>3</span><small>Review</small></div><div><span>4</span><small>Artefacts</small></div></div>
+      <div class="preview-note"><span aria-hidden="true">↳</span><div><p class="runline" id="runline">Loading&hellip;</p><div class="counters" id="counters"></div></div></div>
+    </div>
+  </div>
+  <div class="hero-proof" aria-label="Scanner features"><div><span>01</span><strong>Focused AI governance feed</strong></div><div><span>02</span><strong>Full audit history</strong></div><div><span>03</span><strong>Playbook section mapping</strong></div><div><span>04</span><strong>Artefact impact</strong></div></div>
 </div></header>
 
 <main class="wrap" id="main">
   <div id="panels"></div>
 
-  <div class="controls">
+  <div class="controls" id="controls">
     <div class="ctl"><label for="focus">Feed</label>
       <select id="focus">
         <option value="focused">AI governance focus</option>
@@ -177,7 +272,10 @@
   function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n;}
   function fmt(s){if(!s)return null;var d=new Date(s);return isNaN(d)?String(s).slice(0,10):
     d.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});}
-  function get(f,fb){return fetch(f+(f.indexOf('?')<0?'?':'&')+'v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():fb;}).catch(function(){return fb;});}
+  function get(f){return fetch(f+(f.indexOf('?')<0?'?':'&')+'v='+Date.now(),{cache:'no-store'}).then(function(r){
+    if(!r.ok)throw new Error(f+' returned HTTP '+r.status);
+    return r.json();
+  });}
 
   var GROUPERS = {
     source:   function(r){ return [ S.labels[r.source_id] || r.source_id || 'unknown' ]; },
@@ -429,6 +527,11 @@
     });
 
     var P=document.getElementById('panels');
+    if(unrev){
+      P.appendChild(panel('warn','Focused records awaiting human review',unrev,function(b){
+        b.appendChild(el('p',null,'These records are candidates, not confirmed changes to the playbook. Review each record and its issue where available, document applicability and an action or no-action decision, and keep it unreviewed until that decision is recorded.'));
+      },true));
+    }
 
     // Loud re-baseline notice. A baseline run absorbs the current position and
     // reviews nothing, so if the latest run re-baselined the reader must see it.
@@ -436,6 +539,23 @@
     // log for data written before the flag existed (a baseline run that is not
     // the first run in the log).
     var lastRun=(rl.runs||[]).length?rl.runs[rl.runs.length-1]:null;
+    var lastRunTime=lastRun?Date.parse(lastRun.run_at):NaN;
+    var ageHours=(Date.now()-lastRunTime)/3600000;
+    if(!lastRun||!Number.isFinite(ageHours)||ageHours<0||ageHours>48){
+      P.appendChild(panel('bad','Scan overdue or unavailable',null,function(b){
+        b.appendChild(el('p',null,lastRun&&Number.isFinite(lastRunTime)
+          ? 'Last scan: '+fmt(lastRun.run_at)+'. Daily scans are expected; this record is over 48 hours old or has an invalid timestamp. Check the Actions workflow before treating the feed as current.'
+          : 'No valid scan has been recorded. Check the Actions workflow before treating the feed as current.'));
+      },true));
+    }
+    if(!health||!reg.register_version||health.register_version!==reg.register_version||
+       (lastRun&&lastRun.register_version!==reg.register_version)){
+      P.appendChild(panel('bad','Source register has not been scan-validated',null,function(b){
+        b.appendChild(el('p',null,'Configured version '+(reg.register_version||'unknown')+
+          '; latest scan version '+(health&&health.register_version||'unknown')+
+          '. Run the scanner against the current source register and review source failures before relying on its coverage.'));
+      },true));
+    }
     var rebaselined = health&&health.rebaseline ? health.rebaseline : null;
     if(!rebaselined && lastRun && (lastRun.rebaseline || (lastRun.mode==='baseline' && (rl.runs||[]).length>1))){
       rebaselined = { absorbed: (lastRun.absorbed!=null?lastRun.absorbed:null), first_baseline_at: null };
@@ -524,6 +644,12 @@
       t=setTimeout(function(){S.q=v;draw();},180);
     });
     draw();
+  }).catch(function(err){
+    document.getElementById('runline').textContent='Regulatory scan data unavailable';
+    var P=document.getElementById('panels');
+    P.appendChild(panel('bad','Could not load scan data',null,function(b){
+      b.appendChild(el('p',null,String(err&&err.message||err)+'. Check the repository data files and try again. No current coverage can be inferred.'));
+    },true));
   });
 })();
 </script>

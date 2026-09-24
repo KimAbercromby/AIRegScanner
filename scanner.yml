@@ -1,0 +1,154 @@
+name: Regulatory scanner
+
+# Everything the scanner does lives in this one file, so there is only one
+# folder path to create by hand when setting the repository up.
+#
+# Automatic:
+#   - the scan runs daily at 07:00 UTC
+#   - the live-source smoke test runs Mondays at 06:30 UTC
+#
+# Manual, from the Actions tab (Run workflow, then pick a task):
+#   scan     - collect and review as normal
+#   resolve  - confirm the twelve statute chapter numbers. RUN THIS FIRST.
+#   smoke    - call the live publishers and fail loudly if unreachable
+#   discover - inspect a publisher page and print a source config (needs a URL)
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+    - cron: '30 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'What to run'
+        required: true
+        default: 'scan'
+        type: choice
+        options: [scan, resolve, smoke, discover]
+      url:
+        description: 'Page to inspect (discover only)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: regulatory-scanner
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    env:
+      # One place decides what this run is doing. Manual runs use the dropdown;
+      # the Monday cron is the smoke test; anything else scheduled is a scan.
+      TASK: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.task || (github.event.schedule == '30 6 * * 1' && 'smoke' || 'scan') }}
+
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Test
+        # If the parsers or the allowlist are broken, write nothing.
+        run: npm test
+
+      # ---------- resolve ----------
+      - name: Resolve statute identifiers
+        if: env.TASK == 'resolve'
+        run: npm run resolve
+
+      # ---------- discover ----------
+      - name: Discover a source
+        if: env.TASK == 'discover'
+        run: |
+          echo '### Source discovery' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          node discover.mjs "${{ github.event.inputs.url }}" 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      # ---------- smoke ----------
+      - name: Live source smoke test
+        if: env.TASK == 'smoke'
+        run: |
+          echo '### Live source check' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          npm run smoke 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      # ---------- scan ----------
+      - name: Scan
+        if: env.TASK == 'scan'
+        run: npm run scan
+
+      - name: Triage (optional)
+        # No secret check here: `secrets` is not a context GitHub allows in an
+        # `if`. The script exits quietly when the key is absent, so it is safe
+        # to always call.
+        if: env.TASK == 'scan'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run triage
+
+      - name: Review issues
+        if: env.TASK == 'scan'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run issues
+
+      - name: Commencement diary
+        if: env.TASK == 'scan'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run diary
+
+      # ---------- commit ----------
+      - name: Commit
+        if: env.TASK == 'scan' || env.TASK == 'resolve'
+        run: |
+          git config user.name  "regulatory-scanner"
+          git config user.email "actions@github.com"
+          git add -A -- '*.json' ':!package-lock.json'
+          if git diff --staged --quiet; then
+            # A scan ALWAYS changes the run log, so an empty commit means the
+            # run did not do what it should. Resolve legitimately changes
+            # nothing when everything is already resolved.
+            if [ "$TASK" = "scan" ]; then
+              echo "A scan produced no change to the run log. That should not happen."
+              exit 1
+            fi
+            echo "Nothing changed."
+          else
+            git commit -m "$TASK: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Summary
+        if: env.TASK == 'scan'
+        run: |
+          node -e "
+            const log = require('./impact-log.json');
+            const runs = require('./run-log.json').runs;
+            const cov = require('./coverage.json');
+            const last = runs[runs.length - 1];
+            const u = log.records.filter(r => r.status === 'unreviewed');
+            console.log('### Regulatory scan');
+            console.log('');
+            console.log('**' + last.outcome + '**');
+            console.log('');
+            console.log('- ' + last.sources_checked + ' sources checked, ' + last.sources_skipped + ' skipped, ' + last.sources_failed + ' with problems');
+            console.log('- ' + u.length + ' record(s) unreviewed');
+            console.log('');
+            console.log('> ' + cov.statement);
+          " >> $GITHUB_STEP_SUMMARY

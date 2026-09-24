@@ -9,6 +9,21 @@ Checks a fixed list of authoritative publishers on a schedule, detects what chan
 applies a deterministic AI-governance focus gate, and maps each retained change onto
 the playbook sections and artefacts it would affect.
 
+**Operating status:** A daily 07:00 UTC scan and Monday 06:30 UTC source-type
+smoke check are configured in `.github/workflows/scanner.yml`. On the website, a
+scan older than 48 hours, missing data, or a source-register version not yet
+scanned is shown as an explicit warning. A scheduled scan is evidence of a run,
+not evidence that all sources succeeded or that reviewers assessed the findings.
+After restoring the schedule, inspect the first real Actions run and verify that
+the page displays the current register version and run date.
+
+The outstanding 403 for `iso-42001`, the declared unconnected sources and the
+focused review queue require a human owner. Investigate the publisher response
+or record a documented alternative/manual checking route. Verify endpoints
+before promoting sources; do not label a source covered on the basis of an
+untested URL. Decide applicability and action or no-action for each focused
+unreviewed record. The viewer exposes these gaps until they are resolved.
+
 It does not crawl, discover, or summarise the law. That is deliberate. Items excluded
 by the focus gate remain in `discards.json`, so filtering is auditable.
 
