@@ -1305,6 +1305,294 @@
           "items_seen": 0
         }
       ]
+    },
+    {
+      "run_at": "2026-09-24T08:51:23.137Z",
+      "mode": "normal",
+      "register_version": "1.0",
+      "sources_checked": 46,
+      "sources_skipped": 5,
+      "sources_failed": 3,
+      "items_seen": 3104,
+      "added": 0,
+      "changed": 0,
+      "absorbed": 0,
+      "discarded": 0,
+      "retired": 0,
+      "rebaseline": false,
+      "outcome": "Monitored. No changes arising.",
+      "sources": [
+        {
+          "id": "legislation-new",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "legislation-search-ai-title",
+          "status": "ok",
+          "items_seen": 2
+        },
+        {
+          "id": "statute-equality-2010",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-dpa-2018",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-duaa-2025",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-hra-1998",
+          "status": "ok",
+          "items_seen": 86
+        },
+        {
+          "id": "statute-care-2014",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-children-1989",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-children-2004",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-housing-1996",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-foia-2000",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-procurement-2023",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "govuk-cabinet-office",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "govuk-gds",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "govuk-mhclg",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "govuk-ofsted",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "govuk-cqc",
+          "status": "ok",
+          "items_seen": 14
+        },
+        {
+          "id": "govuk-dsit-legacy",
+          "status": "ok",
+          "items_seen": 50
+        },
+        {
+          "id": "ehrc-guidance",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "nao-reports",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "lga-guidance",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "bills-parliament",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "find-case-law",
+          "status": "skipped-unverified",
+          "items_seen": 0
+        },
+        {
+          "id": "lgsco-housing",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-adult-care",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-childrens-care",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-education",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "lgsco-benefits",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "ico-news",
+          "status": "ok",
+          "items_seen": 31
+        },
+        {
+          "id": "nist-ai-rmf",
+          "status": "ok",
+          "items_seen": 1
+        },
+        {
+          "id": "iso-42001",
+          "status": "http-error",
+          "items_seen": 0
+        },
+        {
+          "id": "statute-pecr-2003",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-accessibility-2018",
+          "status": "ok",
+          "items_seen": 40
+        },
+        {
+          "id": "statute-eir-2004",
+          "status": "ok",
+          "items_seen": 41
+        },
+        {
+          "id": "statute-lga-1972",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-lga-1999",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-procurement-regs-2024",
+          "status": "ok",
+          "items_seen": 98
+        },
+        {
+          "id": "statute-pcr-2015",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-social-value-2012",
+          "status": "ok",
+          "items_seen": 35
+        },
+        {
+          "id": "statute-dea-2017",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-psi-reuse-2015",
+          "status": "ok",
+          "items_seen": 7
+        },
+        {
+          "id": "statute-cdpa-1988",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-db-regs-1997",
+          "status": "ok",
+          "items_seen": 89
+        },
+        {
+          "id": "statute-cma-1990",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-nis-2018",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-ripa-2000",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-ipa-2016",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-pofa-2012",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-hswa-1974",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-pida-1998",
+          "status": "ok",
+          "items_seen": 10
+        },
+        {
+          "id": "statute-mca-2005",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "statute-dmcc-2024",
+          "status": "ok",
+          "items_seen": 100
+        },
+        {
+          "id": "news-gds-ai",
+          "status": "error",
+          "items_seen": 0
+        },
+        {
+          "id": "news-rtau",
+          "status": "error",
+          "items_seen": 0
+        }
+      ]
     }
   ]
 }
