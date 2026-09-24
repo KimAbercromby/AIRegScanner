@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-09-24T08:44:12.869Z",
+  "run_at": "2026-09-24T08:51:23.137Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -32,7 +32,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 100,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -88,7 +88,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 8,
+      "items_kept": 0,
       "items_discarded": 92
     },
     {
@@ -112,7 +112,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 2,
+      "items_kept": 0,
       "items_discarded": 47
     },
     {
@@ -144,7 +144,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 2,
+      "items_kept": 0,
       "items_discarded": 48
     },
     {
@@ -235,7 +235,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 1,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -250,7 +250,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 31,
+      "items_kept": 0,
       "items_discarded": 69
     },
     {
@@ -266,7 +266,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 41,
-      "items_kept": 11,
+      "items_kept": 0,
       "items_discarded": 30
     },
     {
@@ -314,7 +314,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 17,
+      "items_kept": 0,
       "items_discarded": 83
     },
     {
@@ -322,7 +322,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 7,
-      "items_kept": 6,
+      "items_kept": 0,
       "items_discarded": 1
     },
     {
@@ -370,7 +370,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 4,
+      "items_kept": 0,
       "items_discarded": 96
     },
     {
@@ -378,7 +378,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 99
     },
     {
@@ -457,12 +457,12 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 174,
-    "changed": 9,
+    "added": 0,
+    "changed": 0,
     "absorbed": 0,
-    "discarded": 2145,
+    "discarded": 0,
     "retired": 0,
     "unreviewed": 841
   },
-  "issue_cap_warning": "183 records await an issue but only 25 are created per run. The queue will take 8 runs to clear."
+  "issue_cap_warning": "158 records await an issue but only 25 are created per run. The queue will take 7 runs to clear."
 }
