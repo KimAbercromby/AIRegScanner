@@ -4,9 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Regulatory horizon &middot; AI governance</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{--ink:#16202B;--soft:#3A4754;--paper:#F7F6F3;--card:#fff;--rule:#DCD8D0;
     --verd:#3E7C71;--ox:#8A2E2E;--amber:#B8791C;
@@ -193,6 +190,16 @@
   .outcome{border-radius:4px;font-size:14px}.outcome span{font-size:11px}
   .more button{border-radius:8px;padding:8px 12px;cursor:pointer}
   footer{font-size:13px}
+  .scope-note{margin:16px 0;padding:16px 18px;border:1px solid #d7c58d;border-left:4px solid #a27a1e;border-radius:10px;background:#fffdf6;color:#3b3425}
+  .scope-note strong{display:block;margin-bottom:4px;color:#61480e}
+  .framework-list{display:grid;gap:8px;margin-top:14px}
+  .framework-item{padding:10px 12px;border:1px solid var(--rule);border-radius:8px;background:#fff}
+  .framework-item summary{cursor:pointer;font-weight:700}
+  .framework-meta{display:flex;flex-wrap:wrap;gap:6px;margin:7px 0}
+  .framework-tag{padding:2px 7px;border-radius:5px;background:#eef1f4;color:#344254;font-size:12px}
+  .framework-status{font-weight:700}
+  .framework-status.live,.framework-status.matched{color:#26725c}.framework-status.dark,.framework-status.partial{color:#955e12}.framework-status.gap{color:#8a2e2e}.framework-status.not-monitored{color:#59636d}
+  .framework-item p{margin:6px 0;font-size:13px}
   @media(max-width:520px){.wrap{padding-inline:15px}.controls{padding:15px}.ctl,.ctl select,.ctl input{width:100%;min-width:0}.date{overflow-wrap:anywhere}}
   @media print{header.top{color:#111!important;background:#fff!important}.hero-copy .stand,.preview-note{color:#111!important}}
 </style>
@@ -223,6 +230,14 @@
 
 <main class="wrap" id="main">
   <div id="panels"></div>
+  <section class="scope-note" aria-label="How to interpret this scanner">
+    <strong>Monitoring is not a governance decision · Westminster suite is a proposed, not approved, draft</strong>
+    A publication or scanner match does not establish applicability, legal scope, compliance,
+    approval, FRIA completion, publication duties or ISO conformity. Use case-specific owner
+    review; prioritisation never waives Equality Act 2010 s.149, Human Rights Act 1998 s.6,
+    privacy or other duties. This scanner creates no AIR-ID, approval or live 05/36 register row.
+  </section>
+  <div id="framework-map"></div>
 
   <div class="controls" id="controls">
     <div class="ctl"><label for="focus">Feed</label>
@@ -504,14 +519,17 @@
 
   Promise.all([get('impact-log.json',{records:[]}),get('health.json',null),
                get('coverage.json',null),get('diary.json',null),get('run-log.json',{runs:[]}),
-               get('sources.json',{sources:[]})])
+               get('sources.json',{sources:[]}),get('framework-map.json',null),
+               get('framework-register-snapshot.json',null)])
   .then(function(res){
-    var log=res[0],health=res[1],cov=res[2],diary=res[3],rl=res[4],reg=res[5];
+    var log=res[0],health=res[1],cov=res[2],diary=res[3],rl=res[4],reg=res[5],framework=res[6],snapshot=res[7];
 
     (reg.sources||[]).forEach(function(src){
       var a=(src.authority||'').split(/\.(?:\s|$)/)[0].trim();
       S.labels[src.id]= a && a.length<70 ? a : (src.publisher||src.id);
     });
+
+    renderFrameworkMap(framework,reg,snapshot);
 
     S.records=(log.records||[]).slice().reverse();
 
@@ -651,6 +669,115 @@
       b.appendChild(el('p',null,String(err&&err.message||err)+'. Check the repository data files and try again. No current coverage can be inferred.'));
     },true));
   });
+
+  function renderFrameworkMap(map,register,snapshot){
+    var target=document.getElementById('framework-map');
+    if(!map || !Array.isArray(map.register_landscape) || !snapshot || !Array.isArray(snapshot.requirements)){
+      target.appendChild(panel('bad','Framework source map unavailable',null,function(b){
+        b.appendChild(el('p',null,'The scanner cannot load its WCC-AIG-27 reference map and reviewed public-safe snapshot. This does not affect the retrieved change log, but requirement alignment cannot be inferred.'));
+      },true));
+      return;
+    }
+    var byId=new Map((register.sources||[]).map(function(s){return [s.id,s];}));
+    var snapshotById=new Map(snapshot.requirements.map(function(item){return [item.id,item];}));
+    var entries=map.register_landscape;
+    var requirementEntries=entries.filter(function(item){return /^REQ-\d{3}$/.test(item.ref);});
+    var expected=snapshot.requirements.map(function(item){return item.id;});
+    var actual=new Set(requirementEntries.map(function(item){return item.ref;}));
+    var missing=expected.filter(function(ref){return !actual.has(ref);});
+    var duplicates=requirementEntries.length-actual.size;
+    var nameMismatches=0,matchedCount=0,partialCount=0,gapCount=0,redactedCount=0;
+    var rows=entries.map(function(item){
+      var watched=item.watched_by||[];
+      var known=watched.filter(function(id){return byId.has(id);});
+      var unknown=watched.filter(function(id){return !byId.has(id);});
+      var live=known.filter(function(id){return ['verified','form-verified'].includes(byId.get(id).verification_status);});
+      var expectedRow=snapshotById.get(item.ref);
+      var exactName=expectedRow&&!expectedRow.redacted&&item.item===expectedRow.name;
+      if(expectedRow&&!expectedRow.redacted&&!exactName)nameMismatches++;
+      var expectedUrls=expectedRow&&!expectedRow.redacted?(expectedRow.public_source_urls||[]):[];
+      var matchedUrls=expectedUrls.filter(function(url){
+        return watched.some(function(id){return sourceDirectlyMatches(byId.get(id),url);});
+      });
+      var related42Matches=matchedUrls.filter(function(url){
+        return (snapshot.wcc42_public_source_urls||[]).some(function(relatedUrl){return canonicalUrl(relatedUrl)===canonicalUrl(url);});
+      });
+      var state;
+      if(expectedRow&&expectedRow.redacted){state='not-monitored';redactedCount++;}
+      else if(!expectedRow){state='supplemental';}
+      else if(matchedUrls.length===expectedUrls.length&&expectedUrls.length){state='matched';matchedCount++;}
+      else if(matchedUrls.length||item.source_alignment==='proxy'){state='partial';partialCount++;}
+      else{state='gap';gapCount++;}
+      return {item:item,expected:expectedRow,watched:watched,live:live,unknown:unknown,state:state,
+        matchedUrls:matchedUrls,related42Matches:related42Matches,exactName:exactName};
+    });
+    function canonicalUrl(value){
+      try{
+        var url=new URL(value),params=Array.from(url.searchParams.entries()).sort(function(a,b){return a[0].localeCompare(b[0])||a[1].localeCompare(b[1]);});
+        var query=params.map(function(pair){return encodeURIComponent(pair[0])+'='+encodeURIComponent(pair[1]);}).join('&');
+        return url.hostname.toLowerCase().replace(/^www\./,'')+url.pathname.replace(/\/+$/,'').replace(/\.html$/,'')+(query?'?'+query:'');
+      }
+      catch(_){return null;}
+    }
+    function sourceDirectlyMatches(source,referenceUrl){
+      if(!source||!source.url)return false;
+      if(canonicalUrl(source.url)===canonicalUrl(referenceUrl))return true;
+      try{
+        var feed=new URL(source.url),ref=new URL(referenceUrl);
+        if(!/^(?:www\.)?legislation\.gov\.uk$/i.test(feed.hostname)||!/^(?:www\.)?legislation\.gov\.uk$/i.test(ref.hostname))return false;
+        var instrument=ref.pathname.match(/^\/(ukpga|uksi|eur)\/([^/]+)\/([^/]+)/i);
+        var changes=feed.pathname.match(/\/changes\/affected\/(ukpga|uksi|eur)\/([^/]+)\/([^/]+)\/data\.feed$/i);
+        return Boolean(instrument&&changes&&instrument.slice(1).every(function(part,index){return part.toLowerCase()===changes[index+1].toLowerCase();}));
+      }catch(_){return false;}
+    }
+    var reqSourceIds=new Set(requirementEntries.reduce(function(all,item){return all.concat(item.watched_by||[]);},[]));
+    var matched42=(snapshot.wcc42_public_source_urls||[]).filter(function(url){
+      return Array.from(reqSourceIds).some(function(id){return sourceDirectlyMatches(byId.get(id),url);});
+    }).length;
+    target.appendChild(panel(missing.length||duplicates||nameMismatches?'warn':'neutral','WCC-AIG-27 / WCC-AIG-42 public reference match · not applicability',entries.length,function(box){
+      box.appendChild(el('p',null,'The reviewed public-safe snapshot contains '+expected.length+' requirement IDs: '+(expected.length-redactedCount)+' public names and sources, with '+redactedCount+' internal rows deliberately redacted. The map has '+requirementEntries.length+' numbered rows; '+(expected.length-missing.length)+' IDs are present, '+nameMismatches+' public names differ from the snapshot.'));
+      box.appendChild(el('p',null,'Configured source alignment across public requirements: '+matchedCount+' matched, '+partialCount+' partial, '+gapCount+' gaps. A match means a configured scanner source URL directly identifies the listed public source; a partial match is not complete. No match remains a visible gap. Source verification and successful scan coverage are separate; configured links do not prove a feed is active, a change was captured, or that any requirement applies.'));
+      box.appendChild(el('p',null,'WCC-AIG-42 cross-check: '+matched42+'/'+(snapshot.wcc42_public_source_urls||[]).length+' public URLs directly match a configured requirement source. These cross-check URLs are not assigned to individual requirements.'));
+      box.appendChild(el('p',null,'This is a public-source verification snapshot of a proposed, not approved, WCC-AIG-27 register and relevant public WCC-AIG-42 links. Internal Council details are not included. It is publisher-monitoring metadata only; it does not establish applicability, legal scope, compliance, ISO conformity, an action, or approval. Confirm case-specific applicability with responsible owners.'));
+      if(missing.length) box.appendChild(el('p',null,'Crosswalk requirement IDs missing from the map: '+missing.join(', ')+'.'));
+      if(duplicates) box.appendChild(el('p',null,'Duplicate numbered requirement rows: '+duplicates+'.'));
+      var list=el('div','framework-list');
+      rows.forEach(function(row){
+        var item=row.item,detail=el('details','framework-item'),expectedRow=row.expected;
+        var summary=el('summary');
+        summary.appendChild(document.createTextNode((item.ref||'(unreferenced)')+' · '+item.item+' '));
+        var statusText=row.state==='matched'?'public source URL matched':row.state==='partial'?(item.source_alignment==='proxy'?'proxy only — no direct URL match':'partial public-source match'):row.state==='gap'?'gap — no direct source match':row.state==='not-monitored'?'redacted — not monitored':'supplemental, outside the 51 REQ rows';
+        summary.appendChild(el('span','framework-status '+row.state,statusText));
+        detail.appendChild(summary);
+        var meta=el('div','framework-meta');
+        meta.appendChild(el('span','framework-tag','monitoring expectation: '+(item.expectation||'not stated')));
+        row.watched.forEach(function(id){
+          var src=byId.get(id);
+          meta.appendChild(el('span','framework-tag',id+(src?' · '+src.verification_status:' · unknown source')));
+        });
+        if(row.expected&&row.expected.redacted)meta.appendChild(el('span','framework-tag','public details withheld'));
+        else if(expectedRow&&expectedRow.public_source_urls){
+          expectedRow.public_source_urls.forEach(function(url){
+            var p=el('p'),a=el('a',null,'WCC-AIG-27 public source: '+url);a.href=url;a.target='_blank';a.rel='noopener noreferrer';p.appendChild(a);detail.appendChild(p);
+          });
+        }
+        row.related42Matches.forEach(function(url){
+          var p=el('p'),a=el('a',null,'WCC-AIG-42 public source matched: '+url);a.href=url;a.target='_blank';a.rel='noopener noreferrer';p.appendChild(a);detail.appendChild(p);
+        });
+        detail.appendChild(meta);
+        if(item.note) detail.appendChild(el('p',null,item.note));
+        if(row.unknown.length) detail.appendChild(el('p',null,'Unknown source IDs: '+row.unknown.join(', ')+'.'));
+        if(expectedRow&&!expectedRow.redacted&&row.matchedUrls.length<row.expected.public_source_urls.length){
+          detail.appendChild(el('p',null,'Direct WCC-AIG-27 public source matches: '+row.matchedUrls.length+'/'+row.expected.public_source_urls.length+'. Any broad publisher search or unrelated feed is not counted as a direct match.'));
+        }
+        if(item.source_alignment==='proxy')detail.appendChild(el('p',null,'Proxy source only; it is not counted as a direct WCC-AIG-27 public source match.'));
+        if(row.watched.length&&!row.live.length)detail.appendChild(el('p',null,'Configured watch has no source marked verified/form-verified; this is dark/unverified.'));
+        detail.appendChild(el('p',null,'Monitoring configuration is not an applicability, compliance, decision or approval finding.'));
+        list.appendChild(detail);
+      });
+      box.appendChild(list);
+    },false));
+  }
 })();
 </script>
 </body>

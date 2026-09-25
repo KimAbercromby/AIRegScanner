@@ -38,9 +38,11 @@ service manager gets held to. Devolved legislation types and the Welsh, Scottish
 Northern Irish ombudsmen are deliberately out of scope; that is the first thing to add
 if the toolkit is ever generalised beyond the case study.
 
-The EU AI Act is recorded as **reference only**: the topic is tagged, the item appears
-in the log, and no playbook section or artefact is flagged for change. That matches
-the scope caveat already in the Current State Assessment.
+The scanner's EU AI Act topic is configured as **reference-only**: it is tagged and
+recorded without flagging a playbook section or artefact. That is a mapping choice,
+not a conclusion about whether any specific Council activity, supplier or system is
+within legal scope. EU AI Act, ATRS and procurement questions require case-specific
+confirmation with the legal and responsible service owners.
 
 ## The four rules it is built around
 
@@ -183,7 +185,40 @@ affects, and why. Matching is deterministic, case-insensitive, and involves no m
 When something lands with no mapping, the viewer says so and invites you to add a
 keyword rather than pretending the item is irrelevant.
 
-Update `target_playbook_version` when you bump the playbook.
+`target_playbook_version` is an unversioned proposed-draft label, not an approved
+release number. Do not replace it with an approved version unless one is formally
+issued.
+
+### Proposed Westminster suite source map (monitoring only)
+
+`framework-map.json` lists scanner monitoring references for the proposed
+WCC-AIG-27 suite. `framework-register-snapshot.json` is a reviewed, public-safe
+snapshot of its 51 requirement IDs: names and public source URLs are retained for
+43 public rows, while names and source locations for the eight internal rows are
+deliberately redacted. It also contains relevant public URLs from WCC-AIG-42, without
+internal source IDs or assurance metadata.
+
+`npm run framework` and the viewer validate the map against that snapshot: all 51
+IDs, exact public names, public URLs, redaction, and configured scanner source IDs.
+They directly compare configured source URLs with the public reference URLs and
+report unmatched requirements as gaps; broad publisher searches are not proof of
+an exact source match. WCC-AIG-42 URL checks are reported separately, not assigned
+to requirement rows. A direct URL match still does not prove a feed is active, a
+change was captured, or coverage succeeded. “Live” in scanner status means only
+that a source is configured as `verified` or `form-verified` and the scanner will
+attempt to call it. None of these checks is an applicability finding, legal
+conclusion, compliance evidence, approval, or ISO conformity. The snapshot is not
+an authoritative workbook or live Council record; the proposed suite is not
+approved.
+
+A publication, mapping match, or AGPI prioritisation result cannot waive case-specific
+screening or duties under Equality Act 2010 s.149, Human Rights Act 1998 s.6, privacy,
+or any other applicable law. EU AI Act, ATRS and procurement references are conditional;
+confirm scope with the responsible legal and service owners. The scanner creates no
+AIR-ID, approval, FRIA completion, publication, live 05/36 row, or WCC-AIG-16 decision.
+Formal decisions remain in WCC-AIG-16 or approved native minutes, current assurance
+state belongs in 05, planned and dated events/conditions belong in 36, and WCC-AIG-45
+owns agent permissions.
 
 ### The focused AI-governance gate
 
@@ -414,5 +449,25 @@ baseline.json         what was absorbed when monitoring began
 *.test.mjs            offline regression tests
 ```
 
-`index.html` is deliberately one self-contained file with no external
-references, matching the pattern of the other tools, so it cannot half-deploy.
+`index.html` remains the self-contained, readable browser application and needs no
+build step for GitHub Pages. The UI loads the framework source map and public-safe
+snapshot alongside retrieved log and health data; it reports requirement IDs,
+redacted rows, exact names and public-source matches/gaps separately from configured
+source states. It preserves the focused/full audit feed, filters, grouped effects,
+coverage warnings and review issue links. The browser code builds DOM nodes using
+text content rather than injecting publisher values as HTML.
+
+Offline checks include the scanner's fixture tests and the framework-map consistency
+tests:
+
+```bash
+npm test
+npm run framework
+```
+
+The framework tests ensure all 51 REQ IDs appear once, all public names match the
+reviewed snapshot, the eight internal rows remain redacted and unmonitored, and each
+source ID resolves. Source alignment gaps remain visible by design. The strict
+framework check fails while source gaps or partial matches remain. These checks
+validate scanner metadata only; they do not establish coverage success or legal
+applicability.

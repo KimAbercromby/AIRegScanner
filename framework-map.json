@@ -1,8 +1,8 @@
 {
   "framework_map_version": "0.1",
-  "target_playbook_version": "v19.3",
-  "playbook_anchor": "Playbook \u00a72.5 'Regulatory Expectations and Public Trust' enumerates the framework's own regulatory landscape; \u00a76.6.5 commits the Council to horizon scanning against it. This file is the explicit reconciliation of that landscape onto the scanner's sources, so 'does the scanner map onto the playbook' is a checkable property rather than a thing to remember.",
-  "note": "expectation governs what the checker requires. must-watch = the playbook relies on this, so a LIVE source is expected (a source is live when its verification_status is verified or form-verified; unverified sources are skipped by the scanner and count as dark). reference = recorded for context only, no live source required. The checker computes live/dark/gap from sources.json every run, so a status here cannot silently rot.",
+  "target_playbook_version": "Proposed integrated draft, 2026-09-25 (unversioned; not approved)",
+  "playbook_anchor": "Draft crosswalk to the playbook's regulatory landscape and monitoring commitments. This is a scanner-source map only; it is not an approved Council register, legal applicability decision, assurance state, or record of a Council decision.",
+  "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners.",
   "playbook_landscape": [
     {
       "ref": "\u00a72.5",
@@ -85,13 +85,13 @@
     },
     {
       "ref": "\u00a72.5",
-      "item": "EU AI Act (supplier due diligence only)",
-      "kind": "reference",
+      "item": "EU AI Act (public-source reference; case-specific scope not assessed)",
+      "kind": "eu-legislation",
       "expectation": "reference",
       "watched_by": [
         "legislation-search-ai-title"
       ],
-      "note": "Reference-only by design. The scanner's eu-ai-act topic records and tags but flags no sections or artefacts, matching the playbook's 'not directly subject' framing at \u00a72.5."
+      "note": "Reference-only in this playbook section. WCC-AIG-27 REQ-032 is separately listed as a must-watch source expectation. Neither label decides applicability; the configured UK title search is not a direct EU source match."
     },
     {
       "ref": "\u00a71.4 / \u00a75.2.3 / Appendix A",
@@ -158,18 +158,19 @@
   "register_landscape": [
     {
       "ref": "REQ-001",
-      "item": "UK GDPR (retained Reg (EU) 2016/679)",
+      "item": "UK General Data Protection Regulation (UK GDPR), as amended",
       "kind": "retained-regulation",
       "expectation": "must-watch",
       "watched_by": [
         "statute-dpa-2018",
         "statute-duaa-2025"
       ],
-      "note": "No dedicated retained-EU changes feed; watched via the DPA 2018 and DUAA 2025 feeds that carry its UK amendments."
+      "source_alignment": "proxy",
+      "note": "No dedicated UK GDPR changes feed. DPA 2018 and DUAA 2025 feeds monitor UK amendments only as a proxy; no direct consolidated-instrument feed is configured."
     },
     {
       "ref": "REQ-002",
-      "item": "Data Protection Act 2018",
+      "item": "Data Protection Act 2018, as amended",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -178,7 +179,7 @@
     },
     {
       "ref": "REQ-003",
-      "item": "Data (Use and Access) Act 2025",
+      "item": "Data (Use and Access) Act 2025 (DUAA)",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -188,7 +189,7 @@
     },
     {
       "ref": "REQ-004",
-      "item": "Privacy and Electronic Communications Regulations 2003",
+      "item": "Privacy and Electronic Communications Regulations 2003 (PECR), as amended",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -197,7 +198,7 @@
     },
     {
       "ref": "REQ-005",
-      "item": "Equality Act 2010 incl. PSED s.149",
+      "item": "Equality Act 2010, including Public Sector Equality Duty section 149",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -216,9 +217,9 @@
     },
     {
       "ref": "REQ-007",
-      "item": "Administrative / public law (procedural fairness, reasons)",
+      "item": "Administrative law, statutory powers, procedural fairness and reasoned decision-making",
       "kind": "public-law",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "find-case-law"
       ],
@@ -226,7 +227,7 @@
     },
     {
       "ref": "REQ-008",
-      "item": "Public Sector Bodies Accessibility Regulations 2018",
+      "item": "Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -235,7 +236,7 @@
     },
     {
       "ref": "REQ-009",
-      "item": "Freedom of Information Act 2000",
+      "item": "Freedom of Information Act 2000 (FOIA)",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -244,7 +245,7 @@
     },
     {
       "ref": "REQ-010",
-      "item": "Environmental Information Regulations 2004",
+      "item": "Environmental Information Regulations 2004 (EIR)",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -253,9 +254,9 @@
     },
     {
       "ref": "REQ-011",
-      "item": "s.46 FOIA Code of Practice on records management",
+      "item": "Section 46 Code of Practice on records management under FOIA",
       "kind": "statutory-code",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [],
       "note": "Government code, not a statute feed; monitor via gov.uk when a source is connected."
     },
@@ -263,14 +264,14 @@
       "ref": "REQ-012",
       "item": "Local Government Transparency Code 2015",
       "kind": "statutory-code",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "govuk-mhclg"
       ]
     },
     {
       "ref": "REQ-013",
-      "item": "Local Government Act 1972",
+      "item": "Local Government Act 1972 (including section 101) and The Council’s constitution and scheme of delegation",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -279,7 +280,7 @@
     },
     {
       "ref": "REQ-014",
-      "item": "Local Government Act 1999 (Best Value Duty)",
+      "item": "Local Government Act 1999 (Best Value Duty) and 2024 statutory guidance",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -300,16 +301,16 @@
       "ref": "REQ-016",
       "item": "National Procurement Policy Statement 2025",
       "kind": "statutory-statement",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "govuk-cabinet-office"
       ]
     },
     {
       "ref": "REQ-017",
-      "item": "Public Contracts Regulations 2015 (transitional)",
+      "item": "Public Contracts Regulations 2015 and procurement transitional arrangements",
       "kind": "legacy-legislation",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "statute-pcr-2015"
       ],
@@ -326,7 +327,7 @@
     },
     {
       "ref": "REQ-019",
-      "item": "Digital Economy Act 2017 (data-sharing)",
+      "item": "Digital Economy Act 2017 data-sharing powers and codes",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -371,7 +372,7 @@
     },
     {
       "ref": "REQ-024",
-      "item": "Network and Information Systems Regulations 2018",
+      "item": "Network and Information Systems Regulations 2018 (NIS Regulations)",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -380,7 +381,7 @@
     },
     {
       "ref": "REQ-025",
-      "item": "RIPA 2000 / Investigatory Powers Act 2016 / Protection of Freedoms Act 2012",
+      "item": "RIPA 2000, Investigatory Powers Act 2016 and Protection of Freedoms Act 2012 / surveillance-camera obligations",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -400,7 +401,7 @@
     },
     {
       "ref": "REQ-027",
-      "item": "Public Interest Disclosure Act 1998",
+      "item": "Public Interest Disclosure Act 1998 / Employment Rights Act whistleblowing protections",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -409,7 +410,7 @@
     },
     {
       "ref": "REQ-028",
-      "item": "Children Acts 1989 and 2004",
+      "item": "Children Acts 1989/2004 and Working Together to Safeguard Children 2026",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -419,9 +420,9 @@
     },
     {
       "ref": "REQ-029",
-      "item": "ICO Age Appropriate Design Code (Children's Code)",
+      "item": "ICO Age Appropriate Design Code (Children’s Code)",
       "kind": "regulatory-code",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "ico-news"
       ]
@@ -438,7 +439,7 @@
     },
     {
       "ref": "REQ-031",
-      "item": "Digital Markets, Competition and Consumers Act 2024",
+      "item": "Digital Markets, Competition and Consumers Act 2024 and current unfair-commercial-practices rules",
       "kind": "legislation",
       "expectation": "must-watch",
       "watched_by": [
@@ -447,37 +448,37 @@
     },
     {
       "ref": "REQ-032",
-      "item": "EU AI Act (Reg (EU) 2024/1689, as amended by the Digital Omnibus)",
+      "item": "Regulation (EU) 2024/1689 (EU AI Act), consolidated and amended by enacted Regulation (EU) 2026/1744",
       "kind": "eu-legislation",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "legislation-search-ai-title"
       ],
-      "note": "Reference-only: a UK council is not straightforwardly in scope; benchmark and supplier-diligence hedge."
+      "note": "Conditional instrument. The configured UK legislation search is not an exact EU source match; confirm case-specific scope with the legal owner."
     },
     {
       "ref": "REQ-033",
-      "item": "ICO Guidance on AI and Data Protection",
+      "item": "ICO Guidance on AI and Data Protection and AI Risk Toolkit",
       "kind": "regulatory-guidance",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "ico-news"
       ]
     },
     {
       "ref": "REQ-034",
-      "item": "ICO Explaining Decisions Made with AI",
+      "item": "ICO Explaining Decisions Made with AI guidance",
       "kind": "regulatory-guidance",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "ico-news"
       ]
     },
     {
       "ref": "REQ-035",
-      "item": "EHRC AI in Public Services and PSED guidance",
+      "item": "EHRC Artificial Intelligence in Public Services and PSED guidance",
       "kind": "regulatory-guidance",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "ehrc-guidance"
       ]
@@ -494,18 +495,18 @@
     },
     {
       "ref": "REQ-037",
-      "item": "AI Playbook for the UK Government",
+      "item": "Artificial Intelligence Playbook for the UK Government",
       "kind": "government-guidance",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "govuk-cabinet-office"
       ]
     },
     {
       "ref": "REQ-038",
-      "item": "UK pro-innovation AI regulation policy / blueprint",
+      "item": "UK pro-innovation AI regulation policy, October 2025 blueprint and 2026 data-regulation call for evidence",
       "kind": "government-policy",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [
         "govuk-cabinet-office",
         "bills-parliament"
@@ -515,13 +516,13 @@
       "ref": "REQ-039",
       "item": "NCSC Guidelines for Secure AI System Development",
       "kind": "security-guidance",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [],
       "note": "No change feed; monitor manually or via a page-watch if connected."
     },
     {
       "ref": "REQ-040",
-      "item": "ISO/IEC 42001:2023 AI management system",
+      "item": "ISO/IEC 42001:2023 Artificial intelligence management system",
       "kind": "international-standard",
       "expectation": "must-watch",
       "watched_by": [
@@ -530,9 +531,9 @@
     },
     {
       "ref": "REQ-041",
-      "item": "ISO/IEC 23894:2023 AI risk management",
+      "item": "ISO/IEC 23894:2023 AI — Guidance on risk management",
       "kind": "international-standard",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [],
       "note": "No change feed; standard adopted, reviewed at ISO revision cycles."
     },
@@ -540,25 +541,81 @@
       "ref": "REQ-042",
       "item": "ISO/IEC 42005:2025 AI system impact assessment",
       "kind": "international-standard",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [],
       "note": "No change feed."
     },
     {
       "ref": "REQ-043",
-      "item": "ISO/IEC 42006:2025 AIMS audit/certification bodies",
+      "item": "ISO/IEC 42006:2025 requirements for bodies providing audit and certification of AIMS",
       "kind": "international-standard",
-      "expectation": "reference",
+      "expectation": "must-watch",
       "watched_by": [],
       "note": "No change feed; relevant only if pursuing certification."
     },
     {
-      "ref": "REQ-044 to 051",
-      "item": "Council playbook, constitution, policies and contracts",
-      "kind": "council-internal",
-      "expectation": "reference",
+      "ref": "REQ-044",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
       "watched_by": [],
-      "note": "Internal instruments, not externally published; governed by the Council's own document control, not the horizon scanner."
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
+    },
+    {
+      "ref": "REQ-045",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
+      "watched_by": [],
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
+    },
+    {
+      "ref": "REQ-046",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
+      "watched_by": [],
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
+    },
+    {
+      "ref": "REQ-047",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
+      "watched_by": [],
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
+    },
+    {
+      "ref": "REQ-048",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
+      "watched_by": [],
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
+    },
+    {
+      "ref": "REQ-049",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
+      "watched_by": [],
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
+    },
+    {
+      "ref": "REQ-050",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
+      "watched_by": [],
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
+    },
+    {
+      "ref": "REQ-051",
+      "item": "Internal Council requirement (details withheld from public map)",
+      "kind": "redacted-internal",
+      "expectation": "not-monitored",
+      "watched_by": [],
+      "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
     },
     {
       "ref": "(additional)",
@@ -571,6 +628,6 @@
       "note": "Council housing duties engaged where AI supports allocations or homelessness decisions."
     }
   ],
-  "register_anchor": "WCC-AIG-27 (Applicable Requirements and Change Register) is the authoritative list of the framework's applicable requirements. This section reconciles that full register onto the scanner's sources, so coverage of the register - not only the playbook s2.5 headline landscape - is a checkable property. must-watch = binding instrument the framework depends on, a live source expected; reference = guidance, standard, legacy, EU or internal instrument recorded for completeness, no live feed required.",
-  "target_register": "WCC-AIG-27 v1.0-aligned, 2026-09-13"
+  "register_anchor": "Public-safe scanner crosswalk validated against a sanitized snapshot of the 51 WCC-AIG-27 requirement IDs, names and public source URLs (public rows only), with relevant public URLs in WCC-AIG-42. Internal Council requirement names, links, owners and statuses are deliberately withheld. This map is for publisher monitoring, not an authoritative register, applicability decision, approval, or ISO conformity assessment.",
+  "target_register": "Proposed WCC-AIG-27 references; source map checked against sanitized 27/42 public-source snapshot"
 }
