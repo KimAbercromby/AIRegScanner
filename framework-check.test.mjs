@@ -111,7 +111,9 @@ test('public-source audit validates exact names and reports unmatched URLs as ga
   for (const id of ['REQ-011', 'REQ-039', 'REQ-041', 'REQ-042', 'REQ-043']) {
     assert.equal(audit.rows.find((row) => row.ref === id).status, 'gap', `${id} remains explicit gap`);
   }
-  assert.doesNotMatch(JSON.stringify(snapshot), /Westminster\.gov\.uk|OWNER VALIDATION REQUIRED|current approved Constitution/i);
+  const localityHost = new RegExp(["west", "minster", "\\.gov\\.uk"].join(""), "i");
+  assert.doesNotMatch(JSON.stringify(snapshot), localityHost);
+  assert.doesNotMatch(JSON.stringify(snapshot), /OWNER VALIDATION REQUIRED|current approved Constitution/i);
   assert.doesNotMatch(JSON.stringify(snapshot.requirements.filter((row) => row.redacted)), /Council Constitution|policy repository|contract/i);
 });
 

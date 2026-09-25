@@ -189,7 +189,7 @@ keyword rather than pretending the item is irrelevant.
 release number. Do not replace it with an approved version unless one is formally
 issued.
 
-### Proposed Westminster suite source map (monitoring only)
+### Proposed AI governance suite source map (monitoring only)
 
 `framework-map.json` lists scanner monitoring references for the proposed
 WCC-AIG-27 suite. `framework-register-snapshot.json` is a reviewed, public-safe
