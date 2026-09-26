@@ -59,10 +59,12 @@ export function classify(item, mappings) {
   const topics = [];
   const sections = new Set();
   const artefacts = new Set();
+  const reviewFlags = new Set();
 
   for (const t of mappings.topics) {
     if (!t.keywords.some((k) => hay.includes(k.toLowerCase()))) continue;
     topics.push(t.id);
+    if (t.review_flag) reviewFlags.add(t.review_flag);
     // Reference-only topics are recorded and tagged but never flag the
     // playbook for change. The EU AI Act is the case.
     if (t.reference_only) continue;
@@ -72,6 +74,7 @@ export function classify(item, mappings) {
   return {
     topics,
     reference_only: topics.length > 0 && topics.every((id) => mappings.topics.find((x) => x.id === id)?.reference_only),
+    review_flags: [...reviewFlags],
     affects_sections: [...sections].sort(),
     affects_artefacts: [...artefacts].sort()
   };
@@ -487,6 +490,7 @@ async function main() {
         reference_only: source.current_awareness === true || mapped.reference_only,
         affects_sections: mapped.affects_sections,
         affects_artefacts: mapped.affects_artefacts,
+        review_flags: mapped.review_flags,
         status: 'unreviewed',
         issue_number: null,
         decision: null,

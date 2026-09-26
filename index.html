@@ -236,9 +236,11 @@
     approval, FRIA completion, publication duties or ISO conformity. Use case-specific owner
     review; prioritisation never waives Equality Act 2010 s.149, Human Rights Act 1998 s.6,
     privacy or other duties. This scanner creates no AIR-ID, approval or live 05/36 register row.
-    <br><strong>Mapping alignment blocked:</strong> the v19.3 topic, section and artefact mappings
-    are historical pointers only, not validated against the current proposed catalogue. Manual
-    revalidation is required before claiming current alignment; existing numeric identifiers are unchanged.
+    <br><strong>Proposed-edition mapping reviewed:</strong> topic pointers refer to the reviewed
+    25 September 2026 proposed 00–50 suite, not an approved operational edition. Older scanner
+    records retain historical labels. Matches suggest material to review, not required changes or
+    legal applicability; conditional cases need owner review. The unnumbered Capabilities and System Map
+    is a relationship pointer, not an approval source.
   </section>
   <div id="framework-map"></div>
 
@@ -379,6 +381,7 @@
         x.topics=Array.from(new Set((x.topics||[]).concat(r.topics||[])));
         x.affects_sections=Array.from(new Set((x.affects_sections||[]).concat(r.affects_sections||[]))).sort();
         x.affects_artefacts=Array.from(new Set((x.affects_artefacts||[]).concat(r.affects_artefacts||[]))).sort();
+        x.review_flags=Array.from(new Set((x.review_flags||[]).concat(r.review_flags||[])));
         if(r.status==='unreviewed') x.status='unreviewed';
       }
     });
@@ -443,6 +446,7 @@
         (r.affects_sections||[]).forEach(function(x){aff.appendChild(el('span','sec','\u00A7'+x));});
         (r.affects_artefacts||[]).forEach(function(x){aff.appendChild(el('span','art',x));});
       } else aff.appendChild(el('span','nomap','No mapping matched.'));
+      (r.review_flags||[]).forEach(function(x){aff.appendChild(el('span','nomap','Owner review: '+x));});
       b.appendChild(aff);
 
       if(r.issue_number){

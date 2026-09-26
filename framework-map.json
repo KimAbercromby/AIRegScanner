@@ -1,11 +1,12 @@
 {
   "framework_map_version": "0.1",
-  "target_playbook_version": "Proposed integrated draft, 2026-09-25 (unversioned; not approved)",
+  "target_playbook_version": "Proposed integrated suite, 2026-09-25 (unversioned; not approved)",
+  "reviewed_edition_sha256": "8cd361e0943f74b844db243921c0ccc4cf1dee07c8dcc0b017e9a51ac7198db5",
   "playbook_anchor": "Draft crosswalk to the playbook's regulatory landscape and monitoring commitments. This is a scanner-source map only; it is not an approved Council register, legal applicability decision, assurance state, or record of a Council decision.",
   "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners.",
   "proposed_relationship_pointer": {
     "name": "Capabilities and System Map",
-    "status": "standalone proposal; not an adopted catalogue entry",
+    "status": "unnumbered standalone proposal; not an adopted catalogue entry",
     "purpose": "A relationship pointer between outcome-led use cases, capabilities, governed systems and referenced components; it does not change requirement IDs or scanner source matching.",
     "not_authoritative_for": [
       "legal applicability",
@@ -106,7 +107,7 @@
       "note": "Reference-only in this playbook section. WCC-AIG-27 REQ-032 is separately listed as a must-watch source expectation. Neither label decides applicability; the configured UK title search is not a direct EU source match."
     },
     {
-      "ref": "\u00a71.4 / \u00a75.2.3 / Appendix A",
+      "ref": "\u00a73.12 / Appendix D.2",
       "item": "ISO/IEC 42001",
       "kind": "standard",
       "expectation": "must-watch",
@@ -116,7 +117,7 @@
       "note": "Now watched by an html-diff (deep body-hash) page-watch on the catalogue/status page. Content is not diffed (standards text is paywalled / the RMF is a large doc set), so a manual review cadence still applies when the watch fires."
     },
     {
-      "ref": "\u00a71.4 / \u00a75.2.3",
+      "ref": "Appendix D.4",
       "item": "NIST AI Risk Management Framework",
       "kind": "standard",
       "expectation": "must-watch",
@@ -126,14 +127,14 @@
       "note": "Now watched by an html-diff (deep body-hash) page-watch on the catalogue/status page. Content is not diffed (standards text is paywalled / the RMF is a large doc set), so a manual review cadence still applies when the watch fires."
     },
     {
-      "ref": "\u00a73 (Article 22A safeguards), DPIA template",
+      "ref": "\u00a72.5 / \u00a74.6.1, WCC-AIG-10 DPIA Template",
       "item": "Data (Use and Access) Act 2025",
       "kind": "statute",
       "expectation": "must-watch",
       "watched_by": [
         "statute-duaa-2025"
       ],
-      "note": "Source of the automated-decision safeguards regime. Named only once in the playbook text although it is central to the ADM controls; the scanner correctly treats it as central."
+      "note": "Monitored source for automated-decision safeguards. Section and template pointers are review touchpoints, not a determination of case-specific legal scope."
     }
   ],
   "operational_layer": [

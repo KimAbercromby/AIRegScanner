@@ -6,9 +6,9 @@
 > cover, and any report drawn from it must carry that statement.
 
 Checks a fixed list of authoritative publishers on a schedule, detects what changed,
-applies a deterministic AI-governance focus gate, and attaches historical
-topic/section/artefact pointers for human review. Current proposed-catalogue
-alignment is unverified and explicitly blocked pending manual revalidation.
+applies a deterministic AI-governance focus gate, and attaches proposed-edition
+topic/section/artefact pointers for human review. Matches do not establish legal
+applicability, required changes, or approval.
 
 **Operating status:** A daily 07:00 UTC scan and Monday 06:30 UTC source-type
 smoke check are configured in `.github/workflows/scanner.yml`. On the website, a
@@ -179,21 +179,26 @@ publisher still exist, does the endpoint still resolve, is the scope still right
 
 ## Mapping
 
-`mappings.json` contains legacy topic pointers: keywords, historical playbook
-sections and artefact references, with rationale. Matching is deterministic,
-case-insensitive, and involves no model. These pointers are not a validated current
-crosswalk to the proposed catalogue; manually revalidate before describing any
-match as current alignment or as a confirmed required change.
+`mappings.json` contains keywords and candidate review touchpoints in the
+**proposed integrated suite dated 25 September 2026**. Matching is deterministic,
+case-insensitive, and involves no model. Section headings were checked in the
+packaged `01_AI_Governance_Playbook.docx`, and numbered artefacts against the
+packaged 00–50 filenames and `02_AI_Governance_Artefact_Index.docx`. The
+`mapping_alignment.archive_sha256` pins the exact reviewed ZIP in `downloads/`.
+An updated ZIP needs another review, not just a date or version-label change.
 
 When something lands with no mapping, the viewer says so and invites you to add a
 keyword rather than pretending the item is irrelevant.
 
-The deterministic topic/section/artefact mappings in `mappings.json` are a
-**historical v19.3 baseline**, not a verified mapping to the current proposed
-catalogue. `target_playbook_version` is unset and alignment is explicitly blocked
-pending manual reconciliation. Treat existing matches as legacy review pointers;
-do not claim current catalogue alignment until that work is completed. Existing
-numeric identifiers have not been renumbered.
+The old v19.3 baseline is retained as provenance; historical scanner records
+retain their original labels. Current pointers are **reviewed-proposed-not-approved**:
+they identify candidate documents for human review, not an operative crosswalk
+for approved Council controls. `review_flag` marks questions that cannot be
+settled from the suite (such as territorial scope, procurement transitional rules,
+and disclosure exemptions). The EU AI Act topic stays reference-only: it tags
+the item but emits no change flags. The unnumbered map is not WCC-AIG-05 or
+a 51st numbered control. Do not update/upload/publish remotely before the owner
+approves release and validates any real case migration.
 
 ### Proposed suite source map (monitoring only)
 
