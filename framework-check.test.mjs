@@ -100,8 +100,8 @@ test('the published viewer stays static and explains its governance boundary', (
   assert.match(html, /Human Rights Act 1998 s\.6/i);
   assert.match(html, /AI Governance Toolkit/);
   assert.match(html, /proposed grouped IDs, not an approved operational edition/i);
-  assert.match(html, /Proposed grouped references; archive repin pending/i);
-  assert.match(html, /current archive SHA is not yet\s+verified against the grouped-ID draft/i);
+  assert.match(html, /Proposed grouped references; reviewed ZIP pinned/i);
+  assert.match(html, /reviewed grouped-ID draft ZIP by SHA-256/i);
   assert.match(html, /Older scanner records retain\s+historical labels/i);
   assert.match(html, /conditional cases need owner review/i);
   assert.match(html, /Owner review: '\+x/);

@@ -27,7 +27,9 @@ test('topic mappings target the pinned grouped draft without approving it', () =
   assert.equal(mappings.mapping_alignment.status, 'reviewed-proposed-not-approved');
   assert.match(mappings.mapping_alignment.note, /not required changes, legal applicability findings, or approval/i);
   assert.equal(mappings.mapping_alignment.catalogue_pin_status, 'pinned-reviewed-proposed');
-  const archive = join(HERE, '..', 'downloads', 'AI_Governance_Integrated_Proposed_Suite.zip');
+  const archiveName = 'AI_Governance_Integrated_Proposed_Suite_Grouped_IDs_Corrected.zip';
+  assert.equal(mappings.mapping_alignment.current_target, `downloads/${archiveName}`);
+  const archive = join(HERE, '..', 'downloads', archiveName);
   if (existsSync(archive)) {
     const digest = createHash('sha256').update(readFileSync(archive)).digest('hex');
     assert.equal(digest, mappings.mapping_alignment.archive_sha256, 'updated suite needs revalidation');

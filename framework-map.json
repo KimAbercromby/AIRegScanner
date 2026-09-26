@@ -1,7 +1,7 @@
 {
   "framework_map_version": "0.2",
   "target_playbook_version": "Proposed grouped-ID suite, 2026-09-25 (unversioned; not approved)",
-  "reviewed_edition_sha256": "fdb6330bc450d8af17921fd7ec5c9e7e768fa37d650935552f6f5a1695345a18",
+  "reviewed_edition_sha256": "8074a031c030ce519b4644c52c3272730634013b12e53b42cc510f871e404710",
   "playbook_anchor": "Draft crosswalk to the playbook's regulatory landscape and monitoring commitments. This is a scanner-source map only; it is not an approved Council register, legal applicability decision, assurance state, or record of a Council decision.",
   "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners.",
   "proposed_relationship_pointer": {

@@ -10,13 +10,15 @@ applies a deterministic AI-governance focus gate, and attaches proposed-edition
 topic/section/artefact pointers for human review. Matches do not establish legal
 applicability, required changes, or approval.
 
-**Operating status:** A daily 07:00 UTC scan and Monday 06:30 UTC source-type
-smoke check are configured in `.github/workflows/scanner.yml`. On the website, a
-scan older than 48 hours, missing data, or a source-register version not yet
-scanned is shown as an explicit warning. A scheduled scan is evidence of a run,
-not evidence that all sources succeeded or that reviewers assessed the findings.
-After restoring the schedule, inspect the first real Actions run and verify that
-the page displays the current register version and run date.
+**Operating status:** The daily 07:00 UTC scan and Monday 06:30 UTC source-type
+smoke check are defined but **disabled** in `.github/workflows/scanner.yml`;
+only manual `workflow_dispatch` runs are enabled. On the website, a scan older
+than 48 hours, missing data, or a source-register version not yet scanned is
+shown as an explicit warning. A run is not evidence that all sources succeeded
+or that reviewers assessed the findings. Restore the schedule only after an
+authorised owner confirms the operating route and a clean baseline scan; then
+inspect the first real Actions run and verify the current register version and
+run date.
 
 The outstanding 403 for `iso-42001`, the declared unconnected sources and the
 focused review queue require a human owner. Investigate the publisher response
@@ -428,7 +430,7 @@ Carried from the QA review and not yet closed:
 - **The optional triage step sends retrieved content to a third-party API.** Low risk
   on public documents, but the tool has no record of its own processing, which your
   own supplier questionnaire would ask for.
-- **07:00 UTC year round**, so it drifts an hour against local time in summer.
+- **If scheduled, 07:00 UTC year round** drifts an hour against local time in summer.
 
 ## What is not in v0.5
 
@@ -468,7 +470,7 @@ coverage.json         what is and is not covered
 diary.json            coming into force
 discards.json         considered and rejected
 baseline.json         what was absorbed when monitoring began
-.github/workflows/    scanner.yml (scheduled and manual tasks)
+.github/workflows/    scanner.yml (manual tasks; scheduled cron disabled)
 *.test.mjs            offline regression tests
 ```
 
