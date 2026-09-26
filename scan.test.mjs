@@ -442,6 +442,76 @@ test('issue body never presents generated content as the record', async () => {
   assert.match(b, /advisory and is not the record/);
 });
 
+test('UC impact guidance is targeted to existing topics and does not invent authority or IDs', () => {
+  const review = mappings.use_case_impact_review;
+  assert.equal(review.status, 'human-review-guidance-only; not an authoritative crosswalk');
+  assert.match(review.identity_rule, /do not create, derive, guess, or infer AIR-ID or UC-ID/i);
+  assert.match(review.material_distinction_rule, /purpose, intended outcome, workflow/i);
+  assert.match(review.risk_and_priority, /AIG-ASS-01/);
+  assert.match(review.risk_and_priority, /AIG-ASS-02/);
+  assert.match(review.decision_and_conditions, /AIG-DEC-03/);
+  assert.match(review.decision_and_conditions, /AIG-DEC-04/);
+  assert.match(review.monitoring, /AIG-OPS-02/);
+  assert.equal(review.supplementary_current_view, 'UC_ID_Risk_Decision_Current_View.xlsx');
+  assert.match(review.supplementary_package, /^AI_Governance_UC_ID_Integrated_Draft_Full_Suite\.zip;/);
+  const packagePath = join(HERE, '..', 'downloads', review.supplementary_package.split(';')[0]);
+  if (existsSync(packagePath)) {
+    const contents = execFileSync('unzip', ['-Z', '-1', packagePath], { encoding: 'utf8' });
+    assert.match(contents, /AI_Governance_UC_ID_Integrated_Draft\/UC_ID_Risk_Decision_Current_View\.xlsx/,
+      'the named supplementary workbook must actually be packaged');
+  }
+  const knownTopics = new Set(mappings.topics.map((topic) => topic.id));
+  for (const entry of review.topic_review_prompts) {
+    assert.ok(entry.prompt.length > 20);
+    for (const id of entry.topic_ids) assert.ok(knownTopics.has(id), `unknown prompt topic ${id}`);
+  }
+  assert.doesNotMatch(JSON.stringify(review), /\b(?:AIR|UC)-\d+\b/,
+    'review guidance must not supply made-up system or use identifiers');
+  const classification = classify({
+    title: 'Automated decision safeguards update',
+    summary: 'Human review'
+  }, mappings);
+  assert.deepEqual(Object.keys(classification).sort(), [
+    'affects_artefacts', 'affects_sections', 'reference_only', 'review_flags', 'topics'
+  ], 'the existing classifier result contract remains unchanged');
+});
+
+test('flagged issue prompts use-case review without implying a decision or inventing IDs', async () => {
+  const { issueBody } = await import('./issues.mjs');
+  const body = issueBody({
+    record_id: 'REG-0123', publisher: 'Publisher', tier: 1, source_id: 'source',
+    url: 'https://example.test/change', date_published: null, date_in_force: null,
+    date_retrieved: null, event: 'new', reference_only: false,
+    affects_sections: [], affects_artefacts: [], topics: ['safeguarding'], content_hash: 'abc'
+  });
+  assert.match(body, /Use-case impact review \(human review; no inference\)/);
+  assert.match(body, /AIG-INV-04/);
+  assert.match(body, /AIG-INV-05/);
+  assert.match(body, /materially distinct purposes, outcomes and workflows/i);
+  assert.match(body, /AIG-ASS-01/);
+  assert.match(body, /AIG-ASS-02/);
+  assert.match(body, /exact system\/use scope in AIG-DEC-03/);
+  assert.match(body, /conditions in AIG-DEC-04/);
+  assert.match(body, /AIG-OPS-02/);
+  assert.match(body, /Check distinct decision purposes, outcomes\/workflows/);
+  assert.match(body, /Supplementary pointer: `UC_ID_Risk_Decision_Current_View\.xlsx`/);
+  assert.match(body, /AI_Governance_UC_ID_Integrated_Draft_Full_Suite\.zip/);
+  assert.match(body, /not an approval record or replacement for source records/);
+  assert.doesNotMatch(body, /\[UC_ID_Risk_Decision_Current_View\.xlsx\]\(/,
+    'issue bodies must not include a local-only workbook hyperlink');
+  assert.doesNotMatch(body, /\.\.\/downloads\//,
+    'issue bodies must not expose a non-portable workspace path');
+  assert.doesNotMatch(body, /\b(?:AIR|UC)-\d+\b/);
+
+  const reference = issueBody({
+    record_id: 'REG-0124', publisher: 'Publisher', tier: 1, source_id: 'source',
+    url: 'https://example.test/reference', event: 'new', reference_only: true,
+    affects_sections: [], affects_artefacts: [], topics: ['eu-ai-act'], content_hash: 'def'
+  });
+  assert.doesNotMatch(reference, /Use-case impact review/,
+    'reference-only context must not be presented as an impact finding');
+});
+
 test('new records are created with an empty issue_number', () => {
   const src = readFileSync(join(HERE, 'scan.mjs'), 'utf8');
   assert.match(src, /issue_number: null/);
