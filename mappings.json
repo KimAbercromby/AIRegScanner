@@ -22,6 +22,55 @@
       "formal decisions or approvals"
     ]
   },
+  "use_case_impact_review": {
+    "status": "human-review-guidance-only; not an authoritative crosswalk",
+    "purpose": "For every non-reference focused source change, prompt a reviewer to reconcile potentially affected systems and materially distinct use cases against current records. A topic match identifies questions to ask, not an affected system, a UC-ID, applicability, risk, priority, decision, or approval.",
+    "identity_rule": "Use AIG-INV-04 as the authority for existing AIR-ID system identity/current status. Use AIG-INV-05 only as a relationship pointer. Reconcile each affected use against source records; do not create, derive, guess, or infer AIR-ID or UC-ID values from scanner text, topic matches, or this review prompt. Missing or conflicting identity remains unresolved for an authorised human.",
+    "material_distinction_rule": "Human reviewers assess whether purpose, intended outcome, workflow, affected population, users, data, capability, action, or material effect differs. Where materially distinct, check for its own existing UC-ID and UC-scoped assessment/decision; do not collapse it into a system-wide status. An absent UC-ID is a gap to resolve through the controlled process, not permission or an identifier for the scanner to supply.",
+    "risk_and_priority": "Do not infer risk or priority from a source match, topic, tier, or system status. Review evidenced use-specific priority through AIG-ASS-01 AGPI Triage and risk through AIG-ASS-02 AI Risk Assessment Worksheet; record uncertainty and obtain the responsible owners' assessment.",
+    "decision_and_conditions": "A competent human records the decision and its exact system/use scope in AIG-DEC-03 or properly approved native minutes. Record dated gate events and applicable conditions in AIG-DEC-04. A planned gate, map link, proposed artefact, or scanner issue closure is not approval; missing, conflicting, or unscoped decisions remain unverified.",
+    "monitoring": "Use AIG-OPS-02 for actual post-deployment monitoring evidence. The supplementary UC_ID_Risk_Decision_Current_View.xlsx is a pointer/reconciliation view only and is not a delegated approval record or replacement for its source records.",
+    "supplementary_current_view": "UC_ID_Risk_Decision_Current_View.xlsx",
+    "supplementary_package": "AI_Governance_UC_ID_Integrated_Draft_Full_Suite.zip; the workbook is verifiably included in the local package, but no public URL or publication location is asserted.",
+    "topic_review_prompts": [
+      {
+        "topic_ids": ["adm-article-22", "safeguarding"],
+        "prompt": "Check distinct decision purposes, outcomes/workflows, affected populations and human review or safeguarding effects; determine use-specific assessments and scope with responsible owners."
+      },
+      {
+        "topic_ids": ["equality-bias"],
+        "prompt": "Check which distinct purposes, outcomes and affected populations may experience different equality effects; route evidenced use-specific review to the responsible equality and service owners."
+      },
+      {
+        "topic_ids": ["agentic", "security"],
+        "prompt": "Check affected uses against actual capabilities, users, data, tools/actions, component dependencies and monitoring; do not infer live permissions or system state from the map."
+      },
+      {
+        "topic_ids": ["procurement", "procurement-regime"],
+        "prompt": "Check supplier, contract, service and use boundaries for each potentially affected use; confirm applicable regime, transition and delegated authority with owners."
+      },
+      {
+        "topic_ids": ["transparency-atrs", "information-rights"],
+        "prompt": "Check the relevant use's transparency, register and disclosure context; confirm local-authority applicability and any exemptions with responsible owners."
+      },
+      {
+        "topic_ids": ["local-government", "maladministration"],
+        "prompt": "Check which actual statutory service, decision route and resident outcome are involved; another authority's finding is not this Council's decision."
+      },
+      {
+        "topic_ids": ["standards"],
+        "prompt": "Check whether evidence relates to shared management-system controls or to a particular use's risk and treatment; a source change does not establish conformity."
+      },
+      {
+        "topic_ids": ["shadow-ai"],
+        "prompt": "Check intake and staff-use routes for potentially affected purposes and workflows; do not treat discovery of a tool or use as registration or permission."
+      },
+      {
+        "topic_ids": ["eu-ai-act"],
+        "prompt": "Reference only: a match does not flag a change or establish territorial/activity scope. Obtain case-specific legal review before identifying potentially affected uses."
+      }
+    ]
+  },
   "relevance_gate": {
     "note": "An item must match at least one of these before it is recorded at all. Applied to sources whose filter is set to 'keywords'.",
     "any_of": [
