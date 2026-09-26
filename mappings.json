@@ -1,23 +1,24 @@
 {
-  "mappings_version": "0.4",
-  "target_playbook_version": "Proposed integrated suite, 2026-09-25 (unversioned; not approved)",
+  "mappings_version": "0.5",
+  "target_playbook_version": "Proposed grouped-ID suite, 2026-09-25 (unversioned; not approved)",
   "historical_playbook_baseline": "v19.3",
   "mapping_alignment": {
     "status": "reviewed-proposed-not-approved",
     "current_target": "downloads/AI_Governance_Integrated_Proposed_Suite.zip",
-    "archive_sha256": "79e82a18dbbd76c49dafffb559ee9e01bf6026d9576c910d4ba3b882e9b88dcd",
-    "note": "Section headings checked against 01 Playbook; numbered artefacts checked against the packaged 00–50 filenames and 02 Index. These are candidate review touchpoints, not required changes, legal applicability findings, or approval. The post-adoption suite-amendment approver is unconfirmed. Old scanner records retain their historical labels; no legacy identifier is silently reassigned."
+    "archive_sha256": "6f633509c13a63c469058d8511a0ef3347c55ae4aeec2540e87d8353654318fa",
+    "catalogue_pin_status": "pinned-reviewed-proposed",
+    "note": "Scanner review pointers now use the grouped AIG-GOV, AIG-INV, AIG-ASS, AIG-DEC, AIG-AGT, AIG-OPS and AIG-AIMS draft IDs. The archive_sha256 pins the reviewed grouped-ID ZIP, not an approved or adopted edition. These are candidate review touchpoints, not required changes, legal applicability findings, or approval. The post-adoption suite-amendment approver is unconfirmed. Historical scanner records retain their original labels and evidence."
   },
   "note": "Deterministic case-insensitive topic matches identify proposed-suite sections and artefacts to review, not legal obligations or decisions. An item may match several topics. Unresolved scope questions are flagged per topic.",
   "proposed_relationship_pointer": {
     "name": "Capabilities and System Map",
-    "status": "unnumbered standalone proposal; not an adopted catalogue entry",
-    "purpose": "Optional pointer for relating outcome-led use cases, capabilities, governed systems and referenced components; reconcile official system identity to 05 and component authority to native sources.",
+    "status": "proposed controlled artefact AIG-INV-05; not approved or adopted",
+    "purpose": "A versioned, steward-maintained relationship catalogue for outcome-led use cases, capabilities, governed systems and referenced components; reconcile each system AIR-ID to AIG-INV-04 and component authority to native sources.",
     "not_authoritative_for": [
       "legal applicability",
-      "register identity or current status",
+      "AIG-INV-04 Register identity or current system status",
       "permissions or delegations",
-      "gate outcomes",
+      "AIG-DEC-04 Gate Log plans, events, outcomes or conditions",
       "formal decisions or approvals"
     ]
   },
@@ -150,9 +151,9 @@
         "4.7.7"
       ],
       "affects_artefacts": [
-        "WCC-AIG-10 DPIA Template",
-        "WCC-AIG-41 AI Contestability and Redress Control",
-        "WCC-AIG-16 Governance Decision Record"
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-OPS-04 AI Contestability and Redress Control",
+        "AIG-DEC-03 Governance Decision Record"
       ],
       "why": "Review ADM safeguards, privacy assessment and human review/contestability routes when source material changes; determine applicability for the specific case.",
       "reference_only": false
@@ -172,9 +173,9 @@
         "5.7"
       ],
       "affects_artefacts": [
-        "WCC-AIG-15 ATRS Record Template",
-        "WCC-AIG-05 AI Register",
-        "WCC-AIG-17 AI Governance Reporting Templates"
+        "AIG-ASS-10 ATRS Record Template",
+        "AIG-INV-04 AI Register",
+        "AIG-OPS-05 AI Governance Reporting Templates"
       ],
       "why": "Check transparency drafting, register and reporting touchpoints; the current local-authority ATRS position must be checked by the responsible owner.",
       "reference_only": false
@@ -198,11 +199,11 @@
         "F.7.10"
       ],
       "affects_artefacts": [
-        "WCC-AIG-44 Agentic AI Governance Design Principles",
-        "WCC-AIG-45 Agent Record ASBOM",
-        "WCC-AIG-46 Agent Authority Graph",
-        "WCC-AIG-48 Agentic Triage Function Spec",
-        "WCC-AIG-50 Agentic Action Decision Record"
+        "AIG-AGT-01 Agentic AI Governance Design Principles",
+        "AIG-AGT-04 Agent Record ASBOM",
+        "AIG-AGT-05 Agent Authority Graph",
+        "AIG-AGT-03 Agentic Triage Function Spec",
+        "AIG-AGT-06 Agentic Action Decision Record"
       ],
       "why": "The proposed agentic annex and agent records define the review route. A source match does not establish that a live agent or control exists.",
       "reference_only": false
@@ -225,8 +226,8 @@
         "4.6.2"
       ],
       "affects_artefacts": [
-        "WCC-AIG-11 Equality Impact Assessment Template",
-        "WCC-AIG-07 AI Risk Assessment Worksheet"
+        "AIG-ASS-06 Equality Impact Assessment",
+        "AIG-ASS-02 AI Risk Assessment Worksheet"
       ],
       "why": "Review fairness risk and equality assessment design; legal duties and case-specific effects need specialist review.",
       "reference_only": false
@@ -249,8 +250,8 @@
         "4.7.12"
       ],
       "affects_artefacts": [
-        "WCC-AIG-20 AI Security Review Checklist",
-        "WCC-AIG-13 Supplier AI Due Diligence Questionnaire"
+        "AIG-ASS-11 AI Security Review Checklist",
+        "AIG-ASS-08 Supplier AI Due Diligence Questionnaire"
       ],
       "why": "Threat guidance changes faster than anything else in the set and the checklist is the artefact that goes stale first.",
       "reference_only": false
@@ -272,8 +273,8 @@
         "5.5"
       ],
       "affects_artefacts": [
-        "WCC-AIG-13 Supplier AI Due Diligence Questionnaire",
-        "WCC-AIG-16 Governance Decision Record"
+        "AIG-ASS-08 Supplier AI Due Diligence Questionnaire",
+        "AIG-DEC-03 Governance Decision Record"
       ],
       "why": "Most council AI is bought rather than built, so procurement rules bite before any internal gate does.",
       "reference_only": false
@@ -302,9 +303,9 @@
         "D.4"
       ],
       "affects_artefacts": [
-        "WCC-AIG-27 AIMS Applicable Requirements and Change Register",
-        "WCC-AIG-28 AIMS Clause Conformity Register",
-        "WCC-AIG-37 AIMS Clause Level Crosswalk"
+        "AIG-AIMS-05 AIMS Applicable Requirements and Change Register",
+        "AIG-AIMS-06 AIMS Clause Conformity Register",
+        "AIG-AIMS-12 AIMS Clause Level Crosswalk"
       ],
       "why": "Review proposed standards alignment and requirements tracking; a source update does not establish conformity.",
       "reference_only": false
@@ -327,9 +328,9 @@
         "5.4"
       ],
       "affects_artefacts": [
-        "WCC-AIG-03 Staff Guide Do I Need To Register AI",
-        "WCC-AIG-04 AI Intake Form",
-        "WCC-AIG-08 AI Governance Checklist"
+        "AIG-INV-01 Staff Guide Do I Need To Register AI",
+        "AIG-INV-03 AI Intake Form",
+        "AIG-ASS-03 AI Governance Checklist"
       ],
       "why": "Review staff routing and acceptable-use guidance for uncontrolled adoption.",
       "reference_only": false
@@ -380,9 +381,9 @@
         "3.10.1"
       ],
       "affects_artefacts": [
-        "WCC-AIG-05 AI Register",
-        "WCC-AIG-04 AI Intake Form",
-        "WCC-AIG-21 AI Governance Terms of Reference"
+        "AIG-INV-04 AI Register",
+        "AIG-INV-03 AI Intake Form",
+        "AIG-GOV-06 AI Governance Terms of Reference"
       ],
       "why": "Review intake, register and governance routing against sector-specific source changes; determine binding effect separately.",
       "reference_only": false
@@ -404,8 +405,8 @@
         "6.8"
       ],
       "affects_artefacts": [
-        "WCC-AIG-19 AI Incident Report Form",
-        "WCC-AIG-41 AI Contestability and Redress Control"
+        "AIG-OPS-03 AI Incident Report Form",
+        "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "reference_only": false,
       "why": "Review complaints, incident learning and redress routes when relevant findings appear; do not treat another authority's finding as a decision for this Council."
@@ -433,9 +434,9 @@
         "4.6.3"
       ],
       "affects_artefacts": [
-        "WCC-AIG-07 AI Risk Assessment Worksheet",
-        "WCC-AIG-11 Equality Impact Assessment Template",
-        "WCC-AIG-12 Human Rights Assessment Template"
+        "AIG-ASS-02 AI Risk Assessment Worksheet",
+        "AIG-ASS-06 Equality Impact Assessment",
+        "AIG-ASS-07 Human Rights Assessment"
       ],
       "reference_only": false,
       "why": "Review resident-impact scoring and specialist assessments for safeguarding uses; the service owner and legal specialists determine which duties apply."
@@ -459,8 +460,8 @@
         "5.5"
       ],
       "affects_artefacts": [
-        "WCC-AIG-13 Supplier AI Due Diligence Questionnaire",
-        "WCC-AIG-16 Governance Decision Record"
+        "AIG-ASS-08 Supplier AI Due Diligence Questionnaire",
+        "AIG-DEC-03 Governance Decision Record"
       ],
       "reference_only": false,
       "why": "Review supplier checks and the delegated-decision boundary; a scanner match does not establish which procurement regime applies.",
@@ -483,9 +484,9 @@
         "5.7"
       ],
       "affects_artefacts": [
-        "WCC-AIG-05 AI Register",
-        "WCC-AIG-14 AI Model Card Template",
-        "WCC-AIG-15 ATRS Record Template"
+        "AIG-INV-04 AI Register",
+        "AIG-ASS-09 AI Model Card Template",
+        "AIG-ASS-10 ATRS Record Template"
       ],
       "reference_only": false,
       "why": "Review transparency and record-design touchpoints; disclosure and exemptions need case-specific information-rights review.",

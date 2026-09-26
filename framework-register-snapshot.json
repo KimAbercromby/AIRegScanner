@@ -1,6 +1,6 @@
 {
   "snapshot_version": "1",
-  "purpose": "Public-safe verification snapshot from the proposed WCC-AIG-27 Applicable Requirements sheet. Requirement IDs were checked across all 51 rows. Public names and public source URLs are retained for REQ-001–REQ-043 only. Names and source locations for internal REQ-044–REQ-051 are deliberately redacted. Not an approved register, applicability decision, or assurance record.",
+  "purpose": "Public-safe verification snapshot from the proposed AIG-AIMS-05 Applicable Requirements sheet. Stable Requirement IDs were checked across all 51 rows; these REQ IDs are unchanged by artefact renumbering. Public names and public source URLs are retained for REQ-001–REQ-043 only. Names and source locations for internal REQ-044–REQ-051 are deliberately redacted. Not an approved register, applicability decision, or assurance record.",
   "requirements": [
     { "id": "REQ-001", "name": "UK General Data Protection Regulation (UK GDPR), as amended", "public_source_urls": ["https://www.legislation.gov.uk/eur/2016/679/contents"] },
     { "id": "REQ-002", "name": "Data Protection Act 2018, as amended", "public_source_urls": ["https://www.legislation.gov.uk/ukpga/2018/12/contents"] },
@@ -54,7 +54,7 @@
     { "id": "REQ-050", "redacted": true },
     { "id": "REQ-051", "redacted": true }
   ],
-  "wcc42_public_source_urls": [
+  "aig_aims_13_public_source_urls": [
     "https://genai.owasp.org/resource/agent-control-standard-acs/",
     "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-duaa-summary-of-the-changes/",
     "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy",

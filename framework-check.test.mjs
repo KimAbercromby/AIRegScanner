@@ -37,22 +37,27 @@ test('map target version remains proposed and unversioned rather than inventing 
   assert.match(map.target_playbook_version, /not approved/i);
   assert.equal(map.target_playbook_version, mappings.target_playbook_version);
   assert.equal(map.reviewed_edition_sha256, mappings.mapping_alignment.archive_sha256);
-  assert.deepEqual(map.playbook_landscape.filter((it) => /ISO\/IEC 42001|NIST AI Risk|Data \(Use and Access\)/.test(it.item)).map((it) => it.ref), ['§3.12 / Appendix D.2', 'Appendix D.4', '§2.5 / §4.6.1, WCC-AIG-10 DPIA Template']);
+  assert.deepEqual(map.playbook_landscape.filter((it) => /ISO\/IEC 42001|NIST AI Risk|Data \(Use and Access\)/.test(it.item)).map((it) => it.ref), ['§3.12 / Appendix D.2', 'Appendix D.4', '§2.5 / §4.6.1, AIG-ASS-05 Data Protection Impact Assessment']);
 });
 
-test('proposed Capabilities and System Map is a relationship pointer, not a governance source', () => {
+test('proposed controlled Capabilities and System Map remains a relationship pointer, not an authority source', () => {
   for (const pointer of [map.proposed_relationship_pointer, mappings.proposed_relationship_pointer]) {
     assert.equal(pointer.name, 'Capabilities and System Map');
-    assert.match(pointer.status, /standalone proposal/i);
+    assert.match(pointer.status, /proposed controlled artefact AIG-INV-05/i);
+    assert.match(pointer.status, /not approved or adopted/i);
     assert.ok(pointer.not_authoritative_for.includes('legal applicability'));
-    assert.ok(pointer.not_authoritative_for.some((item) => /Register identity|WCC-AIG-27 requirement content/i.test(item)));
+    assert.ok(pointer.not_authoritative_for.some((item) => /AIG-INV-04 Register identity/i.test(item)));
+    assert.ok(pointer.not_authoritative_for.some((item) => /AIG-DEC-04 Gate Log/i.test(item)));
+    assert.ok(pointer.not_authoritative_for.some((item) => /Register identity|AIG-AIMS-05 requirement content/i.test(item)));
     assert.ok(pointer.not_authoritative_for.some((item) => /approval/i.test(item)));
   }
-  assert.doesNotMatch(JSON.stringify([map.proposed_relationship_pointer, mappings.proposed_relationship_pointer]), /AIG-INV-05/);
+  assert.match(JSON.stringify([map.proposed_relationship_pointer, mappings.proposed_relationship_pointer]), /AIG-INV-05/);
+  assert.match(mappings.mapping_alignment.note, /historical scanner records retain their original labels/i);
+  assert.equal(mappings.mapping_alignment.catalogue_pin_status, 'pinned-reviewed-proposed');
   assert.equal(map.register_landscape.filter((item) => /^REQ-\d{3}$/.test(item.ref)).length, 51);
 });
 
-test('framework-map matches all 51 WCC-AIG-27 IDs with public details redacted for internal rows', () => {
+test('framework-map matches all 51 AIG-AIMS-05 IDs with public details redacted for internal rows', () => {
   const requirements = map.register_landscape.filter((item) => /^REQ-\d{3}$/.test(item.ref));
   const refs = requirements.map((item) => item.ref);
   const expected = Array.from({ length: 51 }, (_, index) => `REQ-${String(index + 1).padStart(3, '0')}`);
@@ -88,21 +93,24 @@ test('the published viewer stays static and explains its governance boundary', (
   assert.doesNotMatch(html, /fonts\.googleapis\.com/);
   assert.match(html, /does not establish applicability, legal scope, compliance/i);
   assert.match(html, /Governance suite is proposed, not approved/i);
-  assert.match(html, /WCC-AIG-42/i);
+  assert.match(html, /AIG-AIMS-13/i);
+  assert.match(html, /AIG-INV-04 is the System Register and owns the permanent AIR-ID\/current\s+system state; AIG-DEC-04 is the separate Gate Log for plans, events and conditions/i);
+  assert.match(html, /AIG-INV-05[\s\S]*?relationship pointer, not a\s+decision, permission or approval source/i);
   assert.match(html, /Equality Act 2010 s\.149/i);
   assert.match(html, /Human Rights Act 1998 s\.6/i);
   assert.match(html, /AI Governance Toolkit/);
-  assert.match(html, /Proposed-edition mapping reviewed/i);
+  assert.match(html, /proposed grouped IDs, not an approved operational edition/i);
   assert.match(html, /Older scanner\s+records retain historical labels/i);
   assert.match(html, /conditional cases need owner review/i);
   assert.match(html, /Owner review: '\+x/);
   assert.doesNotMatch(`${html}\n${readme}`, /\bWestminster\b|London borough/i);
   assert.match(readme, /reviewed-proposed-not-approved/i);
-  assert.match(readme, /Do not update\/upload\/publish remotely before the owner/i);
+  assert.match(readme, /Draft-labelled scanner code may be published for review/i);
+  assert.match(readme, /do not publish a\s+controlled suite, migrate real records or claim approval/i);
   assert.match(html, /framework-map\.json/);
   assert.match(html, /framework-register-snapshot\.json/);
   assert.match(html, /configured source alignment/i);
-  assert.match(html, /WCC-AIG-42 cross-check/i);
+  assert.match(html, /AIG-AIMS-13 cross-check/i);
   assert.doesNotThrow(() => new Function(scripts[0][1]), 'inline viewer JavaScript parses');
 });
 
@@ -129,8 +137,8 @@ test('public-source audit validates exact names and reports unmatched URLs as ga
   assert.equal(audit.rows.find((row) => row.ref === 'REQ-001').matchedUrls.length, 0, 'proxy is not reported as a direct URL match');
   assert.ok(audit.summary.matched < audit.summary.public_requirements, 'do not imply every public requirement has a matching monitor feed');
   assert.ok(audit.summary.gaps > 0, 'unmatched requirements are surfaced as gaps');
-  assert.equal(audit.summary.wcc42_public_urls, 17);
-  assert.equal(audit.summary.matched_wcc42_public_urls, 7);
+  assert.equal(audit.summary.aig_aims_13_public_urls, 17);
+  assert.equal(audit.summary.matched_aig_aims_13_public_urls, 7);
   assert.equal(audit.rows.find((row) => row.ref === 'REQ-002').status, 'matched', 'instrument-specific legislation change feeds match their instrument');
   assert.equal(audit.rows.find((row) => row.ref === 'REQ-032').status, 'gap', 'UK legislation search is not an EU source match');
   for (const id of ['REQ-011', 'REQ-039', 'REQ-041', 'REQ-042', 'REQ-043']) {
