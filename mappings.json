@@ -5,8 +5,8 @@
   "mapping_alignment": {
     "status": "reviewed-proposed-not-approved",
     "current_target": "downloads/AI_Governance_Integrated_Proposed_Suite.zip",
-    "archive_sha256": "8cd361e0943f74b844db243921c0ccc4cf1dee07c8dcc0b017e9a51ac7198db5",
-    "note": "Section headings checked against 01 Playbook; numbered artefacts checked against the packaged 00–50 filenames and 02 Index. These are candidate review touchpoints, not required changes, legal applicability findings, or approval. Old scanner records retain their historical labels; no legacy identifier is silently reassigned."
+    "archive_sha256": "79e82a18dbbd76c49dafffb559ee9e01bf6026d9576c910d4ba3b882e9b88dcd",
+    "note": "Section headings checked against 01 Playbook; numbered artefacts checked against the packaged 00–50 filenames and 02 Index. These are candidate review touchpoints, not required changes, legal applicability findings, or approval. The post-adoption suite-amendment approver is unconfirmed. Old scanner records retain their historical labels; no legacy identifier is silently reassigned."
   },
   "note": "Deterministic case-insensitive topic matches identify proposed-suite sections and artefacts to review, not legal obligations or decisions. An item may match several topics. Unresolved scope questions are flagged per topic.",
   "proposed_relationship_pointer": {

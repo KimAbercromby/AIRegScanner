@@ -1,7 +1,7 @@
 {
   "framework_map_version": "0.1",
   "target_playbook_version": "Proposed integrated suite, 2026-09-25 (unversioned; not approved)",
-  "reviewed_edition_sha256": "8cd361e0943f74b844db243921c0ccc4cf1dee07c8dcc0b017e9a51ac7198db5",
+  "reviewed_edition_sha256": "79e82a18dbbd76c49dafffb559ee9e01bf6026d9576c910d4ba3b882e9b88dcd",
   "playbook_anchor": "Draft crosswalk to the playbook's regulatory landscape and monitoring commitments. This is a scanner-source map only; it is not an approved Council register, legal applicability decision, assurance state, or record of a Council decision.",
   "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners.",
   "proposed_relationship_pointer": {
