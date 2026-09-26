@@ -100,7 +100,9 @@ test('the published viewer stays static and explains its governance boundary', (
   assert.match(html, /Human Rights Act 1998 s\.6/i);
   assert.match(html, /AI Governance Toolkit/);
   assert.match(html, /proposed grouped IDs, not an approved operational edition/i);
-  assert.match(html, /Older scanner\s+records retain historical labels/i);
+  assert.match(html, /Proposed grouped references; archive repin pending/i);
+  assert.match(html, /current archive SHA is not yet\s+verified against the grouped-ID draft/i);
+  assert.match(html, /Older scanner records retain\s+historical labels/i);
   assert.match(html, /conditional cases need owner review/i);
   assert.match(html, /Owner review: '\+x/);
   assert.doesNotMatch(`${html}\n${readme}`, /\bWestminster\b|London borough/i);
@@ -111,6 +113,11 @@ test('the published viewer stays static and explains its governance boundary', (
   assert.match(html, /framework-register-snapshot\.json/);
   assert.match(html, /configured source alignment/i);
   assert.match(html, /AIG-AIMS-13 cross-check/i);
+  assert.match(html, /function getArchive\(\)/);
+  assert.match(html, /impact-log-archive\.json/);
+  assert.match(html, /archive\.missing/);
+  assert.match(html, /S\.records=S\.focus==='all'\?S\.allRecords:S\.liveRecords/);
+  assert.match(html, /effect\.issue_number/);
   assert.doesNotThrow(() => new Function(scripts[0][1]), 'inline viewer JavaScript parses');
 });
 
