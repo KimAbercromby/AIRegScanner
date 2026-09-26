@@ -236,6 +236,37 @@ permission, gate, decision or approval source. Reconcile official system
 identity/current state to AIG-INV-04 (which owns the permanent AIR-ID), gate
 plans and dated history to AIG-DEC-04, and authority to its designated source.
 
+### Use-case impact review (human decision required)
+
+For a non-reference focused source change, the topic match is only a prompt to
+review whether current systems and materially distinct uses may be affected.
+It does not identify an affected system or UC-ID, decide legal applicability,
+set risk/priority, or establish approval. The scanner does not create or guess
+AIR-IDs or UC-IDs. A missing or conflicting ID remains unresolved and must be
+reconciled through the controlled human process.
+
+For each potentially affected system, reconcile identity and current status
+against **AIG-INV-04**; use **AIG-INV-05** only to navigate relationships.
+Human reviewers check distinct purpose, outcome and workflow (and material
+differences in population, users, data, capability, action or effect) against
+existing UC-IDs. Assess use-specific priority through **AIG-ASS-01** and risk
+through **AIG-ASS-02**; neither the topic nor the scanner's source tier supplies
+those assessments. Record the competent decision and its exact use scope in
+**AIG-DEC-03** or approved native minutes, and applicable conditions and dated
+gate events in **AIG-DEC-04**. A system-wide status or prospective gate plan
+does not approve each use. **AIG-OPS-02** holds actual post-deployment monitoring.
+
+The supplementary **UC_ID_Risk_Decision_Current_View.xlsx** is a
+pointer/reconciliation view only, not a delegated approval record or a
+replacement for its source records. It is included in the working-tree package
+**AI_Governance_UC_ID_Integrated_Draft_Full_Suite.zip**; this README does not
+assert a public URL or publication location for either file. Its existence, a
+package reference, or closing a scanner issue cannot grant permission. The
+mapping's topic-specific prompts and the same human-review boundary appear in
+flagged GitHub issue bodies, without a local-only workbook hyperlink.
+This addition changes no AIG catalogue entries or IDs: the active AIG catalogue
+count remains 52.
+
 A publication, mapping match, or AGPI prioritisation result cannot waive case-specific
 screening or duties under Equality Act 2010 s.149, Human Rights Act 1998 s.6, privacy,
 or any other applicable law. EU AI Act, ATRS and procurement references are conditional;
