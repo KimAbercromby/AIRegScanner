@@ -6,8 +6,9 @@
 > cover, and any report drawn from it must carry that statement.
 
 Checks a fixed list of authoritative publishers on a schedule, detects what changed,
-applies a deterministic AI-governance focus gate, and maps each retained change onto
-the playbook sections and artefacts it would affect.
+applies a deterministic AI-governance focus gate, and attaches historical
+topic/section/artefact pointers for human review. Current proposed-catalogue
+alignment is unverified and explicitly blocked pending manual revalidation.
 
 **Operating status:** A daily 07:00 UTC scan and Monday 06:30 UTC source-type
 smoke check are configured in `.github/workflows/scanner.yml`. On the website, a
@@ -29,7 +30,7 @@ by the focus gate remain in `discards.json`, so filtering is auditable.
 
 ## Scope
 
-**England. Single-tier authority (London borough).** Full range of duties: adult
+**England. Single-tier local authority.** Full range of duties: adult
 social care, children's services, housing, public health, revenues and benefits.
 
 The register tracks the frameworks a council is actually judged against, not UK AI
@@ -178,18 +179,23 @@ publisher still exist, does the endpoint still resolve, is the scope still right
 
 ## Mapping
 
-`mappings.json` turns a regulatory item into a statement about your own material.
-Each topic lists keywords, the playbook sections it affects, the artefacts it
-affects, and why. Matching is deterministic, case-insensitive, and involves no model.
+`mappings.json` contains legacy topic pointers: keywords, historical playbook
+sections and artefact references, with rationale. Matching is deterministic,
+case-insensitive, and involves no model. These pointers are not a validated current
+crosswalk to the proposed catalogue; manually revalidate before describing any
+match as current alignment or as a confirmed required change.
 
 When something lands with no mapping, the viewer says so and invites you to add a
 keyword rather than pretending the item is irrelevant.
 
-`target_playbook_version` is an unversioned proposed-draft label, not an approved
-release number. Do not replace it with an approved version unless one is formally
-issued.
+The deterministic topic/section/artefact mappings in `mappings.json` are a
+**historical v19.3 baseline**, not a verified mapping to the current proposed
+catalogue. `target_playbook_version` is unset and alignment is explicitly blocked
+pending manual reconciliation. Treat existing matches as legacy review pointers;
+do not claim current catalogue alignment until that work is completed. Existing
+numeric identifiers have not been renumbered.
 
-### Proposed AI governance suite source map (monitoring only)
+### Proposed suite source map (monitoring only)
 
 `framework-map.json` lists scanner monitoring references for the proposed
 WCC-AIG-27 suite. `framework-register-snapshot.json` is a reviewed, public-safe
@@ -210,6 +216,14 @@ attempt to call it. None of these checks is an applicability finding, legal
 conclusion, compliance evidence, approval, or ISO conformity. The snapshot is not
 an authoritative workbook or live Council record; the proposed suite is not
 approved.
+
+The scanner metadata also names the standalone proposed **Capabilities and System
+Map** as a relationship pointer only: it may connect use cases, capabilities,
+systems and component references, but does not alter monitoring matches or
+WCC-AIG-27 IDs and is not a legal, Register, permission, gate, decision or
+approval source. Reconcile official system identity/current state to 05, gate
+plans and dated history to the separate 36 Gate Log, and authority to its
+designated source.
 
 A publication, mapping match, or AGPI prioritisation result cannot waive case-specific
 screening or duties under Equality Act 2010 s.149, Human Rights Act 1998 s.6, privacy,

@@ -1,7 +1,25 @@
 {
   "mappings_version": "0.3",
-  "target_playbook_version": "v19.3",
-  "note": "This is what turns the scanner into a continual improvement tool rather than a news feed. Each topic maps a regulatory subject onto the specific parts of the playbook and artefact set that would have to change. Matching is deterministic and case-insensitive. An item may match several topics.",
+  "target_playbook_version": null,
+  "historical_playbook_baseline": "v19.3",
+  "mapping_alignment": {
+    "status": "blocked-pending-manual-revalidation",
+    "current_target": null,
+    "note": "These deterministic topic, section and artefact mappings are a historical v19.3 baseline. They have not been manually reconciled against the current proposed catalogue; do not claim current alignment until that review is completed. Existing numeric identifiers remain unchanged."
+  },
+  "note": "The scanner retains deterministic historical topic, section and artefact mappings as a review aid, not a verified current crosswalk. Their alignment with the proposed catalogue is blocked pending manual revalidation. Matching remains case-insensitive; an item may match several topics.",
+  "proposed_relationship_pointer": {
+    "name": "Capabilities and System Map",
+    "status": "standalone proposal; not an adopted catalogue entry",
+    "purpose": "Optional pointer for relating outcome-led use cases, capabilities, governed systems and referenced components; reconcile official system identity to 05 and component authority to native sources.",
+    "not_authoritative_for": [
+      "legal applicability",
+      "register identity or current status",
+      "permissions or delegations",
+      "gate outcomes",
+      "formal decisions or approvals"
+    ]
+  },
   "relevance_gate": {
     "note": "An item must match at least one of these before it is recorded at all. Applied to sources whose filter is set to 'keywords'.",
     "any_of": [

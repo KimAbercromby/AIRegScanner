@@ -19,6 +19,16 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const fx = (n) => readFileSync(join(HERE, n), 'utf8');
 const mappings = JSON.parse(readFileSync(join(HERE, 'mappings.json'), 'utf8'));
 
+test('legacy mappings make no current proposed-catalogue alignment claim', () => {
+  assert.equal(mappings.historical_playbook_baseline, 'v19.3');
+  assert.equal(mappings.target_playbook_version, null);
+  assert.equal(mappings.mapping_alignment.status, 'blocked-pending-manual-revalidation');
+  assert.equal(mappings.mapping_alignment.current_target, null);
+  assert.match(mappings.mapping_alignment.note, /historical v19\.3 baseline/i);
+  assert.match(mappings.mapping_alignment.note, /manually reconciled against the current proposed catalogue/i);
+  assert.match(mappings.mapping_alignment.note, /numeric identifiers remain unchanged/i);
+});
+
 test('parseAtom extracts entries with the canonical link, not the PDF or XML alternates', () => {
   const items = parseAtom(fx('legislation-new.atom.xml'));
   assert.equal(items.length, 3);
