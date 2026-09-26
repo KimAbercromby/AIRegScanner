@@ -48,6 +48,27 @@ export function labelsFor(rec) {
   return [...new Set(labels)];
 }
 
+function useCaseImpactReview(rec) {
+  const review = JSON.parse(readFileSync(MAPPINGS, 'utf8')).use_case_impact_review;
+  const topics = new Set(rec.topics || []);
+  const prompts = review.topic_review_prompts
+    .filter((entry) => entry.topic_ids.some((id) => topics.has(id)))
+    .map((entry) => entry.prompt);
+  const L = [
+    '### Use-case impact review (human review; no inference)',
+    'A topic or source match is a review prompt, not proof that a system or use is affected. Check current controlled records; this scanner creates no AIR-ID or UC-ID and grants no approval.',
+    '- Reconcile candidate system identity and current status against AIG-INV-04. Use AIG-INV-05 only as a relationship pointer.',
+    '- For each potentially affected system, check materially distinct purposes, outcomes and workflows against existing controlled UC-IDs. Do not invent or infer identifiers; keep missing or conflicting identity unresolved.',
+    '- Review evidenced use-specific priority via AIG-ASS-01 and risk via AIG-ASS-02; the source match, topic and scanner tier do not determine either.',
+    '- Record the competent decision and exact system/use scope in AIG-DEC-03 or approved native minutes. Record dated gate events and applicable conditions in AIG-DEC-04. A prospective plan, source-level issue decision or system-wide status is not approval for each use.',
+    `- Record actual post-deployment monitoring in AIG-OPS-02. Supplementary pointer: \`${review.supplementary_current_view}\` (included in \`${review.supplementary_package.split(';')[0]}\`; this is a pointer/reconciliation view, not an approval record or replacement for source records).`
+  ];
+  if (prompts.length) {
+    L.push('', '**Topic-specific questions (not findings):**', ...prompts.map((prompt) => `- ${prompt}`));
+  }
+  return L.join('\n');
+}
+
 /** Recover the record id embedded in scanner issue titles. */
 export function recordIdFromIssue(issue) {
   return String(issue?.title ?? '').match(/^\[(REG-\d+)\]\s/)?.[1] ?? null;
@@ -112,6 +133,11 @@ export function issueBody(rec) {
   } else {
     L.push('### No mapping matched');
     L.push('Read it and decide, or add a keyword to `mappings.json`.');
+  }
+
+  if (!rec.reference_only) {
+    L.push('');
+    L.push(useCaseImpactReview(rec));
   }
 
   L.push('');
