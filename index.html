@@ -238,11 +238,12 @@
     privacy or other duties. AIG-INV-04 is the System Register and owns the permanent AIR-ID/current
     system state; AIG-DEC-04 is the separate Gate Log for plans, events and conditions. This scanner
     creates no AIR-ID, approval or live Register/Gate Log row.
-    <br><strong>Grouped proposed-edition references updated; archive review pending:</strong> topic pointers use
-    the proposed grouped IDs, not an approved operational edition. The ZIP hash remains pinned to the
-    previous draft until the grouped-ID suite package is regenerated and reviewed. Older scanner
-    records retain historical labels. Matches suggest material to review, not required changes or
-    legal applicability; conditional cases need owner review. AIG-INV-05 is the proposed controlled
+    <br><strong>Proposed grouped references; reviewed ZIP pinned:</strong> topic pointers use
+    proposed grouped IDs, not an approved operational edition. The scanner mappings pin the
+    reviewed grouped-ID draft ZIP by SHA-256; this integrity pin is not evidence of approval.
+    Older scanner records retain
+    historical labels. Matches suggest material to review, not required changes or legal applicability;
+    conditional cases need owner review. AIG-INV-05 is the proposed controlled
     Capabilities and System Map, not yet approved/adopted; it is a relationship pointer, not a
     decision, permission or approval source.
   </section>
@@ -288,7 +289,10 @@
 (function(){
   'use strict';
   var PAGE = 40;
-  var S = { records:[], repo:null, focus:'focused', group:'source', status:'all', q:'', labels:{} };
+  var S = {
+    records:[], liveRecords:[], archiveRecords:[], allRecords:[], repo:null,
+    focus:'focused', group:'source', status:'all', q:'', labels:{}
+  };
 
   (function(){ var h=location.hostname,p=location.pathname.split('/').filter(Boolean);
     if(/\.github\.io$/.test(h)&&p.length) S.repo=h.replace(/\.github\.io$/,'')+'/'+p[0]; })();
@@ -300,6 +304,14 @@
     if(!r.ok)throw new Error(f+' returned HTTP '+r.status);
     return r.json();
   });}
+  function getArchive(){
+    var f='impact-log-archive.json';
+    return fetch(f+'?v='+Date.now(),{cache:'no-store'}).then(function(r){
+      if(r.status===404)return {records:[],missing:true};
+      if(!r.ok)throw new Error(f+' returned HTTP '+r.status);
+      return r.json();
+    });
+  }
 
   var GROUPERS = {
     source:   function(r){ return [ S.labels[r.source_id] || r.source_id || 'unknown' ]; },
@@ -424,11 +436,31 @@
       if(!d.open || d.dataset.built) return;
       d.dataset.built='1';
       var b=el('div','detail');
+      var related=r._related||[r];
       var p=el('p'); var a=el('a',null,r.url); a.href=r.url; a.target='_blank'; a.rel='noopener';
       p.appendChild(a); b.appendChild(p);
       b.appendChild(el('p',null,r.publisher+'  \u00B7  tier '+r.tier+'  \u00B7  '+r.source_id));
-      if((r._related||[]).length>1){
-        b.appendChild(el('p',null,r._related.length+' separate legislative effects are grouped into this one focused-feed entry. Select Full audit history to inspect every effect and its individual review issue.'));
+      if(related.length>1){
+        b.appendChild(el('p',null,related.length+' separate legislative effects are grouped into this one focused-feed entry. Each effect and its review issue are listed below.'));
+        var effectList=el('ul','effect-links');
+        related.forEach(function(effect){
+          var li=el('li');
+          if(effect.url){
+            var source=el('a',null,(effect.record_id||'Effect')+' \u00B7 '+(effect.title||'source record'));
+            source.href=effect.url; source.target='_blank'; source.rel='noopener';
+            li.appendChild(source);
+          }else li.appendChild(document.createTextNode(effect.record_id||effect.title||'Legislative effect'));
+          if(effect.issue_number){
+            li.appendChild(document.createTextNode(' \u2014 '));
+            if(S.repo){
+              var issue=el('a',null,'Review issue #'+effect.issue_number);
+              issue.href='https://github.com/'+S.repo+'/issues/'+effect.issue_number;
+              issue.target='_blank'; issue.rel='noopener'; li.appendChild(issue);
+            }else li.appendChild(document.createTextNode('Review issue #'+effect.issue_number));
+          }
+          effectList.appendChild(li);
+        });
+        b.appendChild(effectList);
       }
 
       var dates=el('div','dates');
@@ -528,12 +560,13 @@
     return d;
   }
 
-  Promise.all([get('impact-log.json',{records:[]}),get('health.json',null),
+  Promise.all([get('impact-log.json',{records:[]}),getArchive(),get('health.json',null),
                get('coverage.json',null),get('diary.json',null),get('run-log.json',{runs:[]}),
                get('sources.json',{sources:[]}),get('framework-map.json',null),
                get('framework-register-snapshot.json',null)])
   .then(function(res){
-    var log=res[0],health=res[1],cov=res[2],diary=res[3],rl=res[4],reg=res[5],framework=res[6],snapshot=res[7];
+    var log=res[0],archive=res[1],health=res[2],cov=res[3],diary=res[4],rl=res[5],
+      reg=res[6],framework=res[7],snapshot=res[8];
 
     (reg.sources||[]).forEach(function(src){
       var a=(src.authority||'').split(/\.(?:\s|$)/)[0].trim();
@@ -542,20 +575,33 @@
 
     renderFrameworkMap(framework,reg,snapshot);
 
-    S.records=(log.records||[]).slice().reverse();
+    S.liveRecords=(log.records||[]).slice().reverse();
+    S.archiveRecords=(archive.records||[]).slice().reverse();
+    S.records=S.liveRecords;
 
-    var focused=S.records.filter(isFocused);
+    var allRecords=S.liveRecords.concat(S.archiveRecords).sort(function(a,b){
+      return String(b.date_retrieved||b.date_published||'')
+        .localeCompare(String(a.date_retrieved||a.date_published||''));
+    });
+    S.allRecords=allRecords;
+    var focused=allRecords.filter(isFocused);
     var instruments=(function(){var old=S.focus;S.focus='focused';var x=collapseForFeed(focused).length;S.focus=old;return x;})();
     var unrev=focused.filter(function(r){return r.status==='unreviewed';}).length;
-    var hidden=S.records.length-focused.length;
+    var hidden=allRecords.length-focused.length;
     var c=document.getElementById('counters');
     [[instruments,'focused instruments',false],[focused.length,'tracked effects',false],
-     [unrev,'focused unreviewed',unrev>0],[hidden,'historical items hidden',false]].forEach(function(x){
+      [unrev,'focused unreviewed',unrev>0],[hidden,'historical items hidden',false],
+      [S.archiveRecords.length,'archived history records',false]].forEach(function(x){
       var d=el('div','counter'+(x[2]?' flag':''));
       d.appendChild(el('b',null,String(x[0]))); d.appendChild(el('span',null,x[1])); c.appendChild(d);
     });
 
     var P=document.getElementById('panels');
+    if(archive.missing){
+      P.appendChild(panel('warn','Scanner archive is not published',null,function(b){
+        b.appendChild(el('p',null,'impact-log-archive.json returned HTTP 404. Full audit history currently contains only the live impact log; do not infer that older records do not exist.'));
+      },true));
+    }
     if(unrev){
       P.appendChild(panel('warn','Focused records awaiting human review',unrev,function(b){
         b.appendChild(el('p',null,'These records are candidates, not confirmed changes to the playbook. Review each record and its issue where available, document applicability and an action or no-action decision, and keep it unreviewed until that decision is recorded.'));
@@ -601,7 +647,7 @@
 
     P.appendChild(panel('good','Focused relevance gate',focused.length,function(b){
       b.appendChild(el('p',null,'The default feed keeps direct AI and automated-decision law, named priority frameworks, and AI developments with a clear governance, assurance, legal or public-sector consequence.'));
-      b.appendChild(el('p',null,hidden+' older or low-signal records remain available under Full audit history. Nothing has been deleted.'));
+      b.appendChild(el('p',null,hidden+' low-signal records and '+S.archiveRecords.length+' archived records remain available under Full audit history. That view loads both the live impact log and impact-log-archive.json. Nothing has been deleted.'));
     },false));
 
     if(cov) P.appendChild(panel('warn','What this does and does not cover',
@@ -664,7 +710,11 @@
         ' \u00B7 monitored on '+rl.runs.length+' occasion(s).';
     } else document.getElementById('runline').textContent='No run recorded yet.';
 
-    document.getElementById('focus').addEventListener('change',function(e){S.focus=e.target.value;draw();});
+    document.getElementById('focus').addEventListener('change',function(e){
+      S.focus=e.target.value;
+      S.records=S.focus==='all'?S.allRecords:S.liveRecords;
+      draw();
+    });
     document.getElementById('groupby').addEventListener('change',function(e){S.group=e.target.value;draw();});
     document.getElementById('status').addEventListener('change',function(e){S.status=e.target.value;draw();});
     var t;
