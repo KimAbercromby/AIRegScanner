@@ -12,6 +12,7 @@ const readJSON = (n) => JSON.parse(readFileSync(join(HERE, n), 'utf8'));
 const map = readJSON('framework-map.json');
 const sources = readJSON('sources.json');
 const snapshot = readJSON('framework-register-snapshot.json');
+const mappings = readJSON('mappings.json');
 
 // The core anti-rot guard: every source id the map points at must still exist
 // in sources.json. If a source is ever renamed or removed, this fails and the
@@ -34,6 +35,18 @@ test('map target version remains proposed and unversioned rather than inventing 
   assert.doesNotMatch(map.target_playbook_version, /v19\.3/i);
   assert.match(map.target_playbook_version, /unversioned/i);
   assert.match(map.target_playbook_version, /not approved/i);
+});
+
+test('proposed Capabilities and System Map is a relationship pointer, not a governance source', () => {
+  for (const pointer of [map.proposed_relationship_pointer, mappings.proposed_relationship_pointer]) {
+    assert.equal(pointer.name, 'Capabilities and System Map');
+    assert.match(pointer.status, /standalone proposal/i);
+    assert.ok(pointer.not_authoritative_for.includes('legal applicability'));
+    assert.ok(pointer.not_authoritative_for.some((item) => /Register identity|WCC-AIG-27 requirement content/i.test(item)));
+    assert.ok(pointer.not_authoritative_for.some((item) => /approval/i.test(item)));
+  }
+  assert.doesNotMatch(JSON.stringify([map.proposed_relationship_pointer, mappings.proposed_relationship_pointer]), /AIG-INV-05/);
+  assert.equal(map.register_landscape.filter((item) => /^REQ-\d{3}$/.test(item.ref)).length, 51);
 });
 
 test('framework-map matches all 51 WCC-AIG-27 IDs with public details redacted for internal rows', () => {
@@ -65,15 +78,24 @@ test('framework-map matches all 51 WCC-AIG-27 IDs with public details redacted f
 
 test('the published viewer stays static and explains its governance boundary', () => {
   const html = readFileSync(join(HERE, 'index.html'), 'utf8');
+  const readme = readFileSync(join(HERE, 'README.md'), 'utf8');
   const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];
   assert.equal(scripts.length, 1, 'viewer code remains inline for static deployment');
   assert.doesNotMatch(html, /<script\s+src=|<link[^>]+(?:stylesheet|preconnect)/i);
   assert.doesNotMatch(html, /fonts\.googleapis\.com/);
   assert.match(html, /does not establish applicability, legal scope, compliance/i);
-  assert.match(html, /proposed, not approved, draft/i);
+  assert.match(html, /Governance suite is proposed, not approved/i);
   assert.match(html, /WCC-AIG-42/i);
   assert.match(html, /Equality Act 2010 s\.149/i);
   assert.match(html, /Human Rights Act 1998 s\.6/i);
+  assert.match(html, /AI Governance Toolkit/);
+  assert.match(html, /Mapping alignment blocked/i);
+  assert.match(html, /v19\.3[\s\S]*historical pointers/i);
+  assert.match(html, /Manual\s+revalidation is required before claiming current alignment/i);
+  assert.doesNotMatch(`${html}\n${readme}`, /\bWestminster\b|London borough/i);
+  assert.match(readme, /historical v19\.3 baseline/i);
+  assert.match(readme, /alignment is explicitly blocked\s+pending manual reconciliation/i);
+  assert.doesNotMatch(readme, /claims current catalogue alignment/i);
   assert.match(html, /framework-map\.json/);
   assert.match(html, /framework-register-snapshot\.json/);
   assert.match(html, /configured source alignment/i);
@@ -111,9 +133,7 @@ test('public-source audit validates exact names and reports unmatched URLs as ga
   for (const id of ['REQ-011', 'REQ-039', 'REQ-041', 'REQ-042', 'REQ-043']) {
     assert.equal(audit.rows.find((row) => row.ref === id).status, 'gap', `${id} remains explicit gap`);
   }
-  const localityHost = new RegExp(["west", "minster", "\\.gov\\.uk"].join(""), "i");
-  assert.doesNotMatch(JSON.stringify(snapshot), localityHost);
-  assert.doesNotMatch(JSON.stringify(snapshot), /OWNER VALIDATION REQUIRED|current approved Constitution/i);
+  assert.doesNotMatch(JSON.stringify(snapshot), /Westminster\.gov\.uk|OWNER VALIDATION REQUIRED|current approved Constitution/i);
   assert.doesNotMatch(JSON.stringify(snapshot.requirements.filter((row) => row.redacted)), /Council Constitution|policy repository|contract/i);
 });
 

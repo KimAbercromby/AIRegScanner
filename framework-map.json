@@ -3,6 +3,18 @@
   "target_playbook_version": "Proposed integrated draft, 2026-09-25 (unversioned; not approved)",
   "playbook_anchor": "Draft crosswalk to the playbook's regulatory landscape and monitoring commitments. This is a scanner-source map only; it is not an approved Council register, legal applicability decision, assurance state, or record of a Council decision.",
   "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners.",
+  "proposed_relationship_pointer": {
+    "name": "Capabilities and System Map",
+    "status": "standalone proposal; not an adopted catalogue entry",
+    "purpose": "A relationship pointer between outcome-led use cases, capabilities, governed systems and referenced components; it does not change requirement IDs or scanner source matching.",
+    "not_authoritative_for": [
+      "legal applicability",
+      "WCC-AIG-27 requirement content",
+      "05 Register identity or current status",
+      "36 Gate Log plans, events or conditions",
+      "permissions, decisions or approvals"
+    ]
+  },
   "playbook_landscape": [
     {
       "ref": "\u00a72.5",
