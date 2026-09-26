@@ -4,7 +4,7 @@
 // map onto the playbook" is verified on every run instead of remembered.
 //
 // The map declares monitoring links for the playbook landscape and a draft
-// crosswalk to WCC-AIG-27 / WCC-AIG-42 references. It reconciles IDs, public names
+// crosswalk to AIG-AIMS-05 / AIG-AIMS-13 references. It reconciles stable REQ IDs, public names
 // and source URLs against a reviewed public-safe snapshot, then computes configured
 // publisher-source status. It does not decide legal applicability, compliance,
 // Council approval, or ISO conformity.
@@ -107,9 +107,9 @@ export function auditPublicRegister(map, snapshot, sourcesFile) {
       errors.push(`${item.id}: redacted snapshot row must contain only its ID and redaction marker`);
     }
   }
-  if (!Array.isArray(snapshot.wcc42_public_source_urls) ||
-      snapshot.wcc42_public_source_urls.some((url) => typeof url !== 'string' || !url.startsWith('https://') || !canonicalUrl(url))) {
-    errors.push('WCC-AIG-42 cross-check must contain only public HTTPS source URLs');
+  if (!Array.isArray(snapshot.aig_aims_13_public_source_urls) ||
+      snapshot.aig_aims_13_public_source_urls.some((url) => typeof url !== 'string' || !url.startsWith('https://') || !canonicalUrl(url))) {
+    errors.push('AIG-AIMS-13 cross-check must contain only public HTTPS source URLs');
   }
   const sourceById = indexSources(sourcesFile);
   const mapRows = (map.register_landscape ?? []).filter((item) => /^REQ-\d{3}$/.test(item.ref));
@@ -137,7 +137,7 @@ export function auditPublicRegister(map, snapshot, sourcesFile) {
       if (item.expectation !== 'not-monitored' || watched.length) {
         errors.push(`${item.ref}: redacted internal row must be marked not-monitored and have no publisher source`);
       }
-      rows.push({ ref: item.ref, name: item.item, exactNameMatch: null, status: 'not-monitored', expectedUrls: [], matchedUrls: [], related42Matches: [], watched, unknownSources, note: item.note ?? null });
+      rows.push({ ref: item.ref, name: item.item, exactNameMatch: null, status: 'not-monitored', expectedUrls: [], matchedUrls: [], relatedAims13Matches: [], watched, unknownSources, note: item.note ?? null });
       continue;
     }
 
@@ -146,9 +146,9 @@ export function auditPublicRegister(map, snapshot, sourcesFile) {
     const expectedUrls = expected.public_source_urls ?? [];
     const matchedUrls = expectedUrls.filter((url) =>
       watched.some((id) => sourceDirectlyMatches(sourceById.get(id), url)));
-    const snapshot42Urls = snapshot.wcc42_public_source_urls ?? [];
-    const related42Matches = matchedUrls.filter((url) =>
-      snapshot42Urls.some((relatedUrl) => canonicalUrl(relatedUrl) === canonicalUrl(url)));
+    const snapshot13Urls = snapshot.aig_aims_13_public_source_urls ?? [];
+    const relatedAims13Matches = matchedUrls.filter((url) =>
+      snapshot13Urls.some((relatedUrl) => canonicalUrl(relatedUrl) === canonicalUrl(url)));
     let status;
     if (matchedUrls.length === expectedUrls.length && expectedUrls.length) status = 'matched';
     else if (matchedUrls.length || item.source_alignment === 'proxy') status = 'partial';
@@ -161,7 +161,7 @@ export function auditPublicRegister(map, snapshot, sourcesFile) {
       sourceAlignment: item.source_alignment ?? 'direct',
       expectedUrls,
       matchedUrls,
-      related42Matches,
+      relatedAims13Matches,
       watched,
       unknownSources,
       note: item.note ?? null,
@@ -174,7 +174,7 @@ export function auditPublicRegister(map, snapshot, sourcesFile) {
 
   const publicRows = rows.filter((row) => row.status !== 'not-monitored');
   const mappedSourceIds = new Set(mapRows.flatMap((item) => item.watched_by ?? []));
-  const snapshot42Urls = snapshot.wcc42_public_source_urls ?? [];
+  const snapshot13Urls = snapshot.aig_aims_13_public_source_urls ?? [];
   return {
     errors,
     rows,
@@ -188,8 +188,8 @@ export function auditPublicRegister(map, snapshot, sourcesFile) {
       redacted_internal_not_monitored: rows.filter((row) => row.status === 'not-monitored').length,
       public_urls: publicRows.reduce((total, row) => total + row.expectedUrls.length, 0),
       matched_public_urls: publicRows.reduce((total, row) => total + row.matchedUrls.length, 0),
-      wcc42_public_urls: snapshot42Urls.length,
-      matched_wcc42_public_urls: snapshot42Urls.filter((url) =>
+      aig_aims_13_public_urls: snapshot13Urls.length,
+      matched_aig_aims_13_public_urls: snapshot13Urls.filter((url) =>
         [...mappedSourceIds].some((id) => sourceDirectlyMatches(sourceById.get(id), url))).length,
     },
   };
@@ -278,20 +278,20 @@ function run() {
   }
 
   line('');
-  line('Public-safe WCC-AIG-27 / WCC-AIG-42 reference audit (not applicability):');
+  line('Public-safe AIG-AIMS-05 / AIG-AIMS-13 reference audit (not applicability):');
   const a = registerAudit.summary;
   line(`  Checked ${a.checked_requirements}/51 requirement IDs; ${a.exact_name_matches}/${a.public_requirements} public names exact; ${a.redacted_internal_not_monitored} internal names/locations withheld.`);
-  line(`  Public source alignment: ${a.matched} matched, ${a.partial} partial, ${a.gaps} gaps across ${a.public_urls} WCC-AIG-27 public URLs; ${a.matched_public_urls} directly matched to a configured scanner source.`);
-  line(`  WCC-AIG-42 cross-check: ${a.matched_wcc42_public_urls}/${a.wcc42_public_urls} public URLs directly match configured sources; these cross-check URLs are not assigned to requirement rows.`);
+  line(`  Public source alignment: ${a.matched} matched, ${a.partial} partial, ${a.gaps} gaps across ${a.public_urls} AIG-AIMS-05 public URLs; ${a.matched_public_urls} directly matched to a configured scanner source.`);
+  line(`  AIG-AIMS-13 cross-check: ${a.matched_aig_aims_13_public_urls}/${a.aig_aims_13_public_urls} public URLs directly match configured sources; these cross-check URLs are not assigned to requirement rows.`);
   for (const row of registerAudit.rows.filter((r) => r.status === 'gap' || r.status === 'partial')) {
     const watch = row.watched.length ? row.watched.join(', ') : '(no scanner source configured)';
     line(`  [${row.status.toUpperCase()}] ${row.ref} ${row.name} <- ${watch}`);
-    if (row.matchedUrls.length) line(`         WCC-AIG-27 public URL(s) matched: ${row.matchedUrls.length}/${row.expectedUrls.length}`);
+    if (row.matchedUrls.length) line(`         AIG-AIMS-05 public URL(s) matched: ${row.matchedUrls.length}/${row.expectedUrls.length}`);
     for (const url of row.expectedUrls.filter((expectedUrl) => !row.matchedUrls.includes(expectedUrl))) {
       line(`         [NO DIRECT SOURCE MATCH] ${url}`);
     }
-    if (row.related42Matches?.length) line(`         WCC-AIG-42 public source link(s) matched: ${row.related42Matches.length}`);
-    if (row.sourceAlignment === 'proxy') line('         Proxy only; no exact WCC-AIG-27 source URL match.');
+    if (row.relatedAims13Matches?.length) line(`         AIG-AIMS-13 public source link(s) matched: ${row.relatedAims13Matches.length}`);
+    if (row.sourceAlignment === 'proxy') line('         Proxy only; no exact AIG-AIMS-05 source URL match.');
     if (row.note) line(`         ${row.note}`);
   }
 

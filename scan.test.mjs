@@ -21,24 +21,24 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const fx = (n) => readFileSync(join(HERE, n), 'utf8');
 const mappings = JSON.parse(readFileSync(join(HERE, 'mappings.json'), 'utf8'));
 
-test('topic mappings are pinned to the reviewed, unapproved proposed edition', () => {
+test('topic mappings target the pinned grouped draft without approving it', () => {
   assert.equal(mappings.historical_playbook_baseline, 'v19.3');
   assert.match(mappings.target_playbook_version, /proposed.*not approved/i);
   assert.equal(mappings.mapping_alignment.status, 'reviewed-proposed-not-approved');
   assert.match(mappings.mapping_alignment.note, /not required changes, legal applicability findings, or approval/i);
+  assert.equal(mappings.mapping_alignment.catalogue_pin_status, 'pinned-reviewed-proposed');
   const archive = join(HERE, '..', 'downloads', 'AI_Governance_Integrated_Proposed_Suite.zip');
   if (existsSync(archive)) {
     const digest = createHash('sha256').update(readFileSync(archive)).digest('hex');
     assert.equal(digest, mappings.mapping_alignment.archive_sha256, 'updated suite needs revalidation');
     const filenames = execFileSync('unzip', ['-Z', '-1', archive], { encoding: 'utf8' }).trim().split('\n');
-    const ids = new Set(filenames.filter((name) => /^\d{2}_/.test(name)).map((name) => name.slice(0, 2)));
-    assert.deepEqual([...ids].sort(), Array.from({ length: 51 }, (_, n) => String(n).padStart(2, '0')));
-    assert.ok(filenames.includes('NEW_Capabilities_and_System_Map_Proposed.xlsx'));
-    assert.ok(filenames.includes('01_AI_Governance_Playbook.docx'));
+    const ids = new Set(filenames.map((name) => name.match(/^(AIG-(?:GOV|INV|ASS|DEC|AGT|OPS|AIMS)-\d{2})(?:[_\s-]|$)/)?.[1]).filter(Boolean));
+    assert.equal(ids.size, 52, 'the grouped catalogue contains 52 controlled artefact IDs');
+    assert.ok([...ids].includes('AIG-INV-05'), 'the proposed map has a catalogue ID');
     for (const topic of mappings.topics) {
       for (const pointer of topic.affects_artefacts) {
-        const [, number] = /^WCC-AIG-(\d{2}) /.exec(pointer) || [];
-        assert.ok(number && ids.has(number), `${topic.id}: unverified artefact ${pointer}`);
+        const id = /^(AIG-(?:GOV|INV|ASS|DEC|AGT|OPS|AIMS)-\d{2}) /.exec(pointer)?.[1];
+        assert.ok(id && ids.has(id), `${topic.id}: unverified artefact ${pointer}`);
       }
     }
   }
@@ -222,7 +222,7 @@ test('classify maps an ADM instrument onto the reviewed DPIA and human oversight
   const c = classify(adm, mappings);
   assert.ok(c.topics.includes('adm-article-22'));
   assert.ok(c.affects_sections.includes('4.6.1'));
-  assert.ok(c.affects_artefacts.includes('WCC-AIG-10 DPIA Template'));
+  assert.ok(c.affects_artefacts.includes('AIG-ASS-05 Data Protection Impact Assessment'));
 });
 
 test('classify maps a transparency item onto the ATRS record', () => {
@@ -230,7 +230,7 @@ test('classify maps a transparency item onto the ATRS record', () => {
   const atrs = items.find((i) => i.title.includes('Algorithmic Transparency'));
   const c = classify(atrs, mappings);
   assert.ok(c.topics.includes('transparency-atrs'));
-  assert.ok(c.affects_artefacts.includes('WCC-AIG-15 ATRS Record Template'));
+  assert.ok(c.affects_artefacts.includes('AIG-ASS-10 ATRS Record Template'));
 });
 
 test('classify returns empty rather than guessing on an unrelated item', () => {
@@ -299,10 +299,10 @@ test('a mixed item is not treated as reference-only', () => {
 
 test('council duty topics map to the right artefacts', () => {
   const cases = [
-    ['Ombudsman finds maladministration in housing allocation', 'maladministration', 'WCC-AIG-19 AI Incident Report Form'],
-    ['Working together to safeguard children: update', 'safeguarding', 'WCC-AIG-07 AI Risk Assessment Worksheet'],
-    ['Procurement Policy Note: contracting authority duties', 'procurement-regime', 'WCC-AIG-13 Supplier AI Due Diligence Questionnaire'],
-    ['Freedom of Information: publication scheme guidance', 'information-rights', 'WCC-AIG-14 AI Model Card Template']
+    ['Ombudsman finds maladministration in housing allocation', 'maladministration', 'AIG-OPS-03 AI Incident Report Form'],
+    ['Working together to safeguard children: update', 'safeguarding', 'AIG-ASS-02 AI Risk Assessment Worksheet'],
+    ['Procurement Policy Note: contracting authority duties', 'procurement-regime', 'AIG-ASS-08 Supplier AI Due Diligence Questionnaire'],
+    ['Freedom of Information: publication scheme guidance', 'information-rights', 'AIG-ASS-09 AI Model Card Template']
   ];
   for (const [title, topic, artefact] of cases) {
     const c = classify({ title, summary: '' }, mappings);

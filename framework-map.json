@@ -1,18 +1,18 @@
 {
-  "framework_map_version": "0.1",
-  "target_playbook_version": "Proposed integrated suite, 2026-09-25 (unversioned; not approved)",
-  "reviewed_edition_sha256": "79e82a18dbbd76c49dafffb559ee9e01bf6026d9576c910d4ba3b882e9b88dcd",
+  "framework_map_version": "0.2",
+  "target_playbook_version": "Proposed grouped-ID suite, 2026-09-25 (unversioned; not approved)",
+  "reviewed_edition_sha256": "6f633509c13a63c469058d8511a0ef3347c55ae4aeec2540e87d8353654318fa",
   "playbook_anchor": "Draft crosswalk to the playbook's regulatory landscape and monitoring commitments. This is a scanner-source map only; it is not an approved Council register, legal applicability decision, assurance state, or record of a Council decision.",
   "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners.",
   "proposed_relationship_pointer": {
     "name": "Capabilities and System Map",
-    "status": "unnumbered standalone proposal; not an adopted catalogue entry",
-    "purpose": "A relationship pointer between outcome-led use cases, capabilities, governed systems and referenced components; it does not change requirement IDs or scanner source matching.",
+    "status": "proposed controlled artefact AIG-INV-05; not approved or adopted",
+    "purpose": "A versioned, steward-maintained relationship catalogue between outcome-led use cases, capabilities, governed systems and referenced components; it does not change requirement IDs or scanner source matching.",
     "not_authoritative_for": [
       "legal applicability",
-      "WCC-AIG-27 requirement content",
-      "05 Register identity or current status",
-      "36 Gate Log plans, events or conditions",
+      "AIG-AIMS-05 requirement content",
+      "AIG-INV-04 Register identity or current system status",
+      "AIG-DEC-04 Gate Log plans, events, outcomes or conditions",
       "permissions, decisions or approvals"
     ]
   },
@@ -104,7 +104,7 @@
       "watched_by": [
         "legislation-search-ai-title"
       ],
-      "note": "Reference-only in this playbook section. WCC-AIG-27 REQ-032 is separately listed as a must-watch source expectation. Neither label decides applicability; the configured UK title search is not a direct EU source match."
+      "note": "Reference-only in this playbook section. AIG-AIMS-05 REQ-032 is separately listed as a must-watch source expectation. Neither label decides applicability; the configured UK title search is not a direct EU source match."
     },
     {
       "ref": "\u00a73.12 / Appendix D.2",
@@ -127,7 +127,7 @@
       "note": "Now watched by an html-diff (deep body-hash) page-watch on the catalogue/status page. Content is not diffed (standards text is paywalled / the RMF is a large doc set), so a manual review cadence still applies when the watch fires."
     },
     {
-      "ref": "\u00a72.5 / \u00a74.6.1, WCC-AIG-10 DPIA Template",
+      "ref": "\u00a72.5 / \u00a74.6.1, AIG-ASS-05 Data Protection Impact Assessment",
       "item": "Data (Use and Access) Act 2025",
       "kind": "statute",
       "expectation": "must-watch",
@@ -641,6 +641,6 @@
       "note": "Council housing duties engaged where AI supports allocations or homelessness decisions."
     }
   ],
-  "register_anchor": "Public-safe scanner crosswalk validated against a sanitized snapshot of the 51 WCC-AIG-27 requirement IDs, names and public source URLs (public rows only), with relevant public URLs in WCC-AIG-42. Internal Council requirement names, links, owners and statuses are deliberately withheld. This map is for publisher monitoring, not an authoritative register, applicability decision, approval, or ISO conformity assessment.",
-  "target_register": "Proposed WCC-AIG-27 references; source map checked against sanitized 27/42 public-source snapshot"
+  "register_anchor": "Public-safe scanner crosswalk validated against a sanitized snapshot of the 51 stable REQ IDs in proposed AIG-AIMS-05, names and public source URLs (public rows only), with relevant public URLs in AIG-AIMS-13. REQ identifiers are unchanged by artefact renumbering. Internal Council requirement names, links, owners and statuses are deliberately withheld. This map is for publisher monitoring, not an authoritative register, applicability decision, approval, or ISO conformity assessment.",
+  "target_register": "Proposed AIG-AIMS-05 references; source map checked against sanitized AIG-AIMS-05/AIG-AIMS-13 public-source snapshot"
 }

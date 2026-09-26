@@ -235,12 +235,16 @@
     A publication or scanner match does not establish applicability, legal scope, compliance,
     approval, FRIA completion, publication duties or ISO conformity. Use case-specific owner
     review; prioritisation never waives Equality Act 2010 s.149, Human Rights Act 1998 s.6,
-    privacy or other duties. This scanner creates no AIR-ID, approval or live 05/36 register row.
-    <br><strong>Proposed-edition mapping reviewed:</strong> topic pointers refer to the reviewed
-    25 September 2026 proposed 00–50 suite, not an approved operational edition. Older scanner
+    privacy or other duties. AIG-INV-04 is the System Register and owns the permanent AIR-ID/current
+    system state; AIG-DEC-04 is the separate Gate Log for plans, events and conditions. This scanner
+    creates no AIR-ID, approval or live Register/Gate Log row.
+    <br><strong>Grouped proposed-edition references updated; archive review pending:</strong> topic pointers use
+    the proposed grouped IDs, not an approved operational edition. The ZIP hash remains pinned to the
+    previous draft until the grouped-ID suite package is regenerated and reviewed. Older scanner
     records retain historical labels. Matches suggest material to review, not required changes or
-    legal applicability; conditional cases need owner review. The unnumbered Capabilities and System Map
-    is a relationship pointer, not an approval source.
+    legal applicability; conditional cases need owner review. AIG-INV-05 is the proposed controlled
+    Capabilities and System Map, not yet approved/adopted; it is a relationship pointer, not a
+    decision, permission or approval source.
   </section>
   <div id="framework-map"></div>
 
@@ -681,7 +685,7 @@
     var target=document.getElementById('framework-map');
     if(!map || !Array.isArray(map.register_landscape) || !snapshot || !Array.isArray(snapshot.requirements)){
       target.appendChild(panel('bad','Framework source map unavailable',null,function(b){
-        b.appendChild(el('p',null,'The scanner cannot load its WCC-AIG-27 reference map and reviewed public-safe snapshot. This does not affect the retrieved change log, but requirement alignment cannot be inferred.'));
+        b.appendChild(el('p',null,'The scanner cannot load its AIG-AIMS-05 reference map and reviewed public-safe snapshot. This does not affect the retrieved change log, but requirement alignment cannot be inferred.'));
       },true));
       return;
     }
@@ -707,7 +711,7 @@
         return watched.some(function(id){return sourceDirectlyMatches(byId.get(id),url);});
       });
       var related42Matches=matchedUrls.filter(function(url){
-        return (snapshot.wcc42_public_source_urls||[]).some(function(relatedUrl){return canonicalUrl(relatedUrl)===canonicalUrl(url);});
+        return (snapshot.aig_aims_13_public_source_urls||[]).some(function(relatedUrl){return canonicalUrl(relatedUrl)===canonicalUrl(url);});
       });
       var state;
       if(expectedRow&&expectedRow.redacted){state='not-monitored';redactedCount++;}
@@ -738,14 +742,14 @@
       }catch(_){return false;}
     }
     var reqSourceIds=new Set(requirementEntries.reduce(function(all,item){return all.concat(item.watched_by||[]);},[]));
-    var matched42=(snapshot.wcc42_public_source_urls||[]).filter(function(url){
+    var matched13=(snapshot.aig_aims_13_public_source_urls||[]).filter(function(url){
       return Array.from(reqSourceIds).some(function(id){return sourceDirectlyMatches(byId.get(id),url);});
     }).length;
-    target.appendChild(panel(missing.length||duplicates||nameMismatches?'warn':'neutral','WCC-AIG-27 / WCC-AIG-42 public reference match · not applicability',entries.length,function(box){
+    target.appendChild(panel(missing.length||duplicates||nameMismatches?'warn':'neutral','AIG-AIMS-05 / AIG-AIMS-13 public reference match · not applicability',entries.length,function(box){
       box.appendChild(el('p',null,'The reviewed public-safe snapshot contains '+expected.length+' requirement IDs: '+(expected.length-redactedCount)+' public names and sources, with '+redactedCount+' internal rows deliberately redacted. The map has '+requirementEntries.length+' numbered rows; '+(expected.length-missing.length)+' IDs are present, '+nameMismatches+' public names differ from the snapshot.'));
       box.appendChild(el('p',null,'Configured source alignment across public requirements: '+matchedCount+' matched, '+partialCount+' partial, '+gapCount+' gaps. A match means a configured scanner source URL directly identifies the listed public source; a partial match is not complete. No match remains a visible gap. Source verification and successful scan coverage are separate; configured links do not prove a feed is active, a change was captured, or that any requirement applies.'));
-      box.appendChild(el('p',null,'WCC-AIG-42 cross-check: '+matched42+'/'+(snapshot.wcc42_public_source_urls||[]).length+' public URLs directly match a configured requirement source. These cross-check URLs are not assigned to individual requirements.'));
-      box.appendChild(el('p',null,'This is a public-source verification snapshot of a proposed, not approved, WCC-AIG-27 register and relevant public WCC-AIG-42 links. Internal Council details are not included. It is publisher-monitoring metadata only; it does not establish applicability, legal scope, compliance, ISO conformity, an action, or approval. Confirm case-specific applicability with responsible owners.'));
+      box.appendChild(el('p',null,'AIG-AIMS-13 cross-check: '+matched13+'/'+(snapshot.aig_aims_13_public_source_urls||[]).length+' public URLs directly match a configured requirement source. These cross-check URLs are not assigned to individual requirements.'));
+      box.appendChild(el('p',null,'This is a public-source verification snapshot of a proposed, not approved, AIG-AIMS-05 register and relevant public AIG-AIMS-13 links. Internal Council details are not included. It is publisher-monitoring metadata only; it does not establish applicability, legal scope, compliance, ISO conformity, an action, or approval. Confirm case-specific applicability with responsible owners.'));
       if(missing.length) box.appendChild(el('p',null,'Crosswalk requirement IDs missing from the map: '+missing.join(', ')+'.'));
       if(duplicates) box.appendChild(el('p',null,'Duplicate numbered requirement rows: '+duplicates+'.'));
       var list=el('div','framework-list');
@@ -765,19 +769,19 @@
         if(row.expected&&row.expected.redacted)meta.appendChild(el('span','framework-tag','public details withheld'));
         else if(expectedRow&&expectedRow.public_source_urls){
           expectedRow.public_source_urls.forEach(function(url){
-            var p=el('p'),a=el('a',null,'WCC-AIG-27 public source: '+url);a.href=url;a.target='_blank';a.rel='noopener noreferrer';p.appendChild(a);detail.appendChild(p);
+            var p=el('p'),a=el('a',null,'AIG-AIMS-05 public source: '+url);a.href=url;a.target='_blank';a.rel='noopener noreferrer';p.appendChild(a);detail.appendChild(p);
           });
         }
         row.related42Matches.forEach(function(url){
-          var p=el('p'),a=el('a',null,'WCC-AIG-42 public source matched: '+url);a.href=url;a.target='_blank';a.rel='noopener noreferrer';p.appendChild(a);detail.appendChild(p);
+          var p=el('p'),a=el('a',null,'AIG-AIMS-13 public source matched: '+url);a.href=url;a.target='_blank';a.rel='noopener noreferrer';p.appendChild(a);detail.appendChild(p);
         });
         detail.appendChild(meta);
         if(item.note) detail.appendChild(el('p',null,item.note));
         if(row.unknown.length) detail.appendChild(el('p',null,'Unknown source IDs: '+row.unknown.join(', ')+'.'));
         if(expectedRow&&!expectedRow.redacted&&row.matchedUrls.length<row.expected.public_source_urls.length){
-          detail.appendChild(el('p',null,'Direct WCC-AIG-27 public source matches: '+row.matchedUrls.length+'/'+row.expected.public_source_urls.length+'. Any broad publisher search or unrelated feed is not counted as a direct match.'));
+          detail.appendChild(el('p',null,'Direct AIG-AIMS-05 public source matches: '+row.matchedUrls.length+'/'+row.expected.public_source_urls.length+'. Any broad publisher search or unrelated feed is not counted as a direct match.'));
         }
-        if(item.source_alignment==='proxy')detail.appendChild(el('p',null,'Proxy source only; it is not counted as a direct WCC-AIG-27 public source match.'));
+        if(item.source_alignment==='proxy')detail.appendChild(el('p',null,'Proxy source only; it is not counted as a direct AIG-AIMS-05 public source match.'));
         if(row.watched.length&&!row.live.length)detail.appendChild(el('p',null,'Configured watch has no source marked verified/form-verified; this is dark/unverified.'));
         detail.appendChild(el('p',null,'Monitoring configuration is not an applicability, compliance, decision or approval finding.'));
         list.appendChild(detail);

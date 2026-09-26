@@ -182,10 +182,11 @@ publisher still exist, does the endpoint still resolve, is the scope still right
 `mappings.json` contains keywords and candidate review touchpoints in the
 **proposed integrated suite dated 25 September 2026**. Matching is deterministic,
 case-insensitive, and involves no model. Section headings were checked in the
-packaged `01_AI_Governance_Playbook.docx`, and numbered artefacts against the
-packaged 00–50 filenames and `02_AI_Governance_Artefact_Index.docx`. The
-`mapping_alignment.archive_sha256` pins the exact reviewed ZIP in `downloads/`.
-An updated ZIP needs another review, not just a date or version-label change.
+packaged grouped-ID playbook and artefacts against the `AIG-GOV`, `AIG-INV`,
+`AIG-ASS`, `AIG-DEC`, `AIG-AGT`, `AIG-OPS` and `AIG-AIMS` catalogue entries.
+The `mapping_alignment.archive_sha256` pins the reviewed grouped-ID proposed
+ZIP in `downloads/`. An updated ZIP needs another mapping review, not just a
+hash or date change. Pinning does not approve or adopt the suite.
 
 When something lands with no mapping, the viewer says so and invites you to add a
 keyword rather than pretending the item is irrelevant.
@@ -196,24 +197,27 @@ they identify candidate documents for human review, not an operative crosswalk
 for approved Council controls. `review_flag` marks questions that cannot be
 settled from the suite (such as territorial scope, procurement transitional rules,
 and disclosure exemptions). The EU AI Act topic stays reference-only: it tags
-the item but emits no change flags. The unnumbered map is not WCC-AIG-05 or
-a 51st numbered control. Do not update/upload/publish remotely before the owner
-approves release and validates any real case migration.
+the item but emits no change flags. AIG-INV-05 is proposed as the controlled
+Capabilities and System Map catalogue entry, but is not approved or adopted.
+It is a relationship catalogue, not a governance control or approval source.
+Draft-labelled scanner code may be published for review; do not publish a
+controlled suite, migrate real records or claim approval without the
+competent owner's decision and validation.
 
 ### Proposed suite source map (monitoring only)
 
 `framework-map.json` lists scanner monitoring references for the proposed
-WCC-AIG-27 suite. `framework-register-snapshot.json` is a reviewed, public-safe
+AIG-AIMS-05 suite. `framework-register-snapshot.json` is a reviewed, public-safe
 snapshot of its 51 requirement IDs: names and public source URLs are retained for
 43 public rows, while names and source locations for the eight internal rows are
-deliberately redacted. It also contains relevant public URLs from WCC-AIG-42, without
+deliberately redacted. It also contains relevant public URLs from AIG-AIMS-13, without
 internal source IDs or assurance metadata.
 
 `npm run framework` and the viewer validate the map against that snapshot: all 51
 IDs, exact public names, public URLs, redaction, and configured scanner source IDs.
 They directly compare configured source URLs with the public reference URLs and
 report unmatched requirements as gaps; broad publisher searches are not proof of
-an exact source match. WCC-AIG-42 URL checks are reported separately, not assigned
+an exact source match. AIG-AIMS-13 URL checks are reported separately, not assigned
 to requirement rows. A direct URL match still does not prove a feed is active, a
 change was captured, or coverage succeeded. “Live” in scanner status means only
 that a source is configured as `verified` or `form-verified` and the scanner will
@@ -222,22 +226,22 @@ conclusion, compliance evidence, approval, or ISO conformity. The snapshot is no
 an authoritative workbook or live Council record; the proposed suite is not
 approved.
 
-The scanner metadata also names the standalone proposed **Capabilities and System
-Map** as a relationship pointer only: it may connect use cases, capabilities,
-systems and component references, but does not alter monitoring matches or
-WCC-AIG-27 IDs and is not a legal, Register, permission, gate, decision or
-approval source. Reconcile official system identity/current state to 05, gate
-plans and dated history to the separate 36 Gate Log, and authority to its
-designated source.
+The scanner metadata also names proposed controlled **AIG-INV-05 Capabilities
+and System Map** as a relationship catalogue: it may connect use cases,
+capabilities, systems and component references, but does not alter monitoring
+matches or stable REQ IDs in AIG-AIMS-05 and is not a legal, Register,
+permission, gate, decision or approval source. Reconcile official system
+identity/current state to AIG-INV-04 (which owns the permanent AIR-ID), gate
+plans and dated history to AIG-DEC-04, and authority to its designated source.
 
 A publication, mapping match, or AGPI prioritisation result cannot waive case-specific
 screening or duties under Equality Act 2010 s.149, Human Rights Act 1998 s.6, privacy,
 or any other applicable law. EU AI Act, ATRS and procurement references are conditional;
 confirm scope with the responsible legal and service owners. The scanner creates no
-AIR-ID, approval, FRIA completion, publication, live 05/36 row, or WCC-AIG-16 decision.
-Formal decisions remain in WCC-AIG-16 or approved native minutes, current assurance
-state belongs in 05, planned and dated events/conditions belong in 36, and WCC-AIG-45
-owns agent permissions.
+AIR-ID, approval, FRIA completion, publication, live AIG-INV-04/AIG-DEC-04 row,
+or AIG-DEC-03 decision. Formal decisions remain in AIG-DEC-03 or approved native
+minutes, current assurance state belongs in AIG-INV-04, planned and dated
+events/conditions belong in AIG-DEC-04, and AIG-AGT-04 owns agent permissions.
 
 ### The focused AI-governance gate
 
