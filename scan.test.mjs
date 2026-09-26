@@ -1,6 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -19,14 +21,27 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const fx = (n) => readFileSync(join(HERE, n), 'utf8');
 const mappings = JSON.parse(readFileSync(join(HERE, 'mappings.json'), 'utf8'));
 
-test('legacy mappings make no current proposed-catalogue alignment claim', () => {
+test('topic mappings are pinned to the reviewed, unapproved proposed edition', () => {
   assert.equal(mappings.historical_playbook_baseline, 'v19.3');
-  assert.equal(mappings.target_playbook_version, null);
-  assert.equal(mappings.mapping_alignment.status, 'blocked-pending-manual-revalidation');
-  assert.equal(mappings.mapping_alignment.current_target, null);
-  assert.match(mappings.mapping_alignment.note, /historical v19\.3 baseline/i);
-  assert.match(mappings.mapping_alignment.note, /manually reconciled against the current proposed catalogue/i);
-  assert.match(mappings.mapping_alignment.note, /numeric identifiers remain unchanged/i);
+  assert.match(mappings.target_playbook_version, /proposed.*not approved/i);
+  assert.equal(mappings.mapping_alignment.status, 'reviewed-proposed-not-approved');
+  assert.match(mappings.mapping_alignment.note, /not required changes, legal applicability findings, or approval/i);
+  const archive = join(HERE, '..', 'downloads', 'AI_Governance_Integrated_Proposed_Suite.zip');
+  if (existsSync(archive)) {
+    const digest = createHash('sha256').update(readFileSync(archive)).digest('hex');
+    assert.equal(digest, mappings.mapping_alignment.archive_sha256, 'updated suite needs revalidation');
+    const filenames = execFileSync('unzip', ['-Z', '-1', archive], { encoding: 'utf8' }).trim().split('\n');
+    const ids = new Set(filenames.filter((name) => /^\d{2}_/.test(name)).map((name) => name.slice(0, 2)));
+    assert.deepEqual([...ids].sort(), Array.from({ length: 51 }, (_, n) => String(n).padStart(2, '0')));
+    assert.ok(filenames.includes('NEW_Capabilities_and_System_Map_Proposed.xlsx'));
+    assert.ok(filenames.includes('01_AI_Governance_Playbook.docx'));
+    for (const topic of mappings.topics) {
+      for (const pointer of topic.affects_artefacts) {
+        const [, number] = /^WCC-AIG-(\d{2}) /.exec(pointer) || [];
+        assert.ok(number && ids.has(number), `${topic.id}: unverified artefact ${pointer}`);
+      }
+    }
+  }
 });
 
 test('parseAtom extracts entries with the canonical link, not the PDF or XML alternates', () => {
@@ -202,12 +217,12 @@ test('issue and commencement workflows apply the same focus policy', () => {
   assert.match(diary, /upcoming\(log\.records, now, focused\)/);
 });
 
-test('classify maps an ADM instrument onto the DPIA and approval framework', () => {
+test('classify maps an ADM instrument onto the reviewed DPIA and human oversight pointers', () => {
   const [adm] = parseAtom(fx('legislation-new.atom.xml'));
   const c = classify(adm, mappings);
   assert.ok(c.topics.includes('adm-article-22'));
-  assert.ok(c.affects_sections.includes('3.10.1'));
-  assert.ok(c.affects_artefacts.includes('DPIA Template'));
+  assert.ok(c.affects_sections.includes('4.6.1'));
+  assert.ok(c.affects_artefacts.includes('WCC-AIG-10 DPIA Template'));
 });
 
 test('classify maps a transparency item onto the ATRS record', () => {
@@ -215,7 +230,7 @@ test('classify maps a transparency item onto the ATRS record', () => {
   const atrs = items.find((i) => i.title.includes('Algorithmic Transparency'));
   const c = classify(atrs, mappings);
   assert.ok(c.topics.includes('transparency-atrs'));
-  assert.ok(c.affects_artefacts.includes('ATRS Record'));
+  assert.ok(c.affects_artefacts.includes('WCC-AIG-15 ATRS Record Template'));
 });
 
 test('classify returns empty rather than guessing on an unrelated item', () => {
@@ -226,10 +241,13 @@ test('classify returns empty rather than guessing on an unrelated item', () => {
   assert.deepEqual(c.affects_sections, []);
 });
 
-test('every mapping topic references at least one section and one artefact', () => {
+test('every topic has section evidence and non-reference topics have numbered artefacts', () => {
+  const reviewedHeadings = new Set(['2.4','2.5','3.7','3.8','3.8.2.3','3.9.6','3.10.1','3.12','4.3.1','4.3.4','4.3.10','4.4.6','4.6.1','4.6.2','4.6.3','4.7.7','4.7.12','4.7.13','5.4','5.5','5.7','6.8','D.2','D.4','F.7.4','F.7.6','F.7.10']);
   for (const t of mappings.topics) {
     assert.ok(t.affects_sections.length > 0, `${t.id} has no sections`);
-    assert.ok(t.affects_artefacts.length > 0, `${t.id} has no artefacts`);
+    for (const section of t.affects_sections) assert.ok(reviewedHeadings.has(section), `${t.id}: unchecked heading ${section}`);
+    if (t.reference_only) assert.deepEqual(t.affects_artefacts, []);
+    else assert.ok(t.affects_artefacts.length > 0, `${t.id} has no artefacts`);
     assert.ok(t.why && t.why.length > 20, `${t.id} has no rationale`);
   }
 });
@@ -269,6 +287,7 @@ test('a reference-only topic records but flags nothing for change', () => {
   assert.equal(c.reference_only, true);
   assert.deepEqual(c.affects_sections, []);
   assert.deepEqual(c.affects_artefacts, []);
+  assert.match(c.review_flags.join(' '), /territorial and activity scope/i);
 });
 
 test('a mixed item is not treated as reference-only', () => {
@@ -280,16 +299,23 @@ test('a mixed item is not treated as reference-only', () => {
 
 test('council duty topics map to the right artefacts', () => {
   const cases = [
-    ['Ombudsman finds maladministration in housing allocation', 'maladministration', 'Incident Report Form'],
-    ['Working together to safeguard children: update', 'safeguarding', 'RAIA'],
-    ['Procurement Policy Note: contracting authority duties', 'procurement-regime', 'Supplier DDQ'],
-    ['Freedom of Information: publication scheme guidance', 'information-rights', 'Model Card Template']
+    ['Ombudsman finds maladministration in housing allocation', 'maladministration', 'WCC-AIG-19 AI Incident Report Form'],
+    ['Working together to safeguard children: update', 'safeguarding', 'WCC-AIG-07 AI Risk Assessment Worksheet'],
+    ['Procurement Policy Note: contracting authority duties', 'procurement-regime', 'WCC-AIG-13 Supplier AI Due Diligence Questionnaire'],
+    ['Freedom of Information: publication scheme guidance', 'information-rights', 'WCC-AIG-14 AI Model Card Template']
   ];
   for (const [title, topic, artefact] of cases) {
     const c = classify({ title, summary: '' }, mappings);
     assert.ok(c.topics.includes(topic), `${title} -> ${topic}`);
     assert.ok(c.affects_artefacts.includes(artefact), `${title} -> ${artefact}`);
   }
+});
+
+test('conditional procurement and information-rights pointers retain owner-review flags', () => {
+  for (const [title, flag] of [
+    ['Procurement Act 2023 contracting authority', /transitional rules/],
+    ['Freedom of Information disclosure log', /exemptions/]
+  ]) assert.match(classify({ title, summary: '' }, mappings).review_flags.join(' '), flag);
 });
 
 test('every topic declares reference_only explicitly', () => {

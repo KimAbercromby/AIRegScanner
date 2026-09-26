@@ -35,6 +35,9 @@ test('map target version remains proposed and unversioned rather than inventing 
   assert.doesNotMatch(map.target_playbook_version, /v19\.3/i);
   assert.match(map.target_playbook_version, /unversioned/i);
   assert.match(map.target_playbook_version, /not approved/i);
+  assert.equal(map.target_playbook_version, mappings.target_playbook_version);
+  assert.equal(map.reviewed_edition_sha256, mappings.mapping_alignment.archive_sha256);
+  assert.deepEqual(map.playbook_landscape.filter((it) => /ISO\/IEC 42001|NIST AI Risk|Data \(Use and Access\)/.test(it.item)).map((it) => it.ref), ['§3.12 / Appendix D.2', 'Appendix D.4', '§2.5 / §4.6.1, WCC-AIG-10 DPIA Template']);
 });
 
 test('proposed Capabilities and System Map is a relationship pointer, not a governance source', () => {
@@ -89,13 +92,13 @@ test('the published viewer stays static and explains its governance boundary', (
   assert.match(html, /Equality Act 2010 s\.149/i);
   assert.match(html, /Human Rights Act 1998 s\.6/i);
   assert.match(html, /AI Governance Toolkit/);
-  assert.match(html, /Mapping alignment blocked/i);
-  assert.match(html, /v19\.3[\s\S]*historical pointers/i);
-  assert.match(html, /Manual\s+revalidation is required before claiming current alignment/i);
+  assert.match(html, /Proposed-edition mapping reviewed/i);
+  assert.match(html, /Older scanner\s+records retain historical labels/i);
+  assert.match(html, /conditional cases need owner review/i);
+  assert.match(html, /Owner review: '\+x/);
   assert.doesNotMatch(`${html}\n${readme}`, /\bWestminster\b|London borough/i);
-  assert.match(readme, /historical v19\.3 baseline/i);
-  assert.match(readme, /alignment is explicitly blocked\s+pending manual reconciliation/i);
-  assert.doesNotMatch(readme, /claims current catalogue alignment/i);
+  assert.match(readme, /reviewed-proposed-not-approved/i);
+  assert.match(readme, /Do not update\/upload\/publish remotely before the owner/i);
   assert.match(html, /framework-map\.json/);
   assert.match(html, /framework-register-snapshot\.json/);
   assert.match(html, /configured source alignment/i);

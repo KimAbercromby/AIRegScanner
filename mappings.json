@@ -1,16 +1,17 @@
 {
-  "mappings_version": "0.3",
-  "target_playbook_version": null,
+  "mappings_version": "0.4",
+  "target_playbook_version": "Proposed integrated suite, 2026-09-25 (unversioned; not approved)",
   "historical_playbook_baseline": "v19.3",
   "mapping_alignment": {
-    "status": "blocked-pending-manual-revalidation",
-    "current_target": null,
-    "note": "These deterministic topic, section and artefact mappings are a historical v19.3 baseline. They have not been manually reconciled against the current proposed catalogue; do not claim current alignment until that review is completed. Existing numeric identifiers remain unchanged."
+    "status": "reviewed-proposed-not-approved",
+    "current_target": "downloads/AI_Governance_Integrated_Proposed_Suite.zip",
+    "archive_sha256": "8cd361e0943f74b844db243921c0ccc4cf1dee07c8dcc0b017e9a51ac7198db5",
+    "note": "Section headings checked against 01 Playbook; numbered artefacts checked against the packaged 00–50 filenames and 02 Index. These are candidate review touchpoints, not required changes, legal applicability findings, or approval. Old scanner records retain their historical labels; no legacy identifier is silently reassigned."
   },
-  "note": "The scanner retains deterministic historical topic, section and artefact mappings as a review aid, not a verified current crosswalk. Their alignment with the proposed catalogue is blocked pending manual revalidation. Matching remains case-insensitive; an item may match several topics.",
+  "note": "Deterministic case-insensitive topic matches identify proposed-suite sections and artefacts to review, not legal obligations or decisions. An item may match several topics. Unresolved scope questions are flagged per topic.",
   "proposed_relationship_pointer": {
     "name": "Capabilities and System Map",
-    "status": "standalone proposal; not an adopted catalogue entry",
+    "status": "unnumbered standalone proposal; not an adopted catalogue entry",
     "purpose": "Optional pointer for relating outcome-led use cases, capabilities, governed systems and referenced components; reconcile official system identity to 05 and component authority to native sources.",
     "not_authoritative_for": [
       "legal applicability",
@@ -144,16 +145,16 @@
         "duaa"
       ],
       "affects_sections": [
-        "3.10.1",
-        "4.4.6"
+        "2.5",
+        "4.6.1",
+        "4.7.7"
       ],
       "affects_artefacts": [
-        "DPIA Template",
-        "RAIA",
-        "AI Register",
-        "Decision Record"
+        "WCC-AIG-10 DPIA Template",
+        "WCC-AIG-41 AI Contestability and Redress Control",
+        "WCC-AIG-16 Governance Decision Record"
       ],
-      "why": "The DUAA safeguards regime is the operative legal test for a council deploying ADM. Any change to it flows straight into the DPIA template and the risk-based approval thresholds.",
+      "why": "Review ADM safeguards, privacy assessment and human review/contestability routes when source material changes; determine applicability for the specific case.",
       "reference_only": false
     },
     {
@@ -167,15 +168,15 @@
         "public register"
       ],
       "affects_sections": [
-        "3.8",
-        "3.11"
+        "3.7",
+        "5.7"
       ],
       "affects_artefacts": [
-        "ATRS Record",
-        "AI Register",
-        "Reporting Templates"
+        "WCC-AIG-15 ATRS Record Template",
+        "WCC-AIG-05 AI Register",
+        "WCC-AIG-17 AI Governance Reporting Templates"
       ],
-      "why": "ATRS is mandatory for central government and voluntary for local authorities. A change to that voluntary status is the single highest-impact possible change to the toolkit.",
+      "why": "Check transparency drafting, register and reporting touchpoints; the current local-authority ATRS position must be checked by the responsible owner.",
       "reference_only": false
     },
     {
@@ -191,19 +192,19 @@
         "human in the loop"
       ],
       "affects_sections": [
-        "3.9.4",
-        "4.3.4",
-        "4.4.6",
-        "4.7.7",
-        "A.4"
+        "3.8.2.3",
+        "F.7.4",
+        "F.7.6",
+        "F.7.10"
       ],
       "affects_artefacts": [
-        "Model Card Template",
-        "Security Review Checklist",
-        "Risk Assessment Worksheet",
-        "Supplier DDQ"
+        "WCC-AIG-44 Agentic AI Governance Design Principles",
+        "WCC-AIG-45 Agent Record ASBOM",
+        "WCC-AIG-46 Agent Authority Graph",
+        "WCC-AIG-48 Agentic Triage Function Spec",
+        "WCC-AIG-50 Agentic Action Decision Record"
       ],
-      "why": "The agentic amendment set is the newest and least settled part of the playbook, and the Innovation Hub is already deploying agentic AI.",
+      "why": "The proposed agentic annex and agent records define the review route. A source match does not establish that a live agent or control exists.",
       "reference_only": false
     },
     {
@@ -220,14 +221,14 @@
         "equality impact"
       ],
       "affects_sections": [
-        "3.9.6"
+        "4.3.1",
+        "4.6.2"
       ],
       "affects_artefacts": [
-        "EIA",
-        "HRA",
-        "Risk Assessment Worksheet"
+        "WCC-AIG-11 Equality Impact Assessment Template",
+        "WCC-AIG-07 AI Risk Assessment Worksheet"
       ],
-      "why": "PSED exposure is the most likely route to a legal challenge against a council AI deployment, and it is assessed through the EIA.",
+      "why": "Review fairness risk and equality assessment design; legal duties and case-specific effects need specialist review.",
       "reference_only": false
     },
     {
@@ -245,11 +246,11 @@
       ],
       "affects_sections": [
         "4.3.4",
-        "4.7.7"
+        "4.7.12"
       ],
       "affects_artefacts": [
-        "Security Review Checklist",
-        "Supplier DDQ"
+        "WCC-AIG-20 AI Security Review Checklist",
+        "WCC-AIG-13 Supplier AI Due Diligence Questionnaire"
       ],
       "why": "Threat guidance changes faster than anything else in the set and the checklist is the artefact that goes stale first.",
       "reference_only": false
@@ -267,11 +268,12 @@
         "third party"
       ],
       "affects_sections": [
-        "3.10.1"
+        "4.3.10",
+        "5.5"
       ],
       "affects_artefacts": [
-        "Supplier DDQ",
-        "Terms of Reference"
+        "WCC-AIG-13 Supplier AI Due Diligence Questionnaire",
+        "WCC-AIG-16 Governance Decision Record"
       ],
       "why": "Most council AI is bought rather than built, so procurement rules bite before any internal gate does.",
       "reference_only": false
@@ -295,15 +297,16 @@
         "ai rmf"
       ],
       "affects_sections": [
-        "3.10.1",
-        "3.11"
+        "3.12",
+        "D.2",
+        "D.4"
       ],
       "affects_artefacts": [
-        "Terms of Reference",
-        "Governance Checklist",
-        "Dashboard"
+        "WCC-AIG-27 AIMS Applicable Requirements and Change Register",
+        "WCC-AIG-28 AIMS Clause Conformity Register",
+        "WCC-AIG-37 AIMS Clause Level Crosswalk"
       ],
-      "why": "The playbook claims alignment to ISO/IEC 42001. Revisions to that family are a direct claim-maintenance issue.",
+      "why": "Review proposed standards alignment and requirements tracking; a source update does not establish conformity.",
       "reference_only": false
     },
     {
@@ -324,10 +327,11 @@
         "5.4"
       ],
       "affects_artefacts": [
-        "Intake Form",
-        "Governance Checklist"
+        "WCC-AIG-03 Staff Guide Do I Need To Register AI",
+        "WCC-AIG-04 AI Intake Form",
+        "WCC-AIG-08 AI Governance Checklist"
       ],
-      "why": "The AUP is the artefact most read by ordinary staff and the one most exposed to changes in guidance on general-purpose tools.",
+      "why": "Review staff routing and acceptable-use guidance for uncontrolled adoption.",
       "reference_only": false
     },
     {
@@ -343,13 +347,12 @@
         "cen-cenelec"
       ],
       "affects_sections": [
-        "3.10.1"
+        "2.5"
       ],
-      "affects_artefacts": [
-        "Playbook regulatory context"
-      ],
-      "why": "Reference point, not an obligation. A UK local authority is not straightforwardly in scope, so this records the item and tags the topic but deliberately flags NO sections or artefacts for change. Consistent with the scope caveat in the Current State Assessment.",
-      "reference_only": true
+      "affects_artefacts": [],
+      "why": "Reference context only: topic matches deliberately emit no change flags. Whether the EU AI Act applies to any case is for the responsible legal owner.",
+      "reference_only": true,
+      "review_flag": "Conditional EU territorial and activity scope; do not infer applicability from a publisher match."
     },
     {
       "id": "local-government",
@@ -377,11 +380,11 @@
         "3.10.1"
       ],
       "affects_artefacts": [
-        "AI Register",
-        "Intake Form",
-        "Terms of Reference"
+        "WCC-AIG-05 AI Register",
+        "WCC-AIG-04 AI Intake Form",
+        "WCC-AIG-21 AI Governance Terms of Reference"
       ],
-      "why": "Sector-specific guidance is more operationally binding on a council than general AI policy is.",
+      "why": "Review intake, register and governance routing against sector-specific source changes; determine binding effect separately.",
       "reference_only": false
     },
     {
@@ -397,16 +400,15 @@
         "lgsco"
       ],
       "affects_sections": [
-        "3.10.1",
-        "4.4.6"
+        "4.7.13",
+        "6.8"
       ],
       "affects_artefacts": [
-        "Incident Report Form",
-        "Decision Record",
-        "AI Register"
+        "WCC-AIG-19 AI Incident Report Form",
+        "WCC-AIG-41 AI Contestability and Redress Control"
       ],
       "reference_only": false,
-      "why": "The Ombudsman is where a resident harmed by an automated decision actually ends up, long before any court. A finding against any English council on automated decision-making is the single most useful precedent this scanner could catch."
+      "why": "Review complaints, incident learning and redress routes when relevant findings appear; do not treat another authority's finding as a decision for this Council."
     },
     {
       "id": "safeguarding",
@@ -426,17 +428,17 @@
       ],
       "affects_sections": [
         "3.9.6",
-        "3.10.1",
-        "4.4.6"
+        "4.4.6",
+        "4.6.2",
+        "4.6.3"
       ],
       "affects_artefacts": [
-        "RAIA",
-        "EIA",
-        "Risk Assessment Worksheet",
-        "Terms of Reference"
+        "WCC-AIG-07 AI Risk Assessment Worksheet",
+        "WCC-AIG-11 Equality Impact Assessment Template",
+        "WCC-AIG-12 Human Rights Assessment Template"
       ],
       "reference_only": false,
-      "why": "The highest-consequence council AI sits in these services, and statutory guidance here binds practice more tightly than any AI policy does. This is where the AGPI resident-impact weighting has to hold up."
+      "why": "Review resident-impact scoring and specialist assessments for safeguarding uses; the service owner and legal specialists determine which duties apply."
     },
     {
       "id": "procurement-regime",
@@ -454,15 +456,15 @@
         "below threshold"
       ],
       "affects_sections": [
-        "3.10.1"
+        "5.5"
       ],
       "affects_artefacts": [
-        "Supplier DDQ",
-        "Terms of Reference",
-        "Decision Record"
+        "WCC-AIG-13 Supplier AI Due Diligence Questionnaire",
+        "WCC-AIG-16 Governance Decision Record"
       ],
       "reference_only": false,
-      "why": "Most council AI is bought, so the procurement regime bites before any internal gate. It is also the reason an AI committee cannot absorb the Procurement Board's delegated authority."
+      "why": "Review supplier checks and the delegated-decision boundary; a scanner match does not establish which procurement regime applies.",
+      "review_flag": "Legacy and current procurement regimes may differ by contract; confirm transitional rules and delegated authority."
     },
     {
       "id": "information-rights",
@@ -477,16 +479,17 @@
         "disclosure log"
       ],
       "affects_sections": [
-        "3.8",
-        "3.11"
+        "3.7",
+        "5.7"
       ],
       "affects_artefacts": [
-        "AI Register",
-        "Model Card Template",
-        "ATRS Record"
+        "WCC-AIG-05 AI Register",
+        "WCC-AIG-14 AI Model Card Template",
+        "WCC-AIG-15 ATRS Record Template"
       ],
       "reference_only": false,
-      "why": "The register and model cards are disclosable. Knowing that changes what goes in them and how supplier confidentiality claims are handled at procurement."
+      "why": "Review transparency and record-design touchpoints; disclosure and exemptions need case-specific information-rights review.",
+      "review_flag": "Do not assume every register field or model card is disclosable; exemptions and publication duties require owner review."
     }
   ],
   "scope": "England, single-tier authority. Topics are the frameworks a council is actually judged against, not UK AI policy in general."
