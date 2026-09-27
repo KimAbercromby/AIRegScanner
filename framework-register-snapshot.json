@@ -14,7 +14,7 @@
     { "id": "REQ-010", "name": "Environmental Information Regulations 2004 (EIR)", "public_source_urls": ["https://www.legislation.gov.uk/uksi/2004/3391/contents"] },
     { "id": "REQ-011", "name": "Section 46 Code of Practice on records management under FOIA", "public_source_urls": ["https://ico.org.uk/for-organisations/foi/freedom-of-information-and-environmental-information-regulations/section-46-code-of-practice-records-management/"] },
     { "id": "REQ-012", "name": "Local Government Transparency Code 2015", "public_source_urls": ["https://www.gov.uk/government/publications/local-government-transparency-code-2015/local-government-transparency-code-2015"] },
-    { "id": "REQ-013", "name": "Local Government Act 1972 (including section 101) and The Council’s constitution and scheme of delegation", "public_source_urls": ["https://www.legislation.gov.uk/ukpga/1972/70/contents"] },
+    { "id": "REQ-013", "name": "Local Government Act 1972 (including section 101) and the Council’s constitution and scheme of delegation", "public_source_urls": ["https://www.legislation.gov.uk/ukpga/1972/70/contents"] },
     { "id": "REQ-014", "name": "Local Government Act 1999 (Best Value Duty) and 2024 statutory guidance", "public_source_urls": ["https://www.gov.uk/government/publications/best-value-standards-and-intervention-a-statutory-guide-for-best-value-authorities"] },
     { "id": "REQ-015", "name": "Procurement Act 2023 and Procurement Regulations 2024", "public_source_urls": ["https://www.legislation.gov.uk/ukpga/2023/54/contents"] },
     { "id": "REQ-016", "name": "National Procurement Policy Statement 2025", "public_source_urls": ["https://www.gov.uk/government/publications/national-procurement-policy-statement/"] },
