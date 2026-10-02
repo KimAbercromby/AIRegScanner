@@ -208,12 +208,12 @@ competent owner's decision and validation.
 
 `framework-map.json` lists scanner monitoring references for the proposed
 AIG-AIMS-05 suite. `framework-register-snapshot.json` is a reviewed, public-safe
-snapshot of its 51 requirement IDs: names and public source URLs are retained for
-43 public rows, while names and source locations for the eight internal rows are
+snapshot of its 55 requirement IDs: names and public source URLs are retained for
+47 public rows, while names and source locations for the eight internal rows are
 deliberately redacted. It also contains relevant public URLs from AIG-AIMS-13, without
 internal source IDs or assurance metadata.
 
-`npm run framework` and the viewer validate the map against that snapshot: all 51
+`npm run framework` and the viewer validate the map against that snapshot: all 55
 IDs, exact public names, public URLs, redaction, and configured scanner source IDs.
 They directly compare configured source URLs with the public reference URLs and
 report unmatched requirements as gaps; broad publisher searches are not proof of
@@ -518,7 +518,7 @@ npm test
 npm run framework
 ```
 
-The framework tests ensure all 51 REQ IDs appear once, all public names match the
+The framework tests ensure all 55 REQ IDs appear once, all public names match the
 reviewed snapshot, the eight internal rows remain redacted and unmonitored, and each
 source ID resolves. Source alignment gaps remain visible by design. The strict
 framework check fails while source gaps or partial matches remain. These checks

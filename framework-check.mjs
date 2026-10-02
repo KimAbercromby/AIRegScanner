@@ -74,13 +74,19 @@ function sourceDirectlyMatches(source, referenceUrl) {
 // Compare the public scanner map with a small reviewed snapshot, never with a
 // live workbook. Internal Council entries have IDs only; their contents are
 // intentionally absent from the snapshot.
+// Counts follow proposed AIG-AIMS-05 v1.6: REQ-001 to REQ-055, of which REQ-044 to REQ-051
+// are internal Council rows withheld from the public map.
+export const REGISTER_REQUIREMENTS = 55;
+export const REDACTED_REQUIREMENTS = 8;
+export const PUBLIC_REQUIREMENTS = REGISTER_REQUIREMENTS - REDACTED_REQUIREMENTS;
+
 export function auditPublicRegister(map, snapshot, sourcesFile) {
   const snapshotRequirements = snapshot.requirements ?? [];
   const snapshotById = new Map();
   const errors = [];
-  const expectedIds = Array.from({ length: 51 }, (_, index) => `REQ-${String(index + 1).padStart(3, '0')}`);
+  const expectedIds = Array.from({ length: REGISTER_REQUIREMENTS }, (_, index) => `REQ-${String(index + 1).padStart(3, '0')}`);
   const redactedLabel = 'Internal Council requirement (details withheld from public map)';
-  if (snapshotRequirements.length !== 51) errors.push(`sanitized requirement snapshot must contain 51 rows, found ${snapshotRequirements.length}`);
+  if (snapshotRequirements.length !== REGISTER_REQUIREMENTS) errors.push(`sanitized requirement snapshot must contain ${REGISTER_REQUIREMENTS} rows, found ${snapshotRequirements.length}`);
   for (const item of snapshotRequirements) {
     if (snapshotById.has(item.id)) errors.push(`${item.id}: duplicated in sanitized requirement snapshot`);
     snapshotById.set(item.id, item);
@@ -93,8 +99,8 @@ export function auditPublicRegister(map, snapshot, sourcesFile) {
   }
   const publicSnapshotRows = snapshotRequirements.filter((item) => !item.redacted);
   const redactedSnapshotRows = snapshotRequirements.filter((item) => item.redacted);
-  if (publicSnapshotRows.length !== 43) errors.push(`sanitized snapshot must contain 43 public requirement rows, found ${publicSnapshotRows.length}`);
-  if (redactedSnapshotRows.length !== 8) errors.push(`sanitized snapshot must contain 8 redacted internal rows, found ${redactedSnapshotRows.length}`);
+  if (publicSnapshotRows.length !== PUBLIC_REQUIREMENTS) errors.push(`sanitized snapshot must contain ${PUBLIC_REQUIREMENTS} public requirement rows, found ${publicSnapshotRows.length}`);
+  if (redactedSnapshotRows.length !== REDACTED_REQUIREMENTS) errors.push(`sanitized snapshot must contain ${REDACTED_REQUIREMENTS} redacted internal rows, found ${redactedSnapshotRows.length}`);
   for (const item of publicSnapshotRows) {
     if (typeof item.name !== 'string' || !item.name.trim()) errors.push(`${item.id}: public requirement name missing from snapshot`);
     if (!Array.isArray(item.public_source_urls) || !item.public_source_urls.length ||
@@ -280,7 +286,7 @@ function run() {
   line('');
   line('Public-safe AIG-AIMS-05 / AIG-AIMS-13 reference audit (not applicability):');
   const a = registerAudit.summary;
-  line(`  Checked ${a.checked_requirements}/51 requirement IDs; ${a.exact_name_matches}/${a.public_requirements} public names exact; ${a.redacted_internal_not_monitored} internal names/locations withheld.`);
+  line(`  Checked ${a.checked_requirements}/${REGISTER_REQUIREMENTS} requirement IDs; ${a.exact_name_matches}/${a.public_requirements} public names exact; ${a.redacted_internal_not_monitored} internal names/locations withheld.`);
   line(`  Public source alignment: ${a.matched} matched, ${a.partial} partial, ${a.gaps} gaps across ${a.public_urls} AIG-AIMS-05 public URLs; ${a.matched_public_urls} directly matched to a configured scanner source.`);
   line(`  AIG-AIMS-13 cross-check: ${a.matched_aig_aims_13_public_urls}/${a.aig_aims_13_public_urls} public URLs directly match configured sources; these cross-check URLs are not assigned to requirement rows.`);
   for (const row of registerAudit.rows.filter((r) => r.status === 'gap' || r.status === 'partial')) {
