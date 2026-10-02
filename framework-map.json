@@ -18,7 +18,7 @@
   },
   "playbook_landscape": [
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "UK GDPR",
       "kind": "retained-regulation",
       "expectation": "must-watch",
@@ -29,7 +29,7 @@
       "note": "No dedicated UK GDPR (retained EU 2016/679, type 'eur') changes feed. The DPA 2018 and DUAA feeds carry the amendments, but the instrument the playbook names first and most often is not watched directly. Decide: add a eur changes feed for UK GDPR, or record DPA-plus-DUAA as the accepted proxy."
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "Data Protection Act 2018",
       "kind": "statute",
       "expectation": "must-watch",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "Equality Act 2010 and the Public Sector Equality Duty",
       "kind": "statute-and-duty",
       "expectation": "must-watch",
@@ -49,7 +49,7 @@
       "note": "The Act itself is verified. The EHRC feed, which is the PSED regulator and the technical-guidance publisher, is still unverified and dark. Connect EHRC via Discover."
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "Human Rights Act 1998",
       "kind": "statute",
       "expectation": "must-watch",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "Freedom of Information obligations",
       "kind": "statute",
       "expectation": "must-watch",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "Procurement regulations",
       "kind": "statute",
       "expectation": "must-watch",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "Algorithmic Transparency Recording Standard",
       "kind": "standard-policy",
       "expectation": "must-watch",
@@ -86,7 +86,7 @@
       "note": "ATRS is voluntary for local authorities. A change to that voluntary status is the single highest-impact change the scanner could catch."
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "UK AI Regulation White Paper and AI Opportunities Action Plan",
       "kind": "policy",
       "expectation": "must-watch",
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "ref": "\u00a72.5",
+      "ref": "§2.5",
       "item": "EU AI Act (public-source reference; case-specific scope not assessed)",
       "kind": "eu-legislation",
       "expectation": "reference",
@@ -107,7 +107,7 @@
       "note": "Reference-only in this playbook section. AIG-AIMS-05 REQ-032 is separately listed as a must-watch source expectation. Neither label decides applicability; the configured UK title search is not a direct EU source match."
     },
     {
-      "ref": "\u00a73.12 / Appendix D.2",
+      "ref": "§3.12 / Appendix D.2",
       "item": "ISO/IEC 42001",
       "kind": "standard",
       "expectation": "must-watch",
@@ -127,7 +127,7 @@
       "note": "Now watched by an html-diff (deep body-hash) page-watch on the catalogue/status page. Content is not diffed (standards text is paywalled / the RMF is a large doc set), so a manual review cadence still applies when the watch fires."
     },
     {
-      "ref": "\u00a72.5 / \u00a74.6.1, AIG-ASS-05 Data Protection Impact Assessment",
+      "ref": "§2.5 / §4.6.1, AIG-ASS-05 Data Protection Impact Assessment",
       "item": "Data (Use and Access) Act 2025",
       "kind": "statute",
       "expectation": "must-watch",
@@ -631,6 +631,40 @@
       "note": "Public snapshot intentionally excludes internal Council requirement details and locations."
     },
     {
+      "ref": "REQ-052",
+      "item": "Code of Practice for the Cyber Security of AI (DSIT, 31 January 2025)",
+      "kind": "security-guidance",
+      "expectation": "must-watch",
+      "watched_by": [],
+      "note": "No change feed configured for this GOV.UK publication; review on DSIT/Cabinet Office updates. Voluntary code, not statutory."
+    },
+    {
+      "ref": "REQ-053",
+      "item": "ETSI EN 304 223 V2.1.1 (2026-01) Securing Artificial Intelligence (SAI); Baseline Cyber Security Requirements for AI Models and Systems",
+      "kind": "international-standard",
+      "expectation": "must-watch",
+      "watched_by": [],
+      "note": "No change feed; ETSI standard, verify the current edition at revision cycles."
+    },
+    {
+      "ref": "REQ-054",
+      "item": "Civil Contingencies Act 2004 (Category 1 responder duties, including business continuity arrangements)",
+      "kind": "legislation",
+      "expectation": "must-watch",
+      "watched_by": [],
+      "note": "No changes feed configured for the Civil Contingencies Act 2004; add a statute changes source to monitor it directly."
+    },
+    {
+      "ref": "REQ-055",
+      "item": "The Data Protection Act 2018 (Code of Practice on Artificial Intelligence and Automated Decision-Making) Regulations 2026 (SI 2026/425), and the ICO statutory code of practice on AI and automated decision-making that it requires",
+      "kind": "legislation",
+      "expectation": "must-watch",
+      "watched_by": [
+        "legislation-search-ai-title"
+      ],
+      "note": "Found by the AI-title legislation search (scanner record REG-0001), which is not a direct changes feed for this instrument. The ICO code it requires has no feed yet; the ICO media centre source is the nearest channel. Track the code to publication."
+    },
+    {
       "ref": "(additional)",
       "item": "Housing Act 1996",
       "kind": "legislation",
@@ -641,6 +675,6 @@
       "note": "Council housing duties engaged where AI supports allocations or homelessness decisions."
     }
   ],
-  "register_anchor": "Public-safe scanner crosswalk validated against a sanitized snapshot of the 51 stable REQ IDs in proposed AIG-AIMS-05, names and public source URLs (public rows only), with relevant public URLs in AIG-AIMS-13. REQ identifiers are unchanged by artefact renumbering. Internal Council requirement names, links, owners and statuses are deliberately withheld. This map is for publisher monitoring, not an authoritative register, applicability decision, approval, or ISO conformity assessment.",
+  "register_anchor": "Public-safe scanner crosswalk validated against a sanitized snapshot of the 55 stable REQ IDs in proposed AIG-AIMS-05, names and public source URLs (public rows only), with relevant public URLs in AIG-AIMS-13. REQ identifiers are unchanged by artefact renumbering. Internal Council requirement names, links, owners and statuses are deliberately withheld. This map is for publisher monitoring, not an authoritative register, applicability decision, approval, or ISO conformity assessment.",
   "target_register": "Proposed AIG-AIMS-05 references; source map checked against sanitized AIG-AIMS-05/AIG-AIMS-13 public-source snapshot"
 }
