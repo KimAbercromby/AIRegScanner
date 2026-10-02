@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-09-24T08:51:23.137Z",
+  "run_at": "2026-10-02T07:15:56.239Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -24,15 +24,15 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 100
+      "items_kept": 2,
+      "items_discarded": 98
     },
     {
       "id": "statute-dpa-2018",
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
+      "items_kept": 100,
       "items_discarded": 0
     },
     {
@@ -40,7 +40,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
+      "items_kept": 100,
       "items_discarded": 0
     },
     {
@@ -88,8 +88,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 92
+      "items_kept": 81,
+      "items_discarded": 19
     },
     {
       "id": "statute-procurement-2023",
@@ -226,16 +226,16 @@
       "id": "ico-news",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 31,
+      "items_seen": 29,
       "items_kept": 0,
-      "items_discarded": 27
+      "items_discarded": 26
     },
     {
       "id": "nist-ai-rmf",
       "status": "ok",
       "http_status": 200,
       "items_seen": 1,
-      "items_kept": 0,
+      "items_kept": 1,
       "items_discarded": 0
     },
     {
@@ -250,8 +250,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 69
+      "items_kept": 38,
+      "items_discarded": 31
     },
     {
       "id": "statute-accessibility-2018",
@@ -266,7 +266,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 41,
-      "items_kept": 0,
+      "items_kept": 7,
       "items_discarded": 30
     },
     {
@@ -314,15 +314,15 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 83
+      "items_kept": 22,
+      "items_discarded": 78
     },
     {
       "id": "statute-psi-reuse-2015",
       "status": "ok",
       "http_status": 200,
       "items_seen": 7,
-      "items_kept": 0,
+      "items_kept": 6,
       "items_discarded": 1
     },
     {
@@ -354,32 +354,32 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 100
+      "items_kept": 36,
+      "items_discarded": 64
     },
     {
       "id": "statute-ripa-2000",
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 100
+      "items_kept": 8,
+      "items_discarded": 92
     },
     {
       "id": "statute-ipa-2016",
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 96
+      "items_kept": 12,
+      "items_discarded": 84
     },
     {
       "id": "statute-pofa-2012",
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 99
+      "items_kept": 2,
+      "items_discarded": 97
     },
     {
       "id": "statute-hswa-1974",
@@ -410,8 +410,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 100
+      "items_kept": 3,
+      "items_discarded": 97
     },
     {
       "id": "news-gds-ai",
@@ -432,20 +432,14 @@
     {
       "source": "ico-news",
       "reason": "domain-not-allowed",
-      "url": "https://x.com/iconews",
-      "title": "X @ICONews"
-    },
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
-      "url": "http://linkedin.com/company/information-commissioner's-office",
-      "title": "LinkedIn"
-    },
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
       "url": "http://facebook.com/ICOnews",
       "title": "Facebook"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
+      "title": "LinkedIn"
     },
     {
       "source": "ico-news",
@@ -457,12 +451,12 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 0,
-    "changed": 0,
+    "added": 350,
+    "changed": 68,
     "absorbed": 0,
-    "discarded": 0,
+    "discarded": 255,
     "retired": 0,
-    "unreviewed": 841
+    "unreviewed": 1259
   },
-  "issue_cap_warning": "158 records await an issue but only 25 are created per run. The queue will take 7 runs to clear."
+  "issue_cap_warning": "551 records await an issue but only 25 are created per run. The queue will take 23 runs to clear."
 }
