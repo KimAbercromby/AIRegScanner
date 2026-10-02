@@ -74,9 +74,9 @@ function sourceDirectlyMatches(source, referenceUrl) {
 // Compare the public scanner map with a small reviewed snapshot, never with a
 // live workbook. Internal Council entries have IDs only; their contents are
 // intentionally absent from the snapshot.
-// Counts follow proposed AIG-AIMS-05 v1.6: REQ-001 to REQ-055, of which REQ-044 to REQ-051
+// Counts follow proposed AIG-AIMS-05 v1.7: REQ-001 to REQ-056, of which REQ-044 to REQ-051
 // are internal Council rows withheld from the public map.
-export const REGISTER_REQUIREMENTS = 55;
+export const REGISTER_REQUIREMENTS = 56;
 export const REDACTED_REQUIREMENTS = 8;
 export const PUBLIC_REQUIREMENTS = REGISTER_REQUIREMENTS - REDACTED_REQUIREMENTS;
 

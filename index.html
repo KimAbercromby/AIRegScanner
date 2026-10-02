@@ -807,7 +807,7 @@
         var item=row.item,detail=el('details','framework-item'),expectedRow=row.expected;
         var summary=el('summary');
         summary.appendChild(document.createTextNode((item.ref||'(unreferenced)')+' · '+item.item+' '));
-        var statusText=row.state==='matched'?'public source URL matched':row.state==='partial'?(item.source_alignment==='proxy'?'proxy only — no direct URL match':'partial public-source match'):row.state==='gap'?'gap — no direct source match':row.state==='not-monitored'?'redacted — not monitored':'supplemental, outside the 55 REQ rows';
+        var statusText=row.state==='matched'?'public source URL matched':row.state==='partial'?(item.source_alignment==='proxy'?'proxy only — no direct URL match':'partial public-source match'):row.state==='gap'?'gap — no direct source match':row.state==='not-monitored'?'redacted — not monitored':'supplemental, outside the 56 REQ rows';
         summary.appendChild(el('span','framework-status '+row.state,statusText));
         detail.appendChild(summary);
         var meta=el('div','framework-meta');
