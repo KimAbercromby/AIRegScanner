@@ -11,14 +11,12 @@ topic/section/artefact pointers for human review. Matches do not establish legal
 applicability, required changes, or approval.
 
 **Operating status:** The daily 07:00 UTC scan and Monday 06:30 UTC source-type
-smoke check are defined but **disabled** in `.github/workflows/scanner.yml`;
-only manual `workflow_dispatch` runs are enabled. On the website, a scan older
-than 48 hours, missing data, or a source-register version not yet scanned is
-shown as an explicit warning. A run is not evidence that all sources succeeded
-or that reviewers assessed the findings. Restore the schedule only after an
-authorised owner confirms the operating route and a clean baseline scan; then
-inspect the first real Actions run and verify the current register version and
-run date.
+smoke check are **enabled** in `.github/workflows/scanner.yml` (re-enabled
+2 October 2026), alongside manual `workflow_dispatch` runs. On the website, a
+scan older than 48 hours, missing data, or a source-register version not yet
+scanned is shown as an explicit warning. A run is not evidence that all sources
+succeeded or that reviewers assessed the findings; check each Actions run and
+keep the review queue in GitHub Issues current.
 
 The outstanding 403 for `iso-42001`, the declared unconnected sources and the
 focused review queue require a human owner. Investigate the publisher response
@@ -323,9 +321,8 @@ extracted properly. Most other sources do not, so expect to fill it in by hand.
 4. **Actions > Regulatory scanner > Run workflow > resolve.** Once. It confirms the
    statute chapter numbers and writes them back, and prints a table of what it
    resolved in the run summary.
-5. **Actions > Regulatory scanner > Run workflow > scan.** The current workflow is
-   manual while its schedule lines are commented out. Re-enable the cron only after
-   a clean baseline scan.
+5. **Actions > Regulatory scanner > Run workflow > scan.** Run this once by hand for a
+   clean baseline scan; after that the daily schedule takes over.
 
 The demo records that ship in `impact-log.json` are cleared automatically on the
 first real scan, and the issues step refuses to run while they are present. You do not
@@ -461,7 +458,7 @@ Carried from the QA review and not yet closed:
 - **The optional triage step sends retrieved content to a third-party API.** Low risk
   on public documents, but the tool has no record of its own processing, which your
   own supplier questionnaire would ask for.
-- **If scheduled, 07:00 UTC year round** drifts an hour against local time in summer.
+- **07:00 UTC year round** drifts an hour against local time in summer.
 
 ## What is not in v0.5
 
@@ -501,7 +498,7 @@ coverage.json         what is and is not covered
 diary.json            coming into force
 discards.json         considered and rejected
 baseline.json         what was absorbed when monitoring began
-.github/workflows/    scanner.yml (manual tasks; scheduled cron disabled)
+.github/workflows/    scanner.yml (daily scan, weekly smoke test, manual tasks)
 *.test.mjs            offline regression tests
 ```
 
