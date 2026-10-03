@@ -27,7 +27,7 @@ test('topic mappings target the pinned grouped draft without approving it', () =
   assert.equal(mappings.mapping_alignment.status, 'reviewed-proposed-not-approved');
   assert.match(mappings.mapping_alignment.note, /not required changes, legal applicability findings, or approval/i);
   assert.equal(mappings.mapping_alignment.catalogue_pin_status, 'pinned-reviewed-proposed');
-  const archiveName = 'Westminster_AI_Governance_Suite_Corrected_2026-09-28_v3.zip';
+  const archiveName = 'AI_Governance_Suite_Corrected_2026-09-28_v3.zip';
   assert.equal(mappings.mapping_alignment.current_target, `downloads/${archiveName}`);
   const archive = join(HERE, '..', 'downloads', archiveName);
   if (existsSync(archive)) {

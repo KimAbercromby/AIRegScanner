@@ -4,7 +4,7 @@
   "historical_playbook_baseline": "v19.3",
   "mapping_alignment": {
     "status": "reviewed-proposed-not-approved",
-    "current_target": "downloads/Westminster_AI_Governance_Suite_Corrected_2026-09-28_v3.zip",
+    "current_target": "downloads/AI_Governance_Suite_Corrected_2026-09-28_v3.zip",
     "archive_sha256": "a6b0cc53a05b7425dc3010e76877e6da342d740d66512708aee90867e37b977c",
     "catalogue_pin_status": "pinned-reviewed-proposed",
     "note": "Scanner review pointers now use the grouped AIG-GOV, AIG-INV, AIG-ASS, AIG-DEC, AIG-AGT, AIG-OPS and AIG-AIMS draft IDs. The archive_sha256 pins the reviewed grouped-ID ZIP, not an approved or adopted edition. These are candidate review touchpoints, not required changes, legal applicability findings, or approval. The post-adoption suite-amendment approver is unconfirmed. Historical scanner records retain their original labels and evidence."
