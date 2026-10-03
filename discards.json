@@ -4,137 +4,6 @@
     {
       "run_at": "2026-09-24T08:44:12.869Z",
       "source_id": "statute-hswa-1974",
-      "title": "The Channel Tunnel (Safety) Order 2007 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Channel Tunnel (Safety) Order 2007 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Channel Tunnel (Safety) Order 2007 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Channel Tunnel (Safety) Order 2007 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
       "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
       "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
       "reason": "no-ai-governance-signal",
@@ -6820,6 +6689,130 @@
         "governance": [
           "act 20",
           "data protection"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "legislation-new",
+      "title": "The Bluetongue (Scotland) Amendment Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/281/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Tottenham, London) (No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1064/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "legislation-new",
+      "title": "The Sale of Tobacco (Miscellaneous and Consequential Amendment) (Scotland) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/278/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legislation",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "legislation-new",
+      "title": "The Private Residential Tenancies (Prescribed Notices and Forms) (Scotland) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/279/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/120/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "legislation-new",
+      "title": "The Access to the Countryside (Coastal Margin) (Kimmeridge Bay to Highcliffe) (No. 2) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1062/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "legislation-new",
+      "title": "The Coronavirus Act 2020 (Extension of Provisions Relating to Live Links for Courts and Tribunals) (No.2) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/161/2026-09-17",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legal",
+          "statutory"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "govuk-mhclg",
+      "title": "Grenfell Tower Inquiry Government Progress Report: September 2026",
+      "url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-government-progress-report-september-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-03T12:11:44.790Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care: Ofsted's enforcement policy",
+      "url": "https://www.gov.uk/government/publications/social-care-ofsteds-enforcement-policy",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "enforcement",
+          "regulation"
         ]
       }
     }

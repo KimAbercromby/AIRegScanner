@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-02T07:15:56.239Z",
+  "last_run": "2026-10-03T12:11:44.790Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -10871,10 +10871,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/161": {
-      "hash": "c8f38d723df700b1",
+      "hash": "f2407c235b0ca5bc",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -13279,10 +13279,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/publications/grenfell-tower-inquiry-government-progress-report-september-2026": {
-      "hash": "c9b4a6857c4c5caa",
+      "hash": "d04d9bed95f54731",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -13479,10 +13479,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-ofsted::/government/publications/social-care-ofsteds-enforcement-policy": {
-      "hash": "0da3296b9011b27c",
+      "hash": "433f295f75bac015",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -27643,10 +27643,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/120": {
-      "hash": "f2adf332be075fda",
+      "hash": "eee535c54e00b570",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -27659,10 +27659,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1062": {
-      "hash": "87c111243f1cd4c8",
+      "hash": "b5d7e44ffaff0bf8",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -31213,6 +31213,38 @@
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
       "last_changed": "2026-10-02T07:15:56.239Z"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/281": {
+      "hash": "e5ce7eda75d1d98e",
+      "body": null,
+      "first_seen": "2026-10-03T12:11:44.790Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1064": {
+      "hash": "1e98640662e09c1f",
+      "body": null,
+      "first_seen": "2026-10-03T12:11:44.790Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/278": {
+      "hash": "788c2c2e7d622348",
+      "body": null,
+      "first_seen": "2026-10-03T12:11:44.790Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/279": {
+      "hash": "20cf56fc23e8bdb5",
+      "body": null,
+      "first_seen": "2026-10-03T12:11:44.790Z",
+      "last_changed": "2026-10-03T12:11:44.790Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
     }
   }
 }

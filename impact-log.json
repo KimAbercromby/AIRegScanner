@@ -11,7 +11,7 @@
       "title": "The Data Protection Act 2018 (Code of Practice on Artificial Intelligence and Automated Decision-Making) Regulations 2026",
       "url": "http://www.legislation.gov.uk/uksi/2026/425/made",
       "date_published": "2026-04-21T17:00:25.151041+01:00",
-      "date_in_force": null,
+      "date_in_force": "2026-05-12",
       "date_retrieved": "2026-07-25T20:08:45.363Z",
       "content_hash": "8e83108743a5a263",
       "body_hash": null,
@@ -30,16 +30,24 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 1,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:29Z",
+      "outcome": "SI 2026/425 requires the Information Commissioner to prepare a statutory code of practice on AI and automated decision-making, including children's data. Record it in the Applicable Requirements Register (AIG-AIMS-05) and DPIA Template now; update the Playbook when the ICO publishes the code.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true,
+      "decided_sections": [
+        "4.6.1"
+      ],
+      "decided_artefacts": [
+        "AIG-AIMS-05 Applicable Requirements Register (REQ-056)",
+        "DPIA Template"
+      ]
     },
     {
       "record_id": "REG-0002",
@@ -68,16 +76,17 @@
         "Intake Form",
         "Terms of Reference"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 2,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "not-applicable",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:32Z",
+      "outcome": "1985 EU Council decision on a COST research concertation; not relevant to UK local authority AI governance.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0003",
@@ -97,16 +106,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 3,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "not-applicable",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:34Z",
+      "outcome": "Immigration-control amendment to the DPA 2018; outside the scope of council AI governance.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0004",
@@ -136,16 +146,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 4,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:37Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0005",
@@ -175,16 +186,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 5,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:39Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0006",
@@ -214,16 +226,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 6,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:42Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0007",
@@ -253,16 +266,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 7,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:44Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0008",
@@ -292,16 +306,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 8,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:47Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0009",
@@ -331,16 +346,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 9,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:49Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0010",
@@ -370,16 +386,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 10,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:52Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0011",
@@ -409,16 +426,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 11,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:54Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0012",
@@ -448,16 +466,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 12,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:57Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0013",
@@ -487,16 +506,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 13,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:27:59Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0014",
@@ -526,16 +546,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 14,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:01Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0015",
@@ -565,16 +586,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 15,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:04Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0016",
@@ -604,16 +626,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 16,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:06Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0017",
@@ -643,16 +666,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 17,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:08Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0018",
@@ -682,16 +706,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 18,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:10Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0019",
@@ -721,16 +746,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 19,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:13Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0020",
@@ -760,16 +786,17 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 20,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:15Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0021",
@@ -789,16 +816,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 21,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:17Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0022",
@@ -818,16 +846,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 22,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:20Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0023",
@@ -847,16 +876,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 23,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:22Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0024",
@@ -876,16 +906,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 24,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:24Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0025",
@@ -905,16 +936,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 25,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:26Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0026",
@@ -934,16 +966,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 29,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:35Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0027",
@@ -963,16 +996,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 30,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:38Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0028",
@@ -992,16 +1026,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 31,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:40Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0029",
@@ -1021,16 +1056,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 32,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:42Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0030",
@@ -1050,16 +1086,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 33,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:45Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0031",
@@ -1079,16 +1116,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 34,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:47Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0032",
@@ -1108,16 +1146,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 35,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:49Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0033",
@@ -1137,16 +1176,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 36,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:51Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0034",
@@ -1166,16 +1206,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 37,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:53Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0035",
@@ -1195,16 +1236,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 38,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:56Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0036",
@@ -1224,16 +1266,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 39,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:28:58Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0037",
@@ -1264,16 +1307,17 @@
         "Risk Assessment Worksheet",
         "Terms of Reference"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 40,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:00Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0038",
@@ -1293,16 +1337,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 41,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:03Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0039",
@@ -1322,16 +1367,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 42,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:05Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0040",
@@ -1351,16 +1397,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 43,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:07Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0041",
@@ -1380,16 +1427,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 44,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:09Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0042",
@@ -1409,16 +1457,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 45,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:12Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0043",
@@ -1438,16 +1487,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 46,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:14Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0044",
@@ -1467,16 +1517,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 47,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:17Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0045",
@@ -1496,16 +1547,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 48,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:19Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0046",
@@ -1525,16 +1577,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 49,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:21Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0047",
@@ -1554,16 +1607,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 50,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:23Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0048",
@@ -1583,16 +1637,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 51,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:26Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0049",
@@ -1612,16 +1667,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 52,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:28Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0050",
@@ -1641,16 +1697,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 53,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:31Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0051",
@@ -1670,16 +1727,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 54,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:34Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0052",
@@ -1699,16 +1757,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 55,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:36Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0053",
@@ -1728,16 +1787,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 56,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:39Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0054",
@@ -1757,16 +1817,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 57,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:42Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0055",
@@ -1797,16 +1858,17 @@
         "Risk Assessment Worksheet",
         "Terms of Reference"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 58,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:44Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0056",
@@ -1826,16 +1888,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 59,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:46Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0057",
@@ -1855,16 +1918,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 60,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:48Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0058",
@@ -1884,16 +1948,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 61,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:51Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0059",
@@ -1913,16 +1978,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 62,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:53Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0060",
@@ -1942,16 +2008,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 63,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:55Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0061",
@@ -1971,16 +2038,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 64,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:29:58Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0062",
@@ -2000,16 +2068,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 65,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:00Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0063",
@@ -2029,16 +2098,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 66,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:02Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0064",
@@ -2058,16 +2128,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 67,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:05Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0065",
@@ -2087,16 +2158,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 68,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:07Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0066",
@@ -2116,16 +2188,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 69,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:09Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0067",
@@ -2145,16 +2218,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 70,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:12Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0068",
@@ -2174,16 +2248,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 71,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:14Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0069",
@@ -2203,16 +2278,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 72,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:17Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0070",
@@ -2232,16 +2308,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 73,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:19Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0071",
@@ -2261,16 +2338,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 74,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:22Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0072",
@@ -2290,16 +2368,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 75,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:24Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0073",
@@ -2319,16 +2398,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 76,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:26Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0074",
@@ -2348,16 +2428,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 77,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:29Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0075",
@@ -2377,16 +2458,17 @@
       "reference_only": false,
       "affects_sections": [],
       "affects_artefacts": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 78,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:31Z",
+      "outcome": "Historic, machinery-of-government, devolution or subject-specific amendment effect on the Human Rights Act 1998, re-listed by the changes feed. It does not alter the section 6 public authority duty or the Convention rights screening the suite relies on (AIG-ASS-06 HRA).",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0076",
@@ -17047,16 +17129,17 @@
         "Model Card Template",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 79,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:33Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0475",
@@ -17091,16 +17174,17 @@
         "Model Card Template",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 80,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:36Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0476",
@@ -17135,16 +17219,17 @@
         "Model Card Template",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 81,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:38Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
-      "generated": null
+      "generated": null,
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0477",
@@ -28665,14 +28750,14 @@
         "Governance Checklist",
         "Terms of Reference"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 82,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "already-covered",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:40Z",
+      "outcome": "The suite already aligns voluntarily to NIST AI RMF 1.0 (NIST AI 100-1) through the AIMS Clause-Level Crosswalk, AIG-AIMS-12. Reference only, not a statutory requirement.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -28689,7 +28774,8 @@
             "risk"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0790",
@@ -28720,14 +28806,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 83,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:43Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -28742,7 +28828,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0791",
@@ -28773,14 +28860,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 84,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:45Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -28795,7 +28882,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0792",
@@ -28826,14 +28914,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 85,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:47Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -28848,7 +28936,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0793",
@@ -28879,14 +28968,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 86,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:51Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -28901,7 +28990,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0794",
@@ -28932,14 +29022,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 87,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:54Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -28954,7 +29044,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0795",
@@ -28985,14 +29076,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 88,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:57Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29007,7 +29098,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0796",
@@ -29038,14 +29130,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 89,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:30:59Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29060,7 +29152,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0797",
@@ -29091,14 +29184,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 90,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:02Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29113,7 +29206,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0798",
@@ -29144,14 +29238,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 91,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:04Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29166,7 +29260,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0799",
@@ -29197,14 +29292,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 92,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:06Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29219,7 +29314,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0800",
@@ -29250,14 +29346,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 93,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:08Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29272,7 +29368,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0801",
@@ -29303,14 +29400,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 94,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:11Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29325,7 +29422,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0802",
@@ -29356,14 +29454,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 95,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:14Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29378,7 +29476,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0803",
@@ -29409,14 +29508,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 96,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:16Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29431,7 +29530,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0804",
@@ -29462,14 +29562,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 97,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:18Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29484,7 +29584,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0805",
@@ -29515,14 +29616,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 98,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:20Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29537,7 +29638,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0806",
@@ -29568,14 +29670,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 99,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:23Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [
         {
           "milestone": 7,
@@ -29601,7 +29703,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0807",
@@ -29632,14 +29735,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 100,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:25Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29654,7 +29757,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0808",
@@ -29685,14 +29789,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 101,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:28Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29707,7 +29811,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0809",
@@ -29738,14 +29843,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 102,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:30Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29760,7 +29865,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0810",
@@ -29791,14 +29897,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 103,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:33Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29813,7 +29919,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0811",
@@ -29844,14 +29951,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 104,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:36Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29866,7 +29973,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0812",
@@ -29897,14 +30005,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 105,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:38Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29919,7 +30027,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0813",
@@ -29950,14 +30059,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 106,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:41Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -29972,7 +30081,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0814",
@@ -30003,14 +30113,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 107,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:43Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30025,7 +30135,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0815",
@@ -30056,14 +30167,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 110,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:51Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30078,7 +30189,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0816",
@@ -30109,14 +30221,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 111,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:53Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30131,7 +30243,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0817",
@@ -30162,14 +30275,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 112,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:55Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30184,7 +30297,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0818",
@@ -30215,14 +30329,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 113,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:31:58Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [
         {
           "milestone": 7,
@@ -30248,7 +30362,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0819",
@@ -30279,14 +30394,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 114,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:00Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30301,7 +30416,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0820",
@@ -30332,14 +30448,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 115,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:02Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30354,7 +30470,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0821",
@@ -30385,14 +30502,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 116,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:04Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30407,7 +30524,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0822",
@@ -30438,14 +30556,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 117,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:07Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30460,7 +30578,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0823",
@@ -30491,14 +30610,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 118,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:09Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30514,7 +30633,8 @@
             "regulation"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0824",
@@ -30545,14 +30665,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 119,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:11Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30567,7 +30687,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0825",
@@ -30598,14 +30719,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 120,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:14Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30620,7 +30741,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0826",
@@ -30651,14 +30773,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 121,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:16Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30673,7 +30795,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0827",
@@ -30704,14 +30827,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 122,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:18Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30726,7 +30849,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0828",
@@ -30757,14 +30881,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 123,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:21Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30779,7 +30903,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0829",
@@ -30810,14 +30935,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 124,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:23Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30832,7 +30957,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0830",
@@ -30863,14 +30989,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 125,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:25Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30885,7 +31011,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0831",
@@ -30916,14 +31043,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 126,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:28Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30938,7 +31065,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0832",
@@ -30969,14 +31097,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 127,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:30Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -30991,7 +31119,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0833",
@@ -31022,14 +31151,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 128,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:32Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31044,7 +31173,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0834",
@@ -31075,14 +31205,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 129,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:34Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31097,7 +31227,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0835",
@@ -31128,14 +31259,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 130,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:37Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31150,7 +31281,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0836",
@@ -31181,14 +31313,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 131,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:39Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31203,7 +31335,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0837",
@@ -31234,14 +31367,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 132,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:42Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31256,7 +31389,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0838",
@@ -31287,14 +31421,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 133,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:45Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31309,7 +31443,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0839",
@@ -31340,14 +31475,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 134,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:47Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31362,7 +31497,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0840",
@@ -31393,14 +31529,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 142,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:54Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31415,7 +31551,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0841",
@@ -31446,14 +31583,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 143,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:32:57Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31468,7 +31605,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0842",
@@ -31499,14 +31637,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 144,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:34:11Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31521,7 +31659,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0843",
@@ -31552,14 +31691,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 145,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:34:08Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31574,7 +31713,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0844",
@@ -31605,14 +31745,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 146,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:34:06Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31627,7 +31767,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0845",
@@ -31658,14 +31799,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 147,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:34:04Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31680,7 +31821,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0846",
@@ -31711,14 +31853,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 148,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:34:01Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31733,7 +31875,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0847",
@@ -31764,14 +31907,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 149,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:59Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31786,7 +31929,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0848",
@@ -31817,14 +31961,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 150,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:57Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31839,7 +31983,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0849",
@@ -31870,14 +32015,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 151,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:54Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31892,7 +32037,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0850",
@@ -31923,14 +32069,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 152,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:52Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31945,7 +32091,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0851",
@@ -31976,14 +32123,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 153,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:50Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -31998,7 +32145,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0852",
@@ -32029,14 +32177,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 154,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:47Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32051,7 +32199,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0853",
@@ -32082,14 +32231,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 155,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:45Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32104,7 +32253,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0854",
@@ -32135,14 +32285,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 156,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:43Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32157,7 +32307,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0855",
@@ -32188,14 +32339,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 157,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:40Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32210,7 +32361,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0856",
@@ -32241,14 +32393,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 158,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:38Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32263,7 +32415,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0857",
@@ -32294,14 +32447,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 159,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:36Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32316,7 +32469,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0858",
@@ -32347,14 +32501,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 160,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:33Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32369,7 +32523,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0859",
@@ -32400,14 +32555,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 161,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:31Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32422,7 +32577,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0860",
@@ -32453,14 +32609,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 162,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:28Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32475,7 +32631,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0861",
@@ -32506,14 +32663,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 163,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:26Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32528,7 +32685,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0862",
@@ -32559,14 +32717,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 164,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:23Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32581,7 +32739,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0863",
@@ -32612,14 +32771,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 165,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:21Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32634,7 +32793,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0864",
@@ -32665,14 +32825,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 166,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "no-change",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-10-02T07:33:19Z",
+      "outcome": "Data (Use and Access) Act 2025 amendment effect, commenced in stages through 2025-2026. The suite already reflects the DUAA, including UK GDPR Articles 22A-22D in force from 5 February 2026; no artefact change from this individual effect record. Provision-level detail is confirmed through the DPO route.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32687,7 +32847,8 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true
     },
     {
       "record_id": "REG-0865",
@@ -32719,7 +32880,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 169,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -32772,7 +32933,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 170,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -32825,7 +32986,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 171,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -32878,7 +33039,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 172,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -32931,7 +33092,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 173,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -32984,7 +33145,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 174,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33037,7 +33198,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 175,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33090,7 +33251,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 176,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33143,7 +33304,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 177,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33196,7 +33357,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 178,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33249,7 +33410,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 179,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33302,7 +33463,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 180,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33355,7 +33516,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 181,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33408,7 +33569,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 182,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33461,7 +33622,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 183,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33514,7 +33675,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 184,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33567,7 +33728,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 185,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33620,7 +33781,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 186,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33673,7 +33834,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 187,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33726,7 +33887,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 188,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33779,7 +33940,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 189,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33832,7 +33993,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 190,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33885,7 +34046,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 191,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33938,7 +34099,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 192,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -33991,7 +34152,7 @@
         "RAIA"
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 193,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
