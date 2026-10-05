@@ -4,108 +4,6 @@
     {
       "run_at": "2026-09-24T08:44:12.869Z",
       "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Biocidal Products and Chemicals (Appointment of Authorities and Enforcement) Regulations 2013 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
-      "title": "Employment Relations Act 1999 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-hswa-1974",
       "title": "The Regulatory Reform (Fire Safety) Order 2005 effect on Health and Safety at Work etc. Act 1974",
       "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
       "reason": "no-ai-governance-signal",
@@ -6813,6 +6711,95 @@
         "governance": [
           "enforcement",
           "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-05T15:30:44.820Z",
+      "source_id": "legislation-new",
+      "title": "The Planning (Scotland) Act 2019 (Commencement No. 15) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/280/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-05T15:30:44.820Z",
+      "source_id": "legislation-new",
+      "title": "The A82 Trunk Road (Inverness) (Temporary Prohibition on Waiting, Loading and Unloading) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/282/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-05T15:30:44.820Z",
+      "source_id": "legislation-new",
+      "title": "The On-Street Parking (Amendment No. 2) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/167/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-05T15:30:44.820Z",
+      "source_id": "legislation-new",
+      "title": "The Parking Places (Disabled Persons’ Vehicles) (Amendment No. 4) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/166/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-05T15:30:44.820Z",
+      "source_id": "legislation-new",
+      "title": "The Urban Clearways (Amendment) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/165/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-05T15:30:44.820Z",
+      "source_id": "legislation-new",
+      "title": "The Loading Bays on Roads (Amendment) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/164/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-05T15:30:44.820Z",
+      "source_id": "govuk-mhclg",
+      "title": "Council Tax base calculation",
+      "url": "https://www.gov.uk/government/publications/council-tax-base-calculation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
         ]
       }
     }
