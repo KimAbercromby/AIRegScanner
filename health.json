@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-06T13:52:52.869Z",
+  "run_at": "2026-10-07T14:10:27.792Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -226,7 +226,7 @@
       "id": "ico-news",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 30,
+      "items_seen": 29,
       "items_kept": 0,
       "items_discarded": 26
     },
@@ -432,20 +432,14 @@
     {
       "source": "ico-news",
       "reason": "domain-not-allowed",
-      "url": "https://x.com/iconews",
-      "title": "X@ICONews"
-    },
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
-      "url": "http://linkedin.com/company/information-commissioner's-office",
-      "title": "LinkedIn"
-    },
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
       "url": "http://facebook.com/ICOnews",
       "title": "Facebook"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
+      "title": "LinkedIn"
     },
     {
       "source": "ico-news",
@@ -460,9 +454,9 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 3,
+    "discarded": 53,
     "retired": 0,
     "unreviewed": 1105
   },
-  "issue_cap_warning": "451 records await an issue but only 25 are created per run. The queue will take 19 runs to clear."
+  "issue_cap_warning": "426 records await an issue but only 25 are created per run. The queue will take 18 runs to clear."
 }
