@@ -4,149 +4,6 @@
     {
       "run_at": "2026-09-24T08:44:12.869Z",
       "source_id": "statute-mca-2005",
-      "title": "The Equality Act 2010 (Capacity of parents and persons over compulsory school age) (Wales) Regulations 2021 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "equality",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Additional Learning Needs (Wales) Regulations 2021 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Additional Learning Needs and Education Tribunal (Wales) Act 2018 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Guardianship (Missing Persons) Act 2017 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Capacity (Amendment) Act 2019 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 1)(England and Wales) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Health and Social Care Act 2008 (Regulated Activities) Regulations 2014 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 1)(England and Wales) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
       "title": "The Health and Social Care Act 2008 (Regulated Activities) Regulations 2014 effect on Mental Capacity Act 2005",
       "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
       "reason": "no-ai-governance-signal",
@@ -6718,6 +6575,145 @@
       "source_id": "lgsco-benefits",
       "title": "Harborough District Council (25 026 847)",
       "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax-support/25-026-847",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "legislation-new",
+      "title": "The Social Security (Miscellaneous Amendments) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1063/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "legislation-new",
+      "title": "The Electronic Monitoring (Approved Devices) (Scotland) Amendment Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/285/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "compliance",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "legislation-new",
+      "title": "The Crofting and Scottish Land Court Act 2026 (Commencement No. 1) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/283/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "legislation-new",
+      "title": "The Scottish Land Commission (Number of Land Commissioners) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/284/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/wsi/2025/1169/pdfs/wsics_20251169_we_001.pdf",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "Pro-Worker AI Adoption Prize",
+      "url": "https://www.gov.uk/guidance/pro-worker-ai-adoption-prize",
+      "reason": "ai-without-governance-impact",
+      "signals": {
+        "priority": [],
+        "ai": [
+          "artificial intelligence"
+        ],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "National Security and Investment notification service: mandatory, voluntary and retrospective forms",
+      "url": "https://www.gov.uk/government/publications/national-security-and-investment-notification-service-mandatory-voluntary-and-retrospective-forms",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "govuk-mhclg",
+      "title": "Holocaust Memorial: handling arrangements for planning casework",
+      "url": "https://www.gov.uk/government/publications/holocaust-memorial-handling-arrangements-for-planning-casework",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "Pro-Worker AI Adoption Prize",
+      "url": "https://www.gov.uk/guidance/pro-worker-ai-adoption-prize",
+      "reason": "ai-without-governance-impact",
+      "signals": {
+        "priority": [],
+        "ai": [
+          "artificial intelligence"
+        ],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-08T14:20:27.847Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Cheshire East Council (25 014 512)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-014-512",
       "reason": "no-ai-keyword",
       "signals": {
         "priority": [],
