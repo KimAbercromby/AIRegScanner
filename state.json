@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-08T14:20:27.847Z",
+  "last_run": "2026-10-09T14:05:25.466Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -5660,34 +5660,34 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-a4514f67f28f2918": {
-      "hash": "fc050b174530fa39",
+      "hash": "f0a1b08eb2dd9250",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-249d1fb06b2304f2": {
-      "hash": "8ebeb2793d47c069",
+      "hash": "6616be4431764d3b",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-038fda20c56f8773": {
-      "hash": "8ebeb2793d47c069",
+      "hash": "6616be4431764d3b",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-1c6ca2f8c0429c69": {
-      "hash": "ff8f4c64624dcf34",
+      "hash": "3de831ee3634576f",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -16979,114 +16979,114 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-eee48565cbb722e5": {
-      "hash": "5c390f46e8f4a6c3",
+      "hash": "48714a74da3eb346",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-ec4db1e5b2e97ef4": {
-      "hash": "b28cc580fc7bb40a",
+      "hash": "c271413e0aaa34ce",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-d9179c53f8ccf778": {
-      "hash": "dea72e2decf1ea84",
+      "hash": "6f57abff11b1388f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-76ce1109644cd764": {
-      "hash": "a3d8541afce8080a",
+      "hash": "3a78039b9d871625",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-b6e0270548d14a12": {
-      "hash": "5c390f46e8f4a6c3",
+      "hash": "48714a74da3eb346",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-32c1171923cdfa68": {
-      "hash": "a04ed8f3fbdc9027",
+      "hash": "c324cc609bee5783",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-a3d7e148b46e0ef8": {
-      "hash": "5c390f46e8f4a6c3",
+      "hash": "48714a74da3eb346",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-259e6f9a62cd9187": {
-      "hash": "5c390f46e8f4a6c3",
+      "hash": "48714a74da3eb346",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-c85719255a59a51a": {
-      "hash": "b28cc580fc7bb40a",
+      "hash": "c271413e0aaa34ce",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-e69f008c9df1b452": {
-      "hash": "b28cc580fc7bb40a",
+      "hash": "c271413e0aaa34ce",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-61ecfd8032f08470": {
-      "hash": "b28cc580fc7bb40a",
+      "hash": "c271413e0aaa34ce",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-6ae9467355a7138b": {
-      "hash": "a04ed8f3fbdc9027",
+      "hash": "c324cc609bee5783",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-af150bd2b9692abe": {
-      "hash": "2e3c3d7ccff7ee57",
+      "hash": "393f36502f3f4f6d",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-regs-2024::effect-37c6b91d0c12945e": {
-      "hash": "2e3c3d7ccff7ee57",
+      "hash": "393f36502f3f4f6d",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -30849,220 +30849,220 @@
       "last_changed": "2026-10-02T07:15:56.239Z"
     },
     "statute-nis-2018::effect-e84540d686cb3fed": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-39c6dcb854782d2b": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-ac0f5ba594359ad2": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-50b0ac38b8d6227c": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-8c40f01f49a492c2": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-4b07aea1b6e2fad6": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-beb254381ea43c09": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-795b817446185038": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-b0538192e5be9acd": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-64b11ed403893abd": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-9b99103785253026": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-f19e1e6954413166": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-eb4345eeef30457f": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-787829c7fb418a31": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-b6c19593430b2ab0": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-2638f9bb9c29dede": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-cfa1697d959d3ee1": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-39a62d8991c5cfd4": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-c74e2bc9b8bed1b4": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-8079b5be1a9f8cb3": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-95ca51c2bbcfb9a2": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-419f35b5d30f685a": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-7403c178873b4260": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-22681153e140c01e": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-dcee8acde36373ed": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-84af9091cca729a4": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-5be62eca2e033c8b": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-7bfcfa40246e354b": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-74c8903373c1c258": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-f4087aabc5145239": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-f4976b941ee529df": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-f443f170495a1235": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-9b79e11d24e32082": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-d85ef8d9e9e997f3": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-27d2d326933db6ff": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-nis-2018::effect-37248271a0c966eb": {
-      "hash": "013b88df4491f87d",
+      "hash": "ff0c4dd5e2a7b20b",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z"
+      "last_changed": "2026-10-09T14:05:25.466Z"
     },
     "statute-ripa-2000::effect-80ce7cad5f42028f": {
       "hash": "324822084cf4698e",
@@ -31319,10 +31319,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/171": {
-      "hash": "2360e3c4078c53d7",
+      "hash": "34d3477b1648adb9",
       "body": null,
       "first_seen": "2026-10-07T14:10:27.792Z",
-      "last_changed": "2026-10-07T14:10:27.792Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -31335,10 +31335,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/169": {
-      "hash": "5e028aaace5035ee",
+      "hash": "44e534307f131a09",
       "body": null,
       "first_seen": "2026-10-07T14:10:27.792Z",
-      "last_changed": "2026-10-07T14:10:27.792Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -31751,10 +31751,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/283": {
-      "hash": "77c0d59753a9573b",
+      "hash": "0026429495bac5b2",
       "body": null,
       "first_seen": "2026-10-08T14:20:27.847Z",
-      "last_changed": "2026-10-08T14:20:27.847Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -31805,6 +31805,134 @@
       "last_changed": "2026-10-08T14:20:27.847Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1072": {
+      "hash": "431dbea1fe076e40",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nia/2026/8": {
+      "hash": "58500752e2fdebaa",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/286": {
+      "hash": "ebd743477bce5bd5",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1066": {
+      "hash": "83e1da4990ce5cdb",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1067": {
+      "hash": "5aa62126ba37d9d0",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1069": {
+      "hash": "c593578bece2e180",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nia/2026/9": {
+      "hash": "2bd5444ad7cac68d",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "statute-children-1989::effect-4c7b9aea96d78b3b": {
+      "hash": "4880512d9b6f863e",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-children-1989::effect-a080aad8dfd7e71e": {
+      "hash": "4880512d9b6f863e",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-children-1989::effect-596d91e0095ec5d8": {
+      "hash": "3e1d5566c8dd1b94",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-children-1989::effect-b45a135afd6d4522": {
+      "hash": "3e1d5566c8dd1b94",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-children-1989::effect-4734c7d253eff231": {
+      "hash": "1d760f181268a7c9",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/local-growth-plans-england": {
+      "hash": "63848a1deaaeba82",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/extending-awaabs-law-to-private-rented-tenancies-and-to-licences": {
+      "hash": "6627eb69eb85f0f4",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-psi-reuse-2015::effect-32323f5e41204935": {
+      "hash": "8d641bd643252aeb",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-pofa-2012::effect-4ac6dddfc757fce5": {
+      "hash": "5ddf84e9f5d6104c",
+      "body": null,
+      "first_seen": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-09T14:05:25.466Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
     }
   }
 }

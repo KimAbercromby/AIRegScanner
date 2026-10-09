@@ -4,533 +4,6 @@
     {
       "run_at": "2026-09-24T08:44:12.869Z",
       "source_id": "statute-mca-2005",
-      "title": "The Health and Social Care Act 2008 (Regulated Activities) Regulations 2014 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 1)(England and Wales) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Health and Social Care Act 2008 (Regulated Activities) (Amendment) Regulations 2012 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 1)(England and Wales) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The National Health Service (Direct Payments) Regulations 2010 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Health Act 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Capacity (Amendment) Act 2019 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Capacity (Amendment) Act 2019 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Capacity (Amendment) Act 2019 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Health Act 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Health and Social Care Act 2008 (Regulated Activities) Regulations 2014 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Tribunals, Courts and Enforcement Act 2007 (Consequential Amendments) Order 2012 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "enforcement"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Health Act 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Tribunals, Courts and Enforcement Act 2007 (Consequential Amendments) Order 2012 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "enforcement"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Tribunals, Courts and Enforcement Act 2007 (Consequential Amendments) Order 2012 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "enforcement"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Tribunals, Courts and Enforcement Act 2007 (Consequential Amendments) Order 2012 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "enforcement"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Tribunals, Courts and Enforcement Act 2007 (Consequential Amendments) Order 2012 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "enforcement"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Tribunals, Courts and Enforcement Act 2007 (Consequential Amendments) Order 2012 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "enforcement"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Capacity (Amendment) Act 2019 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Health Act 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
       "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
       "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
       "reason": "no-ai-governance-signal",
@@ -6719,6 +6192,551 @@
         "priority": [],
         "ai": [],
         "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Social Security (Income and Capital Disregards) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1072/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "Northern Ireland Fiscal Council Act (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nia/2026/8/enacted",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Housing (Scotland) Act 2025 (Commencement No. 4 and Transitional Provisions) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/286/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Armed Forces (Service Complaints Miscellaneous Provisions) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1066/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Armed Forces Commissioner Act 2025 (Commencement No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1067/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Social Security (Further Methods of Recovery) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1069/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "public authorities",
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "Inquiry (Mother and Baby Institutions, Magdalene Laundries and Workhouses) and Redress Scheme Act (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nia/2026/9/enacted",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Crofting and Scottish Land Court Act 2026 (Commencement No. 1) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/283/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Tobacco Retailer (Fixed Penalty) (Amount) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/171/2026-10-05",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "legislation-new",
+      "title": "The Mesothelioma Lump Sum Payments (Conditions and Amounts) (Amendment No. 2) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/169/2026-10-05",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-children-1989",
+      "title": "The Curriculum and Assessment (Wales) Act 2021 (Consequential Amendments) (Primary Legislation) Regulations 2022 effect on Children Act 1989",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legislation",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-children-1989",
+      "title": "The Curriculum and Assessment (Wales) Act 2021 (Consequential Amendments) (Primary Legislation) Regulations 2022 effect on Children Act 1989",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legislation",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-children-1989",
+      "title": "The Curriculum and Assessment (Wales) Act 2021 (Consequential Amendments) (Primary Legislation) Regulations 2022 effect on Children Act 1989",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legislation",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-children-1989",
+      "title": "The Curriculum and Assessment (Wales) Act 2021 (Consequential Amendments) (Primary Legislation) Regulations 2022 effect on Children Act 1989",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legislation",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-children-1989",
+      "title": "The Curriculum and Assessment (Wales) Act 2021 (Consequential Amendments) (Primary Legislation) Regulations 2022 effect on Children Act 1989",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legislation",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-housing-1996",
+      "title": "Children’s Wellbeing and Schools Act 2026 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-housing-1996",
+      "title": "Children’s Wellbeing and Schools Act 2026 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-housing-1996",
+      "title": "Children’s Wellbeing and Schools Act 2026 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-housing-1996",
+      "title": "Children’s Wellbeing and Schools Act 2026 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "govuk-mhclg",
+      "title": "Local Growth Plans: England",
+      "url": "https://www.gov.uk/government/publications/local-growth-plans-england",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "govuk-mhclg",
+      "title": "Extending Awaab's Law to private rented tenancies and to licences",
+      "url": "https://www.gov.uk/government/consultations/extending-awaabs-law-to-private-rented-tenancies-and-to-licences",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "law"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-procurement-regs-2024",
+      "title": "The Procurement (Amendment) Regulations 2026 effect on The Procurement Regulations 2024",
+      "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "procurement",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-psi-reuse-2015",
+      "title": "The Surrey (Structural Changes) (Pensions etc.) Order 2026 effect on The Re-use of Public Sector Information Regulations 2015",
+      "url": "http://www.legislation.gov.uk/id/uksi/2015/1415",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-09T14:05:25.466Z",
+      "source_id": "statute-pofa-2012",
+      "title": "The Curriculum and Assessment (Wales) Act 2021 (Consequential Amendments) (Primary Legislation) Regulations 2022 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "legislation",
+          "regulation"
+        ]
       }
     }
   ]
