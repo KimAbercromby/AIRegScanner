@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-09T14:05:25.466Z",
+  "run_at": "2026-10-10T13:15:33.104Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -354,7 +354,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 36,
+      "items_kept": 0,
       "items_discarded": 64
     },
     {
@@ -458,11 +458,11 @@
   "register_review_overdue": false,
   "summary": {
     "added": 0,
-    "changed": 36,
+    "changed": 0,
     "absorbed": 0,
-    "discarded": 37,
+    "discarded": 1,
     "retired": 0,
     "unreviewed": 1141
   },
-  "issue_cap_warning": "412 records await an issue but only 25 are created per run. The queue will take 17 runs to clear."
+  "issue_cap_warning": "387 records await an issue but only 25 are created per run. The queue will take 16 runs to clear."
 }

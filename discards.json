@@ -4,20 +4,6 @@
     {
       "run_at": "2026-09-24T08:44:12.869Z",
       "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
       "title": "Mental Health Act 2007 effect on Mental Capacity Act 2005",
       "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
       "reason": "no-ai-governance-signal",
@@ -6736,6 +6722,20 @@
           "act 20",
           "legislation",
           "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-10T13:15:33.104Z",
+      "source_id": "govuk-mhclg",
+      "title": "Buildings under 11 metres: new funding",
+      "url": "https://www.gov.uk/government/publications/buildings-under-11-metres-new-funding",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safety"
         ]
       }
     }
