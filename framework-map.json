@@ -673,6 +673,22 @@
       "note": "Found by the AI-title legislation search (scanner record REG-0001), which is not a direct changes feed for this instrument. The ICO code it requires has no feed yet; the ICO media centre source is the nearest channel. Track the code to publication."
     },
     {
+      "ref": "REQ-057",
+      "item": "DAMA-DMBOK: Data Management Body of Knowledge, 2nd Edition Revised (DAMA International)",
+      "kind": "international-standard",
+      "expectation": "must-watch",
+      "watched_by": [],
+      "note": "Voluntary professional framework for data governance (suite v3.9.10), reference only. No change feed; check for a new edition at revision cycles."
+    },
+    {
+      "ref": "REQ-058",
+      "item": "ISO/IEC 5259 series, Artificial intelligence — Data quality for analytics and machine learning (ML) (ISO/IEC 5259-1:2024 and later parts)",
+      "kind": "international-standard",
+      "expectation": "must-watch",
+      "watched_by": [],
+      "note": "Voluntary international standard series (suite v3.9.10), reference only. No change feed; ISO standard, verify the current parts and editions at revision cycles."
+    },
+    {
       "ref": "(additional)",
       "item": "Housing Act 1996",
       "kind": "legislation",
@@ -683,6 +699,6 @@
       "note": "Council housing duties engaged where AI supports allocations or homelessness decisions."
     }
   ],
-  "register_anchor": "Public-safe scanner crosswalk validated against a sanitized snapshot of the 56 stable REQ IDs in proposed AIG-AIMS-05, names and public source URLs (public rows only), with relevant public URLs in AIG-AIMS-13. REQ identifiers are unchanged by artefact renumbering. Internal Council requirement names, links, owners and statuses are deliberately withheld. This map is for publisher monitoring, not an authoritative register, applicability decision, approval, or ISO conformity assessment.",
+  "register_anchor": "Public-safe scanner crosswalk validated against a sanitized snapshot of the 58 stable REQ IDs in proposed AIG-AIMS-05, names and public source URLs (public rows only), with relevant public URLs in AIG-AIMS-13. REQ identifiers are unchanged by artefact renumbering. Internal Council requirement names, links, owners and statuses are deliberately withheld. This map is for publisher monitoring, not an authoritative register, applicability decision, approval, or ISO conformity assessment.",
   "target_register": "Proposed AIG-AIMS-05 references; source map checked against sanitized AIG-AIMS-05/AIG-AIMS-13 public-source snapshot"
 }

@@ -1,6 +1,6 @@
 {
   "snapshot_version": "1",
-  "purpose": "Public-safe verification snapshot from the proposed AIG-AIMS-05 Applicable Requirements sheet. Stable Requirement IDs were checked across all 56 rows; these REQ IDs are unchanged by artefact renumbering. Public names and public source URLs are retained for REQ-001–REQ-043 and REQ-052–REQ-056. Names and source locations for internal REQ-044–REQ-051 are deliberately redacted. Not an approved register, applicability decision, or assurance record.",
+  "purpose": "Public-safe verification snapshot from the proposed AIG-AIMS-05 Applicable Requirements sheet. Stable Requirement IDs were checked across all 58 rows; these REQ IDs are unchanged by artefact renumbering. Public names and public source URLs are retained for REQ-001–REQ-043 and REQ-052–REQ-058. Names and source locations for internal REQ-044–REQ-051 are deliberately redacted. Not an approved register, applicability decision, or assurance record.",
   "requirements": [
     {
       "id": "REQ-001",
@@ -370,6 +370,20 @@
       "public_source_urls": [
         "https://www.legislation.gov.uk/uksi/2026/425/made"
       ]
+    },
+    {
+      "id": "REQ-057",
+      "name": "DAMA-DMBOK: Data Management Body of Knowledge, 2nd Edition Revised (DAMA International)",
+      "public_source_urls": [
+        "https://dama.org/articles/introducing-the-revised-dama-data-management-body-of-knowledge-2nd-edition"
+      ]
+    },
+    {
+      "id": "REQ-058",
+      "name": "ISO/IEC 5259 series, Artificial intelligence — Data quality for analytics and machine learning (ML) (ISO/IEC 5259-1:2024 and later parts)",
+      "public_source_urls": [
+        "https://www.iso.org/standard/81088.html"
+      ]
     }
   ],
   "aig_aims_13_public_source_urls": [
@@ -389,6 +403,8 @@
     "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R1744",
     "https://www.iso.org/standard/81230.html",
     "https://www.iso.org/standard/77304.html",
-    "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+    "https://dama.org/articles/introducing-the-revised-dama-data-management-body-of-knowledge-2nd-edition",
+    "https://www.iso.org/standard/81088.html"
   ]
 }

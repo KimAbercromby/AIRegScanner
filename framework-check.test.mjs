@@ -54,16 +54,16 @@ test('proposed controlled Capabilities and System Map remains a relationship poi
   assert.match(JSON.stringify([map.proposed_relationship_pointer, mappings.proposed_relationship_pointer]), /AIG-INV-05/);
   assert.match(mappings.mapping_alignment.note, /historical scanner records retain their original labels/i);
   assert.equal(mappings.mapping_alignment.catalogue_pin_status, 'pinned-reviewed-proposed');
-  assert.equal(map.register_landscape.filter((item) => /^REQ-\d{3}$/.test(item.ref)).length, 56);
+  assert.equal(map.register_landscape.filter((item) => /^REQ-\d{3}$/.test(item.ref)).length, 58);
 });
 
-test('framework-map matches all 56 AIG-AIMS-05 IDs with public details redacted for internal rows', () => {
+test('framework-map matches all 58 AIG-AIMS-05 IDs with public details redacted for internal rows', () => {
   const requirements = map.register_landscape.filter((item) => /^REQ-\d{3}$/.test(item.ref));
   const refs = requirements.map((item) => item.ref);
-  const expected = Array.from({ length: 56 }, (_, index) => `REQ-${String(index + 1).padStart(3, '0')}`);
+  const expected = Array.from({ length: 58 }, (_, index) => `REQ-${String(index + 1).padStart(3, '0')}`);
 
   assert.deepEqual(refs, expected);
-  assert.equal(snapshot.requirements.length, 56);
+  assert.equal(snapshot.requirements.length, 58);
   assert.deepEqual(snapshot.requirements.map((item) => item.id), expected);
   const snapshotById = new Map(snapshot.requirements.map((item) => [item.id, item]));
   for (const item of requirements) {
@@ -135,16 +135,16 @@ test('crosswalk source reconciliation is monitoring metadata, not a legal decisi
 test('public-source audit validates exact names and reports unmatched URLs as gaps', () => {
   const audit = auditPublicRegister(map, snapshot, sources);
   assert.deepEqual(audit.errors, []);
-  assert.equal(audit.summary.checked_requirements, 56);
-  assert.equal(audit.summary.public_requirements, 48);
-  assert.equal(audit.summary.exact_name_matches, 48);
+  assert.equal(audit.summary.checked_requirements, 58);
+  assert.equal(audit.summary.public_requirements, 50);
+  assert.equal(audit.summary.exact_name_matches, 50);
   assert.equal(audit.summary.redacted_internal_not_monitored, 8);
   assert.equal(audit.summary.partial, 1, 'only the explicitly documented UK GDPR proxy is partial');
   assert.equal(audit.rows.find((row) => row.ref === 'REQ-001').status, 'partial');
   assert.equal(audit.rows.find((row) => row.ref === 'REQ-001').matchedUrls.length, 0, 'proxy is not reported as a direct URL match');
   assert.ok(audit.summary.matched < audit.summary.public_requirements, 'do not imply every public requirement has a matching monitor feed');
   assert.ok(audit.summary.gaps > 0, 'unmatched requirements are surfaced as gaps');
-  assert.equal(audit.summary.aig_aims_13_public_urls, 17);
+  assert.equal(audit.summary.aig_aims_13_public_urls, 19);
   assert.equal(audit.summary.matched_aig_aims_13_public_urls, 7);
   assert.equal(audit.rows.find((row) => row.ref === 'REQ-002').status, 'matched', 'instrument-specific legislation change feeds match their instrument');
   assert.equal(audit.rows.find((row) => row.ref === 'REQ-032').status, 'gap', 'UK legislation search is not an EU source match');
