@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-12T16:26:25.222Z",
+  "last_run": "2026-10-13T14:45:55.395Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -8188,10 +8188,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-cabinet-office::/government/organisations/cabinet-office/about/personal-information-charter": {
-      "hash": "f7f7c1ac869d309a",
+      "hash": "afa20364555edb16",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-10-13T14:45:55.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -32083,6 +32083,30 @@
       "body": null,
       "first_seen": "2026-10-12T16:26:25.222Z",
       "last_changed": "2026-10-12T16:26:25.222Z"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/177": {
+      "hash": "2cb38b01cb119a72",
+      "body": null,
+      "first_seen": "2026-10-13T14:45:55.395Z",
+      "last_changed": "2026-10-13T14:45:55.395Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/nisr/2026/171/pdfs/nisrcs_20260171_en_001.pdf": {
+      "hash": "f44b4c9b60d63d12",
+      "body": null,
+      "first_seen": "2026-10-13T14:45:55.395Z",
+      "last_changed": "2026-10-13T14:45:55.395Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1075": {
+      "hash": "6be5eb23e6db4dcc",
+      "body": null,
+      "first_seen": "2026-10-13T14:45:55.395Z",
+      "last_changed": "2026-10-13T14:45:55.395Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
     }
   }
 }

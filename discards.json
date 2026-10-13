@@ -4,62 +4,6 @@
     {
       "run_at": "2026-09-24T08:44:12.869Z",
       "source_id": "statute-mca-2005",
-      "title": "Mental Health Act 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No. 2) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "Mental Capacity Act 2005 (Commencement) (Wales) Order 2007 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
-      "title": "The Mental Capacity Act 2005 (Commencement No.1) Order 2006 effect on Mental Capacity Act 2005",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-09-24T08:44:12.869Z",
-      "source_id": "statute-mca-2005",
       "title": "Human Fertilisation and Embryology Act 2008 effect on Mental Capacity Act 2005",
       "url": "http://www.legislation.gov.uk/id/ukpga/2005/9",
       "reason": "no-ai-governance-signal",
@@ -6733,6 +6677,63 @@
         "ai": [],
         "governance": [
           "enforcement"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-13T14:45:55.395Z",
+      "source_id": "legislation-new",
+      "title": "The Social Security (Miscellaneous Amendments) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/177/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-13T14:45:55.395Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/nisr/2026/171/pdfs/nisrcs_20260171_en_001.pdf",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-13T14:45:55.395Z",
+      "source_id": "legislation-new",
+      "title": "The Enterprise Act 2002 (Specification of Additional Section 58 Consideration) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1075/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-13T14:45:55.395Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "Personal information charter - Cabinet Office",
+      "url": "https://www.gov.uk/government/organisations/cabinet-office/about/personal-information-charter",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "standard"
         ]
       }
     }
