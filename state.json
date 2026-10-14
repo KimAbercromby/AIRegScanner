@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-13T14:45:55.395Z",
+  "last_run": "2026-10-14T12:37:39.467Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -32055,10 +32055,10 @@
       "discard_reason": "ai-without-governance-impact"
     },
     "govuk-cabinet-office::/government/news/britain-steps-up-national-defences-against-growing-ai-risks": {
-      "hash": "e43a136d93e12e7a",
+      "hash": "725a4e5ace77b96b",
       "body": null,
       "first_seen": "2026-10-12T16:26:25.222Z",
-      "last_changed": "2026-10-12T16:26:25.222Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -32105,6 +32105,94 @@
       "body": null,
       "first_seen": "2026-10-13T14:45:55.395Z",
       "last_changed": "2026-10-13T14:45:55.395Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/121": {
+      "hash": "4bd7ff05ba4b2ce6",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/uksi/2026/689/pdfs/uksics_20260689_en_001.pdf": {
+      "hash": "c96da6e4bcd427de",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1080": {
+      "hash": "885e846c3e5d5646",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1077": {
+      "hash": "51157842d70f5b52",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1079": {
+      "hash": "bd5b871b841c75e3",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1078": {
+      "hash": "26fe6aa787abb678",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1076": {
+      "hash": "9f38991d6fa682de",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1071": {
+      "hash": "802fce9f97dc1410",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-gds::/service-standard-reports/dwp-synergy-absence-and-expenses-alpha-reassessment": {
+      "hash": "73121cf802179729",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-gds::/algorithmic-transparency-records/disclosure-and-barring-service-barring-referral-ai-summary-tool": {
+      "hash": "aebcce84b70320c8",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/guide-to-the-building-safety-remediation-of-unsafe-cladding-etc-bill": {
+      "hash": "13c0a267f1f1cd52",
+      "body": null,
+      "first_seen": "2026-10-14T12:37:39.467Z",
+      "last_changed": "2026-10-14T12:37:39.467Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }
