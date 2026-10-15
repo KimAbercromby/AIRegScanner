@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-14T12:37:39.467Z",
+  "run_at": "2026-10-15T12:25:24.086Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -454,9 +454,9 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 12,
+    "discarded": 74,
     "retired": 0,
     "unreviewed": 1142
   },
-  "issue_cap_warning": "288 records await an issue but only 25 are created per run. The queue will take 12 runs to clear."
+  "issue_cap_warning": "263 records await an issue but only 25 are created per run. The queue will take 11 runs to clear."
 }
