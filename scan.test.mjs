@@ -988,3 +988,23 @@ test('legacy legislative state triggers the Phase 1 safety stop', async () => {
     /STATE IDENTITY SAFETY STOP/
   );
 });
+
+test('LGA publications are monitored as a listing so sector guidance is captured', async () => {
+  const sources = JSON.parse(readFileSync(new URL('./sources.json', import.meta.url), 'utf8')).sources;
+  const lga = sources.find((s) => s.id === 'lga-guidance');
+  assert.ok(lga, 'lga-guidance source present');
+  assert.equal(lga.type, 'html-list');
+  assert.equal(lga.url, 'https://www.local.gov.uk/publications');
+  assert.notEqual(lga.verification_status, 'unverified');
+  const { parseHtmlList } = await import('./fetchers.mjs');
+  const html = `<div><h2><a href="/publications/playbook-agentic-ai-local-government">A playbook for agentic AI in local government</a></h2>
+    <p>An initial guide for councils exploring, evaluating and adopting agentic AI.</p><a href="/topics/cyber-digital-and-technology">View all Cyber, digital and technology</a><span>09 Oct 2026</span></div>
+    <a href="/publications?page=1">Next page of publications</a>`;
+  const items = parseHtmlList(html, lga, lga.url);
+  assert.equal(items.length, 1, 'pagination and topic links are not items');
+  assert.equal(items[0].url, 'https://www.local.gov.uk/publications/playbook-agentic-ai-local-government');
+  assert.equal(items[0].date_published, '2026-10-09');
+  const { sourceRelevanceDecision } = await import('./scan.mjs');
+  const mappings = JSON.parse(readFileSync(new URL('./mappings.json', import.meta.url), 'utf8'));
+  assert.equal(sourceRelevanceDecision(lga, items[0], mappings).keep, true, 'the agentic AI playbook passes the relevance gate');
+});

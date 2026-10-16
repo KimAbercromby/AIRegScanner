@@ -453,17 +453,19 @@
       "publisher": "Local Government Association",
       "tier": 3,
       "authority": "Sector body guidance and the AI hub for councils",
-      "type": "rss",
-      "url": null,
+      "type": "html-list",
+      "url": "https://www.local.gov.uk/publications",
       "allowed_domains": [
         "local.gov.uk",
         "www.local.gov.uk"
       ],
       "scope": "Practice guidance rather than obligation, but it is what peer councils follow.",
       "filter": "keywords",
-      "verification_status": "unverified",
-      "last_verified": null,
-      "verify_note": "Check local.gov.uk for a publications feed."
+      "verification_status": "form-verified",
+      "last_verified": "2026-10-16",
+      "verify_note": "local.gov.uk publishes no RSS or Atom feed. The publications listing (newest first) was inspected on 16 October 2026: each item is an h2 heading linking to /publications/{slug}, with a summary paragraph and a 'DD Mon YYYY' date in the surrounding block. Monitored as an html-list. Added so the LGA's 'A playbook for agentic AI in local government' (9 October 2026) and later LGA guidance are captured.",
+      "link_pattern": "^https://www\\.local\\.gov\\.uk/publications/[a-z0-9\\-]+$",
+      "summary_from": "parent"
     },
     {
       "id": "bills-parliament",

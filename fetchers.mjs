@@ -278,7 +278,9 @@ export function parseLooseDate(text) {
   let m = String(text).match(/\b(\d{4})-(\d{2})-(\d{2})\b/);
   if (m) return `${m[1]}-${m[2]}-${m[3]}`;
 
-  m = String(text).match(/\b(\d{1,2})[-\s]([A-Za-z]{3,9})[-\s](\d{4})\b/);
+  // (?<!\d) rather than \b: listing text is often glued to the date with no
+  // space ("Cyber, digital and technology09 Oct 2026" on local.gov.uk).
+  m = String(text).match(/(?<!\d)(\d{1,2})[-\s]([A-Za-z]{3,9})[-\s](\d{4})\b/);
   if (m) {
     const mon = MONTHS[m[2].slice(0, 3).toLowerCase()];
     if (mon) return `${m[3]}-${mon}-${String(m[1]).padStart(2, '0')}`;
