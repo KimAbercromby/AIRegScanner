@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-16T12:04:13.567Z",
+  "run_at": "2026-10-16T19:11:25.290Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -112,7 +112,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 46
     },
     {
@@ -163,10 +163,11 @@
     },
     {
       "id": "lga-guidance",
-      "status": "skipped-unverified",
-      "note": "Check local.gov.uk for a publications feed.",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 1,
+      "items_discarded": 9
     },
     {
       "id": "bills-parliament",
@@ -454,9 +455,9 @@
     "added": 1,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 21,
+    "discarded": 33,
     "retired": 0,
-    "unreviewed": 1143
+    "unreviewed": 1144
   },
-  "issue_cap_warning": "239 records await an issue but only 25 are created per run. The queue will take 10 runs to clear."
+  "issue_cap_warning": "215 records await an issue but only 25 are created per run. The queue will take 9 runs to clear."
 }

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-16T12:05:29.229Z",
+  "generated_at": "2026-10-16T19:12:40.572Z",
   "jurisdiction": "England",
   "authority_type": "Single-tier authority (London borough). Discharges the full range of duties: adult social care, children's services, housing, public health, revenues and benefits.",
   "monitoring_since": "2026-07-25T19:30:03.293Z",
-  "covered_count": 49,
-  "not_covered_count": 5,
+  "covered_count": 50,
+  "not_covered_count": 4,
   "covered": [
     {
       "id": "legislation-new",
@@ -131,6 +131,13 @@
       "name": "Department for Science, Innovation and Technology (dissolved 21 July 2026)",
       "tier": 2,
       "authority": "Historic. Kept live so withdrawal or relocation of DSIT content is still detected."
+    },
+    {
+      "id": "lga-guidance",
+      "publisher": "Local Government Association",
+      "name": "Local Government Association",
+      "tier": 3,
+      "authority": "Sector body guidance and the AI hub for councils"
     },
     {
       "id": "lgsco-housing",
@@ -368,14 +375,6 @@
       "reason": "Check nao.org.uk/reports for a feed."
     },
     {
-      "id": "lga-guidance",
-      "publisher": "Local Government Association",
-      "name": "Local Government Association",
-      "tier": 3,
-      "authority": "Sector body guidance and the AI hub for councils",
-      "reason": "Check local.gov.uk for a publications feed."
-    },
-    {
       "id": "bills-parliament",
       "publisher": "UK Parliament",
       "name": "UK Parliament",
@@ -392,5 +391,5 @@
       "reason": "Find Case Law offers a public search with Atom output. Confirm the query parameter names before enabling."
     }
   ],
-  "statement": "This monitor covers 49 of 54 configured sources. It does NOT currently cover: Equality and Human Rights Commission; National Audit Office; Local Government Association; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
+  "statement": "This monitor covers 50 of 54 configured sources. It does NOT currently cover: Equality and Human Rights Commission; National Audit Office; UK Parliament; The National Archives, Find Case Law. Any assurance drawn from it must be read subject to those gaps."
 }

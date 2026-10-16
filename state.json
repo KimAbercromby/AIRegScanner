@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-16T12:04:13.567Z",
+  "last_run": "2026-10-16T19:11:25.290Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -445,90 +445,90 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-6159368b7983d9fe": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-e8e20cd84899cf49": {
-      "hash": "b16486c32cfd3609",
+      "hash": "d9842d1aba574dbb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-e7f4339d084fe6d3": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-79b9a5b23b8ff386": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-45b24a491a1c22b7": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-da3f3cda542b8aa3": {
-      "hash": "7bb4529142efb376",
+      "hash": "1f61ea8d23c97cfc",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-c5f49ef67436327e": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-c0613434379e700a": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-7b0f4dadd62b7f7f": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-f3a236ca4c2963c0": {
-      "hash": "85dc1fa64c5d7bdc",
+      "hash": "83505aec05b13f3a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-247cf83f67a8ecc2": {
-      "hash": "83416954b33c9e32",
+      "hash": "a908a0aadb90db60",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -789,26 +789,26 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-f5c55a671b8e7f82": {
-      "hash": "268ba3a4a2c91a67",
+      "hash": "de4e7465982dd4c9",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-eb03eaba0bfcc9e1": {
-      "hash": "d9ce5b2ef72a20ce",
+      "hash": "1417c5361dd008ae",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-97d41cd708105b72": {
-      "hash": "f0cebefbc23b1e14",
+      "hash": "80c34ae692d63d3c",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -13111,10 +13111,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/guidance/special-development-order-entertainment-resort-complex-and-associated-development-in-bedford": {
-      "hash": "1ce9b9173e37b768",
+      "hash": "4ce022a0b0759b45",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -32085,10 +32085,10 @@
       "last_changed": "2026-10-12T16:26:25.222Z"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/177": {
-      "hash": "2cb38b01cb119a72",
+      "hash": "a4bf81cd95f893af",
       "body": null,
       "first_seen": "2026-10-13T14:45:55.395Z",
-      "last_changed": "2026-10-13T14:45:55.395Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -32863,6 +32863,148 @@
       "body": null,
       "first_seen": "2026-10-16T12:04:13.567Z",
       "last_changed": "2026-10-16T12:04:13.567Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1095": {
+      "hash": "fbe2c56edfb3e6b8",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1097": {
+      "hash": "64f3d91567cf4de7",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1096": {
+      "hash": "9dc522076ff10dd1",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1084": {
+      "hash": "90d97ec1af4986ee",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/wsi/2026/12/pdfs/wsics_20260012_mi_001.pdf": {
+      "hash": "89d16f73870ab241",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "govuk-cabinet-office::/government/publications/uk-government-response-to-the-covid-19-inquiry-module-4-report": {
+      "hash": "69251c677fb28eeb",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/supported-housing-regulation-consultation": {
+      "hash": "dce5053647df3f2e",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/playbook-agentic-ai-local-government": {
+      "hash": "08af6246066e1d40",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/safe-accommodation-survey-june-july-2026": {
+      "hash": "f2e30481c67af44c",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/local-partnerships-forums-homelessness-september-2026": {
+      "hash": "08e8229a9e7a6604",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/debate-not-hate-survey-councillors-across-all-four-uk-nations-2026": {
+      "hash": "a9b888b46ebe38ae",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/national-cultural-framework": {
+      "hash": "70fef363772919d7",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/health-all-policies-manual": {
+      "hash": "c4ee43633f2ca583",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/benefits-remuneration-and-terms-and-conditions-councillors": {
+      "hash": "3dacafa5a1ee6d41",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/lgr-adult-social-care-checklist": {
+      "hash": "4abab952709a1f60",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/deliver-deepen-and-define-next-phase-english-devolution": {
+      "hash": "1d53dad451426be2",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/lga-improvement-support-annual-report-202526": {
+      "hash": "ea7441184610ae66",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "statute-hswa-1974::effect-31bbcf855655fdbc": {
+      "hash": "231fac7e4048db61",
+      "body": null,
+      "first_seen": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-16T19:11:25.290Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }
