@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-15T12:25:24.086Z",
+  "run_at": "2026-10-16T12:04:13.567Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -112,8 +112,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 47
+      "items_kept": 1,
+      "items_discarded": 46
     },
     {
       "id": "govuk-mhclg",
@@ -432,14 +432,14 @@
     {
       "source": "ico-news",
       "reason": "domain-not-allowed",
-      "url": "http://facebook.com/ICOnews",
-      "title": "Facebook"
+      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
+      "title": "LinkedIn"
     },
     {
       "source": "ico-news",
       "reason": "domain-not-allowed",
-      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
-      "title": "LinkedIn"
+      "url": "http://facebook.com/ICOnews",
+      "title": "Facebook"
     },
     {
       "source": "ico-news",
@@ -451,12 +451,12 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 0,
+    "added": 1,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 74,
+    "discarded": 21,
     "retired": 0,
-    "unreviewed": 1142
+    "unreviewed": 1143
   },
-  "issue_cap_warning": "263 records await an issue but only 25 are created per run. The queue will take 11 runs to clear."
+  "issue_cap_warning": "239 records await an issue but only 25 are created per run. The queue will take 10 runs to clear."
 }
