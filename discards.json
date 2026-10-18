@@ -3,133 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-hra-1998",
-      "title": "The Senior Courts (Transfer, Amendment and Consequential Provision) Order 2026 effect on Human Rights Act 1998",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1998/42",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Environment, Food and Rural Affairs (Miscellaneous Amendments and Revocations) Regulations 2018 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Environmental Information Regulations 2004 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Re-use of Public Sector Information Regulations 2015 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "public sector",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The INSPIRE Regulations 2009 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Freedom of Information Act 2000 (Commencement No. 5) Order 2004 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Freedom of Information Act 2000 (Commencement No. 4) Order 2004 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Re-use of Public Sector Information Regulations 2015 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "public sector",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "statute-foia-2000",
       "title": "The Re-use of Public Sector Information Regulations 2015 effect on Freedom of Information Act 2000",
       "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
@@ -6634,6 +6507,139 @@
         "governance": [
           "act 20",
           "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-dpa-2018",
+      "title": "Employment Rights Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-dpa-2018",
+      "title": "Employment Rights Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-housing-1996",
+      "title": "The Enterprise and Regulatory Reform Act 2013 (Consequential Amendments) (Bankruptcy) and the Small Business, Enterprise and Employment Act 2015 (Consequential Amendments) Regulations 2016 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-foia-2000",
+      "title": "Armed Forces Commissioner Act 2025 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-foia-2000",
+      "title": "Armed Forces Commissioner Act 2025 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-foia-2000",
+      "title": "Employment Rights Act 2025 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-foia-2000",
+      "title": "Employment Rights Act 2025 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-ipa-2016",
+      "title": "Employment Rights Act 2025 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-18T11:55:18.395Z",
+      "source_id": "statute-ipa-2016",
+      "title": "Employment Rights Act 2025 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
         ]
       }
     }

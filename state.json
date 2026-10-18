@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-17T11:19:15.221Z",
+  "last_run": "2026-10-18T11:55:18.395Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -6508,18 +6508,18 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-foia-2000::effect-253a8c13449ac4bf": {
-      "hash": "26bc98968284502d",
+      "hash": "cfccead7bd38f28a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-foia-2000::effect-633030b4fcc69d42": {
-      "hash": "26bc98968284502d",
+      "hash": "cfccead7bd38f28a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -6956,18 +6956,18 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-foia-2000::effect-fc1ffb0c5f049cd9": {
-      "hash": "98fcd8d96f8bb548",
+      "hash": "54c953fc0320a3aa",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-foia-2000::effect-fab7b15df95893e6": {
-      "hash": "248ddb150b346bf7",
+      "hash": "a5146f85678633bb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -23605,18 +23605,18 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-ipa-2016::effect-9e4e6291224a3c85": {
-      "hash": "48f58969c1f74c10",
+      "hash": "6691d4087db60a83",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-ipa-2016::effect-4d7345ce28f6e26f": {
-      "hash": "b984b69eec748fd6",
+      "hash": "fa752f1441dd10d2",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -33005,6 +33005,30 @@
       "body": null,
       "first_seen": "2026-10-16T19:11:25.290Z",
       "last_changed": "2026-10-16T19:11:25.290Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-dpa-2018::effect-bdf4a5ca5ccf77e5": {
+      "hash": "27bd668a638d57f4",
+      "body": null,
+      "first_seen": "2026-10-18T11:55:18.395Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-dpa-2018::effect-c20cff6f5a128559": {
+      "hash": "27bd668a638d57f4",
+      "body": null,
+      "first_seen": "2026-10-18T11:55:18.395Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-housing-1996::effect-a0e00da95b5458b3": {
+      "hash": "841290c6e74df84b",
+      "body": null,
+      "first_seen": "2026-10-18T11:55:18.395Z",
+      "last_changed": "2026-10-18T11:55:18.395Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }

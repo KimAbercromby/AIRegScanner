@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-17T11:19:15.221Z",
+  "run_at": "2026-10-18T11:55:18.395Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -33,7 +33,7 @@
       "http_status": 200,
       "items_seen": 100,
       "items_kept": 0,
-      "items_discarded": 0
+      "items_discarded": 2
     },
     {
       "id": "statute-duaa-2025",
@@ -89,7 +89,7 @@
       "http_status": 200,
       "items_seen": 100,
       "items_kept": 0,
-      "items_discarded": 19
+      "items_discarded": 20
     },
     {
       "id": "statute-procurement-2023",
@@ -433,14 +433,14 @@
     {
       "source": "ico-news",
       "reason": "domain-not-allowed",
-      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
-      "title": "LinkedIn"
+      "url": "http://facebook.com/ICOnews",
+      "title": "Facebook"
     },
     {
       "source": "ico-news",
       "reason": "domain-not-allowed",
-      "url": "http://facebook.com/ICOnews",
-      "title": "Facebook"
+      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
+      "title": "LinkedIn"
     },
     {
       "source": "ico-news",
@@ -455,9 +455,9 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 0,
+    "discarded": 9,
     "retired": 0,
     "unreviewed": 1144
   },
-  "issue_cap_warning": "190 records await an issue but only 25 are created per run. The queue will take 8 runs to clear."
+  "issue_cap_warning": "165 records await an issue but only 25 are created per run. The queue will take 7 runs to clear."
 }
