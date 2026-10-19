@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-18T11:55:18.395Z",
+  "last_run": "2026-10-19T14:17:59.323Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -8902,10 +8902,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/guidance/holocaust-memorial-and-learning-centre-updated-planning-application-documents": {
-      "hash": "70a8139dae6dbb8e",
+      "hash": "9fe693dd5b1bf9dd",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -32253,10 +32253,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1081": {
-      "hash": "776e9d08f5b5d286",
+      "hash": "848eeb4b31fe5226",
       "body": null,
       "first_seen": "2026-10-15T12:25:24.086Z",
-      "last_changed": "2026-10-15T12:25:24.086Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -33029,6 +33029,86 @@
       "body": null,
       "first_seen": "2026-10-18T11:55:18.395Z",
       "last_changed": "2026-10-18T11:55:18.395Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1098": {
+      "hash": "45db7d95a77573fe",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1074": {
+      "hash": "00a4927e5546b234",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/124": {
+      "hash": "d8f9a5a816ac8ec4",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/127": {
+      "hash": "72fc847e471e78c7",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/126": {
+      "hash": "969676bfa46ed0df",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/125": {
+      "hash": "d39be68383993561",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/180": {
+      "hash": "e490f08443e6099f",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1086": {
+      "hash": "c767aef89076c998",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/uksi/2026/1069/pdfs/uksics_20261069_en_001.pdf": {
+      "hash": "9abedeed5f66eacf",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/a-coastal-concordat-for-england": {
+      "hash": "d9ae101c5314d1ce",
+      "body": null,
+      "first_seen": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-19T14:17:59.323Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }

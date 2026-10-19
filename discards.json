@@ -3,165 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Re-use of Public Sector Information Regulations 2015 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "public sector",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The INSPIRE Regulations 2009 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Freedom of Information Act 2000 (Commencement No. 5) Order 2004 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Freedom of Information Act 2000 (Commencement No. 4) Order 2004 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Freedom of Information Act 2000 (Commencement No. 5) Order 2004 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Freedom of Information Act 2000 (Commencement No. 4) Order 2004 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Secretary of State for Constitutional Affairs Order 2003 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Government of Wales Act 2006 (Consequential Modifications and Transitional Provisions) Order 2007 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Transfer of Functions (Elections, Referendums, Third Sector and Information) Order 2016 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Transfer of Functions (Information and Public Records) Order 2015 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Transfer of Functions (Information and Public Records) Order 2015 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-foia-2000",
-      "title": "The Transfer of Functions (Miscellaneous) Order 2001 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "govuk-cabinet-office",
       "title": "The UK Government Resilience Action Plan: 2026 Implementation Report",
       "url": "https://www.gov.uk/government/publications/the-uk-government-resilience-action-plan-2026-implementation-report",
@@ -6641,6 +6482,169 @@
           "act 20",
           "rights"
         ]
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": "The Authorised Investigators (Complaints and Misconduct) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1098/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "oversight",
+          "public authorities",
+          "public sector",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": "The Green Hill Solar Farm Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1074/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/124/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/127/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/126/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/125/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": "The Insolvency (Amendment) (2026 Act) (Commencement No. 1 and Transitional Provisions) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/180/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": "The Steeple Renewables Project Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1086/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1069/pdfs/uksics_20261069_en_001.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "public authorities",
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "legislation-new",
+      "title": "The Anti-social Behaviour (Provision of Information) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1081/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "local authority",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "govuk-mhclg",
+      "title": "Holocaust Memorial and Learning Centre: updated planning application documents",
+      "url": "https://www.gov.uk/guidance/holocaust-memorial-and-learning-centre-updated-planning-application-documents",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-19T14:17:59.323Z",
+      "source_id": "govuk-mhclg",
+      "title": "A coastal concordat for England",
+      "url": "https://www.gov.uk/government/publications/a-coastal-concordat-for-england",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
       }
     }
   ]
