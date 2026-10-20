@@ -3,405 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "The UK Government Resilience Action Plan: 2026 Implementation Report",
-      "url": "https://www.gov.uk/government/publications/the-uk-government-resilience-action-plan-2026-implementation-report",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "risk"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "Trade Specialised Committee on Public Procurement",
-      "url": "https://www.gov.uk/government/publications/trade-specialised-committee-on-public-procurement",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "procurement"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "Government professions",
-      "url": "https://www.gov.uk/government/publications/government-professions",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "Pro-Worker AI Adoption Prize: how to nominate",
-      "url": "https://www.gov.uk/guidance/pro-worker-ai-adoption-prize-how-to-nominate",
-      "reason": "ai-without-governance-impact",
-      "signals": {
-        "priority": [],
-        "ai": [
-          "artificial intelligence"
-        ],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "Measures to rewire the state",
-      "url": "https://www.gov.uk/government/news/measures-to-rewire-the-state",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "CEOs from sensitive sectors to receive briefings on Russia threats",
-      "url": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-to-receive-briefings-on-russia-threats",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "Personal information charter",
-      "url": "https://www.gov.uk/government/organisations/cabinet-office/about/personal-information-charter",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "standard"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-gds",
-      "title": "Assess and manage your council's cyber resilience alpha assessment report",
-      "url": "https://www.gov.uk/service-standard-reports/assess-and-manage-your-councils-cyber-resilience-alpha-assessment-report",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-gds",
-      "title": "Government Functional Standard GovS 005: Digital",
-      "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "standard"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-gds",
-      "title": "HO View or share your DBS result beta assessment report",
-      "url": "https://www.gov.uk/service-standard-reports/ho-view-or-share-your-dbs-result-beta-assessment-report",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-gds",
-      "title": "Ofsted: AI Writing Assistant (Social Care)",
-      "url": "https://www.gov.uk/algorithmic-transparency-records/ai-writing-assistant-social-care",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-gds",
-      "title": "The Crown Prosecution Service: Beam Notes",
-      "url": "https://www.gov.uk/algorithmic-transparency-records/the-crown-prosecution-service-beam-notes",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Windrush Day Grant Scheme 2027",
-      "url": "https://www.gov.uk/government/publications/windrush-day-grant-scheme-2027",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local authorities"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Create or update a local plan using the new system",
-      "url": "https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "English Housing Survey 2024 to 2025: private rented sector - pre-Renters' Rights Act overview",
-      "url": "https://www.gov.uk/government/statistics/english-housing-survey-2024-to-2025-private-rented-sector-pre-renters-rights-act-overview",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Fire statistics guidance",
-      "url": "https://www.gov.uk/government/publications/fire-statistics-guidance",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Building Safety Remediation",
-      "url": "https://www.gov.uk/government/collections/building-safety-remediation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Building Safety Remediation: monthly data release - August 2026",
-      "url": "https://www.gov.uk/government/publications/building-safety-remediation-monthly-data-release-august-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Overview of the homelessness legislation",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/overview-of-the-homelessness-legislation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "legislation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 15: Accommodation duties and powers",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-15-accommodation-duties-and-powers",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 8: Priority need",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-8-priority-need",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 14: Ending the prevention and relief duties",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-14-ending-the-prevention-and-relief-duties",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 9: Intentional homelessness",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-9-intentional-homelessness",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance",
-          "legislation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 22: Young people, including those with care experience",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-22-young-people-including-those-with-care-experience",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Rough Sleeping Programme",
-      "url": "https://www.gov.uk/government/publications/rough-sleeping-programme",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Joint housing protocols for care leavers",
-      "url": "https://www.gov.uk/government/publications/joint-housing-protocols-for-care-leavers",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local authorities"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "MHCLG: business appointment rules advice, April to June 2026",
-      "url": "https://www.gov.uk/government/publications/mhclg-business-appointment-rules-advice-april-to-june-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Entertainment Resort Complex, Bedford: Handling Arrangements",
-      "url": "https://www.gov.uk/government/publications/bedford-entertainment-resort-complex-handling-arrangements",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local government"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 2: Plan-making policies (PM1–17)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-2-plan-making-policies-pm1-17",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "govuk-mhclg",
       "title": "National Planning Policy Framework, Chapter 3: Decision-making policies (DM1–10)",
       "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-3-decision-making-policies-dm1-10",
@@ -6645,6 +6246,430 @@
         "priority": [],
         "ai": [],
         "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Aberfan, Merthyr Tydfil) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1058/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Social Security (Income and Capital Disregards) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/181/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Trade Unions (Right to Access Workplaces) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1101/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "legislation",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Protection Against Detriment (Industrial Action) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1099/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 7) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1100/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Drymen, Stirling, Scotland) (Emergency) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1106/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Levelling-up and Regeneration Act 2023 (Commencement No. 12) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1105/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": "The Code of Practice (Right of Trade Unions to Access Workplaces) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1103/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "code of practice"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/125/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-children-1989",
+      "title": "Crime and Policing Act 2026 effect on Children Act 1989",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Employment Rights Act 2025 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "govuk-mhclg",
+      "title": "Private Parking Code of Practice",
+      "url": "https://www.gov.uk/government/publications/private-parking-code-of-practice",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "code of practice",
+          "standard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "govuk-mhclg",
+      "title": "​​Private Parking Code of Practice​: consultation",
+      "url": "https://www.gov.uk/government/consultations/private-parking-code-of-practice",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "code of practice",
+          "standard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "govuk-mhclg",
+      "title": "Building planning capacity and capability",
+      "url": "https://www.gov.uk/guidance/building-planning-capacity-and-capability",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "public sector"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "govuk-mhclg",
+      "title": "PM puts the brakes on rip-off parking charges and car scams ",
+      "url": "https://www.gov.uk/government/news/pm-puts-the-brakes-on-rip-off-parking-charges-and-car-scams",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-lga-1972",
+      "title": "The Portsmouth International Port and Camber Harbour Revision Order 2025 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-lga-1972",
+      "title": "The Portsmouth International Port and Camber Harbour Revision Order 2025 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-lga-1972",
+      "title": "The A122 (Lower Thames Crossing) Development Consent Order 2025 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-lga-1972",
+      "title": "The A122 (Lower Thames Crossing) Development Consent Order 2025 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-psi-reuse-2015",
+      "title": "The Surrey (Structural Changes) (Pensions etc.) Order 2026 effect on The Re-use of Public Sector Information Regulations 2015",
+      "url": "http://www.legislation.gov.uk/id/uksi/2015/1415",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-20T12:30:00.041Z",
+      "source_id": "statute-ripa-2000",
+      "title": "Employment Rights Act 2025 effect on Regulation of Investigatory Powers Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
       }
     }
   ]

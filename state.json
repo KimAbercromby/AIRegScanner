@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-19T14:17:59.323Z",
+  "last_run": "2026-10-20T12:30:00.041Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -4396,10 +4396,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-children-1989::effect-19282d20d3a74f84": {
-      "hash": "d7d26991b307e383",
+      "hash": "84b96fd79042e52e",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -7260,10 +7260,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-1cf8b2dcc4178481": {
-      "hash": "7c38e771df39b8c9",
+      "hash": "7e2f4573a52afb9b",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -7316,10 +7316,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-53ddffb51cee0b57": {
-      "hash": "7c38e771df39b8c9",
+      "hash": "7e2f4573a52afb9b",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -12711,66 +12711,66 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-4afd74e81d5ee449": {
-      "hash": "7c38e771df39b8c9",
+      "hash": "7e2f4573a52afb9b",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-6ae0c753cfc0008e": {
-      "hash": "7c38e771df39b8c9",
+      "hash": "7e2f4573a52afb9b",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-b06355cab5ea3e1f": {
-      "hash": "7c38e771df39b8c9",
+      "hash": "7e2f4573a52afb9b",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-4793f29f3940e44d": {
-      "hash": "cd13ee3643e31bdd",
+      "hash": "374d92db8e1e0a4a",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-943fff692593de87": {
-      "hash": "dc20f0a608df5fcc",
+      "hash": "1c4f2ebe03115ab6",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-75a92284330baf37": {
-      "hash": "dc20f0a608df5fcc",
+      "hash": "1c4f2ebe03115ab6",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-21d646166471e7e2": {
-      "hash": "dc20f0a608df5fcc",
+      "hash": "1c4f2ebe03115ab6",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-procurement-2023::effect-4f37e75f81b66eb7": {
-      "hash": "cd13ee3643e31bdd",
+      "hash": "374d92db8e1e0a4a",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -22765,10 +22765,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-ripa-2000::effect-d6e754cdfb27c294": {
-      "hash": "b9e642da9224c915",
+      "hash": "3ac40402259ebe83",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -31919,10 +31919,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-psi-reuse-2015::effect-32323f5e41204935": {
-      "hash": "8d641bd643252aeb",
+      "hash": "9aae54952a25213e",
       "body": null,
       "first_seen": "2026-10-09T14:05:25.466Z",
-      "last_changed": "2026-10-09T14:05:25.466Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -33073,10 +33073,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/125": {
-      "hash": "d39be68383993561",
+      "hash": "ec05557ae390a389",
       "body": null,
       "first_seen": "2026-10-19T14:17:59.323Z",
-      "last_changed": "2026-10-19T14:17:59.323Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -33109,6 +33109,134 @@
       "body": null,
       "first_seen": "2026-10-19T14:17:59.323Z",
       "last_changed": "2026-10-19T14:17:59.323Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1058": {
+      "hash": "afd1e94ce3fcc94d",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/181": {
+      "hash": "62369853258bb3c2",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1101": {
+      "hash": "9329f33fcf273a09",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1099": {
+      "hash": "8a586ef490870c63",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1100": {
+      "hash": "8e63cbe9b66d2002",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1106": {
+      "hash": "45c616cd04d663cc",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1105": {
+      "hash": "284d4172da486d72",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1103": {
+      "hash": "1432c7e3ae1d5d1b",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/private-parking-code-of-practice": {
+      "hash": "dffd7b7601f60086",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/private-parking-code-of-practice": {
+      "hash": "79c3264229567bed",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/guidance/building-planning-capacity-and-capability": {
+      "hash": "bbbbd85258e91947",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/news/pm-puts-the-brakes-on-rip-off-parking-charges-and-car-scams": {
+      "hash": "206f16d0d151e56f",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-lga-1972::effect-70beab29f1d99094": {
+      "hash": "75c2a2cf661b66f8",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-lga-1972::effect-9a9fc5cf85efe7a8": {
+      "hash": "75c2a2cf661b66f8",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-lga-1972::effect-ae8eebe1724dac86": {
+      "hash": "0994a11ff44ec8fe",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-lga-1972::effect-a54825a0274c8f3e": {
+      "hash": "0994a11ff44ec8fe",
+      "body": null,
+      "first_seen": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-10-20T12:30:00.041Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }
