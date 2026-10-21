@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-20T12:30:00.041Z",
+  "run_at": "2026-10-21T12:41:06.663Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -163,11 +163,10 @@
     },
     {
       "id": "lga-guidance",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 10,
-      "items_kept": 0,
-      "items_discarded": 9
+      "status": "http-error",
+      "http_status": 521,
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "bills-parliament",
@@ -455,9 +454,9 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 30,
+    "discarded": 11,
     "retired": 0,
     "unreviewed": 1144
   },
-  "issue_cap_warning": "115 records await an issue but only 25 are created per run. The queue will take 5 runs to clear."
+  "issue_cap_warning": "90 records await an issue but only 25 are created per run. The queue will take 4 runs to clear."
 }

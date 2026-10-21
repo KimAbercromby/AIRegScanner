@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-20T12:30:00.041Z",
+  "last_run": "2026-10-21T12:41:06.663Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -32867,18 +32867,18 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1095": {
-      "hash": "fbe2c56edfb3e6b8",
+      "hash": "6fd8ab1512f8ce5d",
       "body": null,
       "first_seen": "2026-10-16T19:11:25.290Z",
-      "last_changed": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1097": {
-      "hash": "64f3d91567cf4de7",
+      "hash": "3de09306ff51288c",
       "body": null,
       "first_seen": "2026-10-16T19:11:25.290Z",
-      "last_changed": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -33237,6 +33237,78 @@
       "body": null,
       "first_seen": "2026-10-20T12:30:00.041Z",
       "last_changed": "2026-10-20T12:30:00.041Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1104": {
+      "hash": "5bf8c46b16f330e9",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/ukpga/2025/36/pdfs/ukpgacs_20250036_en_001.pdf": {
+      "hash": "16ed8cadea789645",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/social-housing-bill-policy-factsheet-on-government-amendments-for-commons-committee": {
+      "hash": "cca7285609307ec3",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/local-government-pension-scheme": {
+      "hash": "41d9b37d8027ad01",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/guidance/tenant-management-organisations-extension-of-the-freedom-of-information-act": {
+      "hash": "1251c0ead559cfc3",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/social-housing-right-to-manage-review": {
+      "hash": "6470f140616c9e43",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/amending-the-building-regulations-electric-vehicle-charging-infrastructure": {
+      "hash": "7e08fa3ac080e626",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/expanding-electric-vehicle-charging-access-for-tenants-and-leaseholders": {
+      "hash": "d6097521bce0f669",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/news/domestic-abusers-face-eviction-as-survivors-gain-housing-rights": {
+      "hash": "57e3b9879a2646ae",
+      "body": null,
+      "first_seen": "2026-10-21T12:41:06.663Z",
+      "last_changed": "2026-10-21T12:41:06.663Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }

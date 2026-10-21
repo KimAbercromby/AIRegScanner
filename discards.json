@@ -4,140 +4,6 @@
     {
       "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 3: Decision-making policies (DM1–10)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-3-decision-making-policies-dm1-10",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 1: Introduction",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-1-introduction",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 4: Achieving sustainable development (S1–6)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-4-achieving-sustainable-development-s1-6",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 10: Securing clean energy and water (W1–4)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-10-securing-clean-energy-and-water-w1-4",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 6: Delivering a sufficient supply of homes (HO1–13)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-6-delivering-a-sufficient-supply-of-homes-ho1-13",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 12: Making effective use of land (L1–3)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-12-making-effective-use-of-land-l1-3",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 5: Meeting the challenge of climate change (CC1–3)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-5-meeting-the-challenge-of-climate-change-cc1-3",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 7: Building a strong, effective economy (E1–4)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-7-building-a-strong-effective-economy-e1-4",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 15: Promoting sustainable transport (TR1–8)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-15-promoting-sustainable-transport-tr1-8",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 17: Pollution, public protection and security (P1–6)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-17-pollution-public-protection-and-security-p1-6",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 13: Protecting Green Belt land (GB1–8)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-13-protecting-green-belt-land-gb1-8",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
       "title": "National Planning Policy Framework, Chapter 14: Achieving well-designed places (DP1–4)",
       "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-14-achieving-well-designed-places-dp1-4",
       "reason": "no-ai-governance-signal",
@@ -6668,6 +6534,162 @@
         "ai": [],
         "governance": [
           "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "legislation-new",
+      "title": "The Employment Protection Code of Practice (Time Off for Trade Union Duties and Activities) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1104/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "code of practice",
+          "equality",
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "legislation-new",
+      "title": "Correction slip",
+      "url": "http://www.legislation.gov.uk/ukpga/2025/36/pdfs/ukpgacs_20250036_en_001.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "enforcement",
+          "equality",
+          "law",
+          "legislation",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "legislation-new",
+      "title": "The Scotland Act 1998 (Specification of Functions and Transfer of Property etc.) (Amendment) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1095/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "legislation-new",
+      "title": "The Scottish Administration (Offices) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1097/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "govuk-mhclg",
+      "title": "Social Housing Bill: policy factsheet on government amendments for Commons Committee",
+      "url": "https://www.gov.uk/government/publications/social-housing-bill-policy-factsheet-on-government-amendments-for-commons-committee",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "bill"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "govuk-mhclg",
+      "title": "Local government pension scheme statistics",
+      "url": "https://www.gov.uk/government/collections/local-government-pension-scheme",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "govuk-mhclg",
+      "title": "Tenant management organisations: extension of the Freedom of Information Act",
+      "url": "https://www.gov.uk/guidance/tenant-management-organisations-extension-of-the-freedom-of-information-act",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "govuk-mhclg",
+      "title": "Social housing Right to Manage review",
+      "url": "https://www.gov.uk/government/publications/social-housing-right-to-manage-review",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "govuk-mhclg",
+      "title": "Amending the building regulations: electric vehicle charging infrastructure",
+      "url": "https://www.gov.uk/government/consultations/amending-the-building-regulations-electric-vehicle-charging-infrastructure",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "govuk-mhclg",
+      "title": "Expanding electric vehicle charging access for tenants and leaseholders",
+      "url": "https://www.gov.uk/government/consultations/expanding-electric-vehicle-charging-access-for-tenants-and-leaseholders",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-21T12:41:06.663Z",
+      "source_id": "govuk-mhclg",
+      "title": "Domestic abusers face eviction as survivors gain housing rights",
+      "url": "https://www.gov.uk/government/news/domestic-abusers-face-eviction-as-survivors-gain-housing-rights",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "law",
           "rights"
         ]
       }
