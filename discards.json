@@ -3,775 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 14: Achieving well-designed places (DP1–4)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-14-achieving-well-designed-places-dp1-4",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 16: Promoting healthy communities (HC1–8)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-16-promoting-healthy-communities-hc1-8",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 8: Ensuring the vitality of town centres (TC1–4)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-8-ensuring-the-vitality-of-town-centres-tc1-4",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 11: Facilitating the sustainable use of minerals (M1–6)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-11-facilitating-the-sustainable-use-of-minerals-m1-6",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 9: Supporting high quality communications (CO1–2)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-9-supporting-high-quality-communications-co1-2",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Annex A: Implementation",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-annex-a-implementation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 20: Conserving and enhancing the historic environment (HE1–10)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-20-conserving-and-enhancing-the-historic-environment-he1-10",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Annex B: Glossary",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-annex-b-glossary",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 18: Managing flood risk and coastal change (F1–9)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-18-managing-flood-risk-and-coastal-change-f1-9",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "risk"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Annex C: Information requirements",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-annex-c-information-requirements",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Annex D: Housing calculations and supply",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-annex-d-housing-calculations-and-supply",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Planning Policy Framework, Chapter 19: Conserving and enhancing the natural environment (N1–6)",
-      "url": "https://www.gov.uk/guidance/national-planning-policy-framework-chapter-19-conserving-and-enhancing-the-natural-environment-n1-6",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "National Infrastructure Planning Guidance Portal",
-      "url": "https://www.gov.uk/government/collections/national-infrastructure-planning-guidance-portal",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Transition of Development Consent Orders and Transport and Work Act Orders to Lawmaker",
-      "url": "https://www.gov.uk/government/publications/transition-of-development-consent-orders-and-transport-and-work-act-orders-to-lawmaker",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance",
-          "law"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Council Tax base calculation",
-      "url": "https://www.gov.uk/government/publications/council-tax-base-calculation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-mhclg",
-      "title": "Social Housing Quality and Residents Programme Evaluation: privacy notice",
-      "url": "https://www.gov.uk/government/publications/social-housing-quality-and-residents-programme-evaluation-privacy-notice",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "Economic Estimates: Employment in the Digital Sector, January 2024 to December 2024",
-      "url": "https://www.gov.uk/government/statistics/economic-estimates-employment-in-the-digital-sector-january-2024-to-december-2024",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "Public Engagement Survey",
-      "url": "https://www.gov.uk/government/collections/public-engagement-survey",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "Economic Estimates: Employment in the Digital Sector, January 2025 to December 2025",
-      "url": "https://www.gov.uk/government/statistics/economic-estimates-employment-in-the-digital-sector-january-2025-to-december-2025",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "TechFirst",
-      "url": "https://www.gov.uk/guidance/techfirst",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "Cyber security skills in the UK labour market 2026",
-      "url": "https://www.gov.uk/government/publications/cyber-security-skills-in-the-uk-labour-market-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "AI Research Resource",
-      "url": "https://www.gov.uk/government/publications/ai-research-resource",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "Pro-Worker AI Adoption Prize: how to nominate",
-      "url": "https://www.gov.uk/guidance/pro-worker-ai-adoption-prize-how-to-nominate",
-      "reason": "ai-without-governance-impact",
-      "signals": {
-        "priority": [],
-        "ai": [
-          "artificial intelligence"
-        ],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "Bracknell Forest Council (26 003 055)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/26-003-055",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "Royal Borough of Kingston upon Thames (26 011 706)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/26-011-706",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "Runnymede Borough Council (25 007 512)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-007-512",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Croydon (25 009 450)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-009-450",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Enfield (25 013 310)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-013-310",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Lambeth (25 014 634)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-014-634",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Newham (25 015 254)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-015-254",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "Birmingham City Council (25 021 672)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-021-672",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "Epping Forest District Council (25 024 785)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-024-785",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-housing",
-      "title": "Somerset Council (25 024 858)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-024-858",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Manuella Care Limited (26 013 546)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/26-013-546",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Peterborough City Council (25 028 480)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-028-480",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Hertfordshire County Council (25 007 481)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-007-481",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Ealing (25 013 715)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-013-715",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Dudley Metropolitan Borough Council (25 015 082)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-015-082",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Medway Council (25 021 859)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-021-859",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Nottinghamshire County Council (25 025 299)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/safeguarding/25-025-299",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Haringey (25 025 415)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/25-025-415",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Essex County Council (25 026 259)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/25-026-259",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Nottinghamshire County Council (26 001 233)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/26-001-233",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Salford City Council (26 013 158)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-013-158",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Derby City Council (26 013 552)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/fostering/26-013-552",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "West Sussex County Council (25 027 717)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-027-717",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Kingston Upon Hull City Council (25 030 293)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-030-293",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Hertfordshire County Council (25 025 083)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/looked-after-children/25-025-083",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "London Borough of Camden (25 025 518)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-025-518",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Lancashire County Council (25 025 650)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-025-650",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Newcastle upon Tyne City Council (26 006 901)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-006-901",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Isle of Wight Council (26 012 144)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/adoption/26-012-144",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Stockton-on-Tees Borough Council (26 013 499)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-013-499",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Essex County Council (25 021 530)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-021-530",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Essex County Council (25 023 460)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-023-460",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Calderdale Metropolitan Borough Council (26 001 594)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/26-001-594",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Surrey County Council (26 002 835)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/26-002-835",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Tunbridge Wells Girls Grammar School (26 006 444)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-admissions/26-006-444",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Central Bedfordshire Council (26 008 234)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/26-008-234",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Kent County Council (26 008 537)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-admissions/26-008-537",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "West Northamptonshire Council (26 008 559)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/26-008-559",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Derby City Council (26 008 651)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-admissions/26-008-651",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-education",
-      "title": "Bedford Borough Council (26 010 554)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/26-010-554",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "lgsco-benefits",
       "title": "Dorset Council (25 027 448)",
       "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-448",
@@ -6692,6 +5923,783 @@
           "law",
           "rights"
         ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 8) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1102/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (RAF Fairford, Gloucestershire) (Emergency) (Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1114/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/128/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "legislation-new",
+      "title": "The Employer’s Liability (Compulsory Insurance) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/183/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "legislation-new",
+      "title": "The Social Fund (Child Funeral Fund) (No. 2) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/182/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Plymouth, Devon) (Emergency) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1112/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Drymen, Stirling, Scotland) (Emergency) (Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1113/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-gds",
+      "title": "NHS Home Test alpha assessment ",
+      "url": "https://www.gov.uk/service-standard-reports/nhs-home-test-alpha-assessment",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-gds",
+      "title": "Terms and conditions for the GOV.UK Wallet Sandbox",
+      "url": "https://www.gov.uk/government/publications/terms-and-conditions-for-the-govuk-wallet-sandbox",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-mhclg",
+      "title": "Homelessness, Rough Sleeping and Domestic Abuse Grant: supporting guidance",
+      "url": "https://www.gov.uk/government/publications/homelessness-rough-sleeping-and-domestic-abuse-grant-supporting-guidance",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-mhclg",
+      "title": "Homelessness, Rough Sleeping and Domestic Abuse Grant Determination 2026 to 2027",
+      "url": "https://www.gov.uk/government/publications/homelessness-rough-sleeping-and-domestic-abuse-grant-determination-2026-to-2027",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-mhclg",
+      "title": "Community and Engagement Survey 2025/26: libraries",
+      "url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-libraries",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-mhclg",
+      "title": "Green belt statistics",
+      "url": "https://www.gov.uk/government/collections/green-belt-statistics",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-mhclg",
+      "title": "Local authority Green Belt statistics for England: 2025 to 2026",
+      "url": "https://www.gov.uk/government/statistics/local-authority-green-belt-statistics-for-england-2025-to-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local authority"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "govuk-mhclg",
+      "title": "Overview of the local government accountability system",
+      "url": "https://www.gov.uk/government/publications/overview-of-the-local-government-accountability-system",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "accountability",
+          "local authorities",
+          "local government",
+          "oversight"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Bromley (25 011 240)",
+      "url": "https://www.lgo.org.uk/decisions/housing/private-housing/25-011-240",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Lambeth (25 011 926)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-011-926",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Redbridge (25 016 260)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-016-260",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "Westminster City Council (25 017 803)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-017-803",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "Southend-on-Sea City Council (25 019 528)",
+      "url": "https://www.lgo.org.uk/decisions/housing/private-housing/25-019-528",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "Charnwood Borough Council (25 027 652)",
+      "url": "https://www.lgo.org.uk/decisions/housing/private-housing/25-027-652",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "Newcastle upon Tyne City Council (25 028 527)",
+      "url": "https://www.lgo.org.uk/decisions/housing/other/25-028-527",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Hillingdon (26 007 381)",
+      "url": "https://www.lgo.org.uk/decisions/housing/other/26-007-381",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "Reading Borough Council (26 014 769)",
+      "url": "https://www.lgo.org.uk/decisions/housing/other/26-014-769",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Hillingdon (25 025 098)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-025-098",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Royal Borough of Kensington & Chelsea (25 006 495)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-006-495",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Coventry City Council (25 016 429)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-016-429",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "London Borough of Croydon (25 017 333)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-017-333",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Leeds City Council (25 017 503)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-017-503",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Wiltshire Council (25 024 671)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-024-671",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "West Northamptonshire Council (25 027 501)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-027-501",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Cornwall Council (26 000 694)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/26-000-694",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "London Borough of Bromley (26 007 272)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/26-007-272",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Oxfordshire County Council (26 011 492)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/26-011-492",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Cambridge City Council (25 025 088)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/25-025-088",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Durham County Council (25 024 636)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/looked-after-children/25-024-636",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Newham (25 027 202)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/looked-after-children/25-027-202",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Leeds City Council (25 031 935)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/adoption/25-031-935",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Richmond upon Thames (26 014 663)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/looked-after-children/26-014-663",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Wirral Metropolitan Borough Council (26 015 090)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-015-090",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Lewisham (25 025 191)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-025-191",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Salford City Council (26 015 110)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-015-110",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Bolton Metropolitan Borough Council (25 012 053)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/fostering/25-012-053",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Redbridge (25 024 774)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-024-774",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Lewisham (26 014 189)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-014-189",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Newcastle upon Tyne City Council (25 012 964)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-012-964",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Surrey County Council (25 014 149)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-014-149",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Lancashire County Council (25 015 394)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-015-394",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Swindon Borough Council (25 016 259)",
+      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-016-259",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Isle of Wight Council (25 020 737)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-020-737",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Manchester City Council (25 020 744)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-020-744",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Essex County Council (25 028 665)",
+      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-028-665",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-education",
+      "title": "Essex County Council (26 002 393)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/26-002-393",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "Preston City Council (25 018 783)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-018-783",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Lewisham (25 019 571)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-019-571",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Lewisham (25 029 984)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-029-984",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "Cannock Chase District Council (26 007 062)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-007-062",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "Bristol City Council (25 025 908)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-025-908",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "Three Rivers District Council (25 020 578)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-020-578",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "Northumberland County Council (25 028 557)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-028-557",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Lambeth (25 028 812)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-028-812",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "Birmingham City Council (25 029 064)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-029-064",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-22T12:44:43.763Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Newham (25 029 106)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-029-106",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
       }
     }
   ]
