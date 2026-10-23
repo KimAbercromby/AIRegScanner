@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-22T12:44:43.763Z",
+  "last_run": "2026-10-23T12:22:39.904Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -8188,10 +8188,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-cabinet-office::/government/organisations/cabinet-office/about/personal-information-charter": {
-      "hash": "afa20364555edb16",
+      "hash": "d5ca1da6740ac962",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-13T14:45:55.395Z",
+      "last_changed": "2026-10-23T12:22:39.904Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -8260,10 +8260,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-cabinet-office::/government/publications/government-ministers-and-responsibilities": {
-      "hash": "9f893620d6b48b9c",
+      "hash": "75c2a9dc4a926772",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-16T12:04:13.567Z",
+      "last_changed": "2026-10-23T12:22:39.904Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -33805,6 +33805,38 @@
       "body": null,
       "first_seen": "2026-10-22T12:44:43.763Z",
       "last_changed": "2026-10-22T12:44:43.763Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "govuk-mhclg::/government/publications/supported-housing-advisory-panel-initial-advice-to-ministers": {
+      "hash": "5c773d6c46642eb2",
+      "body": null,
+      "first_seen": "2026-10-23T12:22:39.904Z",
+      "last_changed": "2026-10-23T12:22:39.904Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/news/military-planes-and-helicopters-to-fight-wildfires-from-the-sky": {
+      "hash": "d88c04e6c20628e2",
+      "body": null,
+      "first_seen": "2026-10-23T12:22:39.904Z",
+      "last_changed": "2026-10-23T12:22:39.904Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/leading-digital-integration-better-health-and-wellbeing": {
+      "hash": "d3283f6956e1e529",
+      "body": null,
+      "first_seen": "2026-10-23T12:22:39.904Z",
+      "last_changed": "2026-10-23T12:22:39.904Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/impact-local-government-graduate-development-programme-202627-council-information-pack": {
+      "hash": "90cd899ec9b5c93f",
+      "body": null,
+      "first_seen": "2026-10-23T12:22:39.904Z",
+      "last_changed": "2026-10-23T12:22:39.904Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
     }

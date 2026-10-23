@@ -4,78 +4,6 @@
     {
       "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "lgsco-benefits",
-      "title": "Dorset Council (25 027 448)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-448",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "Hertsmere Borough Council (25 027 759)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax-support/25-027-759",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Bromley (25 028 757)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-028-757",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Hackney (25 029 625)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax-support/25-029-625",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "West Berkshire Council (25 003 063)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax-support/25-003-063",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Havering (26 013 667)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-013-667",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
       "title": "Broxbourne Borough Council (25 026 766)",
       "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/25-026-766",
       "reason": "no-ai-keyword",
@@ -6695,6 +6623,83 @@
       "source_id": "lgsco-benefits",
       "title": "London Borough of Newham (25 029 106)",
       "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-029-106",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-23T12:22:39.904Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "Government ministers and responsibilities",
+      "url": "https://www.gov.uk/government/publications/government-ministers-and-responsibilities",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-23T12:22:39.904Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "Personal information charter - Cabinet Office",
+      "url": "https://www.gov.uk/government/organisations/cabinet-office/about/personal-information-charter",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "standard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-23T12:22:39.904Z",
+      "source_id": "govuk-mhclg",
+      "title": "Supported Housing Advisory Panel: initial advice to ministers",
+      "url": "https://www.gov.uk/government/publications/supported-housing-advisory-panel-initial-advice-to-ministers",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "oversight"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-23T12:22:39.904Z",
+      "source_id": "govuk-mhclg",
+      "title": "Military planes and helicopters to fight wildfires from the sky",
+      "url": "https://www.gov.uk/government/news/military-planes-and-helicopters-to-fight-wildfires-from-the-sky",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-23T12:22:39.904Z",
+      "source_id": "lga-guidance",
+      "title": "Leading digital integration for better health and wellbeing",
+      "url": "https://www.local.gov.uk/publications/leading-digital-integration-better-health-and-wellbeing",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-23T12:22:39.904Z",
+      "source_id": "lga-guidance",
+      "title": "Impact: The Local Government Graduate Development Programme 2026/27 – council information pack",
+      "url": "https://www.local.gov.uk/publications/impact-local-government-graduate-development-programme-202627-council-information-pack",
       "reason": "no-ai-keyword",
       "signals": {
         "priority": [],
