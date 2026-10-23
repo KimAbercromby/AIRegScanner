@@ -119,7 +119,7 @@ jobs:
         run: |
           git config user.name  "regulatory-scanner"
           git config user.email "actions@github.com"
-          git add -A -- '*.json' ':!package-lock.json'
+          git add -A -- '*.json' ':!package-lock.json' ':!node_modules'
           if git diff --staged --quiet; then
             # A scan ALWAYS changes the run log, so an empty commit means the
             # run did not do what it should. Resolve legitimately changes
