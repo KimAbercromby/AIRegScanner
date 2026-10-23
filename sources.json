@@ -639,19 +639,16 @@
       "publisher": "ISO/IEC",
       "tier": 3,
       "authority": "The AI management system standard the playbook aligns to. A new edition or revision changes the alignment baseline.",
-      "type": "page-watch",
-      "url": "https://www.iso.org/standard/42001",
-      "watch_title": "ISO/IEC 42001 (AI management system standard)",
-      "watch_summary": "ISO/IEC 42001 artificial intelligence management system standard catalogue page. Watched for lifecycle changes: a new edition, revision, amendment or corrigendum.",
-      "deep": true,
+      "type": "rss",
+      "url": "https://www.iso.org/contents/data/standard/08/12/81230.detail.rss",
       "filter": "ai-governance",
       "allowed_domains": [
         "iso.org",
         "www.iso.org"
       ],
       "verification_status": "verified",
-      "last_verified": "2026-07-28",
-      "verify_note": "Public ISO catalogue page, watched by html-diff (deep body hash) for status/lifecycle changes. The standard text is paywalled, so a manual review cadence still applies to content."
+      "last_verified": "2026-10-23",
+      "verify_note": "ISO's official per-standard update RSS for ISO/IEC 42001 (deliverable 81230), the intended route for automated subscription. Replaces the catalogue page-watch, which iso.org answers with HTTP 403 for automated clients (25 of 30 runs to 22 Oct 2026). Carries status metadata, not standard content."
     },
     {
       "id": "statute-pecr-2003",

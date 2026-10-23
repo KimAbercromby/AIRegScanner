@@ -6,7 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { parseAtom, parseAtomChanges, parseGovukSearch, buildGovukUrl, parsePageWatch } from './fetchers.mjs';
+import { parseAtom, parseAtomChanges, parseGovukSearch, buildGovukUrl, parsePageWatch, parseRss } from './fetchers.mjs';
 import {
   domainAllowed,
   classify,
@@ -841,15 +841,20 @@ test('page-watch returns one stable item whose descriptor carries the source key
   assert.match(items[0].summary.toLowerCase(), /iso\/iec 42001/, 'the descriptor carries the keyword the relevance gate needs');
 });
 
-test('page-watch standards are watched by the focus gate and close the framework-map gaps', () => {
+test('standards watches are kept by the focus gate and close the framework-map gaps', () => {
   const reg = JSON.parse(readFileSync(join(HERE, 'sources.json'), 'utf8'));
   const mappings = JSON.parse(readFileSync(join(HERE, 'mappings.json'), 'utf8'));
-  for (const id of ['iso-42001', 'nist-ai-rmf']) {
-    const src = reg.sources.find((s) => s.id === id);
-    assert.ok(src, `${id} exists`);
-    assert.equal(src.type, 'page-watch');
-    assert.ok(src.deep === true, `${id} must be deep so content revisions are caught`);
-    const item = { title: src.watch_title, summary: src.watch_summary, url: src.url };
+  // NIST: page-watch with body hashing. ISO: its official per-standard RSS, because iso.org
+  // answers the catalogue page with HTTP 403 for automated clients.
+  const nist = reg.sources.find((s) => s.id === 'nist-ai-rmf');
+  assert.equal(nist.type, 'page-watch');
+  assert.ok(nist.deep === true, 'nist-ai-rmf must be deep so content revisions are caught');
+  const iso = reg.sources.find((s) => s.id === 'iso-42001');
+  assert.equal(iso.type, 'rss');
+  assert.match(iso.url, /^https:\/\/www\.iso\.org\/contents\/data\/standard\/.*\.rss$/);
+  const isoItem = { title: 'ISO/IEC 42001:2023 - Information technology — Artificial intelligence — Management system', summary: '', url: 'https://www.iso.org/standard/42001' };
+  for (const [src, item] of [[nist, { title: nist.watch_title, summary: nist.watch_summary, url: nist.url }], [iso, isoItem]]) {
+    const id = src.id;
     const decision = sourceRelevanceDecision(src, item, mappings);
     assert.ok(decision.keep, `${id} must be kept by the gate`);
     assert.ok(decision.priority.length > 0, `${id} must land as a priority framework`);
@@ -1007,4 +1012,14 @@ test('LGA publications are monitored as a listing so sector guidance is captured
   const { sourceRelevanceDecision } = await import('./scan.mjs');
   const mappings = JSON.parse(readFileSync(new URL('./mappings.json', import.meta.url), 'utf8'));
   assert.equal(sourceRelevanceDecision(lga, items[0], mappings).keep, true, 'the agentic AI playbook passes the relevance gate');
+});
+
+test('parseRss reads an Atom document served at an RSS feed URL', () => {
+  const atom = `<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Blog</title><updated>2026-10-01T09:00:00Z</updated>
+  <entry><id>tag:blog,2026:1</id><title>New AI guidance</title><link rel="alternate" href="https://gds.blog.gov.uk/2026/10/01/new-ai-guidance/"/><updated>2026-10-01T09:00:00Z</updated><summary>Summary text</summary></entry></feed>`;
+  const items = parseRss(atom);
+  assert.equal(items.length, 1);
+  assert.equal(items[0].title, 'New AI guidance');
+  assert.equal(items[0].url, 'https://gds.blog.gov.uk/2026/10/01/new-ai-guidance/');
+  assert.throws(() => parseRss('<html><body>holding page</body></html>'), /not an RSS document/);
 });
