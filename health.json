@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-23T12:22:39.904Z",
+  "run_at": "2026-10-24T11:49:17.634Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -117,19 +117,17 @@
     },
     {
       "id": "govuk-mhclg",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 50
+      "status": "http-error",
+      "http_status": 503,
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "govuk-ofsted",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 49
+      "status": "http-error",
+      "http_status": 503,
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "govuk-cqc",
@@ -316,7 +314,7 @@
       "http_status": 200,
       "items_seen": 100,
       "items_kept": 0,
-      "items_discarded": 78
+      "items_discarded": 79
     },
     {
       "id": "statute-psi-reuse-2015",
@@ -455,9 +453,8 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 6,
+    "discarded": 31,
     "retired": 0,
     "unreviewed": 1144
-  },
-  "issue_cap_warning": "40 records await an issue but only 25 are created per run. The queue will take 2 runs to clear."
+  }
 }

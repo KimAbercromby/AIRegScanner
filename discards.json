@@ -3,447 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "Broxbourne Borough Council (25 026 766)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/25-026-766",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Camden (26 013 512)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-013-512",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Barnet (25 027 493)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-493",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "lgsco-benefits",
-      "title": "Leicester City Council (25 027 494)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-494",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-lga-1972",
-      "title": "Elections and Elected Bodies (Wales) Act 2024 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-lga-1972",
-      "title": "Elections and Elected Bodies (Wales) Act 2024 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-lga-1972",
-      "title": "Elections and Elected Bodies (Wales) Act 2024 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Online Safety Act 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Secretaries of State for Energy Security and Net Zero, for Science, Innovation and Technology, for Business and Trade, and for Culture, Media and Sport and the Transfer of Functions (National Security and Investment Act 2021 etc) Order 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Government (Disclosure of Information) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Government (Disclosure of Information) Regulations 2026 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Government (Disclosure of Information) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Government (Disclosure of Information) Regulations 2026 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Government (Disclosure of Information) Regulations 2026 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Government (Disclosure of Information) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Secretaries of State for Energy Security and Net Zero, for Science, Innovation and Technology, for Business and Trade, and for Culture, Media and Sport and the Transfer of Functions (National Security and Investment Act 2021 etc) Order 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Water (Special Measures) Act 2025 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Water (Special Measures) Act 2025 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Water (Special Measures) Act 2025 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Data Protection Act 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Data Protection Act 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "statute-dea-2017",
       "title": "The Judicial Review and Courts Act 2022 (Magistrates’ Court Sentencing Powers) Regulations 2023 effect on Digital Economy Act 2017",
       "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
@@ -6705,6 +6264,438 @@
         "priority": [],
         "ai": [],
         "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Plymouth, Devon) (Emergency) (Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1123/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/129/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Argyll and Bute Council (Oban) Harbour Revision Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/287/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Crime and Policing Act 2026 (Commencement No. 3 and Saving Provisions) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1111/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Power to Award Degrees etc. (MLA College Ltd) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1109/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Marine Licensing (Exempted Activities and Fees) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1110/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Over the Counter Derivatives (Intragroup Transactions) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1117/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "risk"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Overseas Prudential Requirements Regime (Credit Institutions and Investment Firms) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1116/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Building Societies Act 1986 (Assimilation to Company Law and Changes to Funding Limit) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1115/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "law"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Intimate Image Reports (Trusted Flagger) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1107/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation",
+          "safety"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Employer’s Liability (Compulsory Insurance) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/183/2026-10-20",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Social Fund (Child Funeral Fund) (No. 2) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/182/2026-10-20",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Social Security (Income and Capital Disregards) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/181/2026-10-16",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Insolvency (Amendment) (2026 Act) (Commencement No. 1 and Transitional Provisions) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/180/2026-10-15",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "legislation-new",
+      "title": "The Official Controls (Plant Protection Products) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/179/2026-10-13",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-equality-2010",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "lga-guidance",
+      "title": "Leading digital integration for better health and wellbeing",
+      "url": "https://www.local.gov.uk/publications/leading-digital-integration-better-health-and-wellbeing",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-dea-2017",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Digital Economy Act 2017",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-dea-2017",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Digital Economy Act 2017",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-dea-2017",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Digital Economy Act 2017",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-24T11:49:17.634Z",
+      "source_id": "statute-pofa-2012",
+      "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
       }
     }
   ]
