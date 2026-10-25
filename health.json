@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-24T11:49:17.634Z",
+  "run_at": "2026-10-25T12:18:27.578Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -33,7 +33,7 @@
       "http_status": 200,
       "items_seen": 100,
       "items_kept": 0,
-      "items_discarded": 2
+      "items_discarded": 3
     },
     {
       "id": "statute-duaa-2025",
@@ -117,17 +117,19 @@
     },
     {
       "id": "govuk-mhclg",
-      "status": "http-error",
-      "http_status": 503,
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 50,
+      "items_kept": 0,
+      "items_discarded": 50
     },
     {
       "id": "govuk-ofsted",
-      "status": "http-error",
-      "http_status": 503,
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 50,
+      "items_kept": 0,
+      "items_discarded": 49
     },
     {
       "id": "govuk-cqc",
@@ -453,7 +455,7 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 31,
+    "discarded": 7,
     "retired": 0,
     "unreviewed": 1144
   }

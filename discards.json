@@ -4,107 +4,6 @@
     {
       "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "statute-dea-2017",
-      "title": "The Judicial Review and Courts Act 2022 (Magistrates’ Court Sentencing Powers) Regulations 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Judicial Review and Courts Act 2022 (Magistrates’ Court Sentencing Powers) Regulations 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Criminal Justice Act 2003 (Commencement No. 33) and Sentencing Act 2020 (Commencement No. 2) Regulations 2022 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Sentencing Act 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
       "title": "The Transfer of Functions (Digital Government) Order 2018 effect on Digital Economy Act 2017",
       "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
       "reason": "no-ai-governance-signal",
@@ -6689,6 +6588,102 @@
       "source_id": "statute-pofa-2012",
       "title": "Crime and Policing Act 2026 effect on Protection of Freedoms Act 2012",
       "url": "http://www.legislation.gov.uk/id/ukpga/2012/9",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-25T12:18:27.578Z",
+      "source_id": "legislation-new",
+      "title": "The Power to Award Degrees etc. (MLA College Ltd) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1109/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-25T12:18:27.578Z",
+      "source_id": "statute-dpa-2018",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-25T12:18:27.578Z",
+      "source_id": "statute-children-2004",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Children Act 2004",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2004/31",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-25T12:18:27.578Z",
+      "source_id": "statute-housing-1996",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-25T12:18:27.578Z",
+      "source_id": "statute-housing-1996",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-25T12:18:27.578Z",
+      "source_id": "statute-ipa-2016",
+      "title": "Crime and Policing Act 2026 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-25T12:18:27.578Z",
+      "source_id": "statute-ipa-2016",
+      "title": "Crime and Policing Act 2026 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
       "reason": "no-ai-governance-signal",
       "signals": {
         "priority": [],
