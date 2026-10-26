@@ -16,78 +16,6 @@
     {
       "run_at": "2026-10-02T07:15:56.239Z",
       "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) Regulations 2017 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Data Protection Act 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Data Protection Act 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
       "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
       "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
       "reason": "no-ai-governance-signal",
@@ -6691,6 +6619,71 @@
         "governance": [
           "act 20"
         ]
+      }
+    },
+    {
+      "run_at": "2026-10-26T13:49:39.533Z",
+      "source_id": "legislation-new",
+      "title": "The A7 Trunk Road (Langholm) (Temporary Prohibition on Use of Road) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/289/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-26T13:49:39.533Z",
+      "source_id": "legislation-new",
+      "title": "The English Devolution and Community Empowerment Act 2026 (Consequential Amendments) (Precepts) (England) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1118/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-26T13:49:39.533Z",
+      "source_id": "legislation-new",
+      "title": "The Loading Bay and Parking Place (Church Street, Antrim) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/184/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-26T13:49:39.533Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 9) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1108/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-26T13:49:39.533Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/130/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
       }
     }
   ]

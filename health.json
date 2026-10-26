@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-25T12:18:27.578Z",
+  "run_at": "2026-10-26T13:49:39.533Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -455,7 +455,7 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 7,
+    "discarded": 5,
     "retired": 0,
     "unreviewed": 1144
   }
