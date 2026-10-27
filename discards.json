@@ -2,1288 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) Regulations 2017 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2025 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2025 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) (England and Wales) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) Regulations 2017 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) Regulations 2017 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) Regulations 2017 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Secretaries of State for Energy Security and Net Zero, for Science, Innovation and Technology, for Business and Trade, and for Culture, Media and Sport and the Transfer of Functions (National Security and Investment Act 2021 etc) Order 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Secretaries of State for Energy Security and Net Zero, for Science, Innovation and Technology, for Business and Trade, and for Culture, Media and Sport and the Transfer of Functions (National Security and Investment Act 2021 etc) Order 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Secretaries of State for Energy Security and Net Zero, for Science, Innovation and Technology, for Business and Trade, and for Culture, Media and Sport and the Transfer of Functions (National Security and Investment Act 2021 etc) Order 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Secretaries of State for Energy Security and Net Zero, for Science, Innovation and Technology, for Business and Trade, and for Culture, Media and Sport and the Transfer of Functions (National Security and Investment Act 2021 etc) Order 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2025 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Transfer of Functions (Digital Government) Order 2025 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Data Protection Act 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Data Protection Act 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Judicial Review and Courts Act 2022 (Magistrates’ Court Sentencing Powers) Regulations 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Judicial Review and Courts Act 2022 (Magistrates’ Court Sentencing Powers) Regulations 2023 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Criminal Justice Act 2003 (Commencement No. 33) and Sentencing Act 2020 (Commencement No. 2) Regulations 2022 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Sentencing Act 2020 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 4) Regulations 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "The Digital Economy Act 2017 (Commencement No. 1) Regulations 2017 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-02T07:15:56.239Z",
-      "source_id": "statute-dea-2017",
-      "title": "Data Protection Act 2018 effect on Digital Economy Act 2017",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2017/30",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "data protection"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "legislation-new",
-      "title": "The Bluetongue (Scotland) Amendment Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/281/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "legislation-new",
-      "title": "The Air Navigation (Restriction of Flying) (Tottenham, London) (No. 2) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1064/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "legislation-new",
-      "title": "The Sale of Tobacco (Miscellaneous and Consequential Amendment) (Scotland) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/278/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "legislation",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "legislation-new",
-      "title": "The Private Residential Tenancies (Prescribed Notices and Forms) (Scotland) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/279/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "legislation-new",
-      "title": null,
-      "url": "http://www.legislation.gov.uk/wsi/2026/120/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "legislation-new",
-      "title": "The Access to the Countryside (Coastal Margin) (Kimmeridge Bay to Highcliffe) (No. 2) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1062/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "legislation-new",
-      "title": "The Coronavirus Act 2020 (Extension of Provisions Relating to Live Links for Courts and Tribunals) (No.2) Order (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/161/2026-09-17",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "legal",
-          "statutory"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "govuk-mhclg",
-      "title": "Grenfell Tower Inquiry Government Progress Report: September 2026",
-      "url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-government-progress-report-september-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-03T12:11:44.790Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care: Ofsted's enforcement policy",
-      "url": "https://www.gov.uk/government/publications/social-care-ofsteds-enforcement-policy",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "enforcement",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-05T15:30:44.820Z",
-      "source_id": "legislation-new",
-      "title": "The Planning (Scotland) Act 2019 (Commencement No. 15) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/280/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-05T15:30:44.820Z",
-      "source_id": "legislation-new",
-      "title": "The A82 Trunk Road (Inverness) (Temporary Prohibition on Waiting, Loading and Unloading) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/282/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-05T15:30:44.820Z",
-      "source_id": "legislation-new",
-      "title": "The On-Street Parking (Amendment No. 2) Order (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/167/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-05T15:30:44.820Z",
-      "source_id": "legislation-new",
-      "title": "The Parking Places (Disabled Persons’ Vehicles) (Amendment No. 4) Order (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/166/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-05T15:30:44.820Z",
-      "source_id": "legislation-new",
-      "title": "The Urban Clearways (Amendment) Order (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/165/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-05T15:30:44.820Z",
-      "source_id": "legislation-new",
-      "title": "The Loading Bays on Roads (Amendment) Order (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/164/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-05T15:30:44.820Z",
-      "source_id": "govuk-mhclg",
-      "title": "Council Tax base calculation",
-      "url": "https://www.gov.uk/government/publications/council-tax-base-calculation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-06T13:52:52.869Z",
-      "source_id": "legislation-new",
-      "title": "The Circular Road, Newtownards (Abandonment) Order (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/168/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-06T13:52:52.869Z",
-      "source_id": "legislation-new",
-      "title": "The Employment Rights Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1065/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-06T13:52:52.869Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "AI security companies survey: privacy notice 2026 to 2027",
-      "url": "https://www.gov.uk/government/publications/ai-security-companies-survey-privacy-notice-2026-to-2027",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "legislation-new",
-      "title": "The Tobacco Retailer (Fixed Penalty) (Amount) (Amendment) Regulations (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/171/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "legislation-new",
-      "title": "The Pneumoconiosis, etc., (Workers’ Compensation) (Payment of Claims) (Amendment No. 2) Regulations (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/170/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "legislation-new",
-      "title": "The Mesothelioma Lump Sum Payments (Conditions and Amounts) (Amendment No. 2) Regulations (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/169/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/ssi/2010/270/pdfs/ssics_20100270_en_001.pdf",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "legal",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "govuk-mhclg",
-      "title": "Building Safety Remediation: monthly data release - August 2026",
-      "url": "https://www.gov.uk/government/publications/building-safety-remediation-monthly-data-release-august-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "Nottingham City Council (25 019 853)",
-      "url": "https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/25-019-853",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Hackney (25 020 733)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-020-733",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Barnet (25 020 856)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-020-856",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "Folkestone & Hythe District Council (25 021 160)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-021-160",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "Nottingham City Council (25 021 512)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-021-512",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Southwark (25 023 969)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-023-969",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "Buckinghamshire Council (25 024 642)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-024-642",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "North Lincolnshire Council (25 025 444)",
-      "url": "https://www.lgo.org.uk/decisions/housing/private-housing/25-025-444",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "Birmingham City Council (25 025 832)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-025-832",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Croydon (25 030 787)",
-      "url": "https://www.lgo.org.uk/decisions/housing/other/25-030-787",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Ealing (25 024 121)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-024-121",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Hillingdon (26 000 635)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/26-000-635",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Leicester City Council (26 001 572)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/26-001-572",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Cornwall Council (25 016 578)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-016-578",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Sutton (25 016 688)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-016-688",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Barchester Healthcare Homes Limited (25 018 385)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/25-018-385",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Connaught Care (Huntingdon) Ltd (25 024 363)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-024-363",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "North Northamptonshire Council (25 011 802)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-011-802",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Somerset Council (25 014 487)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-014-487",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Anchor Care Homes LTD (26 005 810)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/26-005-810",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "London Borough of Waltham Forest (25 021 249)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-021-249",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Cheshire West & Chester Council (25 029 882)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-029-882",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "London Borough of Sutton (25 024 807)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/looked-after-children/25-024-807",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Derbyshire County Council (25 024 880)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-024-880",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Liverpool City Council (26 013 322)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-013-322",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Wakefield Metropolitan District Council (26 014 197)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-014-197",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Dorset Council (26 014 205)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-014-205",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Royal Borough of Greenwich (26 014 555)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-014-555",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "North Yorkshire Council (25 023 514)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-023-514",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Bournemouth, Christchurch and Poole Council (25 026 559)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-026-559",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "London Borough of Haringey (25 018 609)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-018-609",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
       "run_at": "2026-10-07T14:10:27.792Z",
       "source_id": "lgsco-education",
       "title": "Leeds City Council (25 023 519)",
@@ -6684,6 +5402,1355 @@
         "priority": [],
         "ai": [],
         "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The Boiler Upgrade Scheme (Amendment to the Energy Act 2008 etc.) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1121/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The South West Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 10) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/291/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The South East Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 10) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/292/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The North West Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 10) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/293/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The North East Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 10) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/290/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The Pedicabs (London) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1122/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Llanelli, Carmarthenshire) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1120/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/nisr/2026/124/pdfs/nisrcs_20260124_en_001.pdf",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safeguard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The English Devolution and Community Empowerment Act 2026 (Commencement No. 3) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1127/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The First-tier Tribunal for Scotland Housing and Property Chamber (Procedure) Amendment Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/288/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "local authorities",
+          "local authority",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/nisr/2026/182/pdfs/nisrcs_20260182_en_001.pdf",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "legislation-new",
+      "title": "The Intimate Image Reports (Trusted Flagger) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1107/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation",
+          "safety"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-foia-2000",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-foia-2000",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-foia-2000",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-procurement-2023",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Procurement Act 2023",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "govuk-mhclg",
+      "title": "Restructuring HM Land Registry fees",
+      "url": "https://www.gov.uk/government/consultations/restructuring-hm-land-registry-fees",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "govuk-mhclg",
+      "title": "Future of access to HM Land Registry information",
+      "url": "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safeguard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "govuk-mhclg",
+      "title": "Fire and rescue national framework: 2026 progress report",
+      "url": "https://www.gov.uk/government/publications/fire-and-rescue-national-framework-2026-progress-report",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "compliance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "govuk-mhclg",
+      "title": "Social housing Right to Manage review",
+      "url": "https://www.gov.uk/government/publications/social-housing-right-to-manage-review",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "lga-guidance",
+      "title": "Funding, structuring and supporting digital inclusion in local government",
+      "url": "https://www.local.gov.uk/publications/funding-structuring-and-supporting-digital-inclusion-local-government",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1972",
+      "title": "The Cory Decarbonisation Project Order 2025 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-lga-1999",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1999",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1999/27",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-27T12:56:24.982Z",
+      "source_id": "statute-hswa-1974",
+      "title": "Levelling-up and Regeneration Act 2023 effect on Health and Safety at Work etc. Act 1974",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
       }
     }
   ]
