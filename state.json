@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-27T12:56:24.982Z",
+  "last_run": "2026-10-28T13:47:17.759Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -9358,10 +9358,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-ofsted::/government/publications/social-care-common-inspection-framework-sccif-childrens-homes": {
-      "hash": "3e5156e08cc61e1b",
+      "hash": "a62bf2ce46bfdf62",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -9390,10 +9390,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-ofsted::/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation": {
-      "hash": "17b76533050bf728",
+      "hash": "9b15cec7ac568cce",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -12863,10 +12863,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-cabinet-office::/government/statistics/civil-service-statistics-2026": {
-      "hash": "0b15974fb2a32bb2",
+      "hash": "acf3d9ecd32777d0",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -29561,10 +29561,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/building-safety-remediation": {
-      "hash": "528c4b125a9fdf06",
+      "hash": "cefd2660919d373a",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34081,10 +34081,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/consultations/future-of-access-to-hm-land-registry-information": {
-      "hash": "f87a05f73e4a3e1f",
+      "hash": "1c4f242394bec780",
       "body": null,
       "first_seen": "2026-10-27T12:56:24.982Z",
-      "last_changed": "2026-10-27T12:56:24.982Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34159,6 +34159,134 @@
       "last_changed": "2026-10-27T12:56:24.982Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1130": {
+      "hash": "a7b28b5b667d5a14",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1125": {
+      "hash": "aef4db7acd31ca9b",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1126": {
+      "hash": "54678340f88c572b",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/uksi/2026/1086/pdfs/uksics_20261086_en_001.pdf": {
+      "hash": "5ef69eba1d74e44f",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1129": {
+      "hash": "c36e17531b2a85c6",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1124": {
+      "hash": "bbdb57c830757b71",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/representation-of-the-people-bill-policy-summaries": {
+      "hash": "6e367564927531f3",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/high-street-rental-auctions-grants-for-local-authorities": {
+      "hash": "2733822b527ed901",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/derelict-buildings-fund-interim-guidance": {
+      "hash": "27d31f835ff60b17",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/high-value-council-tax-surcharge": {
+      "hash": "4ddce1127b48c88d",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/northern-growth-strategy-case-for-change": {
+      "hash": "0cdac220604a26a5",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/your-first-home": {
+      "hash": "a0ea080b03b4c86b",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/building-safety-remediation-monthly-data-release-september-2026": {
+      "hash": "cb75a87cbbbbec51",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/statistics/fire-and-rescue-incident-statistics-year-ending-june-2026": {
+      "hash": "c583c9179dcd7c4d",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-dsit-legacy::/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027": {
+      "hash": "c453c47ab0c8cff6",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/fighting-fraud-and-corruption-locally-2026": {
+      "hash": "518d06e8db0cb792",
+      "body": null,
+      "first_seen": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-28T13:47:17.759Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
     }
   }
 }

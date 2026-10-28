@@ -2,271 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "Leeds City Council (25 023 519)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-023-519",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "Liverpool City Council (25 026 891)",
-      "url": "https://www.lgo.org.uk/decisions/education/other/25-026-891",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "Royal Borough of Greenwich (26 012 408)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-admissions/26-012-408",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "Warwickshire County Council (25 031 153)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-031-153",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "Suffolk County Council (26 002 534)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/26-002-534",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "Essex County Council (26 003 654)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/26-003-654",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-education",
-      "title": "Berry Hill Primary School (26 008 145)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-admissions/26-008-145",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Southend-on-Sea City Council (25 022 644)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-022-644",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Cheshire East Council (25 027 033)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/25-027-033",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Stockton-on-Tees Borough Council (25 027 792)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-792",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Liverpool City Council (25 027 828)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-828",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Coventry City Council (25 028 871)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-028-871",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Birmingham City Council (26 004 522)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-004-522",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "North Northamptonshire Council (26 004 621)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-004-621",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Nottingham City Council (25 005 326)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-005-326",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Royal Borough of Kingston upon Thames (26 014 438)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-014-438",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-07T14:10:27.792Z",
-      "source_id": "lgsco-benefits",
-      "title": "Harborough District Council (25 026 847)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax-support/25-026-847",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-08T14:20:27.847Z",
-      "source_id": "legislation-new",
-      "title": "The Social Security (Miscellaneous Amendments) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1063/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-08T14:20:27.847Z",
-      "source_id": "legislation-new",
-      "title": "The Electronic Monitoring (Approved Devices) (Scotland) Amendment Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/285/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "compliance",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-08T14:20:27.847Z",
-      "source_id": "legislation-new",
-      "title": "The Crofting and Scottish Land Court Act 2026 (Commencement No. 1) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/283/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-08T14:20:27.847Z",
-      "source_id": "legislation-new",
-      "title": "The Scottish Land Commission (Number of Land Commissioners) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/284/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
       "run_at": "2026-10-08T14:20:27.847Z",
       "source_id": "legislation-new",
       "title": "Correction Slip",
@@ -6751,6 +6486,288 @@
         "governance": [
           "act 20"
         ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "legislation-new",
+      "title": "The Individual Savings Account (Amendment) (No. 3) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1130/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Derry, Londonderry) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1125/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "legislation-new",
+      "title": "The Victims and Prisoners Act 2024 (Commencement No. 12 and Transitional Provision) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1126/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1086/pdfs/uksics_20261086_en_001.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "legislation-new",
+      "title": "The Code of Practice (Access and Unfair Practices During the Recognition and Derecognition Process) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1129/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "code of practice"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "legislation-new",
+      "title": "The Family Procedure (Amendment No. 2) Rules 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1124/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "Civil Service statistics: 2026",
+      "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Representation of the People Bill: Policy summaries",
+      "url": "https://www.gov.uk/government/publications/representation-of-the-people-bill-policy-summaries",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "bill"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "High Street Rental Auctions: grants for local authorities",
+      "url": "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Derelict Buildings Fund: interim guidance",
+      "url": "https://www.gov.uk/government/publications/derelict-buildings-fund-interim-guidance",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance",
+          "local authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "High Value Council Tax Surcharge",
+      "url": "https://www.gov.uk/government/consultations/high-value-council-tax-surcharge",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Northern Growth Strategy: Case for change",
+      "url": "https://www.gov.uk/government/publications/northern-growth-strategy-case-for-change",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Your First Home",
+      "url": "https://www.gov.uk/government/publications/your-first-home",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Building Safety Remediation: monthly data release - September 2026",
+      "url": "https://www.gov.uk/government/publications/building-safety-remediation-monthly-data-release-september-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safety"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Building Safety Remediation",
+      "url": "https://www.gov.uk/government/collections/building-safety-remediation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safety"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Fire and rescue incident statistics, year ending June 2026",
+      "url": "https://www.gov.uk/government/statistics/fire-and-rescue-incident-statistics-year-ending-june-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-mhclg",
+      "title": "Future of access to HM Land Registry information",
+      "url": "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safeguard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): children’s homes",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-ofsted",
+      "title": "Social care common inspection framework (SCCIF): supported accommodation",
+      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "Tech Town Business Survey: privacy notice 2026 to 2027",
+      "url": "https://www.gov.uk/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-28T13:47:17.759Z",
+      "source_id": "lga-guidance",
+      "title": "Fighting fraud and corruption locally 2026",
+      "url": "https://www.local.gov.uk/publications/fighting-fraud-and-corruption-locally-2026",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
       }
     }
   ]
