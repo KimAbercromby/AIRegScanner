@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-28T13:47:17.759Z",
+  "run_at": "2026-10-29T13:54:58.819Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -141,11 +141,10 @@
     },
     {
       "id": "govuk-dsit-legacy",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 47
+      "status": "http-error",
+      "http_status": 503,
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "ehrc-guidance",
@@ -455,7 +454,7 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 21,
+    "discarded": 82,
     "retired": 0,
     "unreviewed": 1144
   }
