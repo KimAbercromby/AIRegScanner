@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-29T13:54:58.819Z",
+  "last_run": "2026-10-30T13:47:17.174Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -9118,10 +9118,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/east-sussex-and-brighton-and-hove-local-government-reorganisation": {
-      "hash": "c3ee83c05e2ef32b",
+      "hash": "ef5e520cc7541acb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -9134,106 +9134,106 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/worcestershire-local-government-reorganisation": {
-      "hash": "dfd79553e9173edf",
+      "hash": "450f7e7575541b34",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/warwickshire-local-government-reorganisation": {
-      "hash": "cbcf8597b8d45a2f",
+      "hash": "5827bbf5f88e5ac9",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/staffordshire-and-stoke-on-trent-local-government-reorganisation": {
-      "hash": "6d9d1ce3c7cf1a10",
+      "hash": "c90efa60d36a2e53",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/oxfordshire-local-government-reorganisation": {
-      "hash": "7240522cd5fb888f",
+      "hash": "3b53a2a9515e7655",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/nottinghamshire-and-nottingham-local-government-reorganisation": {
-      "hash": "acbdea26ed48ac59",
+      "hash": "7e4f3d7ec884cdbc",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/lincolnshire-north-lincolnshire-and-north-east-lincolnshire-local-government-reorganisation": {
-      "hash": "2e845ae4f0280f44",
+      "hash": "dceaaa140b8c268d",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/leicestershire-leicester-and-rutland-local-government-reorganisation": {
-      "hash": "2d9f9e015e9e5e7e",
+      "hash": "3a41d6d6734a642e",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/lancashire-blackburn-with-darwen-and-blackpool-local-government-reorganisation": {
-      "hash": "fa653604bc6c3fec",
+      "hash": "ea08e9ac42c06af6",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/kent-and-medway-local-government-reorganisation": {
-      "hash": "21aad73e6da7a0f4",
+      "hash": "5a340c1b670f3b70",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/hertfordshire-local-government-reorganisation": {
-      "hash": "ded44103b3abc5e6",
+      "hash": "f3da39ca989bfb91",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/gloucestershire-local-government-reorganisation": {
-      "hash": "ee3801b3b80ddb33",
+      "hash": "ed8e7f17e82b63ac",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/devon-plymouth-and-torbay-local-government-reorganisation": {
-      "hash": "26f51bf62071aef6",
+      "hash": "5f5fa1f0d8bdc21a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/derbyshire-and-derby-local-government-reorganisation": {
-      "hash": "d0ce081025ad3a45",
+      "hash": "29e1b9c3186d6b56",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -13351,42 +13351,42 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/suffolk-local-government-reorganisation": {
-      "hash": "25909956ad5ab97a",
+      "hash": "db4c4ac74dd0cf3d",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/norfolk-local-government-reorganisation": {
-      "hash": "39ae1a4634848941",
+      "hash": "2036972a291af0e5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/hampshire-isle-of-wight-portsmouth-and-southampton-local-government-reorganisation": {
-      "hash": "b08de8560d828b22",
+      "hash": "bdeff7248affa9cc",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/essex-southend-on-sea-and-thurrock-local-government-reorganisation": {
-      "hash": "19ba097d5931b787",
+      "hash": "bdf75cc673cae8e1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/local-government-reorganisation-policy-and-programme-updates": {
-      "hash": "f194dff3c9eb128f",
+      "hash": "c3bc1d31c350d79d",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -13495,10 +13495,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-ofsted::/government/statistics/childrens-social-care-in-england-2026": {
-      "hash": "c8be366435384eb3",
+      "hash": "54bd163d7b6dfa6c",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34193,10 +34193,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1129": {
-      "hash": "c36e17531b2a85c6",
+      "hash": "51472a7c9d2489e4",
       "body": null,
       "first_seen": "2026-10-28T13:47:17.759Z",
-      "last_changed": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34513,10 +34513,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/guidance/register-your-rental-property-service-guidance-for-landlords": {
-      "hash": "aa6ac0a1caa8da3e",
+      "hash": "36252539c1109fba",
       "body": null,
       "first_seen": "2026-10-29T13:54:58.819Z",
-      "last_changed": "2026-10-29T13:54:58.819Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34901,6 +34901,230 @@
       "body": null,
       "first_seen": "2026-10-29T13:54:58.819Z",
       "last_changed": "2026-10-29T13:54:58.819Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1137": {
+      "hash": "84c149ae55dd3847",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/320": {
+      "hash": "054ab9e82e9f8a7f",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/321": {
+      "hash": "fd25fd239f0b4a1b",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/319": {
+      "hash": "dde934bcdfe47754",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/316": {
+      "hash": "5f10d0061c7093b7",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/314": {
+      "hash": "60fd4d27072615c7",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/313": {
+      "hash": "78866a3dcf9af6b1",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1141": {
+      "hash": "78031ba4748da1ff",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1133": {
+      "hash": "7642a7f46b01812f",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1132": {
+      "hash": "86a6c0a974c67ab0",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/uksi/2026/991/pdfs/uksics_20260991_en_001.pdf": {
+      "hash": "3c6fc82a1210a3d9",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1139": {
+      "hash": "720a46eb9291f284",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1142": {
+      "hash": "cc18fffd90fb3444",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1134": {
+      "hash": "2fda7962844a8bc4",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/318": {
+      "hash": "fd799ccbc91022c8",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/317": {
+      "hash": "c4e87c45e1c6f411",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1138": {
+      "hash": "844395b2705eefff",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-gds::/algorithmic-transparency-records/dwp-work-hub": {
+      "hash": "6806ca1bcd3bb04a",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/guidance/plan-making": {
+      "hash": "5cf000f77bc1f406",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/guidance/urgent-crown-development-application-crowborough-training-camp": {
+      "hash": "99f516a0cfeb92ee",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/chagossian-british-citizens-and-the-uk-information-pack": {
+      "hash": "1bc103c953fb19eb",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/west-sussex-local-government-reorganisation": {
+      "hash": "f0d1f258f167d226",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/local-government-reorganisation-review-update-letters-to-council-leaders": {
+      "hash": "a772d8fb7683cc2f",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/local-government-reorganisation-minded-to-decision-letters-to-council-leaders": {
+      "hash": "1b4ee53f1a690ced",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/social-housing-tenure-standard-direction-to-the-regulator-of-social-housing": {
+      "hash": "a29fb7f3310bcea6",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-dsit-legacy::/government/collections/artificial-intelligence-sector-study": {
+      "hash": "191d64c058162176",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "ai-without-governance-impact"
+    },
+    "govuk-dsit-legacy::/government/publications/artificial-intelligence-sector-study-2025": {
+      "hash": "cb1a136aa140dae0",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "ai-without-governance-impact"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/empty-homes-strategy-position-statement": {
+      "hash": "be5828069fa2ce79",
+      "body": null,
+      "first_seen": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-10-30T13:47:17.174Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
     }

@@ -3,652 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "The Inspectors of Education, Children’s Services and Skills (No. 3) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1087/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": null,
-      "url": "http://www.legislation.gov.uk/wsi/2026/122/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "The Gas Safety (Installation and Use) (Amendment) Regulations (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/178/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation",
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "Correction SLip",
-      "url": "http://www.legislation.gov.uk/wsi/2026/116/pdfs/wsics_20260116_mi_001.pdf",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "The Housing (Empty Dwelling Management Orders) (Prescribed Period of Time and Prescribed Requirements) (England) (Amendment) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1085/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "The Anti-social Behaviour (Provision of Information) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1081/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "local authority",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": null,
-      "url": "http://www.legislation.gov.uk/wsi/2026/121/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/uksi/2026/960/pdfs/uksics_20260960_en_001.pdf",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/uksi/2026/689/pdfs/uksics_20260689_en_001.pdf",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1071/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "accountability",
-          "act 20",
-          "law",
-          "regulation",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "legislation-new",
-      "title": "The Five Estuaries Offshore Wind Farm (Correction) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1070/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "Government Functional Standard GovS 015: Grants",
-      "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-015-grants",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "standard"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Intervention at Slough Borough Council",
-      "url": "https://www.gov.uk/government/collections/intervention-at-slough-borough-council",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "assurance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Bedford Borough Council: Letter to the Chief Executive (15 October 2026)",
-      "url": "https://www.gov.uk/government/publications/bedford-borough-council-letter-to-the-chief-executive-15-october-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "statutory"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Bedford Borough Council: Best Value Inspection report",
-      "url": "https://www.gov.uk/government/publications/bedford-borough-council-best-value-inspection-report",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Slough Borough Council: External review into intervention at Slough Borough Council",
-      "url": "https://www.gov.uk/government/publications/slough-borough-council-external-review-into-intervention-at-slough-borough-council",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Best Value Inspection confirmed at Tees Valley Combined Authority",
-      "url": "https://www.gov.uk/government/news/best-value-inspection-confirmed-at-tees-valley-combined-authority",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Supported housing licensing regime: consultation on draft regulations",
-      "url": "https://www.gov.uk/government/consultations/supported-housing-licensing-regime-consultation-on-draft-regulations",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Support in domestic abuse safe accommodation: 2025 to 2026",
-      "url": "https://www.gov.uk/government/publications/support-in-domestic-abuse-safe-accommodation-2025-to-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local authorities"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-mhclg",
-      "title": "Major milestone reached in ending building safety crisis",
-      "url": "https://www.gov.uk/government/news/major-milestone-reached-in-ending-building-safety-crisis",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "bill",
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-ofsted",
-      "title": "Joint targeted area inspections of the response to younger children living with neglect",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspections-of-the-response-to-younger-children-living-with-neglect",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-ofsted",
-      "title": "Joint targeted area inspection of the multi-agency response to identification of initial need and risk",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-identification-of-initial-need-and-risk--2",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance",
-          "risk"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-cqc",
-      "title": "Joint targeted area inspections of the response to younger children living with neglect",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspections-of-the-response-to-younger-children-living-with-neglect",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "govuk-cqc",
-      "title": "Joint targeted area inspection of the multi-agency response to identification of initial need and risk",
-      "url": "https://www.gov.uk/government/publications/joint-targeted-area-inspection-of-the-multi-agency-response-to-identification-of-initial-need-and-risk--2",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance",
-          "risk"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Tower Hamlets (25 015 723)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-015-723",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "Cambridge City Council (25 021 975)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-021-975",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Hillingdon (25 023 828)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-023-828",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "Cheshire West & Chester Council (25 024 470)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-024-470",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Enfield (25 024 862)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-024-862",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "Ashford Borough Council (25 030 941)",
-      "url": "https://www.lgo.org.uk/decisions/housing/private-housing/25-030-941",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "London Borough of Enfield (26 001 258)",
-      "url": "https://www.lgo.org.uk/decisions/housing/allocations/26-001-258",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "East Riding of Yorkshire Council (26 011 906)",
-      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/26-011-906",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "Ashford Borough Council (25 025 321)",
-      "url": "https://www.lgo.org.uk/decisions/housing/private-housing/25-025-321",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-housing",
-      "title": "Sheffield City Council (25 026 079)",
-      "url": "https://www.lgo.org.uk/decisions/housing/other/25-026-079",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Oldham Metropolitan Borough Council (25 014 234)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/domiciliary-care/25-014-234",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "North Northamptonshire Council (25 015 302)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-015-302",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Redbridge (25 015 612)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transition-from-childrens-services/25-015-612",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Cornwall Council (25 022 102)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/25-022-102",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Akari Care Ltd (25 024 364)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/residential-care/25-024-364",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Newcastle upon Tyne City Council (25 005 718)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-005-718",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "London Borough of Hackney (26 013 162)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/26-013-162",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "Anchor Hanover Group (25 015 556)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/25-015-556",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "East Sussex County Council (25 021 370)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-021-370",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-adult-care",
-      "title": "City of York Council (25 024 375)",
-      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-024-375",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Hertfordshire County Council (25 023 542)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-023-542",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "London Borough of Harrow (25 024 367)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-024-367",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Bath and North East Somerset Council (25 026 046)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-026-046",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Royal Borough of Kensington & Chelsea (25 026 162)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-026-162",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Cornwall Council (25 028 393)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/looked-after-children/25-028-393",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Kent County Council (25 020 924)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-020-924",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-15T12:25:24.086Z",
       "source_id": "lgsco-childrens-care",
       "title": "Liverpool City Council (26 013 918)",
       "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-013-918",
@@ -6627,6 +5981,703 @@
       "source_id": "lgsco-benefits",
       "title": "City of Bradford Metropolitan District Council (25 029 319)",
       "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/local-welfare-payments/25-029-319",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Transport Infrastructure (Fees) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1137/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "public authorities",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Mobile Homes (Written Statement) (Scotland) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/320/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The First-tier Tribunal for Scotland (Transfer of Functions and Members of the Police Appeals Tribunal) Amendment Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/321/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Fuel Poverty (Targets, Definition and Strategy) (Scotland) Act 2019 (Commencement No. 3) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/319/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The A83 Trunk Road (Lochgilphead) (Temporary Prohibition on Use of Road) (No. 2) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/316/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The A84 Trunk Road (Callander) (Temporary Prohibition on Use of Road) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/314/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The A83 Trunk Road (Lochgilphead) (Temporary Prohibition on Use of Road) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/313/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The English Devolution and Community Empowerment Act 2026 (Commencement No. 4) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1141/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Wireless Telegraphy (Exemption) (Amendment) (No. 3) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1133/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Wireless Telegraphy (Dynamic Spectrum Access Devices) (Exemption) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1132/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/991/pdfs/uksics_20260991_en_001.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Education (Student Support for Postgraduate and Lifelong Learning Provision) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1139/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Sea Fisheries (Amendment and Transitional Provision) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1142/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "law",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Central Counterparties (Equivalence) (Indonesia and the People’s Republic of China) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1134/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Scottish Local Government Elections (Election Agents, Expenses and Publication of Information) Amendment Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/318/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Representation of the People (Postal Voting for Local Government Elections) (Scotland) Amendment Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/317/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The English Devolution and Community Empowerment Act 2026 (Consequential Amendments) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1138/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "local government",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "legislation-new",
+      "title": "The Code of Practice (Access and Unfair Practices During the Recognition and Derecognition Process) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1129/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "code of practice"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-gds",
+      "title": "DWP: Work Hub",
+      "url": "https://www.gov.uk/algorithmic-transparency-records/dwp-work-hub",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Plan-making",
+      "url": "https://www.gov.uk/guidance/plan-making",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Urgent Crown Development application: Crowborough Training Camp",
+      "url": "https://www.gov.uk/guidance/urgent-crown-development-application-crowborough-training-camp",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Chagossian British citizens and the UK: information pack",
+      "url": "https://www.gov.uk/government/publications/chagossian-british-citizens-and-the-uk-information-pack",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "West Sussex: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/west-sussex-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Suffolk: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/suffolk-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Staffordshire and Stoke-on-Trent: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/staffordshire-and-stoke-on-trent-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Nottinghamshire and Nottingham: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/nottinghamshire-and-nottingham-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Norfolk: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/norfolk-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Lincolnshire, North Lincolnshire and North East Lincolnshire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/lincolnshire-north-lincolnshire-and-north-east-lincolnshire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Leicestershire, Leicester and Rutland: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/leicestershire-leicester-and-rutland-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Lancashire, Blackburn with Darwen and Blackpool: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/lancashire-blackburn-with-darwen-and-blackpool-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Kent and Medway: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/kent-and-medway-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Hertfordshire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/hertfordshire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Hampshire, Isle of Wight, Portsmouth and Southampton: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/hampshire-isle-of-wight-portsmouth-and-southampton-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Essex, Southend-on-Sea and Thurrock: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/essex-southend-on-sea-and-thurrock-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Devon, Plymouth and Torbay: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/devon-plymouth-and-torbay-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Derbyshire and Derby: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/derbyshire-and-derby-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Worcestershire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/worcestershire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Warwickshire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/warwickshire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Oxfordshire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/oxfordshire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Gloucestershire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/gloucestershire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "East Sussex and Brighton and Hove: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/east-sussex-and-brighton-and-hove-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Local government reorganisation: Policy and programme updates",
+      "url": "https://www.gov.uk/government/collections/local-government-reorganisation-policy-and-programme-updates",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Local government reorganisation: review update letters to council leaders",
+      "url": "https://www.gov.uk/government/publications/local-government-reorganisation-review-update-letters-to-council-leaders",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Local government reorganisation: minded to decision letters to council leaders",
+      "url": "https://www.gov.uk/government/publications/local-government-reorganisation-minded-to-decision-letters-to-council-leaders",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Social Housing Tenure Standard: Direction to the Regulator of Social Housing",
+      "url": "https://www.gov.uk/government/consultations/social-housing-tenure-standard-direction-to-the-regulator-of-social-housing",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "standard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-mhclg",
+      "title": "Register your rental property service: guidance for landlords",
+      "url": "https://www.gov.uk/guidance/register-your-rental-property-service-guidance-for-landlords",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-ofsted",
+      "title": "Children's social care in England 2026",
+      "url": "https://www.gov.uk/government/statistics/childrens-social-care-in-england-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "Artificial Intelligence sector study",
+      "url": "https://www.gov.uk/government/collections/artificial-intelligence-sector-study",
+      "reason": "ai-without-governance-impact",
+      "signals": {
+        "priority": [],
+        "ai": [
+          "artificial intelligence"
+        ],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "Artificial Intelligence sector study 2025",
+      "url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025",
+      "reason": "ai-without-governance-impact",
+      "signals": {
+        "priority": [],
+        "ai": [
+          "artificial intelligence"
+        ],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-10-30T13:47:17.174Z",
+      "source_id": "lga-guidance",
+      "title": "Empty homes strategy position statement",
+      "url": "https://www.local.gov.uk/publications/empty-homes-strategy-position-statement",
       "reason": "no-ai-keyword",
       "signals": {
         "priority": [],
