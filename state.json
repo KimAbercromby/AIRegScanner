@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-10-30T13:47:17.174Z",
+  "last_run": "2026-10-31T13:15:47.722Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -421,10 +421,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "statute-equality-2010::effect-3b448bd5d8ac512c": {
-      "hash": "c3a0423f3e1cf974",
+      "hash": "b8c5bf8989fb5105",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -445,26 +445,26 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-6159368b7983d9fe": {
-      "hash": "83505aec05b13f3a",
+      "hash": "f71fb16eca0dfac2",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-e8e20cd84899cf49": {
-      "hash": "d9842d1aba574dbb",
+      "hash": "5557908292f7f9ec",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-e7f4339d084fe6d3": {
-      "hash": "83505aec05b13f3a",
+      "hash": "f71fb16eca0dfac2",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -509,10 +509,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-7b0f4dadd62b7f7f": {
-      "hash": "83505aec05b13f3a",
+      "hash": "f71fb16eca0dfac2",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-16T19:11:25.290Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -749,18 +749,18 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-802ab5fc3f434770": {
-      "hash": "00a931b88bb44882",
+      "hash": "beecef650e8a927a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-equality-2010::effect-b34b16959ee34f38": {
-      "hash": "00a931b88bb44882",
+      "hash": "beecef650e8a927a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34185,10 +34185,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/uksi/2026/1086/pdfs/uksics_20261086_en_001.pdf": {
-      "hash": "5ef69eba1d74e44f",
+      "hash": "85e1e449efac1d31",
       "body": null,
       "first_seen": "2026-10-28T13:47:17.759Z",
-      "last_changed": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34305,10 +34305,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1140": {
-      "hash": "48df7e4975973ab8",
+      "hash": "3d23d215d6a3af98",
       "body": null,
       "first_seen": "2026-10-29T13:54:58.819Z",
-      "last_changed": "2026-10-29T13:54:58.819Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -35125,6 +35125,46 @@
       "body": null,
       "first_seen": "2026-10-30T13:47:17.174Z",
       "last_changed": "2026-10-30T13:47:17.174Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1146": {
+      "hash": "1b23ed53d2edf71e",
+      "body": null,
+      "first_seen": "2026-10-31T13:15:47.722Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/322": {
+      "hash": "8e2d3da72246929a",
+      "body": null,
+      "first_seen": "2026-10-31T13:15:47.722Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1143": {
+      "hash": "fb6d1e82b6bf3da9",
+      "body": null,
+      "first_seen": "2026-10-31T13:15:47.722Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays": {
+      "hash": "46909f4b8cbdb0fb",
+      "body": null,
+      "first_seen": "2026-10-31T13:15:47.722Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "lga-guidance::https://www.local.gov.uk/publications/red-flags-procurement-supplier-and-contract-management-guide-councillors": {
+      "hash": "3b15a65a21b8b370",
+      "body": null,
+      "first_seen": "2026-10-31T13:15:47.722Z",
+      "last_changed": "2026-10-31T13:15:47.722Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
     }
