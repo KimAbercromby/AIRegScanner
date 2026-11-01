@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-31T13:15:47.722Z",
+  "run_at": "2026-11-01T13:59:52.068Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -33,7 +33,7 @@
       "http_status": 200,
       "items_seen": 100,
       "items_kept": 0,
-      "items_discarded": 3
+      "items_discarded": 4
     },
     {
       "id": "statute-duaa-2025",
@@ -225,11 +225,10 @@
     },
     {
       "id": "ico-news",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 29,
-      "items_kept": 0,
-      "items_discarded": 26
+      "status": "http-error",
+      "http_status": 403,
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "nist-ai-rmf",
@@ -429,33 +428,14 @@
       "items_kept": 0
     }
   ],
-  "rejects": [
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
-      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
-      "title": "LinkedIn"
-    },
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
-      "url": "http://facebook.com/ICOnews",
-      "title": "Facebook"
-    },
-    {
-      "source": "ico-news",
-      "reason": "domain-not-allowed",
-      "url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-      "title": "Open Government Licence v3.0"
-    }
-  ],
+  "rejects": [],
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 14,
+    "discarded": 12,
     "retired": 0,
     "unreviewed": 1144
   }
