@@ -3,171 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "legislation-new",
-      "title": "The Welfare Food (Amendment) (England and Wales) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1092/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "legislation",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "legislation-new",
-      "title": "The First-tier Tribunal and Upper Tribunal (Chambers) (Amendment No. 2) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1083/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "legislation-new",
-      "title": "The Port of Tyne Harbour Revision Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1088/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "statutory"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "legislation-new",
-      "title": "The Income Tax (Pay As You Earn) (Amendment No. 3) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1082/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "legislation-new",
-      "title": "The Global Human Rights and International Humanitarian Law Sanctions (Overseas Territories) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1089/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "law",
-          "regulation",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/uksi/2026/857/pdfs/uksics_20260857_en_001.pdf",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "Government ministers and responsibilities",
-      "url": "https://www.gov.uk/government/publications/government-ministers-and-responsibilities",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-gds",
-      "title": "Terms and conditions for the GOV.UK Wallet Sandbox",
-      "url": "https://www.gov.uk/government/publications/terms-and-conditions-for-the-govuk-wallet-sandbox",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "The Building (Local Authority Charges and Amendments Relating to Charging) (England) Regulations 2026 Circular 05/2026",
-      "url": "https://www.gov.uk/government/publications/the-building-local-authority-charges-and-amendments-relating-to-charging-england-regulations-2026-circular-052026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local authority",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Building control: charges, notices and certificates",
-      "url": "https://www.gov.uk/government/consultations/building-control-charges-notices-and-certificates",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local authority"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Tees Valley Combined Authority: Letter to the Mayor of Tees Valley in relation to the Best Value Inspection",
-      "url": "https://www.gov.uk/government/publications/tees-valley-combined-authority-letter-to-the-mayor-of-tees-valley-in-relation-to-the-best-value-inspection",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local government"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Tees Valley Combined Authority: Letter to the Chief Executive in relation to the Best Value Inspection",
-      "url": "https://www.gov.uk/government/publications/tees-valley-combined-authority-letter-to-the-chief-executive-in-relation-to-the-best-value-inspection",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
       "source_id": "govuk-mhclg",
       "title": "Tees Valley Combined Authority: Best Value Inspector appointment letter",
       "url": "https://www.gov.uk/government/publications/tees-valley-combined-authority-best-value-inspector-appointment-letter",
@@ -6727,6 +6562,165 @@
         "governance": [
           "act 20"
         ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "legislation-new",
+      "title": "The Mesothelioma Lump Sum Payments (Conditions and Amounts) (Amendment) (No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1148/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "legislation-new",
+      "title": "The Pneumoconiosis etc. (Workers’ Compensation) (Payment of Claims) (Amendment) (No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1146/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "statute-hra-1998",
+      "title": "Victims and Prisoners Act 2024 effect on Human Rights Act 1998",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1998/42",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "statute-hra-1998",
+      "title": "Victims and Prisoners Act 2024 effect on Human Rights Act 1998",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1998/42",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "statute-hra-1998",
+      "title": "Victims and Prisoners Act 2024 effect on Human Rights Act 1998",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1998/42",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "govuk-mhclg",
+      "title": "Improving voter registration pilots 2027: prospectus",
+      "url": "https://www.gov.uk/government/publications/improving-voter-registration-pilots-2027-prospectus",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "govuk-mhclg",
+      "title": "Hope on the High Street",
+      "url": "https://www.gov.uk/government/publications/hope-on-the-high-street",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "govuk-mhclg",
+      "title": "Compulsory purchase orders: Register of decisions",
+      "url": "https://www.gov.uk/government/publications/compulsory-purchase-orders-register-of-decisions",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "govuk-mhclg",
+      "title": "New Chair appointed of the Leasehold Advisory Service",
+      "url": "https://www.gov.uk/government/news/new-chair-appointed-of-the-leasehold-advisory-service",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "govuk-mhclg",
+      "title": "Code of Practice for the remediation of residential buildings",
+      "url": "https://www.gov.uk/government/publications/code-of-practice-for-the-remediation-of-residential-buildings",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "code of practice"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "lga-guidance",
+      "title": "Red flags in procurement, supplier and contract management: a guide for councillors",
+      "url": "https://www.local.gov.uk/publications/red-flags-procurement-supplier-and-contract-management-guide-councillors",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-02T16:46:28.529Z",
+      "source_id": "lga-guidance",
+      "title": "Health in All Policies Manual",
+      "url": "https://www.local.gov.uk/publications/health-all-policies-manual",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
       }
     }
   ]
