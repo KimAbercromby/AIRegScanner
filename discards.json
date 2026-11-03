@@ -2,587 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Tees Valley Combined Authority: Best Value Inspector appointment letter",
-      "url": "https://www.gov.uk/government/publications/tees-valley-combined-authority-best-value-inspector-appointment-letter",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 25: Modern slavery and trafficking",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-25-modern-slavery-and-trafficking",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 21: Domestic abuse",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-21-domestic-abuse",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance",
-          "risk"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Chapter 23: People with an offending history",
-      "url": "https://www.gov.uk/guidance/homelessness-code-of-guidance-for-local-authorities/chapter-23-people-with-an-offending-history",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T12:04:13.567Z",
-      "source_id": "govuk-mhclg",
-      "title": "Guide to the Building Safety (Remediation of Unsafe Cladding etc) Bill",
-      "url": "https://www.gov.uk/government/publications/guide-to-the-building-safety-remediation-of-unsafe-cladding-etc-bill",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "bill",
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "legislation-new",
-      "title": "The Scotland Act 1998 (Specification of Functions and Transfer of Property etc.) (Amendment) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1095/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "legislation-new",
-      "title": "The Scottish Administration (Offices) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1097/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "legislation-new",
-      "title": "The School Teachers’ Pay and Conditions (England) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1096/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "legislation-new",
-      "title": "The Tribunal Procedure (Upper Tribunal) (Amendment) Rules 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1084/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "legislation-new",
-      "title": "Correction slip",
-      "url": "http://www.legislation.gov.uk/wsi/2026/12/pdfs/wsics_20260012_mi_001.pdf",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "legislation-new",
-      "title": "The Social Security (Miscellaneous Amendments) Regulations (Northern Ireland) 2026",
-      "url": "http://www.legislation.gov.uk/nisr/2026/177/2026-10-09",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Armed Forces Commissioner Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Armed Forces Commissioner Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Armed Forces Commissioner Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-equality-2010",
-      "title": "Employment Rights Act 2025 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "govuk-cabinet-office",
-      "title": "UK government response to the Covid-19 Inquiry Module 4 report",
-      "url": "https://www.gov.uk/government/publications/uk-government-response-to-the-covid-19-inquiry-module-4-report",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "govuk-mhclg",
-      "title": "Supported Housing regulation: consultation",
-      "url": "https://www.gov.uk/government/consultations/supported-housing-regulation-consultation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "oversight",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "govuk-mhclg",
-      "title": "Special Development Order: Entertainment Resort Complex and Associated Development in Bedford",
-      "url": "https://www.gov.uk/guidance/special-development-order-entertainment-resort-complex-and-associated-development-in-bedford",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety",
-          "security"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "Safe Accommodation Survey June – July 2026",
-      "url": "https://www.local.gov.uk/publications/safe-accommodation-survey-june-july-2026",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "Local partnerships forums for homelessness - September 2026",
-      "url": "https://www.local.gov.uk/publications/local-partnerships-forums-homelessness-september-2026",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "Debate Not Hate: Survey of councillors across all four UK nations 2026",
-      "url": "https://www.local.gov.uk/publications/debate-not-hate-survey-councillors-across-all-four-uk-nations-2026",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "National Cultural Framework",
-      "url": "https://www.local.gov.uk/publications/national-cultural-framework",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "Health in All Policies Manual",
-      "url": "https://www.local.gov.uk/publications/health-all-policies-manual",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "Benefits, remuneration and terms and conditions of councillors",
-      "url": "https://www.local.gov.uk/publications/benefits-remuneration-and-terms-and-conditions-councillors",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "LGR: Adult social care checklist",
-      "url": "https://www.local.gov.uk/publications/lgr-adult-social-care-checklist",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "Deliver, deepen, and define: the next phase of English devolution",
-      "url": "https://www.local.gov.uk/publications/deliver-deepen-and-define-next-phase-english-devolution",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "lga-guidance",
-      "title": "LGA improvement support: Annual report 2025/26",
-      "url": "https://www.local.gov.uk/publications/lga-improvement-support-annual-report-202526",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-16T19:11:25.290Z",
-      "source_id": "statute-hswa-1974",
-      "title": "The Energy Act 2013 (Office for Nuclear Regulation) (Consequential Amendments, Transitional Provisions and Savings) Order 2014 effect on Health and Safety at Work etc. Act 1974",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1974/37",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-18T11:55:18.395Z",
-      "source_id": "statute-dpa-2018",
-      "title": "Employment Rights Act 2025 effect on Data Protection Act 2018",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-18T11:55:18.395Z",
-      "source_id": "statute-dpa-2018",
-      "title": "Employment Rights Act 2025 effect on Data Protection Act 2018",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "rights"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-18T11:55:18.395Z",
-      "source_id": "statute-housing-1996",
-      "title": "The Enterprise and Regulatory Reform Act 2013 (Consequential Amendments) (Bankruptcy) and the Small Business, Enterprise and Employment Act 2015 (Consequential Amendments) Regulations 2016 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-18T11:55:18.395Z",
-      "source_id": "statute-foia-2000",
-      "title": "Armed Forces Commissioner Act 2025 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
       "run_at": "2026-10-18T11:55:18.395Z",
       "source_id": "statute-foia-2000",
       "title": "Armed Forces Commissioner Act 2025 effect on Freedom of Information Act 2000",
@@ -6721,6 +6140,592 @@
         "priority": [],
         "ai": [],
         "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "legislation-new",
+      "title": "The Customs (Tariff and Miscellaneous Amendments) (No. 7) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1155/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "legislation-new",
+      "title": "The Planning and Infrastructure Act 2025 (Commencement No. 5) and English Devolution and Community Empowerment Act 2026 (Commencement No. 5) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1157/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "legislation-new",
+      "title": "The Data-gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1152/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "legislation-new",
+      "title": "Sovereign Grant Act 2026",
+      "url": "http://www.legislation.gov.uk/ukpga/2026/28/enacted",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-foia-2000",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-foia-2000",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-foia-2000",
+      "title": "Victims and Prisoners Act 2024 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-foia-2000",
+      "title": "Victims and Prisoners Act 2024 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "Care workers, women returning to employment and builders to gain practical AI skills",
+      "url": "https://www.gov.uk/government/news/care-workers-women-returning-to-employment-and-builders-to-gain-practical-ai-skills",
+      "reason": "ai-without-governance-impact",
+      "signals": {
+        "priority": [],
+        "ai": [
+          "artificial intelligence"
+        ],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "govuk-mhclg",
+      "title": "Your First Home",
+      "url": "https://www.gov.uk/government/publications/your-first-home",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "govuk-mhclg",
+      "title": "Holocaust Memorial and Learning Centre: updated planning application documents",
+      "url": "https://www.gov.uk/guidance/holocaust-memorial-and-learning-centre-updated-planning-application-documents",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "govuk-ofsted",
+      "title": "Guidance for inspectors and providers on using restraint, physical intervention and restrictions of liberty",
+      "url": "https://www.gov.uk/government/publications/guidance-for-inspectors-and-providers-on-using-restraint-physical-intervention-and-restrictions-of-liberty",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "Cyber Security and Resilience (Network and Information Systems) Bill: factsheets",
+      "url": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "bill",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "lga-guidance",
+      "title": "Funding, structuring and supporting digital inclusion in local government",
+      "url": "https://www.local.gov.uk/publications/funding-structuring-and-supporting-digital-inclusion-local-government",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-lga-1972",
+      "title": "Bus Services Act 2025 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-dmcc-2024",
+      "title": "Tobacco and Vapes Act 2026 effect on Digital Markets, Competition and Consumers Act 2024",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2024/13",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-dmcc-2024",
+      "title": "Tobacco and Vapes Act 2026 effect on Digital Markets, Competition and Consumers Act 2024",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2024/13",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-dmcc-2024",
+      "title": "Tobacco and Vapes Act 2026 effect on Digital Markets, Competition and Consumers Act 2024",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2024/13",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-dmcc-2024",
+      "title": "Tobacco and Vapes Act 2026 effect on Digital Markets, Competition and Consumers Act 2024",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2024/13",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-03T14:49:44.538Z",
+      "source_id": "statute-dmcc-2024",
+      "title": "Tobacco and Vapes Act 2026 effect on Digital Markets, Competition and Consumers Act 2024",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2024/13",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
       }
     }
   ]
