@@ -64457,7 +64457,122 @@
           "governance": []
         }
       }
+    },
+    {
+      "record_id": "REG-1430",
+      "event": "new",
+      "source_id": "legislation-new",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 10) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1167/made",
+      "date_published": "2026-11-05T13:21:21.050627Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-05T15:08:17.658Z",
+      "content_hash": "d513809faa80a4cd",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 735,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20",
+            "regulation"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1431",
+      "event": "changed",
+      "source_id": "legislation-search-ai-title",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "The Data Protection Act 2018 (Code of Practice on Artificial Intelligence and Automated Decision-Making) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/425/made",
+      "date_published": "2026-04-21T16:00:25.151041Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-05T15:08:17.658Z",
+      "content_hash": "f88940d33e4b4ef8",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 736,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "ai-and-governance",
+        "signals": {
+          "priority": [],
+          "ai": [
+            "artificial intelligence",
+            "automated decision",
+            "automated decision-making"
+          ],
+          "governance": [
+            "act 20",
+            "code of practice",
+            "data protection",
+            "legislation",
+            "regulation"
+          ]
+        }
+      }
     }
   ],
-  "next_record_id": 1430
+  "next_record_id": 1432
 }
