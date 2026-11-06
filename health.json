@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-05T15:08:17.658Z",
+  "run_at": "2026-11-06T14:45:47.558Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -8,7 +8,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 49
     },
     {
@@ -165,7 +165,7 @@
       "id": "lga-guidance",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 9,
+      "items_seen": 10,
       "items_kept": 0,
       "items_discarded": 9
     },
@@ -432,11 +432,11 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 1,
+    "added": 0,
     "changed": 1,
     "absorbed": 0,
-    "discarded": 65,
+    "discarded": 45,
     "retired": 0,
-    "unreviewed": 1146
+    "unreviewed": 1147
   }
 }

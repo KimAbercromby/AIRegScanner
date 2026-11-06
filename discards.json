@@ -3,630 +3,6 @@
   "entries": [
     {
       "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The South East Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 10) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/292/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The North West Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 10) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/293/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The North East Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 10) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/290/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The Pedicabs (London) (Amendment) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1122/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The Air Navigation (Restriction of Flying) (Llanelli, Carmarthenshire) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1120/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/nisr/2026/124/pdfs/nisrcs_20260124_en_001.pdf",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safeguard"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The English Devolution and Community Empowerment Act 2026 (Commencement No. 3) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1127/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The First-tier Tribunal for Scotland Housing and Property Chamber (Procedure) Amendment Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/288/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "local authorities",
-          "local authority",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/nisr/2026/182/pdfs/nisrcs_20260182_en_001.pdf",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "legislation-new",
-      "title": "The Intimate Image Reports (Trusted Flagger) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1107/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation",
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-foia-2000",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-foia-2000",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-foia-2000",
-      "title": "Levelling-up and Regeneration Act 2023 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-procurement-2023",
-      "title": "Levelling-up and Regeneration Act 2023 effect on Procurement Act 2023",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-procurement-2023",
-      "title": "Levelling-up and Regeneration Act 2023 effect on Procurement Act 2023",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2023/54",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "govuk-mhclg",
-      "title": "Restructuring HM Land Registry fees",
-      "url": "https://www.gov.uk/government/consultations/restructuring-hm-land-registry-fees",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "govuk-mhclg",
-      "title": "Future of access to HM Land Registry information",
-      "url": "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safeguard"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "govuk-mhclg",
-      "title": "Fire and rescue national framework: 2026 progress report",
-      "url": "https://www.gov.uk/government/publications/fire-and-rescue-national-framework-2026-progress-report",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "compliance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "govuk-mhclg",
-      "title": "Social housing Right to Manage review",
-      "url": "https://www.gov.uk/government/publications/social-housing-right-to-manage-review",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "lga-guidance",
-      "title": "Funding, structuring and supporting digital inclusion in local government",
-      "url": "https://www.local.gov.uk/publications/funding-structuring-and-supporting-digital-inclusion-local-government",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
-      "source_id": "statute-lga-1972",
-      "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-27T12:56:24.982Z",
       "source_id": "statute-lga-1972",
       "title": "Levelling-up and Regeneration Act 2023 effect on Local Government Act 1972",
       "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
@@ -6703,6 +6079,623 @@
     },
     {
       "run_at": "2026-11-05T15:08:17.658Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "legislation-new",
+      "title": "Administrative and Financial Provisions Act (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nia/2026/10/enacted",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/133/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "legislation-new",
+      "title": "The Parking and Waiting Restrictions (Newtownabbey) (Amendment) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/185/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "legislation-new",
+      "title": "Correction slip",
+      "url": "http://www.legislation.gov.uk/ukpga/2025/8/pdfs/ukpgacs_20250008_en_002.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "legislation-new",
+      "title": "Correction slip",
+      "url": "http://www.legislation.gov.uk/uksi/2011/1055/pdfs/uksics_20111055_en_001.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Hampstead) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1169/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "legislation-search-ai-title",
+      "title": "85/519/EEC: Council Decision of 26 November 1985 concerning the conclusion of a Community-COST Concertation Agreement on a concerted-action project in the field of artificial intelligence and pattern recognition (COST project 13)",
+      "url": "http://www.legislation.gov.uk/eudn/1985/519/adopted",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [
+          "artificial intelligence"
+        ],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-equality-2010",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-housing-1996",
+      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-foia-2000",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-foia-2000",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "govuk-mhclg",
+      "title": "Future of access to HM Land Registry information",
+      "url": "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safeguard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "UK software market analysis",
+      "url": "https://www.gov.uk/government/publications/uk-software-market-analysis",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "lga-guidance",
+      "title": "Climate Duty Research Project",
+      "url": "https://www.local.gov.uk/publications/climate-duty-research-project",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "lga-guidance",
+      "title": "Council costs of statutory climate duties: Financial impact assessment",
+      "url": "https://www.local.gov.uk/publications/council-costs-statutory-climate-duties-financial-impact-assessment",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
+      "source_id": "statute-lga-1972",
+      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-06T14:45:47.558Z",
       "source_id": "statute-lga-1972",
       "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
       "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
