@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-06T14:45:47.558Z",
+  "last_run": "2026-11-07T13:42:54.003Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -420,10 +420,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "statute-equality-2010::effect-3b448bd5d8ac512c": {
-      "hash": "b8c5bf8989fb5105",
+      "hash": "2fd573ff3bf9d8b8",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-11-06T14:45:47.558Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -24356,90 +24356,90 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-8561174fb4552840": {
-      "hash": "46498680224ff78c",
+      "hash": "2ceec052833d445d",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-586ff2464c354890": {
-      "hash": "e8738faddcd6af38",
+      "hash": "8dcaf8c4a3b8bc55",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-9b283a03c2b78da4": {
-      "hash": "e8738faddcd6af38",
+      "hash": "8dcaf8c4a3b8bc55",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-abb29bd72b9a4dae": {
-      "hash": "188e668632bd9bc7",
+      "hash": "413cd4a0e5ef3566",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-452146e84e25e3cb": {
-      "hash": "13d41ff327fdfe02",
+      "hash": "83a4720d798e822b",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-769c38868acaa382": {
-      "hash": "13d41ff327fdfe02",
+      "hash": "83a4720d798e822b",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-51afce002f4e9a84": {
-      "hash": "13d41ff327fdfe02",
+      "hash": "83a4720d798e822b",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-15d58093d52b62a5": {
-      "hash": "e8738faddcd6af38",
+      "hash": "8dcaf8c4a3b8bc55",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-6a36259ceb1d136b": {
-      "hash": "e8738faddcd6af38",
+      "hash": "8dcaf8c4a3b8bc55",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-830bce6aa7dbd9c7": {
-      "hash": "e8738faddcd6af38",
+      "hash": "8dcaf8c4a3b8bc55",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-pofa-2012::effect-6d99587269e7374f": {
-      "hash": "e8738faddcd6af38",
+      "hash": "8dcaf8c4a3b8bc55",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-10-24T11:49:17.634Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -36014,10 +36014,10 @@
       "discard_reason": "no-ai-keyword"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nia/2026/10": {
-      "hash": "2299d54087706d98",
+      "hash": "96e9074571fd33db",
       "body": null,
       "first_seen": "2026-11-06T14:45:47.558Z",
-      "last_changed": "2026-11-06T14:45:47.558Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -36084,6 +36084,14 @@
       "last_changed": "2026-11-06T14:45:47.558Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1171": {
+      "hash": "d1c9b70fe8cfb3d9",
+      "body": null,
+      "first_seen": "2026-11-07T13:42:54.003Z",
+      "last_changed": "2026-11-07T13:42:54.003Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
     }
   }
 }

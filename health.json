@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-06T14:45:47.558Z",
+  "run_at": "2026-11-07T13:42:54.003Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -16,7 +16,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 2,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 1
     },
     {
@@ -433,9 +433,9 @@
   "register_review_overdue": false,
   "summary": {
     "added": 0,
-    "changed": 1,
+    "changed": 0,
     "absorbed": 0,
-    "discarded": 45,
+    "discarded": 14,
     "retired": 0,
     "unreviewed": 1147
   }
