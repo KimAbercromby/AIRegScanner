@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-07T13:42:54.003Z",
+  "last_run": "2026-11-08T14:02:01.529Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -11262,46 +11262,46 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-dpa-2018::effect-f806a35f7a4d7a1f": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-0a6b8e9e11f2755b": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-490a442a06f36e24": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-348d93fba5b0f3bf": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-d29d95311657733f": {
-      "hash": "d30dde0cdd3b3a2e",
+      "hash": "093cd731e1f13654",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-bb17505e784a62c0": {
-      "hash": "ed3fc4888c7e5900",
+      "hash": "6529856b5944c4e6",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-551e012c6f9f6e9b": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-ed02487d6a0aa223": {
       "hash": "d30dde0cdd3b3a2e",
@@ -11322,10 +11322,10 @@
       "last_changed": "2026-09-24T08:44:12.869Z"
     },
     "statute-dpa-2018::effect-f0fdbed6494dc94c": {
-      "hash": "d30dde0cdd3b3a2e",
+      "hash": "093cd731e1f13654",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-60fb4b18713f00bc": {
       "hash": "d30dde0cdd3b3a2e",
@@ -11334,10 +11334,10 @@
       "last_changed": "2026-09-24T08:44:12.869Z"
     },
     "statute-dpa-2018::effect-32bdd5418bde7991": {
-      "hash": "98b6a1dc90cc5c44",
+      "hash": "566b462e7dd2e6a0",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-c38872eee88fcdbd": {
       "hash": "66683bbe0493b6cc",
@@ -11346,34 +11346,34 @@
       "last_changed": "2026-09-24T08:44:12.869Z"
     },
     "statute-dpa-2018::effect-1a99196391bd4ada": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-4f8351ea53589bb0": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-2b5539458d7a5086": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-fd995ed5904a6a86": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-b458081cda993005": {
-      "hash": "ca4d6a406a626ec7",
+      "hash": "5592a30f1d6263a5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-87b5993ffa34d1f4": {
       "hash": "4a4962b72d9adb45",
@@ -11388,28 +11388,28 @@
       "last_changed": "2026-09-24T08:44:12.869Z"
     },
     "statute-dpa-2018::effect-98f94a8f9c0e426e": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-31e47a4c2a36eb70": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-e697a5b92b91ba55": {
-      "hash": "d30dde0cdd3b3a2e",
+      "hash": "093cd731e1f13654",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-2d3c8aed883c2db6": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-5139b334ef5c46b1": {
       "hash": "d30dde0cdd3b3a2e",
@@ -11418,448 +11418,448 @@
       "last_changed": "2026-09-24T08:44:12.869Z"
     },
     "statute-dpa-2018::effect-fc7632acf5beec4d": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-9db655d0a899ac25": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-0061d8875d6e9642": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-f34c3e9f4658ba39": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-ef7010dffabd9ec8": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-397d1cd9d29e26fd": {
-      "hash": "e36db4ea598f4ad2",
+      "hash": "d029496c151386cc",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-ca50aba9ffbcfc10": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-eeb4091d3df2a7e2": {
-      "hash": "cb19b271b2aab2d3",
+      "hash": "1660f52932047bc1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-4b798cb6b6176eae": {
-      "hash": "66683bbe0493b6cc",
+      "hash": "b75f0ebc9446dc03",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-2b61d2c5bf450031": {
-      "hash": "38e6335304f7a21c",
+      "hash": "54904f9c001158e7",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-c1178277249d28aa": {
-      "hash": "6ec96083414cdaaa",
+      "hash": "adaa61f141f9ab5d",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-4bf75a944485affb": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-34a0decec3ac238a": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-0e07d6d7ff038aca": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-91e7bb021b89b78c": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-80532c9099dcbfa5": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-624690ea5bb9dd0c": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-5ccc1b769f3ecdff": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-09cf3c62b2b3ab42": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-f94065ac06ebaf9c": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-b12d041e0a43018c": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-b3f1dc7678eda698": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-d2ff6abfaea7b579": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-62a502c77ba0a9b6": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-185641a5b452cfd9": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-de96b370b4308985": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-3caf87dea4c4828b": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-cc7e9758377ca156": {
-      "hash": "66683bbe0493b6cc",
+      "hash": "b75f0ebc9446dc03",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-0f997a967c7b3704": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-c5efb1e218dc6e2a": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-534fbf4a52f6c73a": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-5cbf099332c2080e": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-45c1675aee11358e": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-e16214088f33f514": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-e93dbf7214290c32": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-50c00e576eaa40aa": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-d67dcd5273bb39f4": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-7118c24cd86c3b5b": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-fc88e2820d2cb401": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-8ca8012159eee5d6": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-0ecd66d764c0633c": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-a9ff8973abc4c8f0": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-ab73fe67775aaeab": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-8d7495a458b4b5b5": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-a60658365c353c6b": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-81045b644f4bba9e": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-8322ed42588a129b": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-6896cc6ceeaf1987": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-d1a06e1b2bc6f56f": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-b1a8a4288d53e86f": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-b01a4572bfcd8a78": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-eb065be09fded3af": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-0fd447fa88ac3fa9": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-e44da41148c6eaa5": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-9570fbc67438eaf8": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-b9af66cffb8e0629": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-ff903aaa4093b84d": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-c980e8b3646cb4f8": {
-      "hash": "04f74b0f1eed8962",
+      "hash": "a90824c3ea0e09ec",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-6a544f6e1b3f90d1": {
-      "hash": "66683bbe0493b6cc",
+      "hash": "b75f0ebc9446dc03",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-6821b6060d6812bd": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-a5811c6ed1cba663": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-9479ad840233d48a": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-f8e5ffd63c6c2baf": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-52c10fb3a4284856": {
-      "hash": "0e9e1bc22d77670e",
+      "hash": "759daa3a4efb21fd",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-061f7c5b67f89bdb": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-f26185a5b90a3998": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-5ad86faee7e2aabf": {
-      "hash": "bdbf13f806745402",
+      "hash": "f5b39288a2788d5f",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-6414ca90590e34f2": {
-      "hash": "e36db4ea598f4ad2",
+      "hash": "d029496c151386cc",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-4a23a1dc1c65fd13": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-8535e460b73a9ebc": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-39d4919e2930886d": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-2bb6330e57161511": {
-      "hash": "4a4962b72d9adb45",
+      "hash": "585161b24a0835d1",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-6b359c221ab8d1f6": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-dpa-2018::effect-41558b89247fd68d": {
-      "hash": "6f95ea3fd62f466e",
+      "hash": "e1e7610673a0a4b5",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z"
+      "last_changed": "2026-11-08T14:02:01.529Z"
     },
     "statute-hra-1998::effect-11a2a55c073a3b53": {
       "hash": "200d0014dc075294",
@@ -36092,6 +36092,54 @@
       "last_changed": "2026-11-07T13:42:54.003Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-dpa-2018::effect-1832d63b6f339bf0": {
+      "hash": "e1e7610673a0a4b5",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
+    },
+    "statute-dpa-2018::effect-82f68f61ba77a833": {
+      "hash": "f5b39288a2788d5f",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
+    },
+    "statute-dpa-2018::effect-6929cc5714ba93e4": {
+      "hash": "e1e7610673a0a4b5",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
+    },
+    "statute-dpa-2018::effect-7ad95013db6166b7": {
+      "hash": "f5b39288a2788d5f",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
+    },
+    "statute-dpa-2018::effect-bc158cc1f8b176b0": {
+      "hash": "e1e7610673a0a4b5",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
+    },
+    "statute-dpa-2018::effect-2ceab493cdb3169f": {
+      "hash": "585161b24a0835d1",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
+    },
+    "statute-dpa-2018::effect-19cf138838d8284d": {
+      "hash": "e1e7610673a0a4b5",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
+    },
+    "statute-dpa-2018::effect-2de910600bbccac8": {
+      "hash": "585161b24a0835d1",
+      "body": null,
+      "first_seen": "2026-11-08T14:02:01.529Z",
+      "last_changed": "2026-11-08T14:02:01.529Z"
     }
   }
 }

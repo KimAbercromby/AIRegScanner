@@ -64632,7 +64632,5408 @@
           ]
         }
       }
+    },
+    {
+      "record_id": "REG-1433",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 738,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1434",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 739,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1435",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 740,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1436",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 741,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1437",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "093cd731e1f13654",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 742,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1438",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 743,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1439",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "093cd731e1f13654",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 744,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1440",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "566b462e7dd2e6a0",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 745,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1441",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 746,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1442",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 747,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1443",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-09-30",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 748,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1444",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 749,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1445",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "5592a30f1d6263a5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 750,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1446",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 751,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1447",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 752,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1448",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "093cd731e1f13654",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 753,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1449",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 754,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1450",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-11-17",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 755,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1451",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 756,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1452",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-09-30",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 757,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1453",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 758,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1454",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 759,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1455",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "d029496c151386cc",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 760,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1456",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 761,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1457",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "1660f52932047bc1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 762,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20",
+            "regulation"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1458",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "b75f0ebc9446dc03",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1459",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "54904f9c001158e7",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1460",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-03-31",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "adaa61f141f9ab5d",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1461",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1462",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1463",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1464",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1465",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1466",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1467",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1468",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1469",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1470",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1471",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1472",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-11-17",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1473",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1474",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1475",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1476",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1477",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "b75f0ebc9446dc03",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1478",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1479",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1480",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1481",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1482",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1483",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1484",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1485",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1486",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1487",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "6529856b5944c4e6",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1488",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1489",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1490",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1491",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1492",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1493",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1494",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1495",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1496",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1497",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2024-01-01",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1498",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1499",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1500",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1501",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1502",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1503",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1504",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1505",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1506",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1507",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1508",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "a90824c3ea0e09ec",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1509",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "b75f0ebc9446dc03",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1510",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1511",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1512",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1513",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1514",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "759daa3a4efb21fd",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1515",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1516",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1517",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1518",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-09-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "d029496c151386cc",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1519",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1520",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1521",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1522",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1523",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1524",
+      "event": "changed",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1525",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1526",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-06-19",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1527",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1528",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "f5b39288a2788d5f",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1529",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1530",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1531",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "e1e7610673a0a4b5",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1532",
+      "event": "new",
+      "source_id": "statute-dpa-2018",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 1,
+      "title": "Data (Use and Access) Act 2025 effect on Data Protection Act 2018",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2018/12",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2026-02-05",
+      "date_retrieved": "2026-11-08T14:02:01.529Z",
+      "content_hash": "585161b24a0835d1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": null,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
     }
   ],
-  "next_record_id": 1433
+  "next_record_id": 1533
 }

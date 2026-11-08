@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-07T13:42:54.003Z",
+  "run_at": "2026-11-08T14:02:01.529Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -32,8 +32,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 4
+      "items_kept": 100,
+      "items_discarded": 0
     },
     {
       "id": "statute-duaa-2025",
@@ -432,11 +432,12 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 0,
-    "changed": 0,
+    "added": 8,
+    "changed": 92,
     "absorbed": 0,
-    "discarded": 14,
+    "discarded": 0,
     "retired": 0,
-    "unreviewed": 1147
-  }
+    "unreviewed": 1247
+  },
+  "issue_cap_warning": "100 records await an issue but only 25 are created per run. The queue will take 4 runs to clear."
 }
