@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-08T14:02:01.529Z",
+  "run_at": "2026-11-09T17:06:28.040Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -16,7 +16,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 2,
-      "items_kept": 0,
+      "items_kept": 1,
       "items_discarded": 1
     },
     {
@@ -32,7 +32,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 100,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -88,7 +88,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
+      "items_kept": 4,
       "items_discarded": 20
     },
     {
@@ -432,12 +432,12 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 8,
-    "changed": 92,
+    "added": 0,
+    "changed": 5,
     "absorbed": 0,
-    "discarded": 0,
+    "discarded": 49,
     "retired": 0,
-    "unreviewed": 1247
+    "unreviewed": 1252
   },
-  "issue_cap_warning": "100 records await an issue but only 25 are created per run. The queue will take 4 runs to clear."
+  "issue_cap_warning": "80 records await an issue but only 25 are created per run. The queue will take 4 runs to clear."
 }
