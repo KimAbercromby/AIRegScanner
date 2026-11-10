@@ -2,126 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "govuk-mhclg",
-      "title": "Building Safety Remediation: monthly data release - September 2026",
-      "url": "https://www.gov.uk/government/publications/building-safety-remediation-monthly-data-release-september-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "govuk-mhclg",
-      "title": "Building Safety Remediation",
-      "url": "https://www.gov.uk/government/collections/building-safety-remediation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "govuk-mhclg",
-      "title": "Fire and rescue incident statistics, year ending June 2026",
-      "url": "https://www.gov.uk/government/statistics/fire-and-rescue-incident-statistics-year-ending-june-2026",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "govuk-mhclg",
-      "title": "Future of access to HM Land Registry information",
-      "url": "https://www.gov.uk/government/consultations/future-of-access-to-hm-land-registry-information",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "safeguard"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): children’s homes",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-childrens-homes",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "govuk-ofsted",
-      "title": "Social care common inspection framework (SCCIF): supported accommodation",
-      "url": "https://www.gov.uk/government/publications/social-care-common-inspection-framework-sccif-supported-accommodation",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "guidance"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "govuk-dsit-legacy",
-      "title": "Tech Town Business Survey: privacy notice 2026 to 2027",
-      "url": "https://www.gov.uk/government/publications/tech-town-business-survey-privacy-notice-2026-to-2027",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-28T13:47:17.759Z",
-      "source_id": "lga-guidance",
-      "title": "Fighting fraud and corruption locally 2026",
-      "url": "https://www.local.gov.uk/publications/fighting-fraud-and-corruption-locally-2026",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-10-29T13:54:58.819Z",
-      "source_id": "legislation-new",
-      "title": "The Road Traffic (Permitted Parking Area and Special Parking Area) (Dumfries and Galloway Council) Designation Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/296/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local government"
-        ]
-      }
-    },
-    {
       "run_at": "2026-10-29T13:54:58.819Z",
       "source_id": "legislation-new",
       "title": "The Parking Attendants (Wearing of Uniforms) (Dumfries and Galloway Council) Regulations 2026",
@@ -6708,6 +6588,128 @@
         "governance": [
           "act 20"
         ]
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (RAF Mildenhall, Norfolk) (Emergency) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1178/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (RAF Feltwell, Norfolk) (Emergency) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1177/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (RAF Lakenheath, Norfolk) (Emergency) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1176/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/135/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/134/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Tilbury Docks, Essex) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1170/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/443/pdfs/uksics_20260443_en_001.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "legislation-new",
+      "title": "The Renewables Obligation and Electricity Capacity (Amendment) (British Industrial Competitiveness Scheme Excluded Electricity) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1171/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-10T15:23:41.675Z",
+      "source_id": "govuk-mhclg",
+      "title": "The Older People's Housing Taskforce Report: government response",
+      "url": "https://www.gov.uk/government/publications/the-older-peoples-housing-taskforce-report-government-response",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
       }
     }
   ]

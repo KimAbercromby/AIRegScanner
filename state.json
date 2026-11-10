@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-09T17:06:28.040Z",
+  "last_run": "2026-11-10T15:23:41.675Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -36086,10 +36086,10 @@
       "discard_reason": "no-ai-keyword"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1171": {
-      "hash": "d1c9b70fe8cfb3d9",
+      "hash": "e909ab26c0e68a61",
       "body": null,
       "first_seen": "2026-11-07T13:42:54.003Z",
-      "last_changed": "2026-11-07T13:42:54.003Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -36226,6 +36226,70 @@
       "body": null,
       "first_seen": "2026-11-09T17:06:28.040Z",
       "last_changed": "2026-11-09T17:06:28.040Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1178": {
+      "hash": "31fc0972dd464d6c",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1177": {
+      "hash": "a8fdfcab9b0a3f28",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1176": {
+      "hash": "fde3abdfcadac9bb",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/135": {
+      "hash": "3b10fac0f1fb58f7",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/134": {
+      "hash": "498ed51e35d62c39",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1170": {
+      "hash": "97f72047926ee5f1",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/uksi/2026/443/pdfs/uksics_20260443_en_001.pdf": {
+      "hash": "5db2c2753f3f2cc3",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/the-older-peoples-housing-taskforce-report-government-response": {
+      "hash": "807d009eec30b0dd",
+      "body": null,
+      "first_seen": "2026-11-10T15:23:41.675Z",
+      "last_changed": "2026-11-10T15:23:41.675Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }
