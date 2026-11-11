@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-10T15:23:41.675Z",
+  "run_at": "2026-11-11T14:53:16.426Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -167,7 +167,7 @@
       "http_status": 200,
       "items_seen": 10,
       "items_kept": 0,
-      "items_discarded": 9
+      "items_discarded": 10
     },
     {
       "id": "bills-parliament",
@@ -225,10 +225,11 @@
     },
     {
       "id": "ico-news",
-      "status": "http-error",
-      "http_status": 403,
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 29,
+      "items_kept": 0,
+      "items_discarded": 26
     },
     {
       "id": "nist-ai-rmf",
@@ -314,8 +315,8 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
-      "items_discarded": 79
+      "items_kept": 9,
+      "items_discarded": 78
     },
     {
       "id": "statute-psi-reuse-2015",
@@ -428,16 +429,35 @@
       "items_kept": 0
     }
   ],
-  "rejects": [],
+  "rejects": [
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "https://www.linkedin.com/company/information-commissions-office-ico",
+      "title": "LinkedIn"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "http://facebook.com/ICOnews",
+      "title": "Facebook"
+    },
+    {
+      "source": "ico-news",
+      "reason": "domain-not-allowed",
+      "url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "title": "Open Government Licence v3.0"
+    }
+  ],
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
     "added": 0,
-    "changed": 0,
+    "changed": 9,
     "absorbed": 0,
-    "discarded": 9,
+    "discarded": 60,
     "retired": 0,
-    "unreviewed": 1252
+    "unreviewed": 1261
   },
-  "issue_cap_warning": "55 records await an issue but only 25 are created per run. The queue will take 3 runs to clear."
+  "issue_cap_warning": "39 records await an issue but only 25 are created per run. The queue will take 2 runs to clear."
 }
