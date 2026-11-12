@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-11T14:53:16.426Z",
+  "run_at": "2026-11-12T15:44:19.767Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -315,7 +315,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 9,
+      "items_kept": 0,
       "items_discarded": 78
     },
     {
@@ -371,7 +371,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 0,
+      "items_kept": 4,
       "items_discarded": 84
     },
     {
@@ -453,11 +453,10 @@
   "register_review_overdue": false,
   "summary": {
     "added": 0,
-    "changed": 9,
+    "changed": 4,
     "absorbed": 0,
-    "discarded": 60,
+    "discarded": 126,
     "retired": 0,
-    "unreviewed": 1261
-  },
-  "issue_cap_warning": "39 records await an issue but only 25 are created per run. The queue will take 2 runs to clear."
+    "unreviewed": 1265
+  }
 }

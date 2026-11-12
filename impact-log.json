@@ -70065,7 +70065,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 838,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70133,7 +70133,7 @@
         "Do not assume every register field or model card is disclosable; exemptions and publication duties require owner review."
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 839,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70195,7 +70195,7 @@
         "Do not assume every register field or model card is disclosable; exemptions and publication duties require owner review."
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 840,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70257,7 +70257,7 @@
         "Do not assume every register field or model card is disclosable; exemptions and publication duties require owner review."
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 841,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70319,7 +70319,7 @@
         "Do not assume every register field or model card is disclosable; exemptions and publication duties require owner review."
       ],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 842,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70373,7 +70373,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 843,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70427,7 +70427,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 844,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70481,7 +70481,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 845,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70535,7 +70535,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 846,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70589,7 +70589,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 847,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70643,7 +70643,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 848,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70697,7 +70697,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 849,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70751,7 +70751,7 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 850,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70805,7 +70805,223 @@
       ],
       "review_flags": [],
       "status": "unreviewed",
-      "issue_number": null,
+      "issue_number": 851,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1547",
+      "event": "changed",
+      "source_id": "statute-ipa-2016",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "title": "Data (Use and Access) Act 2025 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-11-17",
+      "date_retrieved": "2026-11-12T15:44:19.767Z",
+      "content_hash": "4d7b37e75c16a648",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 852,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1548",
+      "event": "changed",
+      "source_id": "statute-ipa-2016",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "title": "Data (Use and Access) Act 2025 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-12T15:44:19.767Z",
+      "content_hash": "810367c4a20d6881",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 853,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1549",
+      "event": "changed",
+      "source_id": "statute-ipa-2016",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "title": "Data (Use and Access) Act 2025 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-06-19",
+      "date_retrieved": "2026-11-12T15:44:19.767Z",
+      "content_hash": "e5399d739051afa1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 854,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "data (use and access) act"
+          ],
+          "ai": [],
+          "governance": [
+            "act 20"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1550",
+      "event": "changed",
+      "source_id": "statute-ipa-2016",
+      "publisher": "The National Archives (legislation.gov.uk)",
+      "tier": 2,
+      "title": "Data (Use and Access) Act 2025 effect on Investigatory Powers Act 2016",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
+      "date_published": "2026-11-06T14:22:52Z",
+      "date_in_force": "2025-08-20",
+      "date_retrieved": "2026-11-12T15:44:19.767Z",
+      "content_hash": "e5399d739051afa1",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "adm-article-22"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "2.5",
+        "4.6.1",
+        "4.7.7"
+      ],
+      "affects_artefacts": [
+        "AIG-ASS-05 Data Protection Impact Assessment",
+        "AIG-DEC-03 Governance Decision Record",
+        "AIG-OPS-04 AI Contestability and Redress Control"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 855,
       "decision": null,
       "decision_valid": null,
       "reviewed_by": null,
@@ -70829,5 +71045,5 @@
       }
     }
   ],
-  "next_record_id": 1547
+  "next_record_id": 1551
 }
