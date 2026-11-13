@@ -201,7 +201,8 @@ test('ISO/IEC 42001 and NIST are present and now watched by a live source', () =
       const src = byId.get(id);
       assert.ok(src, `${name} watched_by ${id} exists in the register`);
       assert.ok(live.has(src.verification_status), `${name} watch source ${id} is live`);
-      assert.equal(src.type, 'page-watch', `${name} is watched by a page-watch source`);
+      // NIST by page-watch (body hash); ISO by its official per-standard RSS (iso.org 403s page fetches).
+      assert.ok(['page-watch', 'rss'].includes(src.type), `${name} is watched by a page-watch or RSS source`);
     }
   }
 });

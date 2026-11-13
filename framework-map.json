@@ -1,9 +1,9 @@
 {
-  "framework_map_version": "0.2",
+  "framework_map_version": "0.3",
   "target_playbook_version": "Proposed grouped-ID suite, 2026-09-28 corrected (v3; unversioned; not approved)",
   "reviewed_edition_sha256": "a6b0cc53a05b7425dc3010e76877e6da342d740d66512708aee90867e37b977c",
   "playbook_anchor": "Draft crosswalk to the playbook's regulatory landscape and monitoring commitments. This is a scanner-source map only; it is not an approved Council register, legal applicability decision, assurance state, or record of a Council decision.",
-  "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners.",
+  "note": "expectation governs scanner monitoring only. must-watch means a source is expected for monitoring; reference means a source may be retained for context. live/dark/gap is computed from sources.json verification_status and says nothing about legal applicability, compliance, approval, or action required. Every system and tier still needs case-specific screening by the responsible owners. 23 Oct 2026: the §2.5 procurement and central-government guidance items were refreshed to the Playbook 19.9.23 wording ahead of a full re-pin of this map and mappings.json to suite v3.9.11.",
   "proposed_relationship_pointer": {
     "name": "Capabilities and System Map",
     "status": "proposed controlled artefact AIG-INV-05; not approved or adopted",
@@ -68,12 +68,14 @@
     },
     {
       "ref": "§2.5",
-      "item": "Procurement regulations",
+      "item": "Procurement Act 2023 and Public Contracts Regulations 2015",
       "kind": "statute",
       "expectation": "must-watch",
       "watched_by": [
-        "statute-procurement-2023"
-      ]
+        "statute-procurement-2023",
+        "statute-pcr-2015"
+      ],
+      "note": "Playbook 19.9.23 §2.5 names both: the Procurement Act 2023, and the Public Contracts Regulations 2015 for procurements begun before 24 February 2025."
     },
     {
       "ref": "§2.5",
@@ -87,14 +89,15 @@
     },
     {
       "ref": "§2.5",
-      "item": "UK AI Regulation White Paper and AI Opportunities Action Plan",
+      "item": "AI Playbook for the UK Government, Data and AI Ethics Framework and AI Opportunities Action Plan",
       "kind": "policy",
       "expectation": "must-watch",
       "watched_by": [
         "govuk-cabinet-office",
         "govuk-gds",
         "govuk-mhclg"
-      ]
+      ],
+      "note": "Playbook 19.9.23 §2.5 replaced the UK AI Regulation White Paper (retired from the suite at v3.9.11) with the AI Playbook for the UK Government (Feb 2025) and the Data and AI Ethics Framework (Dec 2025), alongside the AI Opportunities Action Plan. All three are central-government guidance published on GOV.UK, so they are watched through the GOV.UK organisation feeds. No AIG-AIMS-05 REQ row yet exists for the Data and AI Ethics Framework."
     },
     {
       "ref": "§2.5",

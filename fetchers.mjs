@@ -161,6 +161,9 @@ export function parseAtomChanges(xml) {
 export function parseRss(xml) {
   const doc = parser.parse(xml);
   const channel = doc.rss?.channel;
+  // Some publishers (e.g. the gov.uk blogs, Sept 2026) switch their /feed/ from RSS to Atom
+  // without changing the URL. Read an Atom document rather than failing the source.
+  if (!channel && doc.feed) return parseAtom(xml);
   if (!channel) throw new Error(`no <rss><channel>: not an RSS document. Server returned: "${bodySnippet(xml)}"`);
   return toArray(channel.item).map((i) => ({
     raw_id: text(i.guid) || text(i.link),
