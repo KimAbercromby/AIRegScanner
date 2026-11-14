@@ -7,7 +7,9 @@
  * record, with their name, role and authority, and closes the GitHub issues.
  *
  *   node bulk-decide.mjs --preview   counts per group, writes nothing, no network
- *   node bulk-decide.mjs             applies the decided groups
+ *   node bulk-decide.mjs             applies the decided groups and closes issues
+ *   node bulk-decide.mjs --no-close  applies the decided groups, leaves issues open
+ *   node bulk-decide.mjs --close-only closes issues for records already decided in bulk
  *
  * A group with "decision": null is left alone and listed as undecided.
  * Nothing is deleted. Every affected record keeps a bulk_group marker so the
@@ -27,7 +29,7 @@ const REVIEWERS = join(ROOT, 'reviewers.json');
 const API = 'https://api.github.com';
 const TOKEN = process.env.GITHUB_TOKEN;
 const REPO = process.env.GITHUB_REPOSITORY;
-const MAX_ISSUES = Number(process.env.BULK_MAX_ISSUES ?? 300);
+const MAX_ISSUES = Number(process.env.BULK_MAX_ISSUES ?? 250);
 
 // ---------- pure logic (tested offline) ----------
 
@@ -37,6 +39,14 @@ function blockFor(group) {
   if ((group.artefacts || []).length) lines.push(`ARTEFACTS: ${group.artefacts.join(', ')}`);
   if (group.in_force) lines.push(`IN-FORCE: ${group.in_force}`);
   lines.push(`NOTE: ${group.note ?? ''}`, '```');
+  return lines.join('\n');
+}
+
+export function blockFromRecord(rec) {
+  const lines = ['```decision', `DECISION: ${rec.decision}`];
+  if ((rec.decided_sections || []).length) lines.push(`SECTIONS: ${rec.decided_sections.join(', ')}`);
+  if ((rec.decided_artefacts || []).length) lines.push(`ARTEFACTS: ${rec.decided_artefacts.join(', ')}`);
+  lines.push(`NOTE: ${rec.outcome ?? ''}`, '```');
   return lines.join('\n');
 }
 
@@ -140,33 +150,50 @@ async function gh(path, { method = 'GET', body } = {}) {
     },
     body: body ? JSON.stringify(body) : undefined
   });
-  return { ok: res.ok, status: res.status };
+  let json = null;
+  try { json = await res.json(); } catch { /* no body */ }
+  return { ok: res.ok, status: res.status, json };
 }
 
-async function closeIssues(applied, who) {
-  const withIssue = applied.filter((a) => a.record.issue_number);
-  let closed = 0, stopped = false;
-  for (const { record, group } of withIssue.slice(0, MAX_ISSUES)) {
-    const body = `Recorded in bulk by ${who} for group \`${group.id}\`${group.label ? ` (${group.label})` : ''}. One decision was made for every record in the group.\n\n${blockFor(group)}`;
-    const c = await gh(`/repos/${REPO}/issues/${record.issue_number}/comments`, { method: 'POST', body: { body } });
+async function closeIssues(records) {
+  const withIssue = records.filter((r) => r.issue_number && r.bulk_group && r.status === 'reviewed');
+  let closed = 0, already = 0, stopped = false;
+  for (const rec of withIssue) {
+    if (closed >= MAX_ISSUES) break;
+    const g = await gh(`/repos/${REPO}/issues/${rec.issue_number}`);
+    if (!g.ok) { stopped = g.status === 403 || g.status === 429; if (stopped) break; continue; }
+    if (g.json?.state === 'closed') { already += 1; continue; }
+    const body = `Recorded in bulk by ${rec.reviewed_by} for group \`${rec.bulk_group}\`. One decision was made for every record in the group.\n\n${blockFromRecord(rec)}`;
+    const c = await gh(`/repos/${REPO}/issues/${rec.issue_number}/comments`, { method: 'POST', body: { body } });
     if (!c.ok) { stopped = c.status === 403 || c.status === 429; if (stopped) break; continue; }
-    const p = await gh(`/repos/${REPO}/issues/${record.issue_number}`, { method: 'PATCH', body: { state: 'closed', state_reason: 'completed' } });
+    const p = await gh(`/repos/${REPO}/issues/${rec.issue_number}`, { method: 'PATCH', body: { state: 'closed', state_reason: 'completed' } });
     if (!p.ok) { stopped = p.status === 403 || p.status === 429; if (stopped) break; continue; }
     closed += 1;
     await new Promise((r) => setTimeout(r, 400));
   }
-  const left = withIssue.length - closed;
-  return { closed, left, stopped };
+  const left = withIssue.length - closed - already;
+  return { closed, already, left, stopped };
 }
 
 // ---------- main ----------
 
 async function main() {
   const preview = process.argv.includes('--preview');
+  const noClose = process.argv.includes('--no-close');
+  const closeOnly = process.argv.includes('--close-only');
   if (!existsSync(CONFIG)) { console.log('No bulk-decisions.json found.'); return; }
   const config = JSON.parse(readFileSync(CONFIG, 'utf8'));
   const reviewers = existsSync(REVIEWERS) ? JSON.parse(readFileSync(REVIEWERS, 'utf8')) : { reviewers: [] };
   const log = JSON.parse(readFileSync(LOG, 'utf8'));
+
+  if (closeOnly) {
+    if (!TOKEN || !REPO) { console.log('No GitHub token here, so nothing can be closed.'); return; }
+    const r = await closeIssues(log.records);
+    console.log('### Bulk close');
+    console.log(`${r.closed} issue(s) commented on and closed, ${r.already} already closed.`);
+    if (r.left) console.log(`${r.left} still open${r.stopped ? ' (GitHub rate limit reached)' : ' (per-run cap)'}. Run bulk-close again later.`);
+    return;
+  }
 
   const report = applyBulkDecisions(log.records, config, reviewers, { preview });
 
@@ -189,8 +216,9 @@ async function main() {
   writeFileSync(LOG, JSON.stringify(log, null, 2) + '\n');
   console.log(`${report.applied.length} record(s) decided and saved.`);
 
+  if (noClose) { console.log('Issues are not closed by this step. The next step closes them, or run the bulk-close task.'); if (report.errors.length) process.exit(1); return; }
   if (!TOKEN || !REPO) { console.log('No GitHub token here, so issues were not closed. The next scan closes them.'); return; }
-  const r = await closeIssues(report.applied, config.decided_by);
+  const r = await closeIssues(report.applied.map((a) => a.record));
   console.log(`${r.closed} issue(s) commented on and closed.`);
   if (r.left) console.log(`${r.left} issue(s) still open${r.stopped ? ' (GitHub rate limit reached)' : ' (per-run cap)'}. The daily scan closes them over the next runs, or run this task again.`);
   if (report.errors.length) process.exit(1);
