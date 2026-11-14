@@ -12,6 +12,8 @@ name: Regulatory scanner
 #   resolve  - confirm the twelve statute chapter numbers. RUN THIS FIRST.
 #   smoke    - call the live publishers and fail loudly if unreachable
 #   discover - inspect a publisher page and print a source config (needs a URL)
+#   bulk-preview - show what bulk-decisions.json would do (writes nothing)
+#   bulk     - apply the decided groups in bulk-decisions.json and close their issues
 
 on:
   schedule:
@@ -24,7 +26,7 @@ on:
         required: true
         default: 'scan'
         type: choice
-        options: [scan, resolve, smoke, discover]
+        options: [scan, resolve, smoke, discover, bulk-preview, bulk]
       url:
         description: 'Page to inspect (discover only)'
         required: false
@@ -84,6 +86,18 @@ jobs:
           npm run smoke 2>&1 | tee -a $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
+      # ---------- bulk decisions ----------
+      - name: Bulk decisions preview
+        if: env.TASK == 'bulk-preview'
+        run: node bulk-decide.mjs --preview 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+
+      - name: Bulk decisions apply
+        if: env.TASK == 'bulk'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node bulk-decide.mjs 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+
       # ---------- scan ----------
       - name: Scan
         if: env.TASK == 'scan'
@@ -115,7 +129,7 @@ jobs:
 
       # ---------- commit ----------
       - name: Commit
-        if: env.TASK == 'scan' || env.TASK == 'resolve'
+        if: env.TASK == 'scan' || env.TASK == 'resolve' || env.TASK == 'bulk'
         run: |
           git config user.name  "regulatory-scanner"
           git config user.email "actions@github.com"
