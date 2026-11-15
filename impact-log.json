@@ -32879,14 +32879,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 169,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32901,7 +32901,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0866",
@@ -32932,14 +32937,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 170,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -32954,7 +32959,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0867",
@@ -32985,14 +32995,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 171,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33007,7 +33017,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0868",
@@ -33038,14 +33053,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 172,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33060,7 +33075,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0869",
@@ -33091,14 +33111,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 173,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33113,7 +33133,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0870",
@@ -33144,14 +33169,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 174,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33166,7 +33191,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0871",
@@ -33197,14 +33227,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 175,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33219,7 +33249,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0872",
@@ -33250,14 +33285,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 176,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33272,7 +33307,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0873",
@@ -33303,14 +33343,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 177,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33325,7 +33365,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0874",
@@ -33356,14 +33401,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 178,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33378,7 +33423,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0875",
@@ -33409,14 +33459,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 179,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33431,7 +33481,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0876",
@@ -33462,14 +33517,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 180,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33484,7 +33539,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0877",
@@ -33515,14 +33575,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 181,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33537,7 +33597,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0878",
@@ -33568,14 +33633,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 182,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33590,7 +33655,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0879",
@@ -33621,14 +33691,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 183,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33643,7 +33713,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0880",
@@ -33674,14 +33749,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 184,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33696,7 +33771,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0881",
@@ -33727,14 +33807,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 185,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33749,7 +33829,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0882",
@@ -33780,14 +33865,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 186,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33802,7 +33887,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0883",
@@ -33833,14 +33923,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 187,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33855,7 +33945,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0884",
@@ -33886,14 +33981,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 188,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33908,7 +34003,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0885",
@@ -33939,14 +34039,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 189,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -33961,7 +34061,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0886",
@@ -33992,14 +34097,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 190,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -34014,7 +34119,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0887",
@@ -34045,14 +34155,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 191,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -34067,7 +34177,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0888",
@@ -34098,14 +34213,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 192,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -34120,7 +34235,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0889",
@@ -34151,14 +34271,14 @@
         "Decision Record",
         "RAIA"
       ],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 193,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -34173,7 +34293,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-0890",
@@ -64663,14 +64788,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 738,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -64685,7 +64810,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1434",
@@ -64717,14 +64847,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 739,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -64739,7 +64869,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1435",
@@ -64771,14 +64906,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 740,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -64793,7 +64928,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1436",
@@ -64825,14 +64965,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 741,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -64847,7 +64987,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1437",
@@ -64879,14 +65024,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 742,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -64901,7 +65046,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1438",
@@ -64933,14 +65083,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 743,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -64955,7 +65105,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1439",
@@ -64987,14 +65142,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 744,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65009,7 +65164,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1440",
@@ -65041,14 +65201,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 745,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65063,7 +65223,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1441",
@@ -65095,14 +65260,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 746,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65117,7 +65282,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1442",
@@ -65149,14 +65319,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 747,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65171,7 +65341,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1443",
@@ -65203,14 +65378,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 748,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65225,7 +65400,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1444",
@@ -65257,14 +65437,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 749,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65279,7 +65459,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1445",
@@ -65311,14 +65496,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 750,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65333,7 +65518,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1446",
@@ -65365,14 +65555,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 751,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65387,7 +65577,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1447",
@@ -65419,14 +65614,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 752,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65441,7 +65636,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1448",
@@ -65473,14 +65673,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 753,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65495,7 +65695,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1449",
@@ -65527,14 +65732,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 754,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65549,7 +65754,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1450",
@@ -65581,14 +65791,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 755,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65603,7 +65813,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1451",
@@ -65635,14 +65850,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 756,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65657,7 +65872,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1452",
@@ -65689,14 +65909,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 757,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65711,7 +65931,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1453",
@@ -65743,14 +65968,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 758,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65765,7 +65990,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1454",
@@ -65797,14 +66027,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 759,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65819,7 +66049,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1455",
@@ -65851,14 +66086,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 760,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65873,7 +66108,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1456",
@@ -65905,14 +66145,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 761,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65927,7 +66167,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1457",
@@ -65959,14 +66204,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 762,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -65982,7 +66227,12 @@
             "regulation"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1458",
@@ -66014,14 +66264,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 763,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66036,7 +66286,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1459",
@@ -66068,14 +66323,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 764,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66090,7 +66345,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1460",
@@ -66122,14 +66382,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 765,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66144,7 +66404,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1461",
@@ -66176,14 +66441,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 766,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66198,7 +66463,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1462",
@@ -66230,14 +66500,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 767,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66252,7 +66522,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1463",
@@ -66284,14 +66559,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 768,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66306,7 +66581,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1464",
@@ -66338,14 +66618,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 769,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66360,7 +66640,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1465",
@@ -66392,14 +66677,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 770,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66414,7 +66699,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1466",
@@ -66446,14 +66736,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 771,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66468,7 +66758,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1467",
@@ -66500,14 +66795,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 772,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66522,7 +66817,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1468",
@@ -66554,14 +66854,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 773,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66576,7 +66876,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1469",
@@ -66608,14 +66913,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 774,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66630,7 +66935,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1470",
@@ -66662,14 +66972,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 775,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66684,7 +66994,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1471",
@@ -66716,14 +67031,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 776,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66738,7 +67053,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1472",
@@ -66770,14 +67090,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 777,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66792,7 +67112,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1473",
@@ -66824,14 +67149,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 778,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66846,7 +67171,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1474",
@@ -66878,14 +67208,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 779,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66900,7 +67230,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1475",
@@ -66932,14 +67267,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 780,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -66954,7 +67289,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1476",
@@ -66986,14 +67326,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 781,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67008,7 +67348,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1477",
@@ -67040,14 +67385,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 782,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67062,7 +67407,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1478",
@@ -67094,14 +67444,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 783,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67116,7 +67466,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1479",
@@ -67148,14 +67503,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 784,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67170,7 +67525,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1480",
@@ -67202,14 +67562,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 785,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67224,7 +67584,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1481",
@@ -67256,14 +67621,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 786,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67278,7 +67643,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1482",
@@ -67310,14 +67680,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 787,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67332,7 +67702,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1483",
@@ -67364,14 +67739,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 788,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67386,7 +67761,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1484",
@@ -67418,14 +67798,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 789,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67440,7 +67820,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1485",
@@ -67472,14 +67857,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 790,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67494,7 +67879,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1486",
@@ -67526,14 +67916,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 791,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67548,7 +67938,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1487",
@@ -67580,14 +67975,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 792,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67602,7 +67997,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1488",
@@ -67634,14 +68034,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 793,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67656,7 +68056,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1489",
@@ -67688,14 +68093,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 794,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67710,7 +68115,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1490",
@@ -67742,14 +68152,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 795,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67764,7 +68174,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1491",
@@ -67796,14 +68211,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 796,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67818,7 +68233,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1492",
@@ -67850,14 +68270,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 797,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67872,7 +68292,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1493",
@@ -67904,14 +68329,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 798,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67926,7 +68351,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1494",
@@ -67958,14 +68388,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 799,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -67980,7 +68410,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1495",
@@ -68012,14 +68447,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 800,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68034,7 +68469,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1496",
@@ -68066,14 +68506,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 801,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68088,7 +68528,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1497",
@@ -68120,14 +68565,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 802,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68142,7 +68587,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1498",
@@ -68174,14 +68624,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 803,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68196,7 +68646,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1499",
@@ -68228,14 +68683,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 804,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68250,7 +68705,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1500",
@@ -68282,14 +68742,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 805,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68304,7 +68764,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1501",
@@ -68336,14 +68801,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 806,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68358,7 +68823,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1502",
@@ -68390,14 +68860,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 807,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68412,7 +68882,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1503",
@@ -68444,14 +68919,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 808,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68466,7 +68941,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1504",
@@ -68498,14 +68978,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 809,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68520,7 +69000,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1505",
@@ -68552,14 +69037,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 810,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68574,7 +69059,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1506",
@@ -68606,14 +69096,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 811,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68628,7 +69118,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1507",
@@ -68660,14 +69155,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 812,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68682,7 +69177,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1508",
@@ -68714,14 +69214,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 813,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68736,7 +69236,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1509",
@@ -68768,14 +69273,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 814,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68790,7 +69295,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1510",
@@ -68822,14 +69332,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 815,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68844,7 +69354,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1511",
@@ -68876,14 +69391,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 816,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68898,7 +69413,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1512",
@@ -68930,14 +69450,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 817,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -68952,7 +69472,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1513",
@@ -68984,14 +69509,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 818,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69006,7 +69531,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1514",
@@ -69038,14 +69568,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 819,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69060,7 +69590,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1515",
@@ -69092,14 +69627,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 820,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69114,7 +69649,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1516",
@@ -69146,14 +69686,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 821,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69168,7 +69708,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1517",
@@ -69200,14 +69745,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 822,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69222,7 +69767,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1518",
@@ -69254,14 +69804,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 823,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69276,7 +69826,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1519",
@@ -69308,14 +69863,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 824,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69330,7 +69885,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1520",
@@ -69362,14 +69922,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 825,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69384,7 +69944,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1521",
@@ -69416,14 +69981,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 826,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69438,7 +70003,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1522",
@@ -69470,14 +70040,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 827,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69492,7 +70062,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1523",
@@ -69524,14 +70099,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 828,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69546,7 +70121,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1524",
@@ -69578,14 +70158,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 829,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69600,7 +70180,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1525",
@@ -69632,14 +70217,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 830,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69654,7 +70239,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1526",
@@ -69686,14 +70276,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 831,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69708,7 +70298,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1527",
@@ -69740,14 +70335,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 832,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69762,7 +70357,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1528",
@@ -69794,14 +70394,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 833,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69816,7 +70416,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1529",
@@ -69848,14 +70453,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 834,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69870,7 +70475,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1530",
@@ -69902,14 +70512,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 835,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69924,7 +70534,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1531",
@@ -69956,14 +70571,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 836,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -69978,7 +70593,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1532",
@@ -70010,14 +70630,14 @@
         "AIG-OPS-04 AI Contestability and Redress Control"
       ],
       "review_flags": [],
-      "status": "unreviewed",
+      "status": "reviewed",
       "issue_number": 837,
-      "decision": null,
-      "decision_valid": null,
-      "reviewed_by": null,
-      "reviewed_by_role": null,
-      "reviewed_at": null,
-      "outcome": null,
+      "decision": "change-required",
+      "decision_valid": true,
+      "reviewed_by": "KimAbercromby",
+      "reviewed_by_role": "AI Governance Lead",
+      "reviewed_at": "2026-11-15T07:48:00.081Z",
+      "outcome": "Playbook already covers Arts 22A to 22D, special category limits, recognised legitimate interests, s164A complaints and SI 2026/425. Gap: Art 12A subject access timing and reasonable and proportionate search, now added to 5.6.5.",
       "commencement_alerts": [],
       "generated": null,
       "relevance": {
@@ -70032,7 +70652,12 @@
             "act 20"
           ]
         }
-      }
+      },
+      "decision_authorised": true,
+      "decided_sections": [
+        "5.6.5"
+      ],
+      "bulk_group": "g01"
     },
     {
       "record_id": "REG-1533",
