@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-15T08:03:39.248Z",
+  "run_at": "2026-11-15T14:29:14.434Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -104,7 +104,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 49
     },
     {
@@ -112,7 +112,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 45
     },
     {
@@ -244,7 +244,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 1,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 0
     },
     {
@@ -420,7 +420,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 6,
-      "items_kept": 2,
+      "items_kept": 0,
       "items_discarded": 4
     },
     {
@@ -455,10 +455,10 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 5,
+    "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 28,
+    "discarded": 0,
     "retired": 0,
     "unreviewed": 1145
   }
