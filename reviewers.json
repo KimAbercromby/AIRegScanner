@@ -5,10 +5,10 @@
     {
       "github": "KimAbercromby",
       "name": "Kim Abercromby",
-      "role": "AI Governance Lead",
+      "role": "Framework author and reviewer (role to be confirmed)",
       "can_approve": true,
       "can_accept_residual_risk": false,
-      "note": "Replace or extend this list before anyone else is given repository access."
+      "note": "Replace or extend this list before anyone else is given repository access. The AI Governance Lead appointed by the Council should be added here with the authority the Council confirms."
     }
   ]
 }
