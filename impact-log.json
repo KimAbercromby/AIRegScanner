@@ -71668,7 +71668,234 @@
           ]
         }
       }
+    },
+    {
+      "record_id": "REG-1551",
+      "event": "new",
+      "source_id": "govuk-cabinet-office",
+      "publisher": "Cabinet Office (via GOV.UK Search API)",
+      "tier": 2,
+      "title": "United Kingdom-Norway Joint Statement of intent on Artificial Intelligence",
+      "url": "https://www.gov.uk/government/news/united-kingdom-norway-joint-statement-of-intent-on-artificial-intelligence",
+      "date_published": "2026-11-12T16:16:04Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-15T08:03:39.248Z",
+      "content_hash": "bcf4dd9828ad1bd4",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [],
+      "affects_artefacts": [],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 856,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "ai-and-governance",
+        "signals": {
+          "priority": [],
+          "ai": [
+            "artificial intelligence"
+          ],
+          "governance": [
+            "governance",
+            "security"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1552",
+      "event": "new",
+      "source_id": "govuk-gds",
+      "publisher": "Government Digital Service (via GOV.UK Search API)",
+      "tier": 2,
+      "title": "Generative artificial intelligence (AI) security community",
+      "url": "https://www.gov.uk/service-manual/communities/generative-ai-security-community",
+      "date_published": "2026-11-13T14:59:25Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-15T08:03:39.248Z",
+      "content_hash": "0cd48cb043ac8dfa",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [],
+      "affects_artefacts": [],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 857,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "ai-and-governance",
+        "signals": {
+          "priority": [],
+          "ai": [
+            "artificial intelligence"
+          ],
+          "governance": [
+            "security"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "REG-1553",
+      "event": "new",
+      "source_id": "iso-42001",
+      "publisher": "ISO/IEC",
+      "tier": 3,
+      "title": "ISO/IEC 42001:2023 - Information technology — Artificial intelligence — Management system",
+      "url": "https://www.iso.org/cms/render/live/en/sites/isoorg/contents/data/standard/08/12/81230.html",
+      "date_published": "2023-12-18",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-15T08:03:39.248Z",
+      "content_hash": "abfefcb29a6e0bc8",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [
+        "standards"
+      ],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [
+        "3.12",
+        "D.2",
+        "D.4"
+      ],
+      "affects_artefacts": [
+        "AIG-AIMS-05 AIMS Applicable Requirements and Change Register",
+        "AIG-AIMS-06 AIMS Clause Conformity Register",
+        "AIG-AIMS-12 AIMS Clause Level Crosswalk"
+      ],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 858,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "priority-framework",
+        "signals": {
+          "priority": [
+            "iso/iec 42001"
+          ],
+          "ai": [
+            "artificial intelligence"
+          ],
+          "governance": []
+        }
+      }
+    },
+    {
+      "record_id": "REG-1554",
+      "event": "new",
+      "source_id": "news-gds-ai",
+      "publisher": "Government Digital Service (GDS)",
+      "tier": 3,
+      "title": "The Prime Minister’s AI Exemplars programme: A portfolio approach to public sector innovation",
+      "url": "https://gds.blog.gov.uk/2025/08/18/the-prime-ministers-ai-exemplars-programme-a-portfolio-approach-to-public-sector-innovation/",
+      "date_published": "2025-08-18T08:52:11Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-15T08:03:39.248Z",
+      "content_hash": "80c9b43bb71cdb89",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [],
+      "current_awareness": true,
+      "reference_only": true,
+      "affects_sections": [],
+      "affects_artefacts": [],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 859,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "ai-keyword",
+        "signals": {
+          "priority": [],
+          "ai": [
+            "artificial intelligence"
+          ],
+          "governance": []
+        }
+      }
+    },
+    {
+      "record_id": "REG-1555",
+      "event": "new",
+      "source_id": "news-gds-ai",
+      "publisher": "Government Digital Service (GDS)",
+      "tier": 3,
+      "title": "Launching the Artificial Intelligence Playbook for the UK Government",
+      "url": "https://gds.blog.gov.uk/2025/02/10/launching-the-artificial-intelligence-playbook-for-the-uk-government/",
+      "date_published": "2025-02-10T14:17:03Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-15T08:03:39.248Z",
+      "content_hash": "81259b03243f25ce",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [],
+      "current_awareness": true,
+      "reference_only": true,
+      "affects_sections": [],
+      "affects_artefacts": [],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 860,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "ai-keyword",
+        "signals": {
+          "priority": [],
+          "ai": [
+            "artificial intelligence"
+          ],
+          "governance": []
+        }
+      }
     }
   ],
-  "next_record_id": 1551
+  "next_record_id": 1556
 }

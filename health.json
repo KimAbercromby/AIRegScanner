@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-12T15:44:19.767Z",
+  "run_at": "2026-11-15T08:03:39.248Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -9,7 +9,7 @@
       "http_status": 200,
       "items_seen": 50,
       "items_kept": 0,
-      "items_discarded": 49
+      "items_discarded": 50
     },
     {
       "id": "legislation-search-ai-title",
@@ -104,16 +104,16 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 50
+      "items_kept": 1,
+      "items_discarded": 49
     },
     {
       "id": "govuk-gds",
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 0,
-      "items_discarded": 46
+      "items_kept": 1,
+      "items_discarded": 45
     },
     {
       "id": "govuk-mhclg",
@@ -241,10 +241,11 @@
     },
     {
       "id": "iso-42001",
-      "status": "http-error",
-      "http_status": 403,
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 1,
+      "items_kept": 1,
+      "items_discarded": 0
     },
     {
       "id": "statute-pecr-2003",
@@ -371,7 +372,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 100,
-      "items_kept": 4,
+      "items_kept": 0,
       "items_discarded": 84
     },
     {
@@ -416,17 +417,19 @@
     },
     {
       "id": "news-gds-ai",
-      "status": "error",
-      "error": "no <rss><channel>: not an RSS document. Server returned: \"AI &#8211; Government Digital Service We are the digital centre of government. We serve the public, central government departments and the wider public sector. 2026-06-18T12:43:29Z\"",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 6,
+      "items_kept": 2,
+      "items_discarded": 4
     },
     {
       "id": "news-rtau",
-      "status": "error",
-      "error": "no <rss><channel>: not an RSS document. Server returned: \"Responsible Technology Adoption Unit Blog Ideas, updates and news about the RTAU 2025-01-22T12:40:39Z https://rtau.blog.gov.uk/feed/ Responsible Technology Adoption Unit https://rt\"",
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 10,
+      "items_kept": 0,
+      "items_discarded": 10
     }
   ],
   "rejects": [
@@ -452,11 +455,11 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 0,
-    "changed": 4,
+    "added": 5,
+    "changed": 0,
     "absorbed": 0,
-    "discarded": 126,
+    "discarded": 28,
     "retired": 0,
-    "unreviewed": 1265
+    "unreviewed": 1145
   }
 }

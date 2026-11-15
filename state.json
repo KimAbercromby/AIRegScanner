@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-12T15:44:19.767Z",
+  "last_run": "2026-11-15T08:03:39.248Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -13406,10 +13406,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/guidance/urgent-crown-development-application-mod-bicester-site-a": {
-      "hash": "7575d74000abbc1e",
+      "hash": "83da701022394d3c",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -36294,26 +36294,26 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/187": {
-      "hash": "9abd59bbeed6cc1c",
+      "hash": "31aa93faf60cfadf",
       "body": null,
       "first_seen": "2026-11-11T14:53:16.426Z",
-      "last_changed": "2026-11-11T14:53:16.426Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/188": {
-      "hash": "762cd43e75f4355f",
+      "hash": "488edac37523660d",
       "body": null,
       "first_seen": "2026-11-11T14:53:16.426Z",
-      "last_changed": "2026-11-11T14:53:16.426Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/186": {
-      "hash": "3cde2d7dfc1dfad4",
+      "hash": "bccb4c6167e2f1a1",
       "body": null,
       "first_seen": "2026-11-11T14:53:16.426Z",
-      "last_changed": "2026-11-11T14:53:16.426Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -37268,6 +37268,228 @@
       "last_changed": "2026-11-12T15:44:19.767Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1192": {
+      "hash": "7792d99d26ab69ea",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1191": {
+      "hash": "4d48381d351d5587",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1190": {
+      "hash": "86ac1c4fad1b4054",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/341": {
+      "hash": "6492fbed13a87f3f",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1188": {
+      "hash": "7e29c27d0311525d",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1147": {
+      "hash": "8fa723491acd9f2f",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1183": {
+      "hash": "af25b5e13c299cb8",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-cabinet-office::/government/news/united-kingdom-norway-joint-statement-of-intent-on-artificial-intelligence": {
+      "hash": "bcf4dd9828ad1bd4",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z"
+    },
+    "govuk-cabinet-office::/government/publications/uk-government-response-to-the-uk-covid-19-inquiry-module-4-report": {
+      "hash": "108b13ac3b1c45d8",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-cabinet-office::/government/publications/uk-government-response-to-the-uk-covid-19-inquiry-module-3-report": {
+      "hash": "5d3263fc0cefc66a",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-gds::/service-manual/communities/generative-ai-security-community": {
+      "hash": "0cd48cb043ac8dfa",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z"
+    },
+    "govuk-mhclg::/government/publications/sanctuary-schemes-a-toolkit-for-councils": {
+      "hash": "d2527f66f2b3199e",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "iso-42001::https://www.iso.org/cms/render/live/en/sites/isoorg/contents/data/standard/08/12/81230.html": {
+      "hash": "abfefcb29a6e0bc8",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z"
+    },
+    "news-gds-ai::https://gds.blog.gov.uk/?p=94552": {
+      "hash": "87aac0b1d3981aea",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-gds-ai::https://gds.blog.gov.uk/?p=94542": {
+      "hash": "894ade4ef23a98ea",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-gds-ai::https://gds.blog.gov.uk/?p=94528": {
+      "hash": "3e8a53d327c0b8ac",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-gds-ai::https://gds.blog.gov.uk/?p=94490": {
+      "hash": "b569a25978108e33",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-gds-ai::https://gds.blog.gov.uk/?p=94193": {
+      "hash": "80c9b43bb71cdb89",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z"
+    },
+    "news-gds-ai::https://gds.blog.gov.uk/?p=83416": {
+      "hash": "81259b03243f25ce",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1171": {
+      "hash": "b790cdc19d6e1261",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1153": {
+      "hash": "35fe4dbe88b48972",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1145": {
+      "hash": "9684c316f08f9996",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1129": {
+      "hash": "fdd6083997157de6",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1123": {
+      "hash": "a44ea13df8445adb",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1114": {
+      "hash": "bacdef8678a79310",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1103": {
+      "hash": "e3941db152956dba",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1077": {
+      "hash": "75a7c77e06574fd8",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1059": {
+      "hash": "7fe9981fec25ddc9",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "news-rtau::https://rtau.blog.gov.uk/?p=1045": {
+      "hash": "c4c57838f8c25dd7",
+      "body": null,
+      "first_seen": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-15T08:03:39.248Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
     }
   }
 }
