@@ -4,108 +4,6 @@
     {
       "run_at": "2026-11-04T15:02:01.453Z",
       "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/ssi/2026/115/pdfs/ssics_20260115_en_002.pdf",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Financial Services (Gibraltar) (Amendment) (EU Exit) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1154/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Charities (Russell-Cotes Art Gallery and Museum) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1149/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Crime and Policing Act 2026 (Commencement No. 5) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1158/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Export Control (Amendment) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1150/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Bus Franchising Assessment (Approved Persons) (England) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1145/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Contracts for Difference (Electricity Supplier Obligations) (Amendment) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1151/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
       "title": "The Control of Asbestos (Amendment etc.) Regulations 2026",
       "url": "http://www.legislation.gov.uk/uksi/2026/1153/made",
       "reason": "no-ai-governance-signal",
@@ -6667,6 +6565,96 @@
       "title": "Input privacy for vertical federated learning",
       "url": "https://rtau.blog.gov.uk/2024/05/02/input-privacy-for-vertical-federated-learning/",
       "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-16T16:42:35.149Z",
+      "source_id": "legislation-new",
+      "title": "The Statement of Trade Union Rights Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1193/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-16T16:42:35.149Z",
+      "source_id": "legislation-new",
+      "title": "The Network Rail (Tackley Level Crossing) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1189/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-16T16:42:35.149Z",
+      "source_id": "legislation-new",
+      "title": "The Parking Places (Disabled Persons’ Vehicles) (Amendment No. 5) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/189/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-16T16:42:35.149Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Preston, Lancashire) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1173/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-16T16:42:35.149Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "AI Champions’ AI Adoption Plans",
+      "url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-16T16:42:35.149Z",
+      "source_id": "govuk-mhclg",
+      "title": "Urgent Crown Development application: MOD Bicester (Site A)",
+      "url": "https://www.gov.uk/guidance/urgent-crown-development-application-mod-bicester-site-a",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-16T16:42:35.149Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "AI Champions’ AI Adoption Plans",
+      "url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans",
+      "reason": "no-ai-governance-signal",
       "signals": {
         "priority": [],
         "ai": [],

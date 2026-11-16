@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-15T14:29:14.434Z",
+  "last_run": "2026-11-16T16:42:35.149Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -10072,10 +10072,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-dsit-legacy::/government/publications/ai-champions-ai-adoption-plans": {
-      "hash": "ceab2b42289c99e8",
+      "hash": "5d130bc2d4cbaf9b",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-16T16:42:35.149Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -12870,10 +12870,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-cabinet-office::/government/publications/ai-champions-ai-adoption-plans": {
-      "hash": "ceab2b42289c99e8",
+      "hash": "5d130bc2d4cbaf9b",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-11-16T16:42:35.149Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -13406,10 +13406,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/guidance/urgent-crown-development-application-mod-bicester-site-a": {
-      "hash": "83da701022394d3c",
+      "hash": "f23e0681ff885078",
       "body": null,
       "first_seen": "2026-09-24T08:44:12.869Z",
-      "last_changed": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-16T16:42:35.149Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -37490,6 +37490,38 @@
       "last_changed": "2026-11-15T08:03:39.248Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1193": {
+      "hash": "f3612cdfbda495ab",
+      "body": null,
+      "first_seen": "2026-11-16T16:42:35.149Z",
+      "last_changed": "2026-11-16T16:42:35.149Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1189": {
+      "hash": "cefac663e94274b4",
+      "body": null,
+      "first_seen": "2026-11-16T16:42:35.149Z",
+      "last_changed": "2026-11-16T16:42:35.149Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/189": {
+      "hash": "38e7f1371f609cf2",
+      "body": null,
+      "first_seen": "2026-11-16T16:42:35.149Z",
+      "last_changed": "2026-11-16T16:42:35.149Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1173": {
+      "hash": "741db49a01bdc282",
+      "body": null,
+      "first_seen": "2026-11-16T16:42:35.149Z",
+      "last_changed": "2026-11-16T16:42:35.149Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
     }
   }
 }
