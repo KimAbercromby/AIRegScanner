@@ -84,6 +84,7 @@
   .pill{font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;padding:.08rem .38rem;border-radius:2px}
   .pill.unreviewed{background:#FFF6E8;color:var(--amber)}
   .pill.reviewed{background:#E8F0EE;color:var(--verd)}
+  .pill.backlog{background:#EEEDEA;color:var(--soft)}
   .pill.force{background:#EAF1F5;color:#2F6F8F}
   .pill.changed{background:#F6E9E7;color:var(--ox)}
   .pill.focus{background:#E8F0EE;color:var(--verd)}
@@ -268,6 +269,7 @@
         <option value="all">Everything</option>
         <option value="unreviewed">Unreviewed only</option>
         <option value="reviewed">Reviewed only</option>
+        <option value="backlog">Backlog, not assessed</option>
         <option value="flagged">Flags a change</option>
         <option value="inforce">Has an in-force date</option>
         <option value="issue">Has a GitHub issue</option>
@@ -326,7 +328,7 @@
     source:   function(r){ return [ S.labels[r.source_id] || r.source_id || 'unknown' ]; },
     artefact: function(r){ return (r.affects_artefacts||[]).length ? r.affects_artefacts : ['(nothing flagged)']; },
     section:  function(r){ return (r.affects_sections||[]).length ? r.affects_sections.map(function(s){return '\u00A7'+s;}) : ['(nothing flagged)']; },
-    status:   function(r){ return [r.status === 'reviewed' ? 'Reviewed' : 'Unreviewed']; },
+    status:   function(r){ return [r.status === 'reviewed' ? 'Reviewed' : r.status === 'backlog' ? 'Backlog (not assessed)' : r.status === 'retired' ? 'Retired' : 'Unreviewed']; },
     year:     function(r){ return [ (r.date_published||'').slice(0,4) || '(no date)' ]; }
   };
 
@@ -382,7 +384,8 @@
       if(hay.indexOf(S.q)===-1) return false; }
     switch(S.status){
       case 'unreviewed': return r.status==='unreviewed';
-      case 'reviewed':   return r.status!=='unreviewed';
+      case 'reviewed':   return r.status==='reviewed';
+      case 'backlog':    return r.status==='backlog';
       case 'flagged':    return !r.reference_only && (r.affects_artefacts||[]).length>0;
       case 'inforce':    return !!r.date_in_force;
       case 'issue':      return !!r.issue_number;
@@ -437,7 +440,7 @@
     if(r.event==='changed'||r.event==='content-revised') s.appendChild(el('span','pill changed',r.event));
     if(isFocused(r)) s.appendChild(el('span','pill focus','AI governance'));
     if((r._related||[]).length>1) s.appendChild(el('span','pill effects',(r._related.length)+' effects'));
-    s.appendChild(el('span','pill '+(r.status==='reviewed'?'reviewed':'unreviewed'),r.status));
+    s.appendChild(el('span','pill '+(r.status==='reviewed'?'reviewed':r.status==='backlog'?'backlog':'unreviewed'),r.status==='backlog'?'backlog \u00B7 not assessed':r.status));
     s.appendChild(el('span','rdate',fmt(r.date_published)||'\u2014'));
     d.appendChild(s);
 
@@ -615,6 +618,13 @@
       P.appendChild(panel('warn','Some supporting data did not load',S.loadWarnings.length,function(b){
         b.appendChild(el('p',null,'The rest of the page is shown. Panels that depend on the files below are left out until they load again: '+S.loadWarnings.join('; ')+'.'));
       },true));
+    }
+    var backlog=S.allRecords.filter(function(r){return r.status==='backlog';});
+    if(backlog.length){
+      var when=backlog.map(function(r){return r.backlog_closed_at||'';}).sort().pop();
+      P.appendChild(panel('neutral','Closed as backlog, not assessed',backlog.length,function(b){
+        b.appendChild(el('p',null,backlog.length+' older records were closed as a backlog'+(when?' on '+fmt(when):'')+' without being individually assessed. No decision is recorded for them and no change to the playbook is implied. They remain searchable: choose \u201cBacklog, not assessed\u201d under Show, or open Full audit history. Anything retrieved since then arrives as unreviewed in the normal way.'));
+      },false));
     }
     if(unrev){
       P.appendChild(panel('warn','Focused records awaiting human review',unrev,function(b){

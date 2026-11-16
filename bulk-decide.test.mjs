@@ -70,3 +70,41 @@ test('B9: change-required records carry sections and artefacts, and authority', 
   assert.equal(recs[0].decision_authorised, true);
   assert.equal(recs[0].date_in_force, '2026-09-01');
 });
+
+// Backlog closure: honest, decision-free closure of a declared backlog.
+const backlogGroup = (over = {}) => ({ id: 'b01', label: 'Pre-adoption backlog', backlog: true, all_unreviewed: true, before: '2026-11-16T12:00:00Z', note: 'Not individually assessed.', ...over });
+
+test('B8: a backlog group closes records as backlog, not reviewed, with no decision', () => {
+  const recs = [mk('R1', { date_retrieved: '2026-11-01T00:00:00Z' }), mk('R2', { source_id: 'other', title: 'Other', date_retrieved: '2026-10-01T00:00:00Z' })];
+  const rep = applyBulkDecisions(recs, { ...base, groups: [backlogGroup()] }, reviewers, { now: 'T' });
+  assert.equal(rep.applied.length, 2);
+  for (const r of recs) {
+    assert.equal(r.status, 'backlog');
+    assert.equal(r.decision, null);
+    assert.equal(r.decision_valid, false);
+    assert.equal(r.reviewed_by, undefined);
+    assert.equal(r.backlog_closed_by, 'KimAbercromby');
+    assert.equal(r.outcome, 'Not individually assessed.');
+  }
+});
+
+test('B9: records retrieved after the cut-off stay unreviewed', () => {
+  const recs = [mk('R1', { date_retrieved: '2026-11-15T00:00:00Z' }), mk('R2', { date_retrieved: '2026-11-17T09:00:00Z' })];
+  applyBulkDecisions(recs, { ...base, groups: [backlogGroup()] }, reviewers);
+  assert.equal(recs[0].status, 'backlog');
+  assert.equal(recs[1].status, 'unreviewed');
+});
+
+test('B10: match-everything is refused outside a backlog group, and a backlog group needs a reason', () => {
+  const r1 = applyBulkDecisions([mk('R1')], { ...base, groups: [grp({ title_equals: undefined, all_unreviewed: true })] }, reviewers);
+  assert.ok(r1.errors.some((e) => /only allowed on a backlog group|needs source_id/.test(e)));
+  const r2 = applyBulkDecisions([mk('R1')], { ...base, groups: [backlogGroup({ note: '' })] }, reviewers);
+  assert.ok(r2.errors.some((e) => /must state its reason/.test(e)));
+});
+
+test('B11: an already-applied group with nothing left to match is not an error', () => {
+  const recs = [mk('R1', { status: 'reviewed' })];
+  const rep = applyBulkDecisions(recs, { ...base, groups: [grp({ expect_count: 125 })] }, reviewers);
+  assert.equal(rep.errors.length, 0);
+  assert.equal(rep.groups[0].state, 'nothing to do');
+});

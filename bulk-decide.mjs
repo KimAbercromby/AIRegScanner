@@ -12,6 +12,13 @@
  *   node bulk-decide.mjs --close-only closes issues for records already decided in bulk
  *
  * A group with "decision": null is left alone and listed as undecided.
+ *
+ * A group with "backlog": true is different: it closes records WITHOUT a
+ * decision, as a declared backlog that was never individually assessed. The
+ * records get status "backlog" (not "reviewed"), no decision, and the group's
+ * note as the reason; the issue is closed as "not planned". Only a backlog
+ * group may use "all_unreviewed": true, and it should set "before" (an ISO
+ * timestamp) so anything retrieved later still arrives as unreviewed.
  * Nothing is deleted. Every affected record keeps a bulk_group marker so the
  * audit trail shows the decision was made once for the group.
  */
@@ -52,6 +59,7 @@ export function blockFromRecord(rec) {
 
 export function groupMatches(group, rec) {
   if (rec.status !== 'unreviewed') return false;
+  if (group.before && String(rec.date_retrieved || '') > group.before) return false;
   if (group.source_id && rec.source_id !== group.source_id) return false;
   if (group.title_equals && rec.title !== group.title_equals) return false;
   return true;
@@ -74,7 +82,10 @@ export function applyBulkDecisions(records, config, reviewers, { preview = false
 
   for (const g of groups) {
     if (!g.id) report.errors.push('A group has no id.');
-    if (!g.source_id && !g.title_equals) report.errors.push(`Group ${g.id}: needs source_id or title_equals, otherwise it would match everything.`);
+    const wide = g.backlog === true && g.all_unreviewed === true;
+    if (!g.source_id && !g.title_equals && !wide) report.errors.push(`Group ${g.id}: needs source_id or title_equals, otherwise it would match everything.`);
+    if (g.all_unreviewed && g.backlog !== true) report.errors.push(`Group ${g.id}: all_unreviewed is only allowed on a backlog group.`);
+    if (g.backlog === true && !String(g.note ?? '').trim()) report.errors.push(`Group ${g.id}: a backlog group must state its reason in note.`);
   }
   if (report.errors.length) return report;
 
@@ -95,6 +106,32 @@ export function applyBulkDecisions(records, config, reviewers, { preview = false
     const matched = records.filter((r) => groupMatches(g, r));
     const row = { id: g.id, label: g.label ?? '', matched: matched.length, expected: g.expect_count ?? null, state: '' };
 
+    if (!matched.length) { row.state = 'nothing to do'; report.groups.push(row); continue; }
+
+    if (g.backlog === true) {
+      if (g.expect_count != null && matched.length !== g.expect_count) {
+        row.state = 'skipped: count changed';
+        report.errors.push(`Group ${g.id}: expected ${g.expect_count} records but found ${matched.length}. Refresh expect_count after looking at what is new.`);
+        report.groups.push(row);
+        continue;
+      }
+      row.state = preview ? 'would close as backlog' : 'closed as backlog';
+      report.groups.push(row);
+      if (preview) continue;
+      for (const rec of matched) {
+        rec.status = 'backlog';
+        rec.decision = null;
+        rec.decision_valid = false;
+        rec.backlog_closed_by = who;
+        rec.backlog_closed_by_role = auth.role ?? null;
+        rec.backlog_closed_at = now;
+        rec.outcome = g.note;
+        rec.bulk_group = g.id;
+        report.applied.push({ record: rec, group: g });
+      }
+      continue;
+    }
+
     if (!g.decision) { row.state = 'undecided'; report.undecided += 1; report.groups.push(row); continue; }
 
     const parsed = parseDecision(blockFor(g));
@@ -110,8 +147,6 @@ export function applyBulkDecisions(records, config, reviewers, { preview = false
       report.groups.push(row);
       continue;
     }
-    if (!matched.length) { row.state = 'nothing to do'; report.groups.push(row); continue; }
-
     row.state = preview ? 'would apply' : 'applied';
     report.groups.push(row);
     if (preview) continue;
@@ -156,17 +191,20 @@ async function gh(path, { method = 'GET', body } = {}) {
 }
 
 async function closeIssues(records) {
-  const withIssue = records.filter((r) => r.issue_number && r.bulk_group && r.status === 'reviewed');
+  const withIssue = records.filter((r) => r.issue_number && r.bulk_group && (r.status === 'reviewed' || r.status === 'backlog'));
   let closed = 0, already = 0, stopped = false;
   for (const rec of withIssue) {
     if (closed >= MAX_ISSUES) break;
     const g = await gh(`/repos/${REPO}/issues/${rec.issue_number}`);
     if (!g.ok) { stopped = g.status === 403 || g.status === 429; if (stopped) break; continue; }
     if (g.json?.state === 'closed') { already += 1; continue; }
-    const body = `Recorded in bulk by ${rec.reviewed_by} for group \`${rec.bulk_group}\`. One decision was made for every record in the group.\n\n${blockFromRecord(rec)}`;
+    const backlog = rec.status === 'backlog';
+    const body = backlog
+      ? `Closed by ${rec.backlog_closed_by} as part of backlog group \`${rec.bulk_group}\`. This record was **not individually assessed** and no decision is recorded.\n\nReason: ${rec.outcome ?? ''}`
+      : `Recorded in bulk by ${rec.reviewed_by} for group \`${rec.bulk_group}\`. One decision was made for every record in the group.\n\n${blockFromRecord(rec)}`;
     const c = await gh(`/repos/${REPO}/issues/${rec.issue_number}/comments`, { method: 'POST', body: { body } });
     if (!c.ok) { stopped = c.status === 403 || c.status === 429; if (stopped) break; continue; }
-    const p = await gh(`/repos/${REPO}/issues/${rec.issue_number}`, { method: 'PATCH', body: { state: 'closed', state_reason: 'completed' } });
+    const p = await gh(`/repos/${REPO}/issues/${rec.issue_number}`, { method: 'PATCH', body: { state: 'closed', state_reason: backlog ? 'not_planned' : 'completed' } });
     if (!p.ok) { stopped = p.status === 403 || p.status === 429; if (stopped) break; continue; }
     closed += 1;
     await new Promise((r) => setTimeout(r, 400));
@@ -214,7 +252,7 @@ async function main() {
 
   // Decisions are saved first, so a GitHub failure cannot lose them.
   writeFileSync(LOG, JSON.stringify(log, null, 2) + '\n');
-  console.log(`${report.applied.length} record(s) decided and saved.`);
+  console.log(`${report.applied.length} record(s) closed and saved.`);
 
   if (noClose) { console.log('Issues are not closed by this step. The next step closes them, or run the bulk-close task.'); if (report.errors.length) process.exit(1); return; }
   if (!TOKEN || !REPO) { console.log('No GitHub token here, so issues were not closed. The next scan closes them.'); return; }

@@ -304,7 +304,7 @@ async function main() {
     if (!rec.issue_number || rec.status === 'unreviewed' || dryRun) continue;
     const r = await gh(`/repos/${REPO}/issues/${rec.issue_number}`);
     if (!r.ok || !r.json || r.json.state === 'closed') continue;
-    await gh(`/repos/${REPO}/issues/${rec.issue_number}`, { method: 'PATCH', body: { state: 'closed', state_reason: 'completed' } });
+    await gh(`/repos/${REPO}/issues/${rec.issue_number}`, { method: 'PATCH', body: { state: 'closed', state_reason: rec.status === 'backlog' ? 'not_planned' : 'completed' } });
     closed += 1;
     console.log(`  close ${rec.record_id} issue #${rec.issue_number} (reviewed in the log)`);
   }
