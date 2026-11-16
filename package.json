@@ -25,7 +25,7 @@
     "bulk:preview": "node bulk-decide.mjs --preview"
   },
   "dependencies": {
-    "fast-xml-parser": "5.10.1",
+    "fast-xml-parser": "5.12.1",
     "node-html-parser": "7.0.1"
   }
 }
