@@ -521,7 +521,7 @@ test('new records are created with an empty issue_number', () => {
 
 test('html-list extracts document links and skips navigation chrome', async () => {
   const { parseHtmlList } = await import('./fetchers.mjs');
-  const items = parseHtmlList(fx('listing-page.html'),
+  const items = parseHtmlList(fx('fixtures/listing-page.html.txt'),
     { link_pattern: '/guidance/' }, 'https://ico.org.uk/for-organisations/');
   const urls = items.map((i) => i.url);
   assert.ok(urls.includes('https://ico.org.uk/guidance/ai-and-data-protection'));
@@ -532,7 +532,7 @@ test('html-list extracts document links and skips navigation chrome', async () =
 
 test('html-list resolves relative links and drops fragments and short link text', async () => {
   const { parseHtmlList } = await import('./fetchers.mjs');
-  const items = parseHtmlList(fx('listing-page.html'), {}, 'https://ico.org.uk/for-organisations/');
+  const items = parseHtmlList(fx('fixtures/listing-page.html.txt'), {}, 'https://ico.org.uk/for-organisations/');
   assert.ok(items.every((i) => i.url.startsWith('http')), 'all links absolute');
   assert.ok(items.every((i) => !i.url.includes('#')));
   assert.ok(!items.some((i) => i.title === 'Go'), 'short link text dropped');
@@ -541,14 +541,14 @@ test('html-list resolves relative links and drops fragments and short link text'
 
 test('html-list never invents a publication date', async () => {
   const { parseHtmlList } = await import('./fetchers.mjs');
-  const items = parseHtmlList(fx('listing-page.html'), { link_pattern: '/guidance/' }, 'https://ico.org.uk/x');
+  const items = parseHtmlList(fx('fixtures/listing-page.html.txt'), { link_pattern: '/guidance/' }, 'https://ico.org.uk/x');
   assert.ok(items.length > 0);
   assert.ok(items.every((i) => i.date_published === null && i.date_in_force === null));
 });
 
 test('an off-domain link in a listing page is still caught by the allowlist', async () => {
   const { parseHtmlList } = await import('./fetchers.mjs');
-  const items = parseHtmlList(fx('listing-page.html'), { link_pattern: '/guidance/' }, 'https://ico.org.uk/x');
+  const items = parseHtmlList(fx('fixtures/listing-page.html.txt'), { link_pattern: '/guidance/' }, 'https://ico.org.uk/x');
   const mirror = items.find((i) => i.url.includes('third-party.example.com'));
   assert.ok(mirror, 'fixture should include an off-domain link matching the pattern');
   assert.equal(domainAllowed(mirror.url, ['ico.org.uk']), false);
@@ -556,17 +556,17 @@ test('an off-domain link in a listing page is still caught by the allowlist', as
 
 test('discover finds an advertised feed', async () => {
   const { findFeedLinks } = await import('./fetchers.mjs');
-  const feeds = findFeedLinks(fx('listing-with-feed.html'), 'https://example.org/news');
+  const feeds = findFeedLinks(fx('fixtures/listing-with-feed.html.txt'), 'https://example.org/news');
   assert.equal(feeds.length, 1);
   assert.equal(feeds[0].url, 'https://example.org/news/rss');
-  assert.equal(findFeedLinks(fx('listing-page.html'), 'https://ico.org.uk/x').length, 0,
+  assert.equal(findFeedLinks(fx('fixtures/listing-page.html.txt'), 'https://ico.org.uk/x').length, 0,
     'text/html alternates are not feeds');
 });
 
 test('discover ranks link patterns by how many links they cover', async () => {
   const { linkPatterns } = await import('./discover.mjs');
   const { parseHtmlList } = await import('./fetchers.mjs');
-  const items = parseHtmlList(fx('listing-page.html'), {}, 'https://ico.org.uk/for-organisations/');
+  const items = parseHtmlList(fx('fixtures/listing-page.html.txt'), {}, 'https://ico.org.uk/for-organisations/');
   const pats = linkPatterns(items, 'https://ico.org.uk/for-organisations/');
   assert.equal(pats[0].pattern, '/guidance/');
   assert.equal(pats[0].count, 4);
