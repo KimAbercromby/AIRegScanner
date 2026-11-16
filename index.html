@@ -290,7 +290,7 @@
   'use strict';
   var PAGE = 40;
   var S = {
-    records:[], liveRecords:[], archiveRecords:[], allRecords:[], repo:null,
+    records:[], liveRecords:[], archiveRecords:[], allRecords:[], repo:null, loadWarnings:[],
     focus:'focused', group:'source', status:'all', q:'', labels:{}
   };
 
@@ -300,17 +300,26 @@
   function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n;}
   function fmt(s){if(!s)return null;var d=new Date(s);return isNaN(d)?String(s).slice(0,10):
     d.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});}
-  function get(f){return fetch(f+(f.indexOf('?')<0?'?':'&')+'v='+Date.now(),{cache:'no-store'}).then(function(r){
-    if(!r.ok)throw new Error(f+' returned HTTP '+r.status);
-    return r.json();
-  });}
-  function getArchive(){
-    var f='impact-log-archive.json';
-    return fetch(f+'?v='+Date.now(),{cache:'no-store'}).then(function(r){
-      if(r.status===404)return {records:[],missing:true};
+  // A file passed with a fallback is supporting data: if it fails to load, the page
+  // still renders and says what is missing. The impact log has no fallback, because
+  // nothing meaningful can be shown without it.
+  function get(f,fallback){
+    var p=fetch(f+(f.indexOf('?')<0?'?':'&')+'v='+Date.now(),{cache:'no-store'}).then(function(r){
       if(!r.ok)throw new Error(f+' returned HTTP '+r.status);
       return r.json();
     });
+    if(arguments.length<2) return p;
+    return p.catch(function(e){ S.loadWarnings.push(String(e&&e.message||e)); return fallback; });
+  }
+  // The archive only exists once the live log passes its cap (LOG_KEEP, 3,000 records),
+  // so a 404 is the normal state. Any other failure is reported, never fatal.
+  function getArchive(){
+    var f='impact-log-archive.json';
+    return fetch(f+'?v='+Date.now(),{cache:'no-store'}).then(function(r){
+      if(r.status===404)return {records:[],notYet:true};
+      if(!r.ok)throw new Error(f+' returned HTTP '+r.status);
+      return r.json();
+    }).catch(function(e){ return {records:[],error:String(e&&e.message||e)}; });
   }
 
   var GROUPERS = {
@@ -560,7 +569,7 @@
     return d;
   }
 
-  Promise.all([get('impact-log.json',{records:[]}),getArchive(),get('health.json',null),
+  Promise.all([get('impact-log.json'),getArchive(),get('health.json',null),
                get('coverage.json',null),get('diary.json',null),get('run-log.json',{runs:[]}),
                get('sources.json',{sources:[]}),get('framework-map.json',null),
                get('framework-register-snapshot.json',null)])
@@ -597,9 +606,14 @@
     });
 
     var P=document.getElementById('panels');
-    if(archive.missing){
-      P.appendChild(panel('warn','Scanner archive is not published',null,function(b){
-        b.appendChild(el('p',null,'impact-log-archive.json returned HTTP 404. Full audit history currently contains only the live impact log; do not infer that older records do not exist.'));
+    if(archive.error){
+      P.appendChild(panel('warn','Archived history could not be loaded',null,function(b){
+        b.appendChild(el('p',null,archive.error+'. Full audit history below shows only the live impact log until the archive loads again; older records have not been deleted.'));
+      },true));
+    }
+    if(S.loadWarnings.length){
+      P.appendChild(panel('warn','Some supporting data did not load',S.loadWarnings.length,function(b){
+        b.appendChild(el('p',null,'The rest of the page is shown. Panels that depend on the files below are left out until they load again: '+S.loadWarnings.join('; ')+'.'));
       },true));
     }
     if(unrev){

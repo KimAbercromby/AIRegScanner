@@ -115,7 +115,11 @@ test('the published viewer stays static and explains its governance boundary', (
   assert.match(html, /AIG-AIMS-13 cross-check/i);
   assert.match(html, /function getArchive\(\)/);
   assert.match(html, /impact-log-archive\.json/);
-  assert.match(html, /archive\.missing/);
+  // A missing archive is the normal state below LOG_KEEP; any other archive or supporting-file
+  // failure is reported on the page rather than blanking it.
+  assert.match(html, /notYet:true/);
+  assert.match(html, /archive\.error/);
+  assert.match(html, /S\.loadWarnings/);
   assert.match(html, /S\.records=S\.focus==='all'\?S\.allRecords:S\.liveRecords/);
   assert.match(html, /effect\.issue_number/);
   assert.doesNotThrow(() => new Function(scripts[0][1]), 'inline viewer JavaScript parses');
