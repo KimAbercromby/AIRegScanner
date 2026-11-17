@@ -4,178 +4,6 @@
     {
       "run_at": "2026-11-04T15:02:01.453Z",
       "source_id": "legislation-new",
-      "title": "The Control of Asbestos (Amendment etc.) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1153/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Customs (Tariff and Miscellaneous Amendments) (No. 7) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1155/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Planning and Infrastructure Act 2025 (Commencement No. 5) and English Devolution and Community Empowerment Act 2026 (Commencement No. 5) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1157/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Data-gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1152/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "Sovereign Grant Act 2026",
-      "url": "http://www.legislation.gov.uk/ukpga/2026/28/2026-11-02",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Mesothelioma Lump Sum Payments (Conditions and Amounts) (Amendment) (No. 2) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1148/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Pneumoconiosis etc. (Workers’ Compensation) (Payment of Claims) (Amendment) (No. 2) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1146/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Energy Performance of Buildings (Scotland) Amendment Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/322/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Transport and Works (Applications, Objections, Listed Buildings, Inquiries and Decisions Procedure) (England and Wales) (Amendment) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1143/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Transport Infrastructure (Fees) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1137/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "public authorities",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The Mobile Homes (Written Statement) (Scotland) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/320/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
-      "title": "The First-tier Tribunal for Scotland (Transfer of Functions and Members of the Police Appeals Tribunal) Amendment Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/321/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "legislation-new",
       "title": "The Fuel Poverty (Targets, Definition and Strategy) (Scotland) Act 2019 (Commencement No. 3) Regulations 2026",
       "url": "http://www.legislation.gov.uk/ssi/2026/319/made",
       "reason": "outside-uk-legislation-scope",
@@ -6654,6 +6482,177 @@
       "source_id": "govuk-dsit-legacy",
       "title": "AI Champions’ AI Adoption Plans",
       "url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "legislation-new",
+      "title": "The Bank Levy (Definitions and Amendments) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1206/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "legislation-new",
+      "title": "The Critical Third Parties (Designation) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1203/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "legislation-new",
+      "title": "The Human Rights Act 1998 (Remedial) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1205/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "legislation-new",
+      "title": "The Electrical Safety Standards in the Private Rented Sector and Social Rented Sector (England) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1196/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "safety",
+          "standard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "legislation-new",
+      "title": "The Hazards in Social Housing (Prescribed Requirements) (England) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1195/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "law",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "legislation-new",
+      "title": "The Border Security, Asylum and Immigration Act 2025 (Specified Purposes Related to Policing) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1194/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "legislation-new",
+      "title": "The Mental Health (Care and Treatment) (Scotland) Act 2003 Remedial Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/341/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "govuk-mhclg",
+      "title": "Worcestershire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/worcestershire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "govuk-mhclg",
+      "title": "Warwickshire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/warwickshire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "govuk-mhclg",
+      "title": "Gloucestershire: Local government reorganisation",
+      "url": "https://www.gov.uk/government/collections/gloucestershire-local-government-reorganisation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "govuk-mhclg",
+      "title": "Affordable Homes Programme 2021-26 evaluation - survey of residents follow up: privacy notice",
+      "url": "https://www.gov.uk/government/publications/affordable-homes-programme-2021-26-evaluation-survey-of-residents-follow-up-privacy-notice",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-17T16:39:06.645Z",
+      "source_id": "govuk-mhclg",
+      "title": "Community and Engagement Survey 2025/26: summary report",
+      "url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-summary-report",
       "reason": "no-ai-governance-signal",
       "signals": {
         "priority": [],

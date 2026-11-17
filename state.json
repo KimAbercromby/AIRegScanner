@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-16T16:42:35.149Z",
+  "last_run": "2026-11-17T16:39:06.645Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -9133,18 +9133,18 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/worcestershire-local-government-reorganisation": {
-      "hash": "450f7e7575541b34",
+      "hash": "a03566e075d5d420",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/warwickshire-local-government-reorganisation": {
-      "hash": "5827bbf5f88e5ac9",
+      "hash": "5faee32a806f2281",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -9213,10 +9213,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/gloucestershire-local-government-reorganisation": {
-      "hash": "ed8e7f17e82b63ac",
+      "hash": "9a6d7883b7687f2d",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-30T13:47:17.174Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -37294,10 +37294,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/341": {
-      "hash": "6492fbed13a87f3f",
+      "hash": "64167c8e24e812a9",
       "body": null,
       "first_seen": "2026-11-15T08:03:39.248Z",
-      "last_changed": "2026-11-15T08:03:39.248Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -37520,6 +37520,70 @@
       "body": null,
       "first_seen": "2026-11-16T16:42:35.149Z",
       "last_changed": "2026-11-16T16:42:35.149Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1206": {
+      "hash": "75b7dde91a2fdfeb",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1203": {
+      "hash": "faec699d0e311ca8",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1205": {
+      "hash": "e684b6f4b8d4b575",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1196": {
+      "hash": "5a304758fba4a02a",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1195": {
+      "hash": "4908411e8e2ad1c3",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1194": {
+      "hash": "10496966b9daf320",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/affordable-homes-programme-2021-26-evaluation-survey-of-residents-follow-up-privacy-notice": {
+      "hash": "fdffb2abc71c4b72",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/statistics/community-and-engagement-survey-202526-summary-report": {
+      "hash": "46e8d7bfac6bc14f",
+      "body": null,
+      "first_seen": "2026-11-17T16:39:06.645Z",
+      "last_changed": "2026-11-17T16:39:06.645Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }
