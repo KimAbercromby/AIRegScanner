@@ -2,638 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "London Borough of Sutton (26 016 844)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-016-844",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "London Borough of Barnet (25 016 916)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-016-916",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Birmingham City Council (25 020 556)",
-      "url": "https://www.lgo.org.uk/decisions/education/alternative-provision/25-020-556",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Leeds City Council (25 016 580)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-016-580",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Leicestershire County Council (25 016 773)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-016-773",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Blackpool Borough Council (25 025 616)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-025-616",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Worcestershire County Council (26 013 547)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/26-013-547",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Lincolnshire County Council (26 000 606)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/26-000-606",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Worcestershire County Council (26 002 029)",
-      "url": "https://www.lgo.org.uk/decisions/education/alternative-provision/26-002-029",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Leicestershire County Council (25 018 902)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-018-902",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-education",
-      "title": "Essex County Council (25 021 028)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-021-028",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "Leicester City Council (25 027 197)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-197",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "City of York Council (25 028 452)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-028-452",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "Birmingham City Council (25 030 485)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-030-485",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Redbridge (26 012 468)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-012-468",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Barnet (26 013 056)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-013-056",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "Stockton-on-Tees Borough Council (26 016 497)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-016-497",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "Manchester City Council (26 016 644)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-016-644",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "Reigate & Banstead Borough Council (26 016 676)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-016-676",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "Durham County Council (26 016 822)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-016-822",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-04T15:02:01.453Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Lewisham (26 017 009)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-017-009",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Registration of Births and Deaths (England and Wales) (Specified Requirements) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1168/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Strategic Planning Authorities (Spatial Development Strategy) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1162/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Strategic Planning (Consequential and Miscellaneous Amendments) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1164/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "legislation",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Strategic Planning (Costs of Public Examinations) (Standard Daily Amount) (England) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1163/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation",
-          "standard"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Spatial Development Strategy (Examination Procedure) Rules 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1161/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Building Safety Levy (Scotland) Act 2026 (Commencement No. 1) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/324/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation",
-          "safety"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Provision of Early Learning and Childcare (Specified Children) (Scotland) Amendment Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/329/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Trusts and Succession (Scotland) Act 2024 (Commencement No. 2 and Saving and Transitory Provision) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/323/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "Act of Adjournal (Criminal Procedure Rules 1996 Amendment) (Miscellaneous) (No. 2) 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/328/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Cumberland (Electoral Changes) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1166/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "local government"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Transport (Scotland) Act 2019 (Commencement No. 9) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/326/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": null,
-      "url": "http://www.legislation.gov.uk/wsi/2026/132/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Employment Tribunals Extension of Jurisdiction (Amendment) (Scotland) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/327/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The A889 Trunk Road (Dalwhinnie) (40mph Speed Limit) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/325/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/uksi/2026/999/pdfs/uksics_20260999_en_001.pdf",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The Employment Tribunals (Early Conciliation: Exemptions and Rules of Procedure) (Amendment) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1144/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "The International Controlled Transaction Reporting Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1156/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1021/pdfs/uksics_20261021_en_001.pdf",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "legislation-search-ai-title",
-      "title": "85/519/EEC: Council Decision of 26 November 1985 concerning the conclusion of a Community-COST Concertation Agreement on a concerted-action project in the field of artificial intelligence and pattern recognition (COST project 13)",
-      "url": "http://www.legislation.gov.uk/eudn/1985/519/adopted",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [
-          "artificial intelligence"
-        ],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-equality-2010",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Equality Act 2010",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
       "run_at": "2026-11-05T15:08:17.658Z",
       "source_id": "statute-housing-1996",
       "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
@@ -6628,6 +5996,691 @@
       "source_id": "lgsco-benefits",
       "title": "North Somerset Council (25 028 493)",
       "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-028-493",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Financial Services and Markets Act 2023 (Addition of Relevant Enactments) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1215/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Budget (Scotland) Act 2026 Amendment Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/346/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/136/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Scottish Languages Act 2025 (Commencement No. 3) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/342/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Air Departure Tax (Scotland) Act 2017 (Commencement No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/343/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "Act of Adjournal (Criminal Procedure Rules 1996 Amendment) (Criminal Justice Modernisation and Abusive Domestic Behaviour Reviews (Scotland) Act 2025) 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/345/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Circular Economy (Scotland) Act 2024 (Commencement No. 3) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/344/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Hemp (Third Country Imports) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/193/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Planning and Infrastructure Act 2025 (Commencement No. 5 and Transitional Provisions) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1208/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "legislation-new",
+      "title": "The Social Security (Non-Benefit Payments) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1207/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-equality-2010",
+      "title": "The Equality Act 2010 (Public Authorities and Consequential and Supplementary Amendments) Order 2011 effect on Equality Act 2010",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2010/15",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "equality",
+          "public authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-hra-1998",
+      "title": "The Human Rights Act 1998 (Remedial) Order 2026 effect on Human Rights Act 1998",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1998/42",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "statute-hra-1998",
+      "title": "The Human Rights Act 1998 (Remedial) Order 2026 effect on Human Rights Act 1998",
+      "url": "http://www.legislation.gov.uk/id/ukpga/1998/42",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "DWP: DWP Ask",
+      "url": "https://www.gov.uk/algorithmic-transparency-records/dwp-dwp-ask",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "UK-EU Summit package - factsheet and mythbuster",
+      "url": "https://www.gov.uk/government/news/uk-eu-summit-package-factsheet-and-mythbuster",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-gds",
+      "title": "DWP: DWP Ask",
+      "url": "https://www.gov.uk/algorithmic-transparency-records/dwp-dwp-ask",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-gds",
+      "title": "HMPPS: Risk of Reoffending Tools",
+      "url": "https://www.gov.uk/algorithmic-transparency-records/hmpps-risk-of-reoffending-tools",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "risk"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "High Street Rental Auctions: grants for local authorities",
+      "url": "https://www.gov.uk/government/publications/high-street-rental-auctions-grants-for-local-authorities",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "local authorities"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "Commonhold property",
+      "url": "https://www.gov.uk/guidance/commonhold-property",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "Commonhold implementation: Direction of Travel",
+      "url": "https://www.gov.uk/government/publications/commonhold-implementation-direction-of-travel",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "​Commonhold and Leasehold Reform Bill: government response to pre-legislative scrutiny report",
+      "url": "https://www.gov.uk/government/publications/commonhold-and-leasehold-reform-bill-government-response-to-pre-legislative-scrutiny-report",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "bill",
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "Moving to commonhold: banning leasehold for new flats",
+      "url": "https://www.gov.uk/government/consultations/moving-to-commonhold-banning-leasehold-for-new-flats",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "Strengthening leaseholder protections over charges and services: consultation",
+      "url": "https://www.gov.uk/government/consultations/strengthening-leaseholder-protections-over-charges-and-services-consultation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "Beginning of the end for thousand year old leasehold system",
+      "url": "https://www.gov.uk/government/news/beginning-of-the-end-for-thousand-year-old-leasehold-system",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "bill"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "Stage 3: Determining your draft allocations",
+      "url": "https://www.gov.uk/guidance/determining-your-draft-allocations-for-local-plans-stage-3",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-mhclg",
+      "title": "Fire risk appraisals of external walls (FRAEWs)",
+      "url": "https://www.gov.uk/government/publications/fire-risk-appraisals-of-external-walls-fraews",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "risk"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "DWP: DWP Ask",
+      "url": "https://www.gov.uk/algorithmic-transparency-records/dwp-dwp-ask",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "UK software market analysis",
+      "url": "https://www.gov.uk/government/publications/uk-software-market-analysis",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "govuk-dsit-legacy",
+      "title": "AI security companies survey: privacy notice 2026 to 2027",
+      "url": "https://www.gov.uk/government/publications/ai-security-companies-survey-privacy-notice-2026-to-2027",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "lga-guidance",
+      "title": "Health inequalities: A must know for councillors",
+      "url": "https://www.local.gov.uk/publications/health-inequalities-must-know-councillors-0",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "lga-guidance",
+      "title": "Cultural strategy in a box",
+      "url": "https://www.local.gov.uk/publications/cultural-strategy-box",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Tameside Metropolitan Borough Council (26 018 944)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/other/26-018-944",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Kirklees Metropolitan Borough Council (26 018 933)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-018-933",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Leeds City Council (26 018 972)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-018-972",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-19T16:15:50.337Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Kent County Council (26 019 836)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-019-836",
       "reason": "no-ai-keyword",
       "signals": {
         "priority": [],
