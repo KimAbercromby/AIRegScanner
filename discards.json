@@ -3,258 +3,6 @@
   "entries": [
     {
       "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-housing-1996",
-      "title": "Leasehold and Freehold Reform Act 2024 effect on Housing Act 1996",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1996/52",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-foia-2000",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-foia-2000",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Freedom of Information Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/36",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "lga-guidance",
-      "title": "Health in All Policies Manual",
-      "url": "https://www.local.gov.uk/publications/health-all-policies-manual",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "lga-guidance",
-      "title": "LGR: Adult social care checklist",
-      "url": "https://www.local.gov.uk/publications/lgr-adult-social-care-checklist",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "lga-guidance",
-      "title": "Rolling out plastic film collections to all households in England – executive summary",
-      "url": "https://www.local.gov.uk/publications/rolling-out-plastic-film-collections-all-households-england-executive-summary",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "lga-guidance",
-      "title": "Sector Support Offer quick reference guide",
-      "url": "https://www.local.gov.uk/publications/sector-support-offer-quick-reference-guide",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "lga-guidance",
-      "title": "Strengthening local immunisation services",
-      "url": "https://www.local.gov.uk/publications/strengthening-local-immunisation-services",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "lga-guidance",
-      "title": "Must know: Supporting men’s health",
-      "url": "https://www.local.gov.uk/publications/must-know-supporting-mens-health",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "lgsco-education",
-      "title": "City of York Council (25 005 046)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-005-046",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
       "source_id": "statute-lga-1972",
       "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
       "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
@@ -6681,6 +6429,258 @@
       "source_id": "lgsco-childrens-care",
       "title": "Kent County Council (26 019 836)",
       "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-019-836",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Portmoak, Perth and Kinross) (Emergency) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1224/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Financial Services and Markets Act 2000 (Cryptoassets) (Miscellaneous Amendments) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1219/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/137/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The A83 Trunk Road (Campbeltown) (Temporary Prohibition on Use of Road) (No. 4) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/348/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 11) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1211/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Value Added Tax (Drugs and Medicines) (Health and Welfare) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1217/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Individual Savings Account (Amendment and Revocation) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1218/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The A82 Trunk Road (Fort William) (Temporary Prohibition on Use of Road) (No. 2) Order 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/347/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Armed Forces (Amendment of Service Courts Rules) Rules 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1209/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Traffic Orders and Notices (Provision of Digital Information) (England) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1202/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "guidance",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Hemp (Third Country Imports) (Amendment) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/193/2026-11-17",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Government Resources and Accounts (Northern Ireland) Act 2001 (Estimates and Accounts) (Designation of Bodies) (Amendment) Order 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/192/2026-11-16",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Rehabilitation of Offenders (Exceptions) (Amendment No. 2) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/191/2026-11-16",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "legislation-new",
+      "title": "The Police Act 1997 (Criminal Records) (Amendment No. 2) Regulations (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/190/2026-11-16",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "UK/EU Summit 2026: Key documents",
+      "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "govuk-mhclg",
+      "title": "Addressing water scarcity in Greater Cambridge: progress report",
+      "url": "https://www.gov.uk/government/publications/addressing-water-scarcity-in-greater-cambridge-progress-report",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "govuk-mhclg",
+      "title": "Guide to the Commonhold and Leasehold Reform Bill",
+      "url": "https://www.gov.uk/government/publications/guide-to-the-commonhold-and-leasehold-reform-bill",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "bill"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "lga-guidance",
+      "title": "Healthy weight and physical activity: A must know for councillors",
+      "url": "https://www.local.gov.uk/publications/healthy-weight-and-physical-activity-must-know-councillors",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-20T15:53:25.554Z",
+      "source_id": "lga-guidance",
+      "title": "Health inequalities: A must know for councillors",
+      "url": "https://www.local.gov.uk/publications/health-inequalities-must-know-councillors-0",
       "reason": "no-ai-keyword",
       "signals": {
         "priority": [],
