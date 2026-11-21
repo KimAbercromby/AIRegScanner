@@ -240,34 +240,6 @@
       }
     },
     {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-05T15:08:17.658Z",
-      "source_id": "statute-lga-1972",
-      "title": "English Devolution and Community Empowerment Act 2026 effect on Local Government Act 1972",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1972/70",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
       "run_at": "2026-11-06T14:45:47.558Z",
       "source_id": "legislation-new",
       "title": "Administrative and Financial Provisions Act (Northern Ireland) 2026",
@@ -6681,6 +6653,32 @@
       "source_id": "lga-guidance",
       "title": "Health inequalities: A must know for councillors",
       "url": "https://www.local.gov.uk/publications/health-inequalities-must-know-councillors-0",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-21T15:03:39.297Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Loch Goil) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1216/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-21T15:03:39.297Z",
+      "source_id": "lga-guidance",
+      "title": "Gambling harms: A Must Know for councillors",
+      "url": "https://www.local.gov.uk/publications/gambling-harms-must-know-councillors",
       "reason": "no-ai-keyword",
       "signals": {
         "priority": [],

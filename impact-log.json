@@ -76475,7 +76475,51 @@
       "backlog_closed_by_role": "Framework author and reviewer (role to be confirmed)",
       "backlog_closed_at": "2026-11-16T11:58:38.269Z",
       "bulk_group": "b01"
+    },
+    {
+      "record_id": "REG-1556",
+      "event": "new",
+      "source_id": "govuk-gds",
+      "publisher": "Government Digital Service (via GOV.UK Search API)",
+      "tier": 2,
+      "title": "Data and artificial intelligence (AI) ethics community ",
+      "url": "https://www.gov.uk/service-manual/communities/data-and-artificial-intelligence-ethics-community",
+      "date_published": "2026-11-20T16:57:42Z",
+      "date_in_force": null,
+      "date_retrieved": "2026-11-21T15:03:39.297Z",
+      "content_hash": "d263f52094c8ca8b",
+      "body_hash": null,
+      "previous_body_hash": null,
+      "topics": [],
+      "current_awareness": false,
+      "reference_only": false,
+      "affects_sections": [],
+      "affects_artefacts": [],
+      "review_flags": [],
+      "status": "unreviewed",
+      "issue_number": 866,
+      "decision": null,
+      "decision_valid": null,
+      "reviewed_by": null,
+      "reviewed_by_role": null,
+      "reviewed_at": null,
+      "outcome": null,
+      "commencement_alerts": [],
+      "generated": null,
+      "relevance": {
+        "level": "focused",
+        "reason": "ai-and-governance",
+        "signals": {
+          "priority": [],
+          "ai": [
+            "artificial intelligence"
+          ],
+          "governance": [
+            "public sector"
+          ]
+        }
+      }
     }
   ],
-  "next_record_id": 1556
+  "next_record_id": 1557
 }
