@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-21T15:03:39.297Z",
+  "run_at": "2026-11-22T15:00:45.682Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -112,7 +112,7 @@
       "status": "ok",
       "http_status": 200,
       "items_seen": 50,
-      "items_kept": 1,
+      "items_kept": 0,
       "items_discarded": 44
     },
     {
@@ -455,10 +455,10 @@
   "register_review_due": "2026-12-12",
   "register_review_overdue": false,
   "summary": {
-    "added": 1,
+    "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 2,
+    "discarded": 0,
     "retired": 0,
     "unreviewed": 1
   }
