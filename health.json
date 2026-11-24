@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-23T18:56:41.311Z",
+  "run_at": "2026-11-24T18:35:35.137Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -89,7 +89,7 @@
       "http_status": 200,
       "items_seen": 100,
       "items_kept": 0,
-      "items_discarded": 20
+      "items_discarded": 22
     },
     {
       "id": "statute-procurement-2023",
@@ -241,11 +241,10 @@
     },
     {
       "id": "iso-42001",
-      "status": "ok",
-      "http_status": 200,
-      "items_seen": 1,
-      "items_kept": 0,
-      "items_discarded": 0
+      "status": "http-error",
+      "http_status": 403,
+      "items_seen": 0,
+      "items_kept": 0
     },
     {
       "id": "statute-pecr-2003",
@@ -458,7 +457,7 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 40,
+    "discarded": 133,
     "retired": 0,
     "unreviewed": 1
   }
