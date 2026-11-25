@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-24T18:35:35.137Z",
+  "run_at": "2026-11-25T17:46:25.957Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -163,11 +163,12 @@
     },
     {
       "id": "lga-guidance",
-      "status": "ok",
+      "status": "ok-but-empty",
       "http_status": 200,
-      "items_seen": 10,
+      "items_seen": 0,
       "items_kept": 0,
-      "items_discarded": 10
+      "items_discarded": 0,
+      "note": "Responded 200 but returned no items. Check the endpoint still points where you think it does."
     },
     {
       "id": "bills-parliament",
@@ -241,10 +242,11 @@
     },
     {
       "id": "iso-42001",
-      "status": "http-error",
-      "http_status": 403,
-      "items_seen": 0,
-      "items_kept": 0
+      "status": "ok",
+      "http_status": 200,
+      "items_seen": 1,
+      "items_kept": 0,
+      "items_discarded": 0
     },
     {
       "id": "statute-pecr-2003",
@@ -457,7 +459,7 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 133,
+    "discarded": 76,
     "retired": 0,
     "unreviewed": 1
   }

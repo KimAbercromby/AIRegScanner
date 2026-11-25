@@ -2,1022 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Gloucestershire County Council (26 017 945)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-017-945",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-childrens-care",
-      "title": "Salford City Council (26 018 021)",
-      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-018-021",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "Bournemouth, Christchurch and Poole Council (25 013 803)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-013-803",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "Solihull Metropolitan Borough Council (25 013 993)",
-      "url": "https://www.lgo.org.uk/decisions/education/alternative-provision/25-013-993",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "Staffordshire County Council (25 021 348)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-admissions/25-021-348",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "Central Bedfordshire Council (25 028 664)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-028-664",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "Bristol City Council (26 002 481)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/26-002-481",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "West Sussex County Council (26 003 259)",
-      "url": "https://www.lgo.org.uk/decisions/education/other/26-003-259",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "Surrey County Council (26 017 669)",
-      "url": "https://www.lgo.org.uk/decisions/education/school-transport/26-017-669",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "Westminster City Council (26 017 772)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/26-017-772",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-education",
-      "title": "West Berkshire Council (25 011 755)",
-      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-011-755",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "Calderdale Metropolitan Borough Council (25 021 899)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-021-899",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "Leicester City Council (25 027 784)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/other/25-027-784",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "Luton Borough Council (26 004 852)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-004-852",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "Coventry City Council (26 014 168)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-014-168",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "Leicester City Council (26 017 332)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-017-332",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Waltham Forest (26 017 956)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-017-956",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "North Yorkshire Council (25 019 925)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-019-925",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "Stockport Metropolitan Borough Council (25 020 844)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-020-844",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "London Borough of Barnet (25 028 067)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/25-028-067",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-11T14:53:16.426Z",
-      "source_id": "lgsco-benefits",
-      "title": "Ashfield District Council (25 030 146)",
-      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-030-146",
-      "reason": "no-ai-keyword",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Building Insurance Information (England) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1181/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Feed-in Tariffs (Amendment) (British Industrial Competitiveness Scheme Excluded Electricity) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1182/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Maximum Number of Judges (Scotland) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/340/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Radio Selection Services (Designation) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1179/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The A92/A972 Trunk Road (Dundee) (Temporary 30mph and 40mph Speed Restrictions) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/339/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Children (Care and Justice) (Scotland) Act 2024 (Commencement No. 4) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/335/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Victims, Witnesses, and Justice Reform (Scotland) Act 2025 (Commencement No. 3) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/334/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The A702 Trunk Road (Carlops) (Temporary Prohibition on Use, Waiting, Loading and Unloading) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/337/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The A737/A738 Trunk Road (St James Viaduct) (Temporary Prohibition on Use of Road and Temporary 30mph and 50mph Speed Restrictions) (No. 2) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/336/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Marine Licensing (Exempted Activities and Fees) (Amendment) (No. 2) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1180/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "Correction Slip",
-      "url": "http://www.legislation.gov.uk/uksi/2025/75/pdfs/uksics_20250075_en_001.pdf",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Withdrawal Agreement (Windsor Framework and Governance) (Amendment) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1186/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "governance",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Renewables Obligation (Scotland) Amendment (No. 2) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/338/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The National Health Service (Pharmaceutical and Local Pharmaceutical Services) (Amendment) (No. 3) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1184/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20",
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The Education (Student Loans) (Repayment) (Amendment) (No. 2) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1175/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "legislation-new",
-      "title": "The A702 Trunk Road (Biggar) (20mph and 30mph Speed Limits) Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/331/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-care-2014",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Care Act 2014",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2014/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-children-1989",
-      "title": "Children’s Wellbeing and Schools Act 2026 effect on Children Act 1989",
-      "url": "http://www.legislation.gov.uk/id/ukpga/1989/41",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
       "run_at": "2026-11-12T15:44:19.767Z",
       "source_id": "statute-children-1989",
       "title": "Crime and Policing Act 2026 effect on Children Act 1989",
@@ -6850,6 +5834,964 @@
           "act 20",
           "local government"
         ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Water Supply and Sewerage Services (Customer Service Standards) (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1237/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "standard"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The State Pension Debits and Credits (Revaluation) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1226/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The State Pension Revaluation for Transitional Pensions Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1225/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Frodsham Solar Farm Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1174/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Domestic Abuse Act 2021 (Commencement No. 10) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1212/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Air Navigation (Restriction of Flying) (Stonehenge) (No. 2) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1234/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation",
+          "safety",
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/wsi/2025/1091/pdfs/wsics_20251091_en_001.pdf",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Voter Identification (Amendment of List of Specified Documents) (Northern Ireland) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1235/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Sussex and Brighton Combined County Authority (Transfer of Fire and Rescue Functions) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1199/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Surrey Fire and Rescue Authority (Combination Scheme) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1214/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "rights"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "legislation-new",
+      "title": "The Cumbria Combined Authority (Transfer of Fire and Rescue Functions) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1198/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "statute-children-2004",
+      "title": "Local Government and Elections (Wales) Act 2021 effect on Children Act 2004",
+      "url": "http://www.legislation.gov.uk/id/ukpga/2004/31",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "local government"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-cabinet-office",
+      "title": "UK-EU Summit package - factsheet and mythbuster",
+      "url": "https://www.gov.uk/government/news/uk-eu-summit-package-factsheet-and-mythbuster",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Planning Skills and Capacity Survey 2026",
+      "url": "https://www.gov.uk/government/publications/planning-skills-and-capacity-survey-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Statutory intervention: Birmingham City Council",
+      "url": "https://www.gov.uk/government/collections/statutory-intervention-birmingham-city-council",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "statutory"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Statutory intervention: Nottingham City Council",
+      "url": "https://www.gov.uk/government/collections/statutory-intervention-nottingham-city-council-minded-to-decision",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "statutory"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Statutory intervention: London Borough of Croydon",
+      "url": "https://www.gov.uk/government/collections/statutory-intervention-london-borough-of-croydon",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "statutory"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Intervention at Thurrock Council",
+      "url": "https://www.gov.uk/government/collections/intervention-at-thurrock-council",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Intervention at Slough Borough Council",
+      "url": "https://www.gov.uk/government/collections/intervention-at-slough-borough-council",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "assurance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Slough Borough Council: Letter to the Leader of the Council (25 November 2026)",
+      "url": "https://www.gov.uk/government/publications/slough-borough-council-letter-to-the-leader-of-the-council-25-november-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Statutory intervention: Warrington Borough Council",
+      "url": "https://www.gov.uk/government/collections/best-value-inspection-warrington-borough-council",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "statutory"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Fire statistics guidance",
+      "url": "https://www.gov.uk/government/publications/fire-statistics-guidance",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Building Safety Remediation",
+      "url": "https://www.gov.uk/government/collections/building-safety-remediation",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safety"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Building Safety Remediation: monthly data release - October 2026",
+      "url": "https://www.gov.uk/government/publications/building-safety-remediation-monthly-data-release-october-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "safety"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Fire workforce and pension statistics, year ending March 2026",
+      "url": "https://www.gov.uk/government/statistics/fire-workforce-and-pension-statistics-year-ending-march-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "20 million households to receive £100 payment",
+      "url": "https://www.gov.uk/government/news/20-million-households-to-receive-100-payment",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "govuk-mhclg",
+      "title": "Household Energy Payment 2027: guidance for billing authorities",
+      "url": "https://www.gov.uk/government/publications/household-energy-payment-2027-guidance-for-billing-authorities",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "bill",
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Ealing (25 017 684)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-017-684",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Lambeth (25 017 732)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-017-732",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "Leicester City Council (25 020 925)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-020-925",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Ealing (25 023 548)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-023-548",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Waltham Forest (25 024 698)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-024-698",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Newham (25 025 693)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-025-693",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "Nottingham City Council (25 026 072)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-026-072",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "London Borough of Croydon (25 026 174)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-026-174",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "Cotswold District Council (25 026 255)",
+      "url": "https://www.lgo.org.uk/decisions/housing/homelessness/25-026-255",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-housing",
+      "title": "Brighton & Hove City Council (25 026 443)",
+      "url": "https://www.lgo.org.uk/decisions/housing/allocations/25-026-443",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Somerset Council (25 014 167)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-014-167",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "London Borough of Bromley (25 016 614)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-016-614",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Staffordshire County Council (25 017 072)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-017-072",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Stratford-on-Avon District Council (25 018 116)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/25-018-116",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Leicester City Council (25 025 606)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-025-606",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Telford & Wrekin Council (25 025 716)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-025-716",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Sheffield City Council (25 028 049)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/charging/25-028-049",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Newcastle upon Tyne City Council (25 029 336)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/direct-payments/25-029-336",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "Wirral Metropolitan Borough Council (25 031 607)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-031-607",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-adult-care",
+      "title": "London Borough of Hillingdon (26 008 685)",
+      "url": "https://www.lgo.org.uk/decisions/adult-care-services/transport/26-008-685",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Nottingham City Council (25 005 900)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/adoption/25-005-900",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Westminster City Council (25 007 425)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-007-425",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Cambridgeshire County Council (25 024 694)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-024-694",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Central Bedfordshire Council (25 025 801)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/adoption/25-025-801",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Kent County Council (25 027 489)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/disabled-children/25-027-489",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "East Sussex County Council (25 027 870)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/25-027-870",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Cambridgeshire County Council (26 002 299)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-002-299",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Devon County Council (26 013 215)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-013-215",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "London Borough of Bexley (26 013 507)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-013-507",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-childrens-care",
+      "title": "Lincolnshire County Council (26 016 899)",
+      "url": "https://www.lgo.org.uk/decisions/children-s-care-services/other/26-016-899",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "West Northamptonshire Council (25 015 220)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-015-220",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "Devon County Council (25 015 709)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-015-709",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "Devon County Council (25 016 376)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-016-376",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "Suffolk County Council (25 016 582)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-016-582",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "East Sussex County Council (25 017 249)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-017-249",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "Oxfordshire County Council (25 017 594)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-017-594",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "Bournemouth, Christchurch and Poole Council (25 018 246)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-018-246",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "West Sussex County Council (25 025 984)",
+      "url": "https://www.lgo.org.uk/decisions/education/special-educational-needs/25-025-984",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-education",
+      "title": "Suffolk County Council (25 026 586)",
+      "url": "https://www.lgo.org.uk/decisions/education/school-transport/25-026-586",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Tower Hamlets (25 027 265)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-265",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Hammersmith & Fulham (25 029 594)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/local-welfare-payments/25-029-594",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "Mole Valley District Council (25 031 165)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-165",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Haringey (25 031 852)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-852",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "Burnley Borough Council (26 003 364)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-003-364",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "Westminster City Council (26 019 825)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/26-019-825",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "Peterborough City Council (25 017 968)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-968",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "Manchester City Council (25 030 500)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-030-500",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "London Borough of Croydon (25 031 132)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-132",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-25T17:46:25.957Z",
+      "source_id": "lgsco-benefits",
+      "title": "Central Bedfordshire Council (25 031 666)",
+      "url": "https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-666",
+      "reason": "no-ai-keyword",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
       }
     }
   ]

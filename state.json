@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-24T18:35:35.137Z",
+  "last_run": "2026-11-25T17:46:25.957Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -5363,10 +5363,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-children-2004::effect-b89b3f6f83d8a272": {
-      "hash": "eb3318f9b9277e47",
+      "hash": "9a092122b4def1f8",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-11-24T18:35:35.137Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -8957,10 +8957,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/publications/fire-statistics-guidance": {
-      "hash": "e4edcdc4342168b3",
+      "hash": "4fe2105dd06fc89f",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -29560,10 +29560,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/building-safety-remediation": {
-      "hash": "cefd2660919d373a",
+      "hash": "c7465cad6b177755",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-28T13:47:17.759Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -32268,10 +32268,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/collections/intervention-at-slough-borough-council": {
-      "hash": "f08336ab73e13312",
+      "hash": "e7a1ebbf75ba33a4",
       "body": null,
       "first_seen": "2026-10-15T12:25:24.086Z",
-      "last_changed": "2026-10-15T12:25:24.086Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -37644,10 +37644,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-cabinet-office::/government/news/uk-eu-summit-package-factsheet-and-mythbuster": {
-      "hash": "6be248ecfbb9e67a",
+      "hash": "708911bc207f8a69",
       "body": null,
       "first_seen": "2026-11-18T16:08:11.464Z",
-      "last_changed": "2026-11-19T16:15:50.337Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -38650,26 +38650,26 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1199": {
-      "hash": "14d9d3ba00f84117",
+      "hash": "406b77c2431923c7",
       "body": null,
       "first_seen": "2026-11-23T18:56:41.311Z",
-      "last_changed": "2026-11-23T18:56:41.311Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1214": {
-      "hash": "75429cfdc4f5ffb0",
+      "hash": "085f252977933fce",
       "body": null,
       "first_seen": "2026-11-23T18:56:41.311Z",
-      "last_changed": "2026-11-23T18:56:41.311Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1198": {
-      "hash": "c25eb6686dfb2842",
+      "hash": "372f5ab79b33220b",
       "body": null,
       "first_seen": "2026-11-23T18:56:41.311Z",
-      "last_changed": "2026-11-23T18:56:41.311Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -38786,10 +38786,10 @@
       "discard_reason": "no-ai-keyword"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1235": {
-      "hash": "809942944e118f8d",
+      "hash": "2f3daa72d7acbddc",
       "body": null,
       "first_seen": "2026-11-24T18:35:35.137Z",
-      "last_changed": "2026-11-24T18:35:35.137Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -39744,6 +39744,542 @@
       "last_changed": "2026-11-24T18:35:35.137Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1237": {
+      "hash": "d8186cb6a8aecac3",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1226": {
+      "hash": "7785fa7e108a8b24",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1225": {
+      "hash": "9209be56f95e7e77",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1174": {
+      "hash": "499ed28579d29b65",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1212": {
+      "hash": "6d13d8d625cc1e9f",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1234": {
+      "hash": "ad876b4a61512a09",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/wsi/2025/1091/pdfs/wsics_20251091_en_001.pdf": {
+      "hash": "1c408a5db1bc104d",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "govuk-mhclg::/government/publications/planning-skills-and-capacity-survey-2026": {
+      "hash": "4580297e262e63d5",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/statutory-intervention-birmingham-city-council": {
+      "hash": "a417c627a4744da5",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/statutory-intervention-nottingham-city-council-minded-to-decision": {
+      "hash": "5b2a80b4a0b15f45",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/statutory-intervention-london-borough-of-croydon": {
+      "hash": "8ea7dcb013a4c2b3",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/intervention-at-thurrock-council": {
+      "hash": "481797933cf1f13d",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/slough-borough-council-letter-to-the-leader-of-the-council-25-november-2026": {
+      "hash": "f38a630b26a034b9",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/best-value-inspection-warrington-borough-council": {
+      "hash": "8428f948b383fc2f",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/building-safety-remediation-monthly-data-release-october-2026": {
+      "hash": "c01bc55de0988615",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/statistics/fire-workforce-and-pension-statistics-year-ending-march-2026": {
+      "hash": "a70bb14d394e2fb8",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/news/20-million-households-to-receive-100-payment": {
+      "hash": "ccd39a156b8f2625",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/household-energy-payment-2027-guidance-for-billing-authorities": {
+      "hash": "dcbc9426195711e3",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/homelessness/25-017-684": {
+      "hash": "f4f20973bc34ca63",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/homelessness/25-017-732": {
+      "hash": "5a6de1e4f1889b5f",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/homelessness/25-020-925": {
+      "hash": "9d7d3ffb58240f64",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/allocations/25-023-548": {
+      "hash": "668badc630f1505b",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/allocations/25-024-698": {
+      "hash": "9611c0133cb6bafb",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/homelessness/25-025-693": {
+      "hash": "326a444ee68464d2",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/allocations/25-026-072": {
+      "hash": "f9b1129b9ca1cb55",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/allocations/25-026-174": {
+      "hash": "20d65f063c449294",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/homelessness/25-026-255": {
+      "hash": "6aeaffb7f18e546c",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/allocations/25-026-443": {
+      "hash": "d21ed9958c42a1da",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/charging/25-014-167": {
+      "hash": "4280cf2896356216",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/charging/25-016-614": {
+      "hash": "0cc35ee15c613d3d",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-017-072": {
+      "hash": "31395c885cc9eb45",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/disabled-facilities-grants/25-018-116": {
+      "hash": "6bf29c7cd323c61f",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-025-606": {
+      "hash": "cdea3e9382eaecb1",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-025-716": {
+      "hash": "1d731a882c601b5a",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/charging/25-028-049": {
+      "hash": "53ca3a06601dd247",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/direct-payments/25-029-336": {
+      "hash": "a0c3e48b20218458",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/assessment-and-care-plan/25-031-607": {
+      "hash": "f6dc2209dd963868",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/transport/26-008-685": {
+      "hash": "73773cbdfa7d4ff5",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/adoption/25-005-900": {
+      "hash": "87c1b80db5cdb6dc",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-007-425": {
+      "hash": "5f6361ff53983eca",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/25-024-694": {
+      "hash": "6ea4a693df24b563",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/adoption/25-025-801": {
+      "hash": "e73232212dc6224f",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/disabled-children/25-027-489": {
+      "hash": "80143191093090fd",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/other/25-027-870": {
+      "hash": "62234a55bb6f6d51",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/child-protection/26-002-299": {
+      "hash": "6d2beb0a0453c36e",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/other/26-013-215": {
+      "hash": "812e6d83f927959a",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/other/26-013-507": {
+      "hash": "bd145ae28ea02e9e",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/other/26-016-899": {
+      "hash": "61fceb9399ccf898",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-015-220": {
+      "hash": "b9f8e572089ac5df",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-015-709": {
+      "hash": "bf194868f111617b",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-016-376": {
+      "hash": "5a8f45adb6c32ebe",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-016-582": {
+      "hash": "e6c9abaa5064646f",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-017-249": {
+      "hash": "523f09a7db998fea",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-017-594": {
+      "hash": "352976c1111ae3ef",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-018-246": {
+      "hash": "b06b086f5e0c6e94",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/special-educational-needs/25-025-984": {
+      "hash": "03ed73d2eb11628f",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/school-transport/25-026-586": {
+      "hash": "4dbe8c537f863e8d",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-027-265": {
+      "hash": "c524a59c56e82fba",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/local-welfare-payments/25-029-594": {
+      "hash": "778af1a6fede2ae0",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-165": {
+      "hash": "dfdb677fcd9488e0",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-852": {
+      "hash": "d1df791e4cf8a9f8",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/26-003-364": {
+      "hash": "e5efb1aa24c6c3dc",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/26-019-825": {
+      "hash": "194cb9d989940273",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-017-968": {
+      "hash": "d1bd6f15cb9eb562",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-030-500": {
+      "hash": "6b245cb44cd6751c",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-132": {
+      "hash": "521b181f7a0f19d1",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/council-tax/25-031-666": {
+      "hash": "25647b72a94a97e4",
+      "body": null,
+      "first_seen": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-25T17:46:25.957Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
     }
   }
 }
