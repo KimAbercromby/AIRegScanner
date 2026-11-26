@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-25T17:46:25.957Z",
+  "run_at": "2026-11-26T17:29:46.883Z",
   "register_version": "1.0",
   "mode": "normal",
   "sources": [
@@ -163,12 +163,11 @@
     },
     {
       "id": "lga-guidance",
-      "status": "ok-but-empty",
+      "status": "ok",
       "http_status": 200,
-      "items_seen": 0,
+      "items_seen": 10,
       "items_kept": 0,
-      "items_discarded": 0,
-      "note": "Responded 200 but returned no items. Check the endpoint still points where you think it does."
+      "items_discarded": 10
     },
     {
       "id": "bills-parliament",
@@ -292,9 +291,9 @@
       "id": "statute-procurement-regs-2024",
       "status": "ok",
       "http_status": 200,
-      "items_seen": 98,
+      "items_seen": 100,
       "items_kept": 0,
-      "items_discarded": 98
+      "items_discarded": 100
     },
     {
       "id": "statute-pcr-2015",
@@ -459,7 +458,7 @@
     "added": 0,
     "changed": 0,
     "absorbed": 0,
-    "discarded": 76,
+    "discarded": 62,
     "retired": 0,
     "unreviewed": 1
   }

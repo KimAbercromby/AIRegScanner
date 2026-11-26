@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-25T17:46:25.957Z",
+  "last_run": "2026-11-26T17:29:46.883Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -6259,98 +6259,98 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-1a12e35fb987f8ad": {
-      "hash": "b4eea4425587d48b",
+      "hash": "3ecb429bb67646eb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-4ec9c30001e9a98f": {
-      "hash": "f1c52a268754b7e7",
+      "hash": "9e2838c17ee270dd",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-2e8a9d1c3dfc0f5b": {
-      "hash": "e96a5dc7ef8c8bff",
+      "hash": "f2deb98deae16d31",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-e3b6f49d1e5c1f52": {
-      "hash": "b4eea4425587d48b",
+      "hash": "3ecb429bb67646eb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-aceacb1fefe0a70c": {
-      "hash": "d1617c30826ac031",
+      "hash": "021383a8dc3cc5fa",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-2d67788d1d53a066": {
-      "hash": "d940592fee2caca1",
+      "hash": "ec18812fb55d255a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-4f5d1fbbf22c8a99": {
-      "hash": "d940592fee2caca1",
+      "hash": "ec18812fb55d255a",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-1e50c9d9137cb576": {
-      "hash": "b4eea4425587d48b",
+      "hash": "3ecb429bb67646eb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-774cdb6fbe8347f3": {
-      "hash": "b4eea4425587d48b",
+      "hash": "3ecb429bb67646eb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-3e96314029e1f891": {
-      "hash": "b4eea4425587d48b",
+      "hash": "3ecb429bb67646eb",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-2e1f12f4d423373d": {
-      "hash": "f1c52a268754b7e7",
+      "hash": "9e2838c17ee270dd",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "statute-housing-1996::effect-58a813681f1a7305": {
-      "hash": "d1617c30826ac031",
+      "hash": "021383a8dc3cc5fa",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-07-28T06:51:04.633Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -9269,10 +9269,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-ofsted::/government/publications/ofsted-audit-committee-minutes": {
-      "hash": "6f360060b0ac38ed",
+      "hash": "fc466f7cfdb98666",
       "body": null,
       "first_seen": "2026-07-28T06:51:04.633Z",
-      "last_changed": "2026-09-24T08:44:12.869Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -33176,10 +33176,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/publications/private-parking-code-of-practice": {
-      "hash": "dffd7b7601f60086",
+      "hash": "265a56ea2b4d2daa",
       "body": null,
       "first_seen": "2026-10-20T12:30:00.041Z",
-      "last_changed": "2026-10-20T12:30:00.041Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -34216,10 +34216,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/publications/high-street-rental-auctions-grants-for-local-authorities": {
-      "hash": "7cf7f4d3c84696af",
+      "hash": "079543190a7e86d2",
       "body": null,
       "first_seen": "2026-10-28T13:47:17.759Z",
-      "last_changed": "2026-11-19T16:15:50.337Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -38602,10 +38602,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/200": {
-      "hash": "30c735a194096cf4",
+      "hash": "a56e55cf6bcb1947",
       "body": null,
       "first_seen": "2026-11-23T18:56:41.311Z",
-      "last_changed": "2026-11-23T18:56:41.311Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -38618,10 +38618,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/199": {
-      "hash": "4d2916063d0518b1",
+      "hash": "919b9496cc9bfb06",
       "body": null,
       "first_seen": "2026-11-23T18:56:41.311Z",
-      "last_changed": "2026-11-23T18:56:41.311Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -38842,18 +38842,18 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1223": {
-      "hash": "d6eeaeb1a92407a0",
+      "hash": "82e4907c18093621",
       "body": null,
       "first_seen": "2026-11-24T18:35:35.137Z",
-      "last_changed": "2026-11-24T18:35:35.137Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
     "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1227": {
-      "hash": "93ef2d479cc4994a",
+      "hash": "2aa1453efb2be62d",
       "body": null,
       "first_seen": "2026-11-24T18:35:35.137Z",
-      "last_changed": "2026-11-24T18:35:35.137Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -39802,10 +39802,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "govuk-mhclg::/government/publications/planning-skills-and-capacity-survey-2026": {
-      "hash": "4580297e262e63d5",
+      "hash": "8d9a4fcb7f8cf1c1",
       "body": null,
       "first_seen": "2026-11-25T17:46:25.957Z",
-      "last_changed": "2026-11-25T17:46:25.957Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -40280,6 +40280,342 @@
       "last_changed": "2026-11-25T17:46:25.957Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/356": {
+      "hash": "4446deec0a13802f",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1239": {
+      "hash": "ebd0aea859309dbc",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1240": {
+      "hash": "a1daf6d689b1a3fb",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1244": {
+      "hash": "b11af986eff9e92a",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1243": {
+      "hash": "6d0efd65e9ad8a29",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1238": {
+      "hash": "f26378e46115cda3",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1247": {
+      "hash": "72630e7b8aa40145",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1236": {
+      "hash": "16adb889b5f304d2",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/354": {
+      "hash": "5d270a2ce25993f4",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/141": {
+      "hash": "f7c96591cfaf6ce4",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/140": {
+      "hash": "d547996cc3aff2ea",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/203": {
+      "hash": "ea9172b593787f4c",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/202": {
+      "hash": "ef25da1fc342f97d",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1231": {
+      "hash": "da8f689c414524aa",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1241": {
+      "hash": "ceb3661614e545c5",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1232": {
+      "hash": "a226e39dab875e0f",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-equality-2010::effect-ba3c5cf78079c9af": {
+      "hash": "e508a892b44beaec",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-children-1989::effect-e4e4ceb454584603": {
+      "hash": "85351c2c693c3344",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-children-1989::effect-8030536f4124df33": {
+      "hash": "fd3f8175957d8d9b",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-children-1989::effect-87cbfa03aa33cc95": {
+      "hash": "85351c2c693c3344",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-cabinet-office::/government/publications/national-resilience-standards-for-local-resilience-forums-lrfs": {
+      "hash": "758543be31f9a299",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/consultations/updating-general-consents-on-council-land": {
+      "hash": "b8c89b1d3e3fe66d",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/publications/local-government-finance-policy-statement-2027-to-2028": {
+      "hash": "65d1587fd9fc1ad9",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/guidance/ukraine-sponsorship-scheme-visa-data-by-country-upper-and-lower-tier-local-authority": {
+      "hash": "a01e213111033d0b",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/net-supply-of-housing": {
+      "hash": "d495c7f77fc829c3",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/statistics/housing-supply-net-additional-dwellings-england-2025-to-2026": {
+      "hash": "af27fc4f0e6ac242",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/statistical-data-sets/live-tables-on-homelessness": {
+      "hash": "53639d932cfa371c",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/collections/english-housing-survey": {
+      "hash": "46a335761a392b4b",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-mhclg::/government/statistics/statutory-homelessness-in-england-april-to-june-2026": {
+      "hash": "5353f720137841bd",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "govuk-dsit-legacy::/government/statistics/economic-estimates-digital-sector-regional-gross-value-added-2010-to-2024": {
+      "hash": "019392bd45b3b5de",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/26-002-194": {
+      "hash": "9a08a81254f34980",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/allocations/26-005-243": {
+      "hash": "9fe0bae3582c3057",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/allocations/25-026-634": {
+      "hash": "a6166facfdb141b6",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/homelessness/25-028-210": {
+      "hash": "69efa258dfda6579",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-housing::https://www.lgo.org.uk/decisions/housing/council-house-sales-and-leaseholders/26-008-314": {
+      "hash": "a7dc968eb3027d86",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-adult-care::https://www.lgo.org.uk/decisions/adult-care-services/transport/26-010-445": {
+      "hash": "d3a688fe0455f45a",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-childrens-care::https://www.lgo.org.uk/decisions/children-s-care-services/other/26-017-157": {
+      "hash": "e3a619e68fe8cdce",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/other/25-027-581": {
+      "hash": "2ff4f53aca60dc62",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-education::https://www.lgo.org.uk/decisions/education/other/25-028-055": {
+      "hash": "ed8bac623fb275c9",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "lgsco-benefits::https://www.lgo.org.uk/decisions/benefits-and-tax/housing-benefit-and-council-tax-benefit/26-017-398": {
+      "hash": "f19fc12bdcc021ea",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-keyword"
+    },
+    "statute-procurement-regs-2024::effect-0f3317018ba698c4": {
+      "hash": "e810298c88de2cbf",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "statute-procurement-regs-2024::effect-f3e0662e700c412e": {
+      "hash": "64345083f44ad170",
+      "body": null,
+      "first_seen": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
     }
   }
 }
