@@ -1,6 +1,6 @@
 {
   "identity_version": 2,
-  "last_run": "2026-11-26T17:29:46.883Z",
+  "last_run": "2026-11-27T17:11:08.130Z",
   "reset_from": "pre-effectid-v1",
   "reset_at": "2026-07-27T12:04:46.105Z",
   "archived_item_count": 166,
@@ -29624,10 +29624,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "govuk-mhclg::/government/publications/rough-sleeping-programme": {
-      "hash": "3651dc3ebc130be0",
+      "hash": "0e645782fd28214f",
       "body": null,
       "first_seen": "2026-10-02T07:15:56.239Z",
-      "last_changed": "2026-10-02T07:15:56.239Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     },
@@ -35160,10 +35160,10 @@
       "discard_reason": "no-ai-governance-signal"
     },
     "lga-guidance::https://www.local.gov.uk/publications/red-flags-procurement-supplier-and-contract-management-guide-councillors": {
-      "hash": "f791323838f817dc",
+      "hash": "879251bc7df3b119",
       "body": null,
       "first_seen": "2026-10-31T13:15:47.722Z",
-      "last_changed": "2026-11-02T16:46:28.529Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
       "discarded": true,
       "discard_reason": "no-ai-keyword"
     },
@@ -40282,10 +40282,10 @@
       "discard_reason": "no-ai-keyword"
     },
     "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/356": {
-      "hash": "4446deec0a13802f",
+      "hash": "85d9c554aa6206b9",
       "body": null,
       "first_seen": "2026-11-26T17:29:46.883Z",
-      "last_changed": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -40370,10 +40370,10 @@
       "discard_reason": "outside-uk-legislation-scope"
     },
     "legislation-new::http://www.legislation.gov.uk/id/nisr/2026/203": {
-      "hash": "ea9172b593787f4c",
+      "hash": "4f1ae740200740ae",
       "body": null,
       "first_seen": "2026-11-26T17:29:46.883Z",
-      "last_changed": "2026-11-26T17:29:46.883Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
       "discarded": true,
       "discard_reason": "outside-uk-legislation-scope"
     },
@@ -40614,6 +40614,94 @@
       "body": null,
       "first_seen": "2026-11-26T17:29:46.883Z",
       "last_changed": "2026-11-26T17:29:46.883Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1257": {
+      "hash": "c9a7a769d25d6cdf",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1252": {
+      "hash": "5d4b01a5e8fd3c8b",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/ssi/2026/355": {
+      "hash": "45343522e6c804b0",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/146": {
+      "hash": "5cc7bb3d26ba6e1e",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/145": {
+      "hash": "6812d579a6d3340b",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/wsi/2026/143": {
+      "hash": "1887a8f89cc97f68",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1242": {
+      "hash": "a388dbb8f9c4a02f",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/id/uksi/2026/1245": {
+      "hash": "991f265268f13b75",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/uksi/2026/794/pdfs/uksics_20260794_en_001.pdf": {
+      "hash": "1fbfc156b4332ad2",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "no-ai-governance-signal"
+    },
+    "legislation-new::http://www.legislation.gov.uk/ssi/2026/287/pdfs/ssics_20260287_en_001.pdf": {
+      "hash": "fe5aa99afd0fd569",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
+      "discarded": true,
+      "discard_reason": "outside-uk-legislation-scope"
+    },
+    "govuk-mhclg::/government/publications/rough-sleeping-data-framework-july-to-september-2026": {
+      "hash": "c9146a110dcb078f",
+      "body": null,
+      "first_seen": "2026-11-27T17:11:08.130Z",
+      "last_changed": "2026-11-27T17:11:08.130Z",
       "discarded": true,
       "discard_reason": "no-ai-governance-signal"
     }

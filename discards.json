@@ -2,214 +2,6 @@
   "note": "Items considered and rejected by the relevance gate. Retained so the gate can be audited.",
   "entries": [
     {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ripa-2000",
-      "title": "Enterprise Act 2002 effect on Regulation of Investigatory Powers Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ripa-2000",
-      "title": "Enterprise Act 2002 effect on Regulation of Investigatory Powers Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ripa-2000",
-      "title": "Enterprise Act 2002 effect on Regulation of Investigatory Powers Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ripa-2000",
-      "title": "Enterprise Act 2002 effect on Regulation of Investigatory Powers Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ripa-2000",
-      "title": "Enterprise Act 2002 effect on Regulation of Investigatory Powers Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ripa-2000",
-      "title": "Enterprise Act 2002 effect on Regulation of Investigatory Powers Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ripa-2000",
-      "title": "Enterprise Act 2002 effect on Regulation of Investigatory Powers Act 2000",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2000/23",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ipa-2016",
-      "title": "Crime and Policing Act 2026 effect on Investigatory Powers Act 2016",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-12T15:44:19.767Z",
-      "source_id": "statute-ipa-2016",
-      "title": "Crime and Policing Act 2026 effect on Investigatory Powers Act 2016",
-      "url": "http://www.legislation.gov.uk/id/ukpga/2016/25",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-15T08:03:39.248Z",
-      "source_id": "legislation-new",
-      "title": "The Town and Country Planning (Fees for Applications, Deemed Applications, Requests and Site Visits) (England) (Amendment and Transitional Provision) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1192/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-15T08:03:39.248Z",
-      "source_id": "legislation-new",
-      "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 10) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1191/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-15T08:03:39.248Z",
-      "source_id": "legislation-new",
-      "title": "The Service and Administration Charges (England) Regulations 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1190/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-15T08:03:39.248Z",
-      "source_id": "legislation-new",
-      "title": "The Mental Health (Care and Treatment) (Scotland) Act 2003 Remedial Order 2026",
-      "url": "http://www.legislation.gov.uk/ssi/2026/341/made",
-      "reason": "outside-uk-legislation-scope",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "act 20"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-15T08:03:39.248Z",
-      "source_id": "legislation-new",
-      "title": "The Scotland Act 1998 (Agency Arrangements) (Specification) (Digital Waste Tracking) Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1188/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": [
-          "regulation"
-        ]
-      }
-    },
-    {
-      "run_at": "2026-11-15T08:03:39.248Z",
-      "source_id": "legislation-new",
-      "title": "The Secretaries of State for Business, Innovation, Science and Trade and for Digital, Culture, Media and Sport and the Chancellor of the Duchy of Lancaster Order 2026",
-      "url": "http://www.legislation.gov.uk/uksi/2026/1147/made",
-      "reason": "no-ai-governance-signal",
-      "signals": {
-        "priority": [],
-        "ai": [],
-        "governance": []
-      }
-    },
-    {
       "run_at": "2026-11-15T08:03:39.248Z",
       "source_id": "legislation-new",
       "title": "The Collective Investment Schemes (Amendment etc.) (EU Exit) (Amendment) Regulations 2026",
@@ -6773,6 +6565,207 @@
       "title": "The Secretaries of State for Business, Innovation, Science and Trade and for Digital, Culture, Media and Sport and the Chancellor of the Duchy of Lancaster Order 2026 effect on The Procurement Regulations 2024",
       "url": "http://www.legislation.gov.uk/id/uksi/2024/692",
       "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "The Persistent Organic Pollutants (Amendment) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1257/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "The Children (Prescribed Orders - Jersey) (England) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1252/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "The Visitor Levy (Amendment of Returns and Miscellaneous Amendment) (Scotland) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/355/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/146/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/145/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": null,
+      "url": "http://www.legislation.gov.uk/wsi/2026/143/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "The English Devolution and Community Empowerment Act 2026 (Commencement No. 6 and Transitional Provisions and Saving) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1242/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "The Terrorism Prevention and Investigation Measures Act 2011 (Continuation) Order 2026",
+      "url": "http://www.legislation.gov.uk/uksi/2026/1245/made",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "risk"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "Correction Slip",
+      "url": "http://www.legislation.gov.uk/uksi/2026/794/pdfs/uksics_20260794_en_001.pdf",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "security"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "Correction slip",
+      "url": "http://www.legislation.gov.uk/ssi/2026/287/pdfs/ssics_20260287_en_001.pdf",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "The Bankruptcy and Attachment (Miscellaneous Amendment) (Scotland) Regulations 2026",
+      "url": "http://www.legislation.gov.uk/ssi/2026/356/made",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "act 20",
+          "regulation"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "legislation-new",
+      "title": "The Administrative and Financial Provisions (2026 Act) (Commencement) Order (Northern Ireland) 2026",
+      "url": "http://www.legislation.gov.uk/nisr/2026/203/2026-11-24",
+      "reason": "outside-uk-legislation-scope",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "govuk-mhclg",
+      "title": "Rough sleeping data framework, July to September 2026",
+      "url": "https://www.gov.uk/government/publications/rough-sleeping-data-framework-july-to-september-2026",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": []
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "govuk-mhclg",
+      "title": "Rough Sleeping Programme",
+      "url": "https://www.gov.uk/government/publications/rough-sleeping-programme",
+      "reason": "no-ai-governance-signal",
+      "signals": {
+        "priority": [],
+        "ai": [],
+        "governance": [
+          "guidance"
+        ]
+      }
+    },
+    {
+      "run_at": "2026-11-27T17:11:08.130Z",
+      "source_id": "lga-guidance",
+      "title": "Red flags in procurement, supplier and contract management: A guide for councillors",
+      "url": "https://www.local.gov.uk/publications/red-flags-procurement-supplier-and-contract-management-guide-councillors",
+      "reason": "no-ai-keyword",
       "signals": {
         "priority": [],
         "ai": [],
